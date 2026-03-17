@@ -1,0 +1,30 @@
+{
+  "page": "homepage",
+  "sections": [
+    {
+      "id": "intro_video",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "globe",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "kpis",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "quick_access",
+      "enabled": true,
+      "order": 5
+    }
+  ]
+}

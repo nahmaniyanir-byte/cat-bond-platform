@@ -1,54 +1,149 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source": "cat_bond_master.csv",
+  "generated_at": "2026-03-17T14:35:34.093Z",
   "rows": [
     {
       "country_name": "Israel",
       "slug": "israel",
       "region": "Middle East",
       "deal_count": 1,
-      "total_volume_usd": 367000000,
+      "total_volume_usd": 100000000,
       "latest_issue_year": 2025,
       "sovereign_flag": false,
       "gap_label": "Moderate Gap",
+      "gap_score": 62,
+      "rationale": "Issuance exists but sovereign participation is not observed."
+    },
+    {
+      "country_name": "Philippines",
+      "slug": "philippines",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 450000000,
+      "latest_issue_year": 2019,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
+      "gap_score": 62,
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "Colombia",
+      "slug": "colombia",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 400000000,
+      "latest_issue_year": 2018,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
+      "gap_score": 62,
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "Peru",
+      "slug": "peru",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 200000000,
+      "latest_issue_year": 2018,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
+      "gap_score": 62,
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "Jamaica",
+      "slug": "jamaica",
+      "region": "Global",
+      "deal_count": 2,
+      "total_volume_usd": 335000000,
+      "latest_issue_year": 2024,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
       "gap_score": 50,
-      "rationale": "Partial issuance coverage or recency gaps suggest potential policy development needs."
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "Puerto Rico",
+      "slug": "puerto-rico",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 85000000,
+      "latest_issue_year": 2024,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
+      "gap_score": 50,
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "Chile",
+      "slug": "chile",
+      "region": "Global",
+      "deal_count": 2,
+      "total_volume_usd": 850000000,
+      "latest_issue_year": 2023,
+      "sovereign_flag": true,
+      "gap_label": "Moderate Gap",
+      "gap_score": 40,
+      "rationale": "Sovereign issuance footprint is present."
+    },
+    {
+      "country_name": "United States",
+      "slug": "united-states",
+      "region": "North America",
+      "deal_count": 440,
+      "total_volume_usd": 178338986539.50952,
+      "latest_issue_year": 2026,
+      "sovereign_flag": false,
+      "gap_label": "Low Gap",
+      "gap_score": 12,
+      "rationale": "Issuance exists but sovereign participation is not observed."
+    },
+    {
+      "country_name": "Not Stated",
+      "slug": "not-stated",
+      "region": "Global",
+      "deal_count": 267,
+      "total_volume_usd": 80560816757.49318,
+      "latest_issue_year": 2026,
+      "sovereign_flag": false,
+      "gap_label": "Low Gap",
+      "gap_score": 12,
+      "rationale": "Issuance exists but sovereign participation is not observed."
     },
     {
       "country_name": "Canada",
       "slug": "canada",
       "region": "North America",
       "deal_count": 20,
-      "total_volume_usd": 21506200000,
-      "latest_issue_year": 2026,
-      "sovereign_flag": false,
-      "gap_label": "Moderate Gap",
-      "gap_score": 30,
-      "rationale": "Partial issuance coverage or recency gaps suggest potential policy development needs."
-    },
-    {
-      "country_name": "United States",
-      "slug": "united-states",
-      "region": "North America",
-      "deal_count": 434,
-      "total_volume_usd": 651421280600,
+      "total_volume_usd": 5860000000,
       "latest_issue_year": 2026,
       "sovereign_flag": false,
       "gap_label": "Low Gap",
-      "gap_score": 20,
-      "rationale": "Higher issuance depth and recent activity indicate stronger risk-transfer presence."
+      "gap_score": 12,
+      "rationale": "Issuance exists but sovereign participation is not observed."
     },
     {
       "country_name": "Japan",
       "slug": "japan",
-      "region": "Asia-Pacific",
+      "region": "Apac",
       "deal_count": 87,
-      "total_volume_usd": 78635731000,
+      "total_volume_usd": 21426629700.27248,
       "latest_issue_year": 2025,
       "sovereign_flag": false,
       "gap_label": "Low Gap",
-      "gap_score": 20,
-      "rationale": "Higher issuance depth and recent activity indicate stronger risk-transfer presence."
+      "gap_score": 12,
+      "rationale": "Issuance exists but sovereign participation is not observed."
+    },
+    {
+      "country_name": "Mexico",
+      "slug": "mexico",
+      "region": "Latam",
+      "deal_count": 7,
+      "total_volume_usd": 5425000000,
+      "latest_issue_year": 2024,
+      "sovereign_flag": true,
+      "gap_label": "Low Gap",
+      "gap_score": 0,
+      "rationale": "Sovereign issuance footprint is present."
     }
   ]
 }

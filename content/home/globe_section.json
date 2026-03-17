@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "section_title": "Global Cat Bond Intelligence Map",
+  "section_subtitle": "Live geographic layer of issuing countries and market segmentation",
+  "description": "Use the globe to filter and drill into sovereign and non-sovereign catastrophe bond activity by country.",
+  "default_view": "all",
+  "available_views": [
+    "all",
+    "sovereign",
+    "non_sovereign"
+  ],
+  "legend": [
+    {
+      "label": "Sovereign",
+      "color": "blue"
+    },
+    {
+      "label": "Non-Sovereign",
+      "color": "green"
+    }
+  ],
+  "primary_call_to_action": {
+    "label": "Open Global Map",
+    "url": "/global-map"
+  }
+}

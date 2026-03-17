@@ -1,0 +1,38 @@
+[
+  {
+    "key": "Indemnity",
+    "deal_count": 49,
+    "total_volume_usd": 13785329700.27248,
+    "total_volume_musd": 13785.32970027248
+  },
+  {
+    "key": "Parametric",
+    "deal_count": 53,
+    "total_volume_usd": 11145800000,
+    "total_volume_musd": 11145.8
+  },
+  {
+    "key": "Other",
+    "deal_count": 9,
+    "total_volume_usd": 1771500000,
+    "total_volume_musd": 1771.5
+  },
+  {
+    "key": "Industry Loss",
+    "deal_count": 10,
+    "total_volume_usd": 1500000000,
+    "total_volume_musd": 1500
+  },
+  {
+    "key": "Modelled Loss",
+    "deal_count": 6,
+    "total_volume_usd": 814000000,
+    "total_volume_musd": 814
+  },
+  {
+    "key": "Unknown",
+    "deal_count": 2,
+    "total_volume_usd": 165000000,
+    "total_volume_musd": 165
+  }
+]

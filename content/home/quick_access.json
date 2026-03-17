@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "section_title": "Quick Access",
+  "section_subtitle": "Core intelligence modules",
+  "items": [
+    {
+      "id": "deals",
+      "title": "Deal Explorer",
+      "subtitle": "Transaction-level search, filtering, and comparison",
+      "icon": "chart",
+      "url": "/deals",
+      "order": 1
+    },
+    {
+      "id": "global_market",
+      "title": "Global Market Dashboard",
+      "subtitle": "Issuance, trigger, peril, pricing, and rankings",
+      "icon": "globe",
+      "url": "/global-market",
+      "order": 2
+    },
+    {
+      "id": "sovereign",
+      "title": "Sovereign Dashboard",
+      "subtitle": "Sovereign issuance and policy-focused analytics",
+      "icon": "policy",
+      "url": "/sovereign-dashboard",
+      "order": 3
+    },
+    {
+      "id": "calculator",
+      "title": "Pricing Calculator",
+      "subtitle": "Illustrative sovereign structuring and cost simulator",
+      "icon": "calculator",
+      "url": "/calculator",
+      "order": 4
+    },
+    {
+      "id": "seismic",
+      "title": "Seismic Countries",
+      "subtitle": "High-seismic-risk issuance intelligence layer",
+      "icon": "document",
+      "url": "/seismic-countries",
+      "order": 5
+    },
+    {
+      "id": "methodology",
+      "title": "Methodology",
+      "subtitle": "Data governance, classification, and KPI definitions",
+      "icon": "library",
+      "url": "/methodology",
+      "order": 6
+    }
+  ]
+}

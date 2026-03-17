@@ -1,0 +1,65 @@
+{
+  "principal_usd": {
+    "label": "Deal Size (USD)",
+    "min": 25000000,
+    "max": 2000000000,
+    "step": 5000000,
+    "default": 250000000
+  },
+  "expected_loss_percent": {
+    "label": "Expected Loss (%)",
+    "min": 0.1,
+    "max": 15,
+    "step": 0.1,
+    "default": 2
+  },
+  "market_multiple": {
+    "label": "Market Multiple",
+    "min": 1,
+    "max": 8,
+    "step": 0.1,
+    "default": 3
+  },
+  "risk_free_rate_percent": {
+    "label": "Risk-Free Rate (%)",
+    "min": 0,
+    "max": 10,
+    "step": 0.05,
+    "default": 4
+  },
+  "tenor_years": {
+    "label": "Tenor (Years)",
+    "min": 1,
+    "max": 6,
+    "step": 1,
+    "default": 3
+  },
+  "issuance_costs_percent": {
+    "label": "Issuance Costs (%)",
+    "min": 0,
+    "max": 2,
+    "step": 0.05,
+    "default": 0.4
+  },
+  "traditional_insurance_rate_percent": {
+    "label": "Traditional Insurance / Reinsurance Rate (%)",
+    "min": 0.5,
+    "max": 15,
+    "step": 0.1,
+    "default": 6
+  },
+  "trigger_types": [
+    "Parametric",
+    "Indemnity",
+    "Modelled Loss",
+    "Industry Loss",
+    "Hybrid"
+  ],
+  "peril_types": [
+    "Earthquake",
+    "Hurricane / Wind",
+    "Flood",
+    "Multi-Peril",
+    "Other"
+  ]
+}

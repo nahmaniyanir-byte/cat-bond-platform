@@ -1,0 +1,44 @@
+[
+  {
+    "id": "conservative",
+    "label": "Conservative",
+    "description": "Lower EL, tighter risk assumptions, budget-protective structuring.",
+    "principal_usd": 300000000,
+    "expected_loss_percent": 1.1,
+    "market_multiple": 2.8,
+    "risk_free_rate_percent": 4,
+    "tenor_years": 3,
+    "issuance_costs_percent": 0.35,
+    "traditional_insurance_rate_percent": 4.8,
+    "trigger_type": "Parametric",
+    "peril_type": "Earthquake"
+  },
+  {
+    "id": "base_case",
+    "label": "Base Case",
+    "description": "Balanced sovereign transfer profile for fiscal resilience planning.",
+    "principal_usd": 350000000,
+    "expected_loss_percent": 1.8,
+    "market_multiple": 3.2,
+    "risk_free_rate_percent": 4.1,
+    "tenor_years": 3,
+    "issuance_costs_percent": 0.4,
+    "traditional_insurance_rate_percent": 5.6,
+    "trigger_type": "Parametric",
+    "peril_type": "Earthquake"
+  },
+  {
+    "id": "aggressive",
+    "label": "Aggressive",
+    "description": "Higher EL / wider spread profile for deeper protection layers.",
+    "principal_usd": 450000000,
+    "expected_loss_percent": 3.2,
+    "market_multiple": 3.8,
+    "risk_free_rate_percent": 4.2,
+    "tenor_years": 4,
+    "issuance_costs_percent": 0.5,
+    "traditional_insurance_rate_percent": 7.2,
+    "trigger_type": "Parametric",
+    "peril_type": "Multi-Peril"
+  }
+]

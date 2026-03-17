@@ -1,0 +1,41 @@
+{
+  "title": "Methodology and Logic",
+  "overview": "This module applies a simplified catastrophe bond pricing framework for sovereign policy discussion and scenario analysis.",
+  "formulas": [
+    {
+      "label": "Estimated Spread",
+      "expression": "Spread (%) = Expected Loss (%) x Market Multiple + Issuance Costs (%)"
+    },
+    {
+      "label": "Estimated Coupon",
+      "expression": "Coupon (%) = Spread (%) + Risk-Free Rate (%)"
+    },
+    {
+      "label": "Annual Premium",
+      "expression": "Annual Premium = Coupon (%) x Principal"
+    },
+    {
+      "label": "Total Cost over Term",
+      "expression": "Total Cost = Annual Premium x Tenor (years)"
+    }
+  ],
+  "assumptions": [
+    "Expected loss and market multiple are user assumptions.",
+    "Outputs represent indicative structuring analytics, not executable quotes.",
+    "Risk-free rate is an input proxy for prevailing benchmark conditions."
+  ],
+  "limitations": [
+    "Model does not price secondary-market liquidity effects.",
+    "Basis-risk and trigger calibration effects are simplified.",
+    "Results should be supplemented by actuarial modeling and investor sounding."
+  ],
+  "sovereign_policy_mode": {
+    "title": "Sovereign Policy Mode",
+    "points": [
+      "Ex-ante liquidity can reduce fiscal disruption versus post-disaster budget reallocation.",
+      "Parametric triggers can accelerate disbursement before full loss adjustment is complete.",
+      "Cost diagnostics support medium-term fiscal planning and debt-management integration."
+    ]
+  },
+  "disclaimer": "This is an illustrative model, not market pricing."
+}

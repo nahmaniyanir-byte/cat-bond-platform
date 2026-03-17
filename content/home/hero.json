@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "title": "Global Catastrophe Bond Intelligence Platform",
+  "subtitle": "Institutional catastrophe bond intelligence for sovereign resilience, market analytics, and policy implementation.",
+  "tagline": "Financial Intelligence & Policy Analytics",
+  "description": "Explore transaction-level catastrophe bond data, sovereign case intelligence, pricing diagnostics, and seismic risk policy insights in a single production-grade platform.",
+  "value_proposition": [
+    "Transaction-level market data with consistent classification and governance",
+    "Sovereign policy intelligence for disaster risk financing strategy",
+    "Integrated dashboards for pricing, structure, and country-level execution planning"
+  ],
+  "background_type": "video",
+  "background_video": "/videos/hero/hero-background.mp4",
+  "primary_call_to_action": {
+    "label": "Open Deal Explorer",
+    "url": "/deals"
+  },
+  "secondary_call_to_action": {
+    "label": "Global Market Dashboard",
+    "url": "/global-market"
+  },
+  "tertiary_call_to_action": {
+    "label": "High Seismic Risk Countries",
+    "url": "/seismic-countries"
+  }
+}

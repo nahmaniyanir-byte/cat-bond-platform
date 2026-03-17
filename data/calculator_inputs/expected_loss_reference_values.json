@@ -1,0 +1,20 @@
+{
+  "title": "Expected Loss Reference Values",
+  "entries": [
+    {
+      "label": "1-in-250 Style Layer",
+      "expected_loss_percent": 0.8,
+      "typical_use": "Budget shock insulation for severe but rarer events."
+    },
+    {
+      "label": "1-in-100 Style Layer",
+      "expected_loss_percent": 1.8,
+      "typical_use": "Balanced sovereign transfer layer."
+    },
+    {
+      "label": "1-in-50 Style Layer",
+      "expected_loss_percent": 3.5,
+      "typical_use": "Higher-frequency liquidity layer with larger premium burden."
+    }
+  ]
+}

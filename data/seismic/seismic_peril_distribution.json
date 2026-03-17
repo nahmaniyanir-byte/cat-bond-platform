@@ -1,0 +1,20 @@
+[
+  {
+    "key": "Multi-Peril",
+    "deal_count": 73,
+    "total_volume_usd": 14345300000,
+    "total_volume_musd": 14345.3
+  },
+  {
+    "key": "Earthquake",
+    "deal_count": 42,
+    "total_volume_usd": 12585000000,
+    "total_volume_musd": 12585
+  },
+  {
+    "key": "Hurricane / Wind",
+    "deal_count": 14,
+    "total_volume_usd": 2251329700.2724795,
+    "total_volume_musd": 2251.3297002724794
+  }
+]

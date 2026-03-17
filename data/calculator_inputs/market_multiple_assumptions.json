@@ -1,0 +1,24 @@
+{
+  "title": "Market Multiple Assumptions",
+  "bands": [
+    {
+      "label": "Low",
+      "range": "1.8x - 2.8x",
+      "description": "Typical for lower volatility risk layers and favorable cycles."
+    },
+    {
+      "label": "Medium",
+      "range": "2.8x - 3.8x",
+      "description": "Common range in balanced catastrophe bond pricing contexts."
+    },
+    {
+      "label": "High",
+      "range": "3.8x - 6.0x",
+      "description": "Observed when uncertainty, volatility, or basis-risk concerns are elevated."
+    }
+  ],
+  "notes": [
+    "Multiples are indicative and depend on market cycle, peril mix, and structure quality.",
+    "Scenario outputs are illustrative for policy and structuring discussion only."
+  ]
+}

@@ -1,55 +1,109 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
+  "generated_at": "2026-03-17T14:35:34.093Z",
   "pricing_by_peril": [
     {
-      "peril": "Multi-Peril",
-      "count": 183,
-      "avg_spread_bps": 1006.530055,
-      "avg_expected_loss_percent": 0.184179
+      "peril": "Global Peak Perils",
+      "count": 1,
+      "avg_spread_bps": 1725,
+      "avg_expected_loss_percent": 0.0718
+    },
+    {
+      "peril": "California Wildfire",
+      "count": 7,
+      "avg_spread_bps": 1225,
+      "avg_expected_loss_percent": 0.19491428571428573
+    },
+    {
+      "peril": "Worldwide Peak Perils",
+      "count": 1,
+      "avg_spread_bps": 1212.5,
+      "avg_expected_loss_percent": 0.075
     },
     {
       "peril": "Hurricane / Wind",
-      "count": 149,
-      "avg_spread_bps": 1194.846197,
-      "avg_expected_loss_percent": 0.130819
+      "count": 103,
+      "avg_spread_bps": 1148.1270226537217,
+      "avg_expected_loss_percent": 0.15180669902912625
+    },
+    {
+      "peril": "Convective Storm (france Only)",
+      "count": 1,
+      "avg_spread_bps": 1100,
+      "avg_expected_loss_percent": 0.0182
+    },
+    {
+      "peril": "Multi-Peril",
+      "count": 237,
+      "avg_spread_bps": 1054.2827004219407,
+      "avg_expected_loss_percent": 0.16761364978902968
+    },
+    {
+      "peril": "Cyber Risks",
+      "count": 4,
+      "avg_spread_bps": 1002.0833333333334,
+      "avg_expected_loss_percent": 0.216175
+    },
+    {
+      "peril": "Terrorism Risk",
+      "count": 3,
+      "avg_spread_bps": 555,
+      "avg_expected_loss_percent": 0.3430666666666667
     },
     {
       "peril": "Earthquake",
-      "count": 69,
-      "avg_spread_bps": 434.009662,
-      "avg_expected_loss_percent": 0.31433
+      "count": 62,
+      "avg_spread_bps": 401.6397849462366,
+      "avg_expected_loss_percent": 0.3152562903225806
     },
     {
-      "peril": "Other",
-      "count": 27,
-      "avg_spread_bps": 799.41358,
-      "avg_expected_loss_percent": 0.15807
+      "peril": "Motor Third-party Liability Losses",
+      "count": 1,
+      "avg_spread_bps": 400,
+      "avg_expected_loss_percent": 0.0131999999999999
+    },
+    {
+      "peril": "Extreme Mortality",
+      "count": 2,
+      "avg_spread_bps": 305,
+      "avg_expected_loss_percent": 0.375
+    },
+    {
+      "peril": "Medical Benefit Claims Levels",
+      "count": 6,
+      "avg_spread_bps": 239.72222222222226,
+      "avg_expected_loss_percent": 0.010100000000000001
     }
   ],
   "pricing_by_trigger": [
     {
-      "trigger": "Indemnity",
-      "count": 281,
-      "avg_spread_bps": 1002.593416,
-      "avg_expected_loss_percent": 0.195652
+      "trigger": "Industry Loss",
+      "count": 116,
+      "avg_spread_bps": 1003.2974137931035,
+      "avg_expected_loss_percent": 0.09492586206896551
     },
     {
-      "trigger": "Industry Loss",
-      "count": 115,
-      "avg_spread_bps": 1009.195652,
-      "avg_expected_loss_percent": 0.090708
+      "trigger": "Indemnity",
+      "count": 281,
+      "avg_spread_bps": 1002.5934163701068,
+      "avg_expected_loss_percent": 0.19565236654804266
+    },
+    {
+      "trigger": "Hybrid",
+      "count": 1,
+      "avg_spread_bps": 800,
+      "avg_expected_loss_percent": 0.0378
     },
     {
       "trigger": "Parametric",
       "count": 26,
-      "avg_spread_bps": 514.391026,
-      "avg_expected_loss_percent": 0.450231
+      "avg_spread_bps": 514.3910256410256,
+      "avg_expected_loss_percent": 0.4502307692307692
     },
     {
-      "trigger": "Other",
-      "count": 3,
-      "avg_spread_bps": 533.333333,
-      "avg_expected_loss_percent": 0.539267
+      "trigger": "Rms",
+      "count": 1,
+      "avg_spread_bps": 475,
+      "avg_expected_loss_percent": 1
     },
     {
       "trigger": "Modelled Loss",
@@ -62,14 +116,14 @@
     {
       "segment": "Non-Sovereign",
       "count": 417,
-      "avg_spread_bps": 976.064149,
-      "avg_expected_loss_percent": 0.1787
+      "avg_spread_bps": 976.0641486810551,
+      "avg_expected_loss_percent": 0.17869955635491602
     },
     {
       "segment": "Sovereign",
       "count": 11,
-      "avg_spread_bps": 612.651515,
-      "avg_expected_loss_percent": 0.421436
+      "avg_spread_bps": 612.6515151515151,
+      "avg_expected_loss_percent": 0.4214363636363636
     }
   ]
 }
