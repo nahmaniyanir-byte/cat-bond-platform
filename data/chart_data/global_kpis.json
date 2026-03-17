@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-16T18:12:38.726Z",
+  "source_dataset": "deals_master_sql_ready.csv",
+  "definitions": {
+    "total_deals": "COUNT(DISTINCT deal_id)",
+    "total_market_volume": "SUM(original_amount)",
+    "sovereign_deal_count": "COUNT(deal_id WHERE government_program_flag = TRUE)",
+    "non_sovereign_deal_count": "COUNT(deal_id WHERE government_program_flag = FALSE)",
+    "countries_covered": "COUNT(DISTINCT country_of_sponsor)",
+    "latest_market_year": "MAX(deal_year)"
+  },
+  "total_deals": 830,
+  "total_market_volume_musd": 185032.655,
+  "total_market_volume_usd": 185032655000,
+  "sovereign_deal_count": 67,
+  "non_sovereign_deal_count": 763,
+  "countries_covered": 11,
+  "latest_market_year": 2026,
+  "largest_sovereign_issuer": "Allstate",
+  "validation": {
+    "expected_total_volume_busd_range": [
+      180,
+      220
+    ],
+    "actual_total_volume_busd": 185.033,
+    "within_expected_range": true
+  }
+}

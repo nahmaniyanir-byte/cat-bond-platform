@@ -1,0 +1,57 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "summary": {
+    "country_name": "Jamaica",
+    "slug": "jamaica",
+    "folder_name": "Jamaica",
+    "region": "Caribbean",
+    "summary": "First Jamaica catastrophe bond; parametric box based on storm track and minimum central pressure; minimum payout 30%.",
+    "available_sections": [
+      "country_overview",
+      "disaster_context",
+      "document_metadata",
+      "investor_distribution",
+      "investor_geography",
+      "policy_lessons",
+      "pricing_details",
+      "risk_parameters",
+      "structure_coverage",
+      "transaction_details"
+    ],
+    "has_investor_data": true,
+    "has_investor_geography": true,
+    "has_policy_lessons": true,
+    "has_documents": true,
+    "has_transactions": true,
+    "deal_count": 2,
+    "total_deals": 2,
+    "total_volume_usd": 335000000,
+    "total_volume": 335000000,
+    "total_volume_musd": 335.0,
+    "latest_issue_year": 2024,
+    "main_peril": "Jamaica named storms",
+    "trigger_types": [
+      "Parametric"
+    ],
+    "model_types": [
+      "Sovereign"
+    ],
+    "sovereign_flag": true,
+    "market_segment_summary": "Sovereign",
+    "destination_url": "/countries/jamaica",
+    "timeline_count": 2
+  },
+  "source_files": {
+    "country_overview": "COUNTRY_OVERVIEW.xlsx",
+    "disaster_context": "DISASTER.xlsx",
+    "document_metadata": "DOCUMENT_METADATA.xlsx",
+    "investor_distribution": "INVESTOR_DISTRIBUTION.xlsx",
+    "investor_geography": "Investor_Geography.xlsx",
+    "policy_lessons": "POLICYLESSONS.xlsx",
+    "pricing_details": "PRICING_DETAILS.xlsx",
+    "risk_parameters": "RISK_PARAMETERS.xlsx",
+    "structure_coverage": "STRUCTURE_COVERAGE.xlsx",
+    "transaction_details": "TRANSACTION_DETAILS.xlsx"
+  }
+}

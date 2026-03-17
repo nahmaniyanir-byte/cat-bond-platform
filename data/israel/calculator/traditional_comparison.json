@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "comparison_title": "Liquidity Timing Comparison",
+  "comparison_type": "illustrative_policy_comparison",
+  "items": [
+    {
+      "pathway": "Parametric Sovereign Cat Bond",
+      "illustrative_timing": "Days to weeks after event validation",
+      "description": "Designed to provide immediate front-end sovereign liquidity after a qualifying trigger."
+    },
+    {
+      "pathway": "Traditional Post-Disaster Fiscal / Compensation Route",
+      "illustrative_timing": "Weeks to months",
+      "description": "Illustrative policy comparison reflecting the slower path of assessment, budget process, and compensation workflows."
+    }
+  ],
+  "data_status": "illustrative_assumption",
+  "source_note": "This comparison is intended for policy framing, not legal claims handling guidance."
+}

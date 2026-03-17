@@ -1,0 +1,23 @@
+[
+  {
+    "id": "galilee_north",
+    "title": "Galilee North Zone",
+    "description": "Illustrative trigger zone covering high-risk northern seismic area.",
+    "data_status": "illustrative_assumption",
+    "source_note": "Map layer placeholder pending formal geospatial trigger design."
+  },
+  {
+    "id": "dead_sea_transform_core",
+    "title": "Dead Sea Transform Core Zone",
+    "description": "Illustrative sovereign core trigger zone aligned with the main fault system.",
+    "data_status": "illustrative_assumption",
+    "source_note": "Map layer placeholder pending formal hazard and legal trigger mapping."
+  },
+  {
+    "id": "national_trigger_map",
+    "title": "National Sovereign Trigger Map",
+    "description": "Illustrative national trigger envelope for catastrophic earthquake scenarios.",
+    "data_status": "illustrative_assumption",
+    "source_note": "Map layer placeholder pending final structuring design."
+  }
+]

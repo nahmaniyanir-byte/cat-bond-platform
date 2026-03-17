@@ -1,0 +1,11 @@
+{
+  "country_name": "Peru",
+  "slug": "peru",
+  "total_deals": 2,
+  "total_volume_usd": 300000000,
+  "latest_issue_year": 2024,
+  "main_peril": "Peru earthquake",
+  "main_trigger_type": "Parametric",
+  "sovereign_flag": true,
+  "market_segment": "Sovereign"
+}

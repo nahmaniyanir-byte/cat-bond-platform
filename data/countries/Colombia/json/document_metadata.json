@@ -1,0 +1,19 @@
+{
+  "country": "Colombia",
+  "slug": "colombia",
+  "source_file": "DOCUMEN_METADATA.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Colombia",
+      "Document Title": "IBRD CAR 117",
+      "Institution / Source": "Artemis Deal Directory (Steve Evans Ltd.)",
+      "Year of Document": 2018,
+      "Document Type": "Deal summary",
+      "Main Topic": "Sovereign parametric earthquake cover",
+      "File Name": "artemis.bm-IBRD CAR 117.pdf",
+      "Notes": "Includes expected loss / attachment prob /"
+    }
+  ]
+}

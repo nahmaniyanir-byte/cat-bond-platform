@@ -1,0 +1,33 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "source_file": "Investor_Geography.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 4,
+  "rows": [
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Geography": "United States",
+      "Share": 0.43
+    },
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Geography": "Europe",
+      "Share": 0.4
+    },
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Geography": "Bermuda",
+      "Share": 0.14
+    },
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Geography": "Asia / Australia",
+      "Share": 0.03
+    }
+  ]
+}

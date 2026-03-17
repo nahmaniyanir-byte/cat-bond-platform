@@ -1,0 +1,13 @@
+{
+  "default_trigger_scenario_id": "dead_sea_transform_core",
+  "default_bond_size_usd": 500000000,
+  "default_expected_loss_percent": 2.5,
+  "default_market_multiple": 3.0,
+  "default_risk_free_rate_percent": 4.0,
+  "default_tenor_years": 3,
+  "default_issuance_cost_percent": 1.0,
+  "default_peril_type": "Earthquake",
+  "default_trigger_type": "Parametric",
+  "data_status": "illustrative_assumption",
+  "source_note": "Illustrative baseline assumptions for sovereign cat bond simulation."
+}

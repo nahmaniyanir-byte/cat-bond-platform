@@ -1,0 +1,29 @@
+{
+  "country": "Mexico",
+  "slug": "mexico",
+  "source_file": "DISASTER.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Mexico",
+      "Main Hazard": "Earthquake",
+      "Secondary Hazard": "Named storms (hurricanes)",
+      "Historical Event Mentioned": "Hurricane Otis (referenced in FONDEN 2020 updates)",
+      "Historical Damage Mentioned": "$60m payout of principal reported (FONDEN 2020 update)",
+      "Reason for Seeking Protection": "Secure parametric disaster insurance to help pay relief, reconstruction and recovery costs",
+      "Fiscal Relevance": "Disaster insurance provides budgetary liquidity",
+      "Economic Relevance": "Supports recovery financing post-catastrophe"
+    },
+    {
+      "Country": "Mexico",
+      "Main Hazard": "Tropical cyclone (Pacific)",
+      "Secondary Hazard": "Earthquake / Atlantic storm (in broader program context)",
+      "Historical Event Mentioned": "Hurricane Otis referenced as reason Pacific tranche delayed",
+      "Historical Damage Mentioned": "Not stated in source (beyond payout-related update in FONDEN 2020 doc)",
+      "Reason for Seeking Protection": "Expand coverage through additional tranche after earlier hurricane impacts",
+      "Fiscal Relevance": "Supports Treasury disaster financing",
+      "Economic Relevance": "Supports reconstruction and recovery financing"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "bond_size_250",
+    "label": "$250M",
+    "bond_size_usd": 250000000,
+    "data_status": "illustrative_assumption",
+    "source_note": "Illustrative bond size option for sovereign scenario analysis."
+  },
+  {
+    "id": "bond_size_500",
+    "label": "$500M",
+    "bond_size_usd": 500000000,
+    "data_status": "illustrative_assumption",
+    "source_note": "Illustrative bond size option for sovereign scenario analysis."
+  },
+  {
+    "id": "bond_size_750",
+    "label": "$750M",
+    "bond_size_usd": 750000000,
+    "data_status": "illustrative_assumption",
+    "source_note": "Illustrative bond size option for sovereign scenario analysis."
+  },
+  {
+    "id": "bond_size_1000",
+    "label": "$1B",
+    "bond_size_usd": 1000000000,
+    "data_status": "illustrative_assumption",
+    "source_note": "Illustrative bond size option for sovereign scenario analysis."
+  }
+]

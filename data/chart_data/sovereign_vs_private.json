@@ -1,0 +1,225 @@
+{
+  "summary_by_sovereign_flag": [
+    {
+      "segment": "Sovereign",
+      "sovereign_flag": true,
+      "deal_count": 67,
+      "total_volume_musd": 19329.18,
+      "total_volume_usd": 19329180000
+    },
+    {
+      "segment": "Non-Sovereign",
+      "sovereign_flag": false,
+      "deal_count": 763,
+      "total_volume_musd": 165703.475,
+      "total_volume_usd": 165703475000
+    }
+  ],
+  "summary_by_market_segment": [
+    {
+      "market_segment": "Sovereign",
+      "deal_count": 67,
+      "total_volume_musd": 19329.18,
+      "total_volume_usd": 19329180000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "deal_count": 763,
+      "total_volume_musd": 165703.475,
+      "total_volume_usd": 165703475000
+    }
+  ],
+  "trigger_by_market_segment": [
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Indemnity",
+      "deal_count": 427,
+      "total_volume_musd": 98272.125,
+      "total_volume_usd": 98272125000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Industry Loss",
+      "deal_count": 218,
+      "total_volume_musd": 46983.7,
+      "total_volume_usd": 46983700000
+    },
+    {
+      "market_segment": "Sovereign",
+      "trigger_type": "Indemnity",
+      "deal_count": 47,
+      "total_volume_musd": 14299.18,
+      "total_volume_usd": 14299180000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Parametric",
+      "deal_count": 80,
+      "total_volume_musd": 14281.75,
+      "total_volume_usd": 14281750000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Modelled Loss",
+      "deal_count": 20,
+      "total_volume_musd": 2870.9,
+      "total_volume_usd": 2870900000
+    },
+    {
+      "market_segment": "Sovereign",
+      "trigger_type": "Parametric",
+      "deal_count": 11,
+      "total_volume_musd": 2545,
+      "total_volume_usd": 2545000000
+    },
+    {
+      "market_segment": "Sovereign",
+      "trigger_type": "Industry Loss",
+      "deal_count": 5,
+      "total_volume_musd": 1600,
+      "total_volume_usd": 1600000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Multiple trigger types (see details below)",
+      "deal_count": 1,
+      "total_volume_musd": 950,
+      "total_volume_usd": 950000000
+    },
+    {
+      "market_segment": "Sovereign",
+      "trigger_type": "Modelled Loss",
+      "deal_count": 4,
+      "total_volume_musd": 885,
+      "total_volume_usd": 885000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Unknown",
+      "deal_count": 5,
+      "total_volume_musd": 830,
+      "total_volume_usd": 830000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Multiple trigger types",
+      "deal_count": 6,
+      "total_volume_musd": 781.5,
+      "total_volume_usd": 781500000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Loss ratio trigger",
+      "deal_count": 1,
+      "total_volume_musd": 200,
+      "total_volume_usd": 200000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Mortality Index",
+      "deal_count": 1,
+      "total_volume_musd": 180,
+      "total_volume_usd": 180000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "RMS",
+      "deal_count": 1,
+      "total_volume_musd": 175,
+      "total_volume_usd": 175000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Multiple triggers",
+      "deal_count": 2,
+      "total_volume_musd": 150,
+      "total_volume_usd": 150000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Multiple trigger type",
+      "deal_count": 1,
+      "total_volume_musd": 28.5,
+      "total_volume_usd": 28500000
+    }
+  ],
+  "peril_by_market_segment": [
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Multi-Peril",
+      "deal_count": 358,
+      "total_volume_musd": 79507.1,
+      "total_volume_usd": 79507100000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Hurricane / Named Storm",
+      "deal_count": 225,
+      "total_volume_musd": 45392.525,
+      "total_volume_usd": 45392525000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Earthquake",
+      "deal_count": 120,
+      "total_volume_musd": 30397.8,
+      "total_volume_usd": 30397800000
+    },
+    {
+      "market_segment": "Sovereign",
+      "peril": "Multi-Peril",
+      "deal_count": 33,
+      "total_volume_musd": 11142.5,
+      "total_volume_usd": 11142500000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Other",
+      "deal_count": 47,
+      "total_volume_musd": 8061.05,
+      "total_volume_usd": 8061050000
+    },
+    {
+      "market_segment": "Sovereign",
+      "peril": "Earthquake",
+      "deal_count": 19,
+      "total_volume_musd": 5510,
+      "total_volume_usd": 5510000000
+    },
+    {
+      "market_segment": "Sovereign",
+      "peril": "Hurricane / Named Storm",
+      "deal_count": 12,
+      "total_volume_musd": 2600,
+      "total_volume_usd": 2600000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Wildfire",
+      "deal_count": 9,
+      "total_volume_musd": 1925,
+      "total_volume_usd": 1925000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Mortality",
+      "deal_count": 3,
+      "total_volume_musd": 280,
+      "total_volume_usd": 280000000
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Flood",
+      "deal_count": 1,
+      "total_volume_musd": 140,
+      "total_volume_usd": 140000000
+    },
+    {
+      "market_segment": "Sovereign",
+      "peril": "Other",
+      "deal_count": 3,
+      "total_volume_musd": 76.68,
+      "total_volume_usd": 76680000
+    }
+  ]
+}

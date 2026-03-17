@@ -1,0 +1,11 @@
+{
+  "country_name": "Philippines",
+  "slug": "philippines",
+  "total_deals": 2,
+  "total_volume_usd": 225000000,
+  "latest_issue_year": 2019,
+  "main_peril": "Philippine earthquakes; tropical cyclones",
+  "main_trigger_type": "Modelled loss",
+  "sovereign_flag": true,
+  "market_segment": "Sovereign"
+}

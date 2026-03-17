@@ -1,0 +1,37 @@
+{
+  "country": "Peru",
+  "slug": "peru",
+  "source_file": "COUNTRY_OVERVIEW.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Peru",
+      "Deal Name": "IBRD CAR 120",
+      "Year": 2018,
+      "Region": "Not stated in source",
+      "Sponsor": "Republic of Peru",
+      "Issuer / SPV": "IBRD CAR 120",
+      "Sponsor Type": "Sovereign",
+      "Peril": "Peru earthquake",
+      "Trigger Type": "Parametric",
+      "Deal Size": "$200m",
+      "Maturity / Term": "Three-year period; maturity scheduled Feb 2021",
+      "Short Summary": "First catastrophe bond for Peru providing parametric earthquake protection; later triggered by a magnitude 8.0 event (update)."
+    },
+    {
+      "Country": "Peru",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Year": 2024,
+      "Region": "Not stated in source",
+      "Sponsor": "Talanx AG (via Hannover Re)",
+      "Issuer / SPV": "Maschpark Re Ltd. (Bermuda SPV)",
+      "Sponsor Type": "Corporate re/insurance group",
+      "Peril": "Chile, Peru, Bolivia, Argentina earthquake",
+      "Trigger Type": "Parametric",
+      "Deal Size": "$100m",
+      "Maturity / Term": "Jan 2025 through end 2027",
+      "Short Summary": "Corporate parametric earthquake protection spanning Peru (within parametric box)."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Colombia",
+  "slug": "colombia",
+  "source_file": "PRICING_DETAILS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Colombia",
+      "Deal Name": "IBRD CAR 117",
+      "Spread": 0.03,
+      "Coupon": "Not stated in source",
+      "Risk-Free Rate": "Not stated in source",
+      "Initial Pricing Guidance": "3.5%–4.25% → reduced to 3.0%–3.5%",
+      "Final Pricing": 0.03,
+      "Market Multiple": "Not stated in source",
+      "Issuance Costs": "Not stated in source",
+      "Investor Demand / Oversubscription": "Not stated in source"
+    }
+  ]
+}

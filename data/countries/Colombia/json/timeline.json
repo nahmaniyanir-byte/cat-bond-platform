@@ -1,0 +1,16 @@
+{
+  "country": "Colombia",
+  "slug": "colombia",
+  "count": 1,
+  "events": [
+    {
+      "deal_name": "IBRD CAR 117",
+      "issue_date": "2018-02-01",
+      "year": 2018,
+      "size_usd": 400000000,
+      "covered_region": "Colombia",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Parametric; per-occurrence"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "raw_row_count": 830,
+  "deduplicated_row_count": 830,
+  "removed_duplicate_rows": 0,
+  "duplicates_by_deal_id": 0,
+  "duplicates_by_fallback_key": 0,
+  "missing_deal_id_rows": 0,
+  "primary_key": "deal_id",
+  "generated_at": "2026-03-16T18:12:38.726Z",
+  "source_dataset": "deals_master_sql_ready.csv"
+}

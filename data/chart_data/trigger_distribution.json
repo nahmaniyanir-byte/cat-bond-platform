@@ -1,0 +1,74 @@
+[
+  {
+    "trigger_type": "Indemnity",
+    "deal_count": 474,
+    "total_volume_musd": 112571.305,
+    "total_volume_usd": 112571305000
+  },
+  {
+    "trigger_type": "Industry Loss",
+    "deal_count": 223,
+    "total_volume_musd": 48583.7,
+    "total_volume_usd": 48583700000
+  },
+  {
+    "trigger_type": "Parametric",
+    "deal_count": 91,
+    "total_volume_musd": 16826.75,
+    "total_volume_usd": 16826750000
+  },
+  {
+    "trigger_type": "Modelled Loss",
+    "deal_count": 24,
+    "total_volume_musd": 3755.9,
+    "total_volume_usd": 3755900000
+  },
+  {
+    "trigger_type": "Multiple trigger types (see details below)",
+    "deal_count": 1,
+    "total_volume_musd": 950,
+    "total_volume_usd": 950000000
+  },
+  {
+    "trigger_type": "Unknown",
+    "deal_count": 5,
+    "total_volume_musd": 830,
+    "total_volume_usd": 830000000
+  },
+  {
+    "trigger_type": "Multiple trigger types",
+    "deal_count": 6,
+    "total_volume_musd": 781.5,
+    "total_volume_usd": 781500000
+  },
+  {
+    "trigger_type": "Loss ratio trigger",
+    "deal_count": 1,
+    "total_volume_musd": 200,
+    "total_volume_usd": 200000000
+  },
+  {
+    "trigger_type": "Mortality Index",
+    "deal_count": 1,
+    "total_volume_musd": 180,
+    "total_volume_usd": 180000000
+  },
+  {
+    "trigger_type": "RMS",
+    "deal_count": 1,
+    "total_volume_musd": 175,
+    "total_volume_usd": 175000000
+  },
+  {
+    "trigger_type": "Multiple triggers",
+    "deal_count": 2,
+    "total_volume_musd": 150,
+    "total_volume_usd": 150000000
+  },
+  {
+    "trigger_type": "Multiple trigger type",
+    "deal_count": 1,
+    "total_volume_musd": 28.5,
+    "total_volume_usd": 28500000
+  }
+]

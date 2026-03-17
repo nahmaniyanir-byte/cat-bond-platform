@@ -1,0 +1,23 @@
+{
+  "country": "Peru",
+  "slug": "peru",
+  "source_file": "POLICY_LESSONS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Peru",
+      "Key Lesson": "Parametric bonds can produce real payouts under defined triggers",
+      "Explanation": "The IBRD CAR 120 updates describe a quantified 30% principal payout following a major event",
+      "Relevance for Sovereign Finance": "Demonstrates operational effectiveness of sovereign parametric cover",
+      "Possible Relevance for Israel": "Inference based on source: Israel could benchmark payout design and operational timelines"
+    },
+    {
+      "Country": "Peru",
+      "Key Lesson": "Clear calculation timelines matter for fiscal planning",
+      "Explanation": "The update notes mention determination windows and report delivery timelines",
+      "Relevance for Sovereign Finance": "Improves predictability for budget execution",
+      "Possible Relevance for Israel": "Inference based on source: relevant to contingency planning frameworks"
+    }
+  ]
+}

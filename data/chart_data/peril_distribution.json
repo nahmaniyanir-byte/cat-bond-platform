@@ -1,0 +1,44 @@
+[
+  {
+    "peril": "Multi-Peril",
+    "deal_count": 391,
+    "total_volume_musd": 90649.6,
+    "total_volume_usd": 90649600000
+  },
+  {
+    "peril": "Hurricane / Named Storm",
+    "deal_count": 237,
+    "total_volume_musd": 47992.525,
+    "total_volume_usd": 47992525000
+  },
+  {
+    "peril": "Earthquake",
+    "deal_count": 139,
+    "total_volume_musd": 35907.8,
+    "total_volume_usd": 35907800000
+  },
+  {
+    "peril": "Other",
+    "deal_count": 50,
+    "total_volume_musd": 8137.73,
+    "total_volume_usd": 8137730000
+  },
+  {
+    "peril": "Wildfire",
+    "deal_count": 9,
+    "total_volume_musd": 1925,
+    "total_volume_usd": 1925000000
+  },
+  {
+    "peril": "Mortality",
+    "deal_count": 3,
+    "total_volume_musd": 280,
+    "total_volume_usd": 280000000
+  },
+  {
+    "peril": "Flood",
+    "deal_count": 1,
+    "total_volume_musd": 140,
+    "total_volume_usd": 140000000
+  }
+]

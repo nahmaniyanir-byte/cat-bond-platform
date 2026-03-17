@@ -1,0 +1,15 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "INVESTOR_DISTRIBUTION.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Deal Name": "All Chile deals in provided PDFs",
+      "Investor Type": "Not stated in source",
+      "Share": "Not stated in source"
+    }
+  ]
+}

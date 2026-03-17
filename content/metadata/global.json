@@ -1,0 +1,47 @@
+{
+  "siteName": "Global Sovereign Catastrophe Bond Explorer",
+  "siteSubtitle": "An interactive policy intelligence platform for sovereign disaster risk financing and catastrophe bond case studies.",
+  "heroTitle": "Global Sovereign Catastrophe Bond Explorer",
+  "heroDescription": "Explore sovereign catastrophe bond programs, country case studies, official documents, presentations, and policy insights through an interactive globe-based platform.",
+  "introVideo": {
+    "title": "Platform Introduction Video",
+    "description": "Introductory video shown on the homepage.",
+    "file": "/content/global/videos/intro-video.mp4",
+    "thumbnail": "/content/global/images/intro-video-thumbnail.jpg"
+  },
+  "generalPresentation": {
+    "title": "Catastrophe Bonds - General Overview Presentation",
+    "description": "General presentation introducing catastrophe bonds, sovereign risk transfer, trigger types, and policy relevance.",
+    "file": "/content/global/presentations/catastrophe-bonds-overview.pdf"
+  },
+  "generalDocument": {
+    "title": "General Information on Catastrophe Bonds",
+    "description": "General background document on catastrophe bonds, market structure, and sovereign disaster risk financing.",
+    "file": "/content/global/documents/catastrophe-bonds-general-information.pdf"
+  },
+  "generalSummary": "Catastrophe bonds are financial instruments that transfer disaster risk from governments or insurers to capital market investors. They are used to improve fiscal resilience, provide rapid post-disaster liquidity, and diversify sources of disaster risk financing.",
+  "policyOverview": {
+    "title": "Policy Overview",
+    "summary": "This section explains what catastrophe bonds are, how sovereign structures work, why governments use them, and the key advantages and limitations of this instrument."
+  },
+  "libraries": {
+    "presentationsPageTitle": "All Presentations",
+    "pdfsPageTitle": "All PDF Documents",
+    "videosPageTitle": "All Videos",
+    "podcastsPageTitle": "All Podcasts"
+  },
+  "featuredCountries": [
+    "mexico",
+    "chile",
+    "colombia",
+    "peru",
+    "philippines",
+    "jamaica",
+    "israel"
+  ],
+  "theme": {
+    "primaryColor": "cyan",
+    "backgroundStyle": "dark-futuristic",
+    "cardStyle": "glassmorphism"
+  }
+}

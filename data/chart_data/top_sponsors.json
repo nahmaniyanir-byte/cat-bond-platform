@@ -1,0 +1,242 @@
+[
+  {
+    "rank": 1,
+    "sponsor_name": "USAA",
+    "deal_count": 46,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 12386,
+    "total_volume_usd": 12386000000
+  },
+  {
+    "rank": 2,
+    "sponsor_name": "Swiss Re",
+    "deal_count": 67,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 10440,
+    "total_volume_usd": 10440000000
+  },
+  {
+    "rank": 3,
+    "sponsor_name": "California Earthquake Authority",
+    "deal_count": 23,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 9140,
+    "total_volume_usd": 9140000000
+  },
+  {
+    "rank": 4,
+    "sponsor_name": "Allstate",
+    "deal_count": 26,
+    "sovereign_deal_count": 26,
+    "total_volume_musd": 9057,
+    "total_volume_usd": 9057000000
+  },
+  {
+    "rank": 5,
+    "sponsor_name": "State Farm",
+    "deal_count": 24,
+    "sovereign_deal_count": 24,
+    "total_volume_musd": 6492.18,
+    "total_volume_usd": 6492180000
+  },
+  {
+    "rank": 6,
+    "sponsor_name": "Everest Re",
+    "deal_count": 15,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 6350,
+    "total_volume_usd": 6350000000
+  },
+  {
+    "rank": 7,
+    "sponsor_name": "Zenkyoren",
+    "deal_count": 15,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 4895,
+    "total_volume_usd": 4895000000
+  },
+  {
+    "rank": 8,
+    "sponsor_name": "Citizens Property Insurance",
+    "deal_count": 13,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 4364.125,
+    "total_volume_usd": 4364125000
+  },
+  {
+    "rank": 9,
+    "sponsor_name": "Texas Windstorm Insurance Association (TWIA)",
+    "deal_count": 11,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 4251.4,
+    "total_volume_usd": 4251400000
+  },
+  {
+    "rank": 10,
+    "sponsor_name": "SCOR",
+    "deal_count": 19,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 3830,
+    "total_volume_usd": 3830000000
+  },
+  {
+    "rank": 11,
+    "sponsor_name": "FEMA / NFIP via Hannover Re",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 3075,
+    "total_volume_usd": 3075000000
+  },
+  {
+    "rank": 12,
+    "sponsor_name": "North Carolina Insurance Underwriting Association",
+    "deal_count": 8,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2930,
+    "total_volume_usd": 2930000000
+  },
+  {
+    "rank": 13,
+    "sponsor_name": "Travelers",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2925,
+    "total_volume_usd": 2925000000
+  },
+  {
+    "rank": 14,
+    "sponsor_name": "Nationwide Mutual Insurance Co.",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2915,
+    "total_volume_usd": 2915000000
+  },
+  {
+    "rank": 15,
+    "sponsor_name": "XL Bermuda Ltd.",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2750,
+    "total_volume_usd": 2750000000
+  },
+  {
+    "rank": 16,
+    "sponsor_name": "Liberty Mutual",
+    "deal_count": 11,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2700,
+    "total_volume_usd": 2700000000
+  },
+  {
+    "rank": 17,
+    "sponsor_name": "Munich Re",
+    "deal_count": 20,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2408.5,
+    "total_volume_usd": 2408500000
+  },
+  {
+    "rank": 18,
+    "sponsor_name": "Chubb",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2045,
+    "total_volume_usd": 2045000000
+  },
+  {
+    "rank": 19,
+    "sponsor_name": "Hannover Rück SE / Oak Tree Assurance, Ltd.",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 2015,
+    "total_volume_usd": 2015000000
+  },
+  {
+    "rank": 20,
+    "sponsor_name": "Palomar Specialty Insurance Company",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1986,
+    "total_volume_usd": 1986000000
+  },
+  {
+    "rank": 21,
+    "sponsor_name": "Renaissance Re and DaVinci Re",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1885,
+    "total_volume_usd": 1885000000
+  },
+  {
+    "rank": 22,
+    "sponsor_name": "American Integrity Insurance Group",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1844,
+    "total_volume_usd": 1844000000
+  },
+  {
+    "rank": 23,
+    "sponsor_name": "Hannover Re",
+    "deal_count": 11,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1807,
+    "total_volume_usd": 1807000000
+  },
+  {
+    "rank": 24,
+    "sponsor_name": "Louisiana Citizens Property Insurance Corporation",
+    "deal_count": 11,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1675,
+    "total_volume_usd": 1675000000
+  },
+  {
+    "rank": 25,
+    "sponsor_name": "Heritage Property and Casualty Insurance Co.",
+    "deal_count": 10,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1522.5,
+    "total_volume_usd": 1522500000
+  },
+  {
+    "rank": 26,
+    "sponsor_name": "Aetna",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1500,
+    "total_volume_usd": 1500000000
+  },
+  {
+    "rank": 27,
+    "sponsor_name": "AXIS Capital Holdings Ltd. subsidiaries",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1405,
+    "total_volume_usd": 1405000000
+  },
+  {
+    "rank": 28,
+    "sponsor_name": "Hartford Fire Insurance Co.",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1385,
+    "total_volume_usd": 1385000000
+  },
+  {
+    "rank": 29,
+    "sponsor_name": "AIG",
+    "deal_count": 4,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1325,
+    "total_volume_usd": 1325000000
+  },
+  {
+    "rank": 30,
+    "sponsor_name": "Massachusetts Property Insurance Underwriting Association",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_musd": 1321,
+    "total_volume_usd": 1321000000
+  }
+]

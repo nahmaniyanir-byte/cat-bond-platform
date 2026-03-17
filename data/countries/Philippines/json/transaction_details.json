@@ -1,0 +1,37 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "source_file": "TRANSACTION_DETAILS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Philippines",
+      "Deal Name": "IBRD CAR 123-124 — CAR 123 Class A (EQ)",
+      "Issue Date": "2019-11-01",
+      "Currency": "USD",
+      "Size USD": 75000000,
+      "Covered Region": "Entire Philippines",
+      "Placement / Structuring Agent": "GC Securities; Swiss Re Capital Markets; Munich Re Capital Markets",
+      "Bookrunner / Manager": "GC Securities; Swiss Re Capital Markets (joint managers); Munich Re Capital Markets (joint manager)",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Two tranches sold to collateralize underlying swap agreements providing protection to Philippines Treasury",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Modelled loss; per-occurrence"
+    },
+    {
+      "Country": "Philippines",
+      "Deal Name": "IBRD CAR 123-124 — CAR 124 Class B (TC)",
+      "Issue Date": "2019-11-01",
+      "Currency": "USD",
+      "Size USD": 150000000,
+      "Covered Region": "Entire Philippines",
+      "Placement / Structuring Agent": "GC Securities; Swiss Re Capital Markets; Munich Re Capital Markets",
+      "Bookrunner / Manager": "GC Securities; Swiss Re Capital Markets; Munich Re Capital Markets",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Class B principal reduced after a triggering event per updates",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Modelled loss; per-occurrence"
+    }
+  ]
+}

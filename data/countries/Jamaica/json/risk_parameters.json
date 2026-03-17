@@ -1,0 +1,35 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "source_file": "RISK_PARAMETERS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR 130",
+      "Expected Loss": 0.0152,
+      "Attachment Probability": "Not stated in source",
+      "Exhaustion Probability": "Not stated in source",
+      "Trigger Threshold": "Not stated in source",
+      "Trigger Variables": "Storm track; minimum central pressure; parametric boxes",
+      "Covered Hazard Type": "Tropical cyclone",
+      "Return Period Mentioned": "Not stated in source",
+      "Max Payout": "100% principal",
+      "Payout Structure": "Linear sliding scale; minimum payout 30% to 100%"
+    },
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Expected Loss": 0.015,
+      "Attachment Probability": 0.0234,
+      "Exhaustion Probability": "Not stated in source",
+      "Trigger Threshold": "Not stated in source",
+      "Trigger Variables": "Storm location; minimum central pressure; best track files",
+      "Covered Hazard Type": "Tropical cyclone",
+      "Return Period Mentioned": "Not stated in source",
+      "Max Payout": "100% principal",
+      "Payout Structure": "Linear payout from 30% to 100% (as stated)"
+    }
+  ]
+}

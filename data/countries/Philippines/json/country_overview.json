@@ -1,0 +1,23 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "source_file": "COUNTRY_OVERVIEW.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Philippines",
+      "Deal Name": "IBRD CAR 123-124",
+      "Year": 2019,
+      "Region": "Not stated in source",
+      "Sponsor": "Republic of the Philippines",
+      "Issuer / SPV": "World Bank IBRD CAR 123-124",
+      "Sponsor Type": "Sovereign",
+      "Peril": "Philippine earthquakes; tropical cyclones",
+      "Trigger Type": "Modelled loss",
+      "Deal Size": "$225m",
+      "Maturity / Term": "Three-year term",
+      "Short Summary": "Two-class World Bank issuance providing modelled-loss disaster protection; later updates describe payouts and principal reduction after Typhoon Rai."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Israel",
+  "slug": "israel",
+  "source_file": "DISASTER.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Israel",
+      "Main Hazard": "Earthquake",
+      "Secondary Hazard": "Not stated in source",
+      "Historical Event Mentioned": "Not stated in source",
+      "Historical Damage Mentioned": "Not stated in source",
+      "Reason for Seeking Protection": "Provide collateralized indemnity reinsurance for Israel earthquake exposure",
+      "Fiscal Relevance": "Not stated in source",
+      "Economic Relevance": "Not stated in source"
+    }
+  ]
+}

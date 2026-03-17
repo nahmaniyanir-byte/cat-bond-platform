@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-03-16T18:12:38.726Z",
+  "source_root": "C:\\Users\\nahma\\PyCharmMiscProject\\mmn.14\\catbond_project\\final_outputs_country_fixed\\sql_ready_package",
+  "source_files": {
+    "master": "deals_master_sql_ready.csv",
+    "tranche": "tranches_core_sql_ready.csv"
+  },
+  "row_counts": {
+    "raw_rows": 830,
+    "duplicate_rows_removed": 0,
+    "cleaned_rows": 830
+  },
+  "deduplication": {
+    "primary_key": "deal_id",
+    "duplicates_by_deal_id": 0,
+    "duplicates_by_fallback_key": 0,
+    "missing_deal_id_rows": 0
+  },
+  "amount_methodology": {
+    "required_column": "original_amount",
+    "rule": "SUM(original_amount) after DISTINCT deal_id deduplication.",
+    "amount_source_counts": {
+      "master_original_amount": 0,
+      "tranche_original_amount": 820,
+      "fallback_total_deal_size_ils_m": 10,
+      "missing": 0
+    },
+    "total_market_volume_musd": 185032.655,
+    "total_market_volume_usd": 185032655000
+  },
+  "validation": {
+    "expected_total_volume_busd_range": [
+      180,
+      220
+    ],
+    "actual_total_volume_busd": 185.033,
+    "within_expected_range": true
+  },
+  "warning": null
+}

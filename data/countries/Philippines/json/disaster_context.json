@@ -1,0 +1,19 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "source_file": "DISASTER.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Philippines",
+      "Main Hazard": "Tropical cyclones",
+      "Secondary Hazard": "Earthquake",
+      "Historical Event Mentioned": "Super Typhoon Rai (Odette) referenced in updates",
+      "Historical Damage Mentioned": "At least 35% payout of Class B principal ($52.5m) and Class B reduced to $97.5m outstanding",
+      "Reason for Seeking Protection": "Provide multi-year disaster risk transfer capacity that pays out when modelled loss triggers breached",
+      "Fiscal Relevance": "Liquidity for disaster response via predefined reductions",
+      "Economic Relevance": "Supports recovery financing following severe storm events"
+    }
+  ]
+}

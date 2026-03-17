@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "section_title": "Financial Simulation Engine",
+  "section_subtitle": "Estimate payout mechanics, liquidity injection, and indicative catastrophe bond economics.",
+  "description": "Simulate hypothetical Israeli sovereign catastrophe bond structures using configurable bond sizes, trigger scenarios, and pricing assumptions.",
+  "supported_modes": [
+    "single_scenario",
+    "compare_scenarios"
+  ],
+  "default_mode": "single_scenario",
+  "comparison_settings": {
+    "enabled": true,
+    "max_scenarios": 3,
+    "comparison_title": "Scenario Comparison"
+  },
+  "input_groups": [
+    "bond_size",
+    "trigger_scenario",
+    "event_inputs",
+    "pricing_assumptions"
+  ],
+  "output_groups": [
+    "trigger_assessment",
+    "liquidity_injection",
+    "pricing_outputs",
+    "cost_summary",
+    "traditional_comparison"
+  ],
+  "data_sources": {
+    "default_assumptions": "/data/israel/calculator/default_assumptions.json",
+    "scenario_inputs": "/data/israel/calculator/scenario_inputs.json",
+    "payout_tiers": "/data/israel/calculator/payout_tiers.json",
+    "methodology": "/data/israel/calculator/methodology.json",
+    "bond_size_options": "/data/israel/calculator/bond_size_options.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "country_name": "Israel",
+  "slug": "israel",
+  "total_deals": 1,
+  "total_volume_usd": 100000000,
+  "latest_issue_year": 2025,
+  "main_peril": "Israel earthquake",
+  "main_trigger_type": "Indemnity",
+  "sovereign_flag": false,
+  "market_segment": "Non-Sovereign / Corporate"
+}

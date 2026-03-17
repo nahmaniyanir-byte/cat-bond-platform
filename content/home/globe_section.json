@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "section_title": "Global Catastrophe Bond Map",
+  "section_subtitle": "An interactive view of catastrophe bond transactions across sovereign and non-sovereign markets.",
+  "description": "Explore catastrophe bond activity across countries, compare sovereign and private transactions, and navigate directly to country intelligence pages.",
+  "default_view": "all",
+  "available_views": [
+    "all",
+    "sovereign",
+    "non_sovereign"
+  ],
+  "legend": [
+    {
+      "label": "Sovereign",
+      "color": "blue"
+    },
+    {
+      "label": "Non-Sovereign",
+      "color": "green"
+    }
+  ],
+  "primary_call_to_action": {
+    "label": "Explore Sovereign Cases",
+    "url": "/sovereign-cases"
+  }
+}

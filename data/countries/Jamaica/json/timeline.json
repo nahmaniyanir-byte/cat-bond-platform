@@ -1,0 +1,25 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "count": 2,
+  "events": [
+    {
+      "deal_name": "IBRD CAR 130",
+      "issue_date": "2021-07-01",
+      "year": 2021,
+      "size_usd": 185000000,
+      "covered_region": "Jamaica",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Parametric; per-occurrence"
+    },
+    {
+      "deal_name": "IBRD CAR Jamaica 2024",
+      "issue_date": "2024-05-01",
+      "year": 2024,
+      "size_usd": 150000000,
+      "covered_region": "Jamaica",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Parametric; per-occurrence"
+    }
+  ]
+}

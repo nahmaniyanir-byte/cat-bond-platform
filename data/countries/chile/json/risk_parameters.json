@@ -1,0 +1,48 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "RISK_PARAMETERS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 3,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD CAR 116",
+      "Expected Loss": 0.0086,
+      "Attachment Probability": 0.0135,
+      "Exhaustion Probability": "Not stated in source",
+      "Trigger Threshold": "Not stated in source",
+      "Trigger Variables": "Magnitude; epicenter location; depth",
+      "Covered Hazard Type": "Earthquake",
+      "Return Period Mentioned": "Not stated in source",
+      "Max Payout": "100% principal",
+      "Payout Structure": "30%, 70%, 100% payout tiers"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD – Chile 2023",
+      "Expected Loss": 0.01,
+      "Attachment Probability": 0.0148,
+      "Exhaustion Probability": "Not stated in source",
+      "Trigger Threshold": "Not stated in source",
+      "Trigger Variables": "Depth; magnitude; location (“quake-in-a-box”)",
+      "Covered Hazard Type": "Earthquake (incl. tsunami impacts)",
+      "Return Period Mentioned": "Not stated in source",
+      "Max Payout": "100% principal",
+      "Payout Structure": "30%, 70%, 100% payout tiers"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Expected Loss": 0.0092,
+      "Attachment Probability": 0.0113,
+      "Exhaustion Probability": "Not stated in source",
+      "Trigger Threshold": "Not stated in source",
+      "Trigger Variables": "Earthquake event parameters within parametric box",
+      "Covered Hazard Type": "Earthquake",
+      "Return Period Mentioned": "Not stated in source",
+      "Max Payout": "100% principal",
+      "Payout Structure": "Minimum 25% up to 100% principal payout"
+    }
+  ]
+}

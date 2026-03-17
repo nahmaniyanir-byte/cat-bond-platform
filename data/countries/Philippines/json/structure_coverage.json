@@ -1,0 +1,21 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "source_file": "STRUCTURE_COVERAGE.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Philippines",
+      "Deal Name": "IBRD CAR 123-124",
+      "Sponsor": "Republic of the Philippines",
+      "Issuer / SPV": "IBRD CAR 123-124",
+      "Risk Transfer Flow": "Investors → IBRD CAR notes → collateralize swap agreements → protection to Philippines Treasury",
+      "Coverage Period": "Three-year term",
+      "Maximum Protection": "$225m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Updates describe principal reduction and remaining outstanding amount after payout"
+    }
+  ]
+}

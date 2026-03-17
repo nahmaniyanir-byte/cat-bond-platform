@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-03-16T18:12:38.726Z",
+  "metric": "expected_loss",
+  "source": "deal_level_master",
+  "bucket_size": 0.25,
+  "count": 607,
+  "min": 0.008,
+  "max": 1,
+  "mean": 0.191,
+  "median": 0.028,
+  "p25": 0.016,
+  "p75": 0.14,
+  "buckets": [
+    {
+      "bin_start": 0,
+      "bin_end": 0.25,
+      "count": 467
+    },
+    {
+      "bin_start": 0.25,
+      "bin_end": 0.5,
+      "count": 27
+    },
+    {
+      "bin_start": 0.5,
+      "bin_end": 0.75,
+      "count": 36
+    },
+    {
+      "bin_start": 0.75,
+      "bin_end": 1,
+      "count": 72
+    },
+    {
+      "bin_start": 1,
+      "bin_end": 1.25,
+      "count": 5
+    }
+  ]
+}

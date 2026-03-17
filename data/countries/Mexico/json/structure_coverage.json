@@ -1,0 +1,81 @@
+{
+  "country": "Mexico",
+  "slug": "mexico",
+  "source_file": "STRUCTURE_COVERAGE.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 6,
+  "rows": [
+    {
+      "Country": "Mexico",
+      "Deal Name": "MultiCat Mexico Ltd. (Series 2012-1)",
+      "Sponsor": "Swiss Re",
+      "Issuer / SPV": "MultiCat Mexico Ltd. (Cayman Islands SPV)",
+      "Risk Transfer Flow": "Investors → MultiCat SPV → retrocession to Swiss Re → reinsurance via Agroasemex → FONDEN",
+      "Coverage Period": "Just over ~3 years (explicit term stated)",
+      "Maximum Protection": "$315m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Three parametric triggers (one per class); Class C supports 50% or 100% payments based on central pressure."
+    },
+    {
+      "Country": "Mexico",
+      "Deal Name": "IBRD CAR 118-119",
+      "Sponsor": "FONDEN / AGROASEMEX S.A.",
+      "Issuer / SPV": "IBRD CAR 118-119",
+      "Risk Transfer Flow": "Investors → IBRD notes → retrocession chain via Swiss Re (as described) → protection to FONDEN",
+      "Coverage Period": "Two-year period (maturity Feb 2020)",
+      "Maximum Protection": "$260m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Two series (118 & 119) sold to ILS investors; IBRD enters risk-transfer arrangement ultimately benefiting FONDEN."
+    },
+    {
+      "Country": "Mexico",
+      "Deal Name": "IBRD / FONDEN 2020",
+      "Sponsor": "FONDEN / AGROASEMEX S.A.",
+      "Issuer / SPV": "IBRD",
+      "Risk Transfer Flow": "Investors → IBRD → retrocessional reinsurance agreements (4 tranches) → disaster insurance to Mexico (FONDEN trustees structure described)",
+      "Coverage Period": "Four-year term",
+      "Maximum Protection": "$485m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Sustainable development bond feature (proceeds fund development projects)",
+      "Notes on Structure": "Multi-tranche quake & named storm protection; overlapping US areas included in covered zone description."
+    },
+    {
+      "Country": "Mexico",
+      "Deal Name": "IBRD CAR Mexico 2024",
+      "Sponsor": "Government of Mexico / AGROASEMEX S.A.",
+      "Issuer / SPV": "IBRD",
+      "Risk Transfer Flow": "Investors → IBRD CAR notes → Munich Re retrocession front → Agroasemex → Mexico Treasury",
+      "Coverage Period": "Four years to early Apr 2028",
+      "Maximum Protection": "$420m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Pacific tranche issued separately (CAR 135)",
+      "Notes on Structure": "Three tranches (2 EQ, 1 Atlantic) with parametric payout tiers including linear named storm factor."
+    },
+    {
+      "Country": "Mexico",
+      "Deal Name": "IBRD CAR Mexico 2024 (Pacific)",
+      "Sponsor": "Government of Mexico / AGROASEMEX S.A.",
+      "Issuer / SPV": "IBRD",
+      "Risk Transfer Flow": "Investors → IBRD CAR notes → Munich Re retrocession front → Agroasemex → Mexico Treasury",
+      "Coverage Period": "Four years to early Apr 2028",
+      "Maximum Protection": "$175m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Complements the $420m Mexico 2024 deal",
+      "Notes on Structure": "Single tranche; investor distribution provided in PDF."
+    },
+    {
+      "Country": "Mexico",
+      "Deal Name": "Fusion 2007 Ltd.",
+      "Sponsor": "KFMI (partly sponsored)",
+      "Issuer / SPV": "Fusion Ltd.",
+      "Risk Transfer Flow": "Investors → Fusion notes → fully collateralized retrocession protection purchased by Swiss Re",
+      "Coverage Period": "Not stated in source",
+      "Maximum Protection": "Not stated in source",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Provides Swiss Re retrocession for typhoon losses in Japan and earthquake losses in Mexico (linked to FONDEN)."
+    }
+  ]
+}

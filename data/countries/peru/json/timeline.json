@@ -1,0 +1,25 @@
+{
+  "country": "Peru",
+  "slug": "peru",
+  "count": 2,
+  "events": [
+    {
+      "deal_name": "IBRD CAR 120",
+      "issue_date": "2018-02-01",
+      "year": 2018,
+      "size_usd": 200000000,
+      "covered_region": "Peru",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Parametric; per-occurrence"
+    },
+    {
+      "deal_name": "Maschpark Re Ltd. (Series 2024-1)",
+      "issue_date": "2024-12-01",
+      "year": 2024,
+      "size_usd": 100000000,
+      "covered_region": "Peru (within multi-country box)",
+      "protection_type": "Corporate cat risk transfer",
+      "coverage_basis": "Parametric; per-occurrence"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "generated_at": "2026-03-16T18:12:38.726Z",
+  "metric": "spread",
+  "source": "deal_level_master",
+  "bucket_size": 50,
+  "count": 432,
+  "min": 162.5,
+  "max": 9275,
+  "mean": 965.15,
+  "median": 650,
+  "p25": 425,
+  "p75": 925,
+  "buckets": [
+    {
+      "bin_start": 150,
+      "bin_end": 200,
+      "count": 2
+    },
+    {
+      "bin_start": 200,
+      "bin_end": 250,
+      "count": 20
+    },
+    {
+      "bin_start": 250,
+      "bin_end": 300,
+      "count": 20
+    },
+    {
+      "bin_start": 300,
+      "bin_end": 350,
+      "count": 21
+    },
+    {
+      "bin_start": 350,
+      "bin_end": 400,
+      "count": 24
+    },
+    {
+      "bin_start": 400,
+      "bin_end": 450,
+      "count": 28
+    },
+    {
+      "bin_start": 450,
+      "bin_end": 500,
+      "count": 20
+    },
+    {
+      "bin_start": 500,
+      "bin_end": 550,
+      "count": 30
+    },
+    {
+      "bin_start": 550,
+      "bin_end": 600,
+      "count": 21
+    },
+    {
+      "bin_start": 600,
+      "bin_end": 650,
+      "count": 18
+    },
+    {
+      "bin_start": 650,
+      "bin_end": 700,
+      "count": 26
+    },
+    {
+      "bin_start": 700,
+      "bin_end": 750,
+      "count": 20
+    },
+    {
+      "bin_start": 750,
+      "bin_end": 800,
+      "count": 28
+    },
+    {
+      "bin_start": 800,
+      "bin_end": 850,
+      "count": 17
+    },
+    {
+      "bin_start": 850,
+      "bin_end": 900,
+      "count": 22
+    },
+    {
+      "bin_start": 900,
+      "bin_end": 950,
+      "count": 11
+    },
+    {
+      "bin_start": 950,
+      "bin_end": 1000,
+      "count": 18
+    },
+    {
+      "bin_start": 1000,
+      "bin_end": 1050,
+      "count": 11
+    },
+    {
+      "bin_start": 1050,
+      "bin_end": 1100,
+      "count": 6
+    },
+    {
+      "bin_start": 1100,
+      "bin_end": 1150,
+      "count": 7
+    },
+    {
+      "bin_start": 1150,
+      "bin_end": 1200,
+      "count": 6
+    },
+    {
+      "bin_start": 1200,
+      "bin_end": 1250,
+      "count": 6
+    },
+    {
+      "bin_start": 1250,
+      "bin_end": 1300,
+      "count": 8
+    },
+    {
+      "bin_start": 1300,
+      "bin_end": 1350,
+      "count": 1
+    },
+    {
+      "bin_start": 1350,
+      "bin_end": 1400,
+      "count": 3
+    },
+    {
+      "bin_start": 1400,
+      "bin_end": 1450,
+      "count": 1
+    },
+    {
+      "bin_start": 1450,
+      "bin_end": 1500,
+      "count": 3
+    },
+    {
+      "bin_start": 1500,
+      "bin_end": 1550,
+      "count": 2
+    },
+    {
+      "bin_start": 1550,
+      "bin_end": 1600,
+      "count": 2
+    },
+    {
+      "bin_start": 1600,
+      "bin_end": 1650,
+      "count": 2
+    },
+    {
+      "bin_start": 1700,
+      "bin_end": 1750,
+      "count": 2
+    },
+    {
+      "bin_start": 1750,
+      "bin_end": 1800,
+      "count": 3
+    },
+    {
+      "bin_start": 1800,
+      "bin_end": 1850,
+      "count": 1
+    },
+    {
+      "bin_start": 1850,
+      "bin_end": 1900,
+      "count": 1
+    },
+    {
+      "bin_start": 2000,
+      "bin_end": 2050,
+      "count": 1
+    },
+    {
+      "bin_start": 2950,
+      "bin_end": 3000,
+      "count": 1
+    },
+    {
+      "bin_start": 3200,
+      "bin_end": 3250,
+      "count": 1
+    },
+    {
+      "bin_start": 3800,
+      "bin_end": 3850,
+      "count": 1
+    },
+    {
+      "bin_start": 4250,
+      "bin_end": 4300,
+      "count": 1
+    },
+    {
+      "bin_start": 4400,
+      "bin_end": 4450,
+      "count": 2
+    },
+    {
+      "bin_start": 4550,
+      "bin_end": 4600,
+      "count": 1
+    },
+    {
+      "bin_start": 4850,
+      "bin_end": 4900,
+      "count": 1
+    },
+    {
+      "bin_start": 6700,
+      "bin_end": 6750,
+      "count": 1
+    },
+    {
+      "bin_start": 7500,
+      "bin_end": 7550,
+      "count": 1
+    },
+    {
+      "bin_start": 8000,
+      "bin_end": 8050,
+      "count": 1
+    },
+    {
+      "bin_start": 8400,
+      "bin_end": 8450,
+      "count": 2
+    },
+    {
+      "bin_start": 8550,
+      "bin_end": 8600,
+      "count": 1
+    },
+    {
+      "bin_start": 8700,
+      "bin_end": 8750,
+      "count": 1
+    },
+    {
+      "bin_start": 8800,
+      "bin_end": 8850,
+      "count": 1
+    },
+    {
+      "bin_start": 8950,
+      "bin_end": 9000,
+      "count": 1
+    },
+    {
+      "bin_start": 9150,
+      "bin_end": 9200,
+      "count": 2
+    },
+    {
+      "bin_start": 9250,
+      "bin_end": 9300,
+      "count": 1
+    }
+  ]
+}

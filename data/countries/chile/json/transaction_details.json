@@ -1,0 +1,51 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "TRANSACTION_DETAILS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 3,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD CAR 116",
+      "Issue Date": "2018-02-01",
+      "Currency": "USD",
+      "Size USD": 500000000,
+      "Covered Region": "Chile",
+      "Placement / Structuring Agent": "Swiss Re Capital Markets; Aon Securities",
+      "Bookrunner / Manager": "Swiss Re Capital Markets; Aon Securities; Citigroup (joint bookrunner)",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "IBRD global debt facility; CAR notes sold to ILS investors",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Parametric; per-occurrence"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD – Chile 2023",
+      "Issue Date": "2023-03-01",
+      "Currency": "USD",
+      "Size USD": 350000000,
+      "Covered Region": "Chile",
+      "Placement / Structuring Agent": "Aon Securities; GC Securities; Swiss Re Capital Markets",
+      "Bookrunner / Manager": "Joint managers: Aon Securities (Hong Kong) Ltd.; Mercer Investments (HK) Ltd.",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Proceeds used by IBRD for sustainable development projects; insurance agreement with Chile",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Parametric; per-occurrence"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Issue Date": "2024-12-01",
+      "Currency": "USD",
+      "Size USD": 100000000,
+      "Covered Region": "Chile + neighbouring countries",
+      "Placement / Structuring Agent": "Aon Securities (lead); GC Securities",
+      "Bookrunner / Manager": "Aon Securities; GC Securities",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Bermuda SPV; retrocession to Hannover Re; reinsurance to Talanx",
+      "Protection Type": "Corporate cat risk transfer",
+      "Coverage Basis": "Parametric; per-occurrence"
+    }
+  ]
+}

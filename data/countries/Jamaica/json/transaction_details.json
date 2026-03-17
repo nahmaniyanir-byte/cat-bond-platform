@@ -1,0 +1,37 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "source_file": "TRANSACTION_DETAILS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR 130",
+      "Issue Date": "2021-07-01",
+      "Currency": "USD",
+      "Size USD": 185000000,
+      "Covered Region": "Jamaica",
+      "Placement / Structuring Agent": "Aon Securities; Swiss Re Capital Markets",
+      "Bookrunner / Manager": "Aon Securities; Swiss Re Capital Markets (joint bookrunners)",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Single class of notes collateralizing underlying swap agreement",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Parametric; per-occurrence"
+    },
+    {
+      "Country": "Jamaica",
+      "Deal Name": "IBRD CAR Jamaica 2024",
+      "Issue Date": "2024-05-01",
+      "Currency": "USD",
+      "Size USD": 150000000,
+      "Covered Region": "Jamaica",
+      "Placement / Structuring Agent": "Aon Securities; Swiss Re Capital Markets; Aon Securities (Hong Kong)",
+      "Bookrunner / Manager": "Joint structuring agents / managers / bookrunners (as stated)",
+      "Risk Modelling Firm": "AIR Worldwide",
+      "Collateral / Structure Notes": "Single tranche under IBRD CAR program",
+      "Protection Type": "Sovereign disaster risk financing",
+      "Coverage Basis": "Parametric; per-occurrence"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "country": "Colombia",
+  "slug": "colombia",
+  "source_file": "INVESTOR_DISTRIBUTION.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Colombia",
+      "Deal Name": "IBRD CAR 117",
+      "Investor Type": "Not stated in source",
+      "Share": "Not stated in source"
+    }
+  ]
+}

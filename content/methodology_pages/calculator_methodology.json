@@ -1,0 +1,42 @@
+{
+  "title": "Calculator Methodology",
+  "overview": "This module provides an indicative catastrophe bond pricing and fiscal-cost estimate for policy analysis. It is intentionally simplified for scenario planning and should not be treated as execution pricing.",
+  "formulas": [
+    {
+      "label": "Estimated Spread (%)",
+      "expression": "(Expected Loss % x Market Multiple) + Issuance Costs %"
+    },
+    {
+      "label": "Estimated Coupon (%)",
+      "expression": "Estimated Spread % + Risk-Free Rate %"
+    },
+    {
+      "label": "Estimated Annual Premium (USD)",
+      "expression": "(Estimated Coupon % / 100) x Principal"
+    },
+    {
+      "label": "Estimated Total Cost over Term (USD)",
+      "expression": "Estimated Annual Premium x Tenor (years)"
+    }
+  ],
+  "assumptions": [
+    "Risk-free rate is represented by a simplified annual input (for example SOFR proxy).",
+    "Expected loss and market multiple are treated as static over the term.",
+    "Issuance costs are modeled as a percentage add-on to spread.",
+    "No time-varying coupon reset or collateral yield dynamics are modeled."
+  ],
+  "limitations": [
+    "The calculator does not replace full catastrophe risk modeling, legal structuring, investor marketing, or transaction-level execution analytics.",
+    "Market multiples can shift materially across issuance windows and event cycles.",
+    "Basis risk, trigger design calibration, and payout timing effects are not fully captured."
+  ],
+  "sovereign_policy_mode": {
+    "title": "Sovereign Policy Mode",
+    "points": [
+      "Expected loss connects directly to expected fiscal transfer from investors to government after qualifying events.",
+      "Ex-ante premium spending should be evaluated against post-disaster borrowing costs and budget shock volatility.",
+      "Catastrophe bonds can improve fiscal resilience by securing pre-arranged liquidity under transparent trigger rules."
+    ]
+  },
+  "disclaimer": "For policy planning use only. Actual pricing requires live market soundings, catastrophe model outputs, legal documentation, and investor book-building."
+}

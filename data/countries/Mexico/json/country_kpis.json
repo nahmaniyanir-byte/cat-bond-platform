@@ -1,0 +1,11 @@
+{
+  "country_name": "Mexico",
+  "slug": "mexico",
+  "total_deals": 14,
+  "total_volume_usd": 1655000000,
+  "latest_issue_year": 2024,
+  "main_peril": "Mexico earthquake",
+  "main_trigger_type": "Parametric",
+  "sovereign_flag": true,
+  "market_segment": "Sovereign"
+}

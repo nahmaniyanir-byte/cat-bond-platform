@@ -1,0 +1,53 @@
+{
+  "formulas": [
+    {
+      "id": "spread_formula",
+      "label": "Indicative Spread",
+      "expression": "Expected Loss × Market Multiple",
+      "data_status": "derived_from_source",
+      "source_note": "Formula-based calculation using user inputs and assumptions."
+    },
+    {
+      "id": "coupon_formula",
+      "label": "Indicative Coupon",
+      "expression": "Indicative Spread + Risk-Free Rate",
+      "data_status": "derived_from_source",
+      "source_note": "Formula-based calculation using user inputs and assumptions."
+    },
+    {
+      "id": "annual_premium_formula",
+      "label": "Annual Premium",
+      "expression": "Bond Size × Indicative Spread",
+      "data_status": "derived_from_source",
+      "source_note": "Formula-based annual premium estimate."
+    },
+    {
+      "id": "total_cost_formula",
+      "label": "Total Cost over Term",
+      "expression": "(Annual Premium × Tenor) + Issuance Costs",
+      "data_status": "derived_from_source",
+      "source_note": "Formula-based cost estimate."
+    },
+    {
+      "id": "liquidity_formula",
+      "label": "Immediate Liquidity Injection",
+      "expression": "Bond Size × Payout Percentage",
+      "data_status": "derived_from_source",
+      "source_note": "Formula-based payout estimate conditional on selected trigger tier."
+    }
+  ],
+  "notes": [
+    {
+      "text": "This module is a policy and structuring simulator, not a live market quote engine.",
+      "data_status": "official_source"
+    },
+    {
+      "text": "Expected loss, market multiple, payout ladders, and bond size options are illustrative assumptions unless explicitly sourced elsewhere.",
+      "data_status": "official_source"
+    },
+    {
+      "text": "The calculator is intended to compare sovereign disaster financing structures, not to provide a final underwriting or investor term sheet.",
+      "data_status": "official_source"
+    }
+  ]
+}

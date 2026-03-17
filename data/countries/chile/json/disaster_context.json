@@ -1,0 +1,19 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "DISASTER.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 1,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Main Hazard": "Earthquake",
+      "Secondary Hazard": "Tsunami (explicitly referenced in Chile 2023 coverage narrative)",
+      "Historical Event Mentioned": "Not stated in source",
+      "Historical Damage Mentioned": "Not stated in source",
+      "Reason for Seeking Protection": "Secure disaster risk financing and counter economic effects of damaging earthquakes",
+      "Fiscal Relevance": "Provides contingent liquidity for sovereign disaster response",
+      "Economic Relevance": "Reduce macroeconomic disruption from major earthquakes"
+    }
+  ]
+}

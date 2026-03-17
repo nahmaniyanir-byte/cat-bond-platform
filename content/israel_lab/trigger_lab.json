@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "section_title": "Parametric Trigger Lab",
+  "section_subtitle": "Scenario-based trigger design for a sovereign earthquake catastrophe bond for Israel.",
+  "description": "Explore illustrative parametric trigger structures for Israel’s earthquake risk. Compare trigger zones, magnitude thresholds, depth conditions, and payout ladders across multiple scenarios.",
+  "ui_mode": {
+    "default_mode": "single",
+    "available_modes": [
+      "single",
+      "compare"
+    ]
+  },
+  "scenario_selector": {
+    "enabled": true,
+    "label": "Trigger Scenario",
+    "allow_custom_scenario": true,
+    "custom_scenario_label": "Custom Trigger Design"
+  },
+  "comparison_settings": {
+    "enabled": true,
+    "max_scenarios": 3,
+    "comparison_label": "Compare Trigger Scenarios"
+  },
+  "data_sources": {
+    "trigger_scenarios": "/data/israel/triggers/trigger_scenarios.json",
+    "trigger_zones": "/data/israel/triggers/trigger_zones.json",
+    "seismic_sources": "/data/israel/triggers/seismic_sources.json"
+  },
+  "display_blocks": [
+    "scenario_summary",
+    "trigger_conditions",
+    "payout_ladder",
+    "use_case",
+    "data_reliability"
+  ]
+}

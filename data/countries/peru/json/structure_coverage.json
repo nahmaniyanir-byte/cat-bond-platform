@@ -1,0 +1,33 @@
+{
+  "country": "Peru",
+  "slug": "peru",
+  "source_file": "STRUCTURE_COVERAGE.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Peru",
+      "Deal Name": "IBRD CAR 120",
+      "Sponsor": "Republic of Peru",
+      "Issuer / SPV": "IBRD CAR 120",
+      "Risk Transfer Flow": "Investors → IBRD CAR notes → direct risk transfer agreement with Peru",
+      "Coverage Period": "Three years; maturity Feb 2021",
+      "Maximum Protection": "$200m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Update notes describe calculation agent process and timing"
+    },
+    {
+      "Country": "Peru",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Sponsor": "Talanx AG",
+      "Issuer / SPV": "Maschpark Re Ltd.",
+      "Risk Transfer Flow": "Investors → SPV → retrocession to Hannover Re → reinsurance to Talanx",
+      "Coverage Period": "Jan 2025–end 2027",
+      "Maximum Protection": "$100m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Peru included via parametric box extending into neighbouring countries"
+    }
+  ]
+}

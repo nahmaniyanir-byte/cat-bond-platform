@@ -1,0 +1,25 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "count": 2,
+  "events": [
+    {
+      "deal_name": "IBRD CAR 123-124 — CAR 123 Class A (EQ)",
+      "issue_date": "2019-11-01",
+      "year": 2019,
+      "size_usd": 75000000,
+      "covered_region": "Entire Philippines",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Modelled loss; per-occurrence"
+    },
+    {
+      "deal_name": "IBRD CAR 123-124 — CAR 124 Class B (TC)",
+      "issue_date": "2019-11-01",
+      "year": 2019,
+      "size_usd": 150000000,
+      "covered_region": "Entire Philippines",
+      "protection_type": "Sovereign disaster risk financing",
+      "coverage_basis": "Modelled loss; per-occurrence"
+    }
+  ]
+}

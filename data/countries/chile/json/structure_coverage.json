@@ -1,0 +1,45 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "STRUCTURE_COVERAGE.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 3,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD CAR 116",
+      "Sponsor": "Republic of Chile",
+      "Issuer / SPV": "IBRD CAR 116",
+      "Risk Transfer Flow": "Investors → IBRD CAR notes → risk transfer agreement directly with Chile",
+      "Coverage Period": "Three years; maturity Feb 2021",
+      "Maximum Protection": "$500m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Part of Pacific Alliance multi-country issuance"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD – Chile 2023",
+      "Sponsor": "Republic of Chile",
+      "Issuer / SPV": "IBRD",
+      "Risk Transfer Flow": "Investors → IBRD notes → insurance agreement with Chile",
+      "Coverage Period": "Three-year term",
+      "Maximum Protection": "$350m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "$280m parametric earthquake catastrophe swaps",
+      "Notes on Structure": "ESG-aligned use of proceeds stated in PDF"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Sponsor": "Talanx AG",
+      "Issuer / SPV": "Maschpark Re Ltd. (Bermuda)",
+      "Risk Transfer Flow": "Investors → Maschpark SPV → retrocession to Hannover Re → reinsurance to Talanx",
+      "Coverage Period": "Jan 2025–end 2027",
+      "Maximum Protection": "$100m",
+      "Layer Position": "Not stated in source",
+      "Additional Risk Transfer Instruments": "Not stated in source",
+      "Notes on Structure": "Corporate structure; Chile described as central focus"
+    }
+  ]
+}

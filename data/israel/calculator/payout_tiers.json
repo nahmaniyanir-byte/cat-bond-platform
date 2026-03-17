@@ -1,0 +1,44 @@
+[
+  {
+    "trigger_scenario_id": "galilee_severe_event",
+    "tier": "Tier 1",
+    "payout_percent": 30,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "galilee_severe_event",
+    "tier": "Tier 2",
+    "payout_percent": 70,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "galilee_severe_event",
+    "tier": "Tier 3",
+    "payout_percent": 100,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "dead_sea_transform_core",
+    "tier": "Tier 1",
+    "payout_percent": 25,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "dead_sea_transform_core",
+    "tier": "Tier 2",
+    "payout_percent": 50,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "dead_sea_transform_core",
+    "tier": "Tier 3",
+    "payout_percent": 100,
+    "data_status": "illustrative_assumption"
+  },
+  {
+    "trigger_scenario_id": "national_catastrophic_event",
+    "tier": "Catastrophic",
+    "payout_percent": 100,
+    "data_status": "illustrative_assumption"
+  }
+]

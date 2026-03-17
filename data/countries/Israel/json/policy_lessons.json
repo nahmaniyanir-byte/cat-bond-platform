@@ -1,0 +1,23 @@
+{
+  "country": "Israel",
+  "slug": "israel",
+  "source_file": "POLICY_LESSONS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Israel",
+      "Key Lesson": "Loss-layer articulation enables targeted capital-markets protection",
+      "Explanation": "The deal explicitly defines attachment/exhaustion in ILS",
+      "Relevance for Sovereign Finance": "Clarifies contingent liability transfer",
+      "Possible Relevance for Israel": "Direct relevance: shows insurability and pricing reference points for Israel seismic risk"
+    },
+    {
+      "Country": "Israel",
+      "Key Lesson": "Execution through Bermuda SPV supports collateralized indemnity",
+      "Explanation": "The structure uses a Bermuda issuer collateralizing reinsurance",
+      "Relevance for Sovereign Finance": "Standard ILS plumbing for indemnity cat bonds",
+      "Possible Relevance for Israel": "Inference based on source: a sovereign could adapt similar structure via an intermediary platform"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "country": "Jamaica",
+  "slug": "jamaica",
+  "source_file": "DOCUMENT_METADATA.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 2,
+  "rows": [
+    {
+      "Country": "Jamaica",
+      "Document Title": "IBRD CAR 130",
+      "Institution / Source": "Artemis Deal Directory (Steve Evans Ltd.)",
+      "Year of Document": 2021,
+      "Document Type": "Deal summary",
+      "Main Topic": "Sovereign parametric named storm cat bond",
+      "File Name": "artemis.bm-IBRD CAR 130.pdf",
+      "Notes": "First Jamaica cat bond; investor share only partially stated"
+    },
+    {
+      "Country": "Jamaica",
+      "Document Title": "IBRD CAR Jamaica 2024",
+      "Institution / Source": "Artemis Deal Directory (Steve Evans Ltd.)",
+      "Year of Document": 2024,
+      "Document Type": "Deal summary",
+      "Main Topic": "Sovereign parametric named storm cat bond",
+      "File Name": "artemis.bm-IBRD CAR Jamaica 2024.pdf",
+      "Notes": "Includes investor type/geography shares and event payout updates"
+    }
+  ]
+}

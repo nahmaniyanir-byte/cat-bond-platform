@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "section_title": "Market Snapshot",
+  "section_subtitle": "Auto-generated from SQL-ready cleaned datasets.",
+  "items": [
+    {
+      "id": "total_deals",
+      "label": "Total Deals in Dataset",
+      "value": "830",
+      "note": "COUNT(DISTINCT deal_id)"
+    },
+    {
+      "id": "total_market_volume",
+      "label": "Total Market Volume",
+      "value": "$185.0B",
+      "note": "SUM(original_amount) only"
+    },
+    {
+      "id": "sovereign_deals",
+      "label": "Sovereign Deal Count",
+      "value": "67",
+      "note": "government_program_flag = TRUE"
+    },
+    {
+      "id": "non_sovereign_deals",
+      "label": "Non-Sovereign Deal Count",
+      "value": "763",
+      "note": "government_program_flag = FALSE"
+    },
+    {
+      "id": "countries_covered",
+      "label": "Countries Covered",
+      "value": "11",
+      "note": "COUNT(DISTINCT country_of_sponsor)"
+    },
+    {
+      "id": "latest_market_year",
+      "label": "Latest Market Year",
+      "value": "2026",
+      "note": "MAX(deal_year)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "source_file": "PRICING_DETAILS.xlsx",
+  "sheet_name": "גיליון1",
+  "row_count": 3,
+  "rows": [
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD CAR 116",
+      "Spread": 0.025,
+      "Coupon": "Not stated in source",
+      "Risk-Free Rate": "Not stated in source",
+      "Initial Pricing Guidance": "2.75%–3.5%",
+      "Final Pricing": 0.025,
+      "Market Multiple": "Not stated in source",
+      "Issuance Costs": "Not stated in source",
+      "Investor Demand / Oversubscription": "Not stated in source"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "IBRD – Chile 2023",
+      "Spread": 0.0475,
+      "Coupon": "Not stated in source",
+      "Risk-Free Rate": "Not stated in source",
+      "Initial Pricing Guidance": "4.75%–5.5%",
+      "Final Pricing": 0.0475,
+      "Market Multiple": "Not stated in source",
+      "Issuance Costs": "Not stated in source",
+      "Investor Demand / Oversubscription": "Not stated in source"
+    },
+    {
+      "Country": "Chile",
+      "Deal Name": "Maschpark Re Ltd. (Series 2024-1)",
+      "Spread": 0.035,
+      "Coupon": "Not stated in source",
+      "Risk-Free Rate": "Not stated in source",
+      "Initial Pricing Guidance": "3.5%–4.0% (then 3.5%–3.75%)",
+      "Final Pricing": 0.035,
+      "Market Multiple": "Not stated in source",
+      "Issuance Costs": "Not stated in source",
+      "Investor Demand / Oversubscription": "Not stated in source"
+    }
+  ]
+}
