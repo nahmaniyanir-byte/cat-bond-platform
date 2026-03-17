@@ -55,9 +55,12 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
     video.play().catch(() => {
       video.muted = true;
       setMuted(true);
-      video.play().catch(() => undefined);
+      video.play().catch(() => {
+        // If playback fails entirely, dismiss the overlay automatically.
+        onDone();
+      });
     });
-  }, []);
+  }, [onDone]);
 
   function handleEnableSound() {
     const video = videoRef.current;
@@ -83,8 +86,8 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
         ref={videoRef}
         src="/video/israel-lab-intro.mp4"
         playsInline
-        muted
         onEnded={onDone}
+        onError={onDone}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
       <div
@@ -162,17 +165,33 @@ function TierBar({ tier, pct, color }: { tier: number; pct: number; color: strin
   );
 }
 
+const TRIGGER_DESCRIPTIONS: Record<string, string> = {
+  "Parametric": "Triggered by measured seismic intensity (PGA/MMI grid). Fastest payout (~72h), lowest basis risk for seismic events. Recommended for sovereign use.",
+  "Modelled Loss": "Triggered by catastrophe model output (AIR/RMS). Higher basis risk but better correlation to actual economic loss. Payout in 30–90 days.",
+  "Indemnity": "Triggered by actual verified sovereign losses. No basis risk but slow payout (6–18 months) — not recommended for sovereign liquidity use.",
+  "Hybrid": "Combines parametric threshold with modelled loss verification. Balances payout speed and loss accuracy. Emerging structure for sovereigns.",
+};
+
+const SIZE_OPTIONS = [250, 500, 750, 1000] as const;
+
 /* ── Main content ────────────────────────────────────────────────── */
 export function IsraelLabContent() {
   const [showIntro, setShowIntro] = React.useState(() => {
     if (typeof window === "undefined") return false;
     return !sessionStorage.getItem("israelLabIntroDone");
   });
+  const [selectedTrigger, setSelectedTrigger] = React.useState("Parametric");
+  const [selectedSize, setSelectedSize] = React.useState(300);
 
   const handleIntroEnd = () => {
     sessionStorage.setItem("israelLabIntroDone", "true");
     setShowIntro(false);
   };
+
+  // Derived output numbers based on selected size
+  const tier3Payout = Math.round(selectedSize * 0.25);
+  const premiumLow = Math.round(selectedSize * 0.03);
+  const premiumHigh = Math.round(selectedSize * 0.04);
 
   return (
     <>
@@ -228,12 +247,31 @@ export function IsraelLabContent() {
                 <div>
                   <label className="block mb-1 text-xs uppercase tracking-wide text-slate-400">Trigger Type</label>
                   <div className="grid grid-cols-2 gap-2">
-                    {["Parametric", "Modelled Loss", "Indemnity", "Hybrid"].map((t) => (
-                      <div key={t} className="glass-panel p-2 text-center text-xs cursor-pointer hover:border-cyan-300/35">
-                        {t}
-                      </div>
+                    {(Object.keys(TRIGGER_DESCRIPTIONS) as string[]).map((t) => (
+                      <button
+                        key={t}
+                        type="button"
+                        onClick={() => setSelectedTrigger(t)}
+                        style={{
+                          padding: "8px 10px",
+                          borderRadius: 6,
+                          border: selectedTrigger === t ? "1px solid #3b82f6" : "1px solid rgba(255,255,255,0.1)",
+                          background: selectedTrigger === t ? "rgba(59,130,246,0.2)" : "rgba(255,255,255,0.03)",
+                          color: selectedTrigger === t ? "#93c5fd" : "#94a3b8",
+                          cursor: "pointer",
+                          fontSize: 12,
+                          fontWeight: selectedTrigger === t ? 600 : 400,
+                          textAlign: "left",
+                          transition: "all 150ms ease",
+                        }}
+                      >
+                        {selectedTrigger === t ? "✓ " : ""}{t}
+                      </button>
                     ))}
                   </div>
+                  <p style={{ fontSize: 11, color: "#64748b", marginTop: 8, lineHeight: 1.5 }}>
+                    {TRIGGER_DESCRIPTIONS[selectedTrigger]}
+                  </p>
                 </div>
                 <div>
                   <label className="block mb-1 text-xs uppercase tracking-wide text-slate-400">Trigger Magnitude Thresholds</label>
@@ -256,8 +294,32 @@ export function IsraelLabContent() {
             <div className="glass-panel p-5">
               <h2 className="text-base font-semibold text-white mb-4">Bond Parameters</h2>
               <div className="space-y-3 text-sm">
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-slate-400 mb-2">Bond Size</p>
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                    {SIZE_OPTIONS.map((size) => (
+                      <button
+                        key={size}
+                        type="button"
+                        onClick={() => setSelectedSize(size)}
+                        style={{
+                          padding: "5px 12px",
+                          borderRadius: 6,
+                          border: selectedSize === size ? "1px solid #f59e0b" : "1px solid rgba(255,255,255,0.1)",
+                          background: selectedSize === size ? "rgba(245,158,11,0.15)" : "transparent",
+                          color: selectedSize === size ? "#fbbf24" : "#94a3b8",
+                          cursor: "pointer",
+                          fontSize: 12,
+                          fontWeight: selectedSize === size ? 600 : 400,
+                          transition: "all 150ms ease",
+                        }}
+                      >
+                        ${size}M
+                      </button>
+                    ))}
+                  </div>
+                </div>
                 {[
-                  { label: "Bond Size", value: "$300M", note: "Indicative" },
                   { label: "Tenor", value: "3 years", note: "Standard" },
                   { label: "Coverage Zone", value: "Dead Sea Transform Fault", note: "Primary" },
                   { label: "Peril", value: "Earthquake", note: "M ≥ 6.5" },
@@ -304,14 +366,14 @@ export function IsraelLabContent() {
           {/* RIGHT — Outputs ───────────────────────────────────────── */}
           <div className="space-y-4">
 
-            {/* Key output numbers */}
+            {/* Key output numbers — reactive to selectedSize */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12 }}>
               <div className="cb-stat cb-stat-blue">
-                <div className="cb-stat-value" style={{ color: "#60a5fa" }}>$75M</div>
+                <div className="cb-stat-value" style={{ color: "#60a5fa" }}>${tier3Payout}M</div>
                 <div className="cb-stat-label">Max Payout (Tier 3)</div>
               </div>
               <div className="cb-stat cb-stat-gold">
-                <div className="cb-stat-value" style={{ color: "#fbbf24" }}>$9–12M</div>
+                <div className="cb-stat-value" style={{ color: "#fbbf24" }}>${premiumLow}–{premiumHigh}M</div>
                 <div className="cb-stat-label">Annual Premium Est.</div>
               </div>
               <div className="cb-stat cb-stat-green">

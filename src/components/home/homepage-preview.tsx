@@ -18,6 +18,7 @@ import type { HomeContentBundle, HomeSectionId } from "@/lib/home-content";
 import { cn } from "@/lib/utils";
 import { HomeGlobeExplorer } from "@/components/home/home-globe-explorer";
 import { KpiCard } from "@/components/ui/kpi-card";
+import { BackgroundGlobe } from "@/components/home/background-globe";
 
 interface HomepagePreviewProps {
   content: HomeContentBundle;
@@ -99,7 +100,9 @@ export function HomepagePreview({ content }: HomepagePreviewProps) {
   }
 
   return (
-    <div className="space-y-0">
+    <>
+      <BackgroundGlobe />
+      <div className="relative space-y-0">
       <AnimatePresence>
         {content.introVideo.enabled && introState !== "hidden" ? (
           <IntroVideoOverlay
@@ -130,6 +133,7 @@ export function HomepagePreview({ content }: HomepagePreviewProps) {
       {showQuickAccess ? <QuickAccessSection content={content.quickAccess} /> : null}
       <IsraelSection />
     </div>
+    </>
   );
 }
 
