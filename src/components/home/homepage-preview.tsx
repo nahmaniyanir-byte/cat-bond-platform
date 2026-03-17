@@ -128,6 +128,7 @@ export function HomepagePreview({ content }: HomepagePreviewProps) {
         />
       ) : null}
       {showQuickAccess ? <QuickAccessSection content={content.quickAccess} /> : null}
+      <IsraelSection />
     </div>
   );
 }
@@ -412,6 +413,56 @@ function QuickAccessSection({ content }: { content: HomeContentBundle["quickAcce
               </Link>
             );
           })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function IsraelSection() {
+  const cards = [
+    {
+      icon: "🌍",
+      title: "Seismic Exposure Without Coverage",
+      body: "Israel sits on the Dead Sea Transform fault system, with modeled annual earthquake losses exceeding $2B. Zero parametric instruments currently exist to transfer this fiscal risk."
+    },
+    {
+      icon: "📊",
+      title: "Sovereign Precedent Exists",
+      body: "Turkey, Mexico, Japan, and the Philippines have all issued catastrophe bonds. Israel has comparable GDP, institutional capacity, and international investor appetite for its risk profile."
+    },
+    {
+      icon: "🏛️",
+      title: "Ministry of Finance Case",
+      body: "A $300–500M parametric cat bond could reduce post-disaster budget pressure, lower reconstruction borrowing costs, and signal fiscal resilience to sovereign credit agencies."
+    }
+  ];
+
+  return (
+    <section className="mx-auto w-full max-w-[1700px] px-0 py-6">
+      <div className="lux-panel p-5 lg:p-6">
+        <p className="text-xs uppercase tracking-[0.18em] text-cyan-200/80">Sovereign Policy Context</p>
+        <h2 className="mt-2 text-2xl font-semibold text-white">Why This Matters for Israel</h2>
+        <p className="mt-1 text-sm text-slate-300">The strategic case for parametric catastrophe risk financing</p>
+
+        <div className="mt-5 grid gap-4 md:grid-cols-3">
+          {cards.map((card) => (
+            <div key={card.title} className="rounded-xl border border-white/10 bg-slate-900/55 p-5">
+              <span className="text-2xl">{card.icon}</span>
+              <h3 className="mt-3 text-base font-semibold text-white">{card.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-300">{card.body}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-5 flex flex-wrap gap-3">
+          <Link href="/israel-lab" className="btn-hero-primary">
+            Open Israel Lab
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
+          <Link href="/countries/israel" className="btn-hero-secondary">
+            Israel Country Case
+          </Link>
         </div>
       </div>
     </section>

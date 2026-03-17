@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { GlobalMarketDashboard } from "@/components/explorer/global-market-dashboard";
+import { PageHeader } from "@/components/ui/page-header";
 import {
   getExpectedLossDistributionData,
   getGlobalKpisData,
@@ -65,7 +66,12 @@ export default async function GlobalMarketPage() {
   ]);
 
   return (
-    <GlobalMarketDashboard
+    <>
+      <PageHeader
+        title="Global Market Dashboard"
+        subtitle="Macro issuance trends, sponsor rankings, market structure analytics — catastrophe bond market overview"
+      />
+      <GlobalMarketDashboard
       kpis={{
         totalDeals: globalKpis.total_deals,
         totalVolumeUsd: globalKpis.cumulative_issuance_usd,
@@ -92,5 +98,6 @@ export default async function GlobalMarketPage() {
       heatmapYearTrigger={heatmapYearTrigger}
       triggeredLossSummary={triggeredLossSummary}
     />
+    </>
   );
 }

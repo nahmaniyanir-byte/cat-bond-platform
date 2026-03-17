@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { PricingIntelligenceDashboard } from "@/components/explorer/pricing-intelligence-dashboard";
+import { PageHeader } from "@/components/ui/page-header";
 import {
   getExpectedLossDistributionData,
   getPricingIntelligenceData,
@@ -21,7 +22,12 @@ export default async function PricingIntelligencePage() {
   ]);
 
   return (
-    <PricingIntelligenceDashboard
+    <>
+      <PageHeader
+        title="Pricing Intelligence"
+        subtitle="Spread vs. expected loss diagnostics, risk multiple analysis, and pricing benchmarks across peril and trigger segments"
+      />
+      <PricingIntelligenceDashboard
       spreadVsExpectedLoss={spreadVsExpectedLoss}
       expectedLossDistribution={expectedLossDistribution}
       spreadDistribution={spreadDistribution}
@@ -29,5 +35,6 @@ export default async function PricingIntelligencePage() {
       pricingByTrigger={pricing.pricing_by_trigger}
       segmentPricing={pricing.segment_pricing}
     />
+    </>
   );
 }

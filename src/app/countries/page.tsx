@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { getCountryPageIndex } from "@/lib/country-pages";
 import { formatCurrency } from "@/lib/utils";
+import { PageHeader } from "@/components/ui/page-header";
 
 export const metadata: Metadata = {
   title: "Country Intelligence | Global Catastrophe Bond Intelligence Platform"
@@ -13,13 +14,10 @@ export default async function CountriesPage() {
 
   return (
     <div className="space-y-6">
-      <section className="glass-panel p-6 md:p-8">
-        <p className="text-xs uppercase tracking-[0.18em] text-cyan-200/90">Sovereign & Policy</p>
-        <h1 className="mt-2 text-3xl font-semibold text-white md:text-4xl">Country Intelligence Cases</h1>
-        <p className="mt-3 max-w-4xl text-sm text-slate-300">
-          Dynamic country pages generated from the SQL-ready catastrophe bond datasets.
-        </p>
-      </section>
+      <PageHeader
+        title="Country Intelligence Cases"
+        subtitle="Country-level issuance history, deal tables, and sovereign risk financing profiles"
+      />
 
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {countries.map((country) => (
