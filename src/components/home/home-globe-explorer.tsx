@@ -116,7 +116,7 @@ export function HomeGlobeExplorer({ points, activeView, className }: HomeGlobeEx
             <div style="margin-bottom:6px;color:#cbd5e1;">${point.tooltip_text}</div>
             <div style="display:flex;justify-content:space-between;gap:10px;color:#94a3b8;"><span>Segment</span><span>${point.market_segment}</span></div>
             <div style="display:flex;justify-content:space-between;gap:10px;color:#94a3b8;"><span>Deals</span><span>${point.deal_count}</span></div>
-            <div style="display:flex;justify-content:space-between;gap:10px;color:#94a3b8;"><span>Volume</span><span>${formatCurrency(point.total_volume_usd)}</span></div>
+            <div style="display:flex;justify-content:space-between;gap:10px;color:#94a3b8;"><span>Issuance</span><span>${formatCurrency(point.total_volume_usd)}</span></div>
           </div>`;
         }}
         onPointHover={(datum: object | null) => setHoveredId((datum as GlobePoint | null)?.id ?? null)}
@@ -143,7 +143,7 @@ export function HomeGlobeExplorer({ points, activeView, className }: HomeGlobeEx
 
       {!filteredPoints.length ? (
         <div className="absolute inset-0 flex items-center justify-center border border-dashed border-white/15 bg-slate-950/85 text-sm text-slate-400">
-          No globe points available for the selected view.
+          Data not available in current dataset.
         </div>
       ) : null}
       <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_160px_rgba(56,189,248,0.13)]" />

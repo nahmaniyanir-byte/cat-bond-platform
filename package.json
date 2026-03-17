@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit",
     "data:refresh": "node scripts/generate-catbond-datasets.mjs",
     "countries:refresh": "python scripts/generate_country_json.py",
-    "data:refresh:all": "npm run countries:refresh && npm run data:refresh"
+    "data:refresh:all": "npm run data:refresh"
   },
   "dependencies": {
     "chart.js": "^4.5.1",

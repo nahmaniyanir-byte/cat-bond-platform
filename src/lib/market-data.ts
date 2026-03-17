@@ -27,6 +27,9 @@ const PATHS = {
   heatmapYearTrigger: path.join(DATA_ROOT, "chart_data", "heatmap_year_trigger.json"),
   triggeredDealsSummary: path.join(DATA_ROOT, "chart_data", "triggered_deals_summary.json"),
   triggeredLossSummary: path.join(DATA_ROOT, "chart_data", "triggered_loss_summary.json"),
+  sovereignDashboard: path.join(DATA_ROOT, "chart_data", "sovereign_dashboard.json"),
+  pricingIntelligence: path.join(DATA_ROOT, "chart_data", "pricing_intelligence.json"),
+  riskGapSummary: path.join(DATA_ROOT, "chart_data", "risk_gap_summary.json"),
   sovereignDeals: path.join(DATA_ROOT, "sovereign_deals", "sovereign_deals_master.json"),
   privateDeals: path.join(DATA_ROOT, "private_deals", "private_deals_master.json")
 };
@@ -50,6 +53,7 @@ export interface MasterDealRecord {
   region_of_sponsor: string | null;
   region_normalized: string;
   sovereign_or_corporate: string | null;
+  deal_size_usd?: number;
   government_program_flag: boolean;
   sovereign_flag: boolean;
   market_segment: string;
@@ -95,6 +99,8 @@ export interface MasterDataset {
 export interface GlobalKpisDataset {
   generated_at: string;
   total_deals: number;
+  cumulative_issuance_musd: number;
+  cumulative_issuance_usd: number;
   total_market_volume_musd: number;
   total_market_volume_usd: number;
   sovereign_deal_count: number;
@@ -102,6 +108,8 @@ export interface GlobalKpisDataset {
   countries_covered: number;
   latest_market_year: number | null;
   largest_sovereign_issuer?: string;
+  outstanding_market_size_note?: string;
+  triggered_deal_coverage_note?: string | null;
   validation?: {
     expected_total_volume_busd_range?: number[];
     actual_total_volume_busd?: number;
@@ -344,6 +352,61 @@ export interface TriggeredLossSummaryDataset {
   }>;
 }
 
+export interface SovereignDashboardDataset {
+  generated_at?: string;
+  kpis: {
+    dealCount: number;
+    totalVolumeUsd: number;
+    countries: number;
+    avgExpectedLoss: number | null;
+    avgSpreadBps: number | null;
+    latestYear: number | null;
+  };
+  issuanceByYear: Array<{ year: number; deal_count: number; total_volume_usd: number }>;
+  perilMix: Array<{ name: string; deal_count: number; total_volume_usd: number }>;
+  triggerMix: Array<{ name: string; deal_count: number; total_volume_usd: number }>;
+  topSponsors: Array<{ name: string; deal_count: number; total_volume_usd: number }>;
+  topCountries: Array<{ name: string; deal_count: number; total_volume_usd: number }>;
+}
+
+export interface PricingIntelligenceDataset {
+  generated_at?: string;
+  pricing_by_peril: Array<{
+    peril: string;
+    count: number;
+    avg_spread_bps: number;
+    avg_expected_loss_percent: number;
+  }>;
+  pricing_by_trigger: Array<{
+    trigger: string;
+    count: number;
+    avg_spread_bps: number;
+    avg_expected_loss_percent: number;
+  }>;
+  segment_pricing: Array<{
+    segment: string;
+    count: number;
+    avg_spread_bps: number;
+    avg_expected_loss_percent: number;
+  }>;
+}
+
+export interface RiskGapSummaryDataset {
+  generated_at?: string;
+  rows: Array<{
+    country_name: string;
+    slug: string;
+    region: string;
+    deal_count: number;
+    total_volume_usd: number;
+    latest_issue_year: number | null;
+    sovereign_flag: boolean;
+    gap_label: "Low Gap" | "Moderate Gap" | "High Gap" | string;
+    gap_score: number;
+    rationale: string;
+  }>;
+}
+
 async function pathExists(filePath: string): Promise<boolean> {
   try {
     await fs.access(filePath);
@@ -393,16 +456,26 @@ export const getMasterDataset = cache(async (): Promise<MasterDataset> => {
 });
 
 export const getGlobalKpisData = cache(async (): Promise<GlobalKpisDataset> => {
-  return readJsonFile<GlobalKpisDataset>(PATHS.globalKpis, {
+  const raw = await readJsonFile<Partial<GlobalKpisDataset>>(PATHS.globalKpis, {});
+  const cumulativeIssuanceUsd = Number(raw.cumulative_issuance_usd ?? raw.total_market_volume_usd ?? 0);
+  const cumulativeIssuanceMusd = Number(raw.cumulative_issuance_musd ?? raw.total_market_volume_musd ?? 0);
+
+  return {
     generated_at: "",
-    total_deals: 0,
-    total_market_volume_musd: 0,
-    total_market_volume_usd: 0,
-    sovereign_deal_count: 0,
-    non_sovereign_deal_count: 0,
-    countries_covered: 0,
-    latest_market_year: null
-  });
+    total_deals: Number(raw.total_deals ?? 0),
+    cumulative_issuance_musd: cumulativeIssuanceMusd,
+    cumulative_issuance_usd: cumulativeIssuanceUsd,
+    total_market_volume_musd: cumulativeIssuanceMusd,
+    total_market_volume_usd: cumulativeIssuanceUsd,
+    sovereign_deal_count: Number(raw.sovereign_deal_count ?? 0),
+    non_sovereign_deal_count: Number(raw.non_sovereign_deal_count ?? 0),
+    countries_covered: Number(raw.countries_covered ?? 0),
+    latest_market_year: raw.latest_market_year == null ? null : Number(raw.latest_market_year),
+    largest_sovereign_issuer: raw.largest_sovereign_issuer,
+    outstanding_market_size_note: raw.outstanding_market_size_note,
+    triggered_deal_coverage_note: raw.triggered_deal_coverage_note ?? null,
+    validation: raw.validation
+  };
 });
 
 export const getMasterDeals = cache(async (): Promise<MasterDealRecord[]> => {
@@ -588,5 +661,37 @@ export const getPrivateDealsDataset = cache(async (): Promise<MasterDataset> => 
     source_csv: "",
     total_records: 0,
     deals: []
+  });
+});
+
+export const getSovereignDashboardData = cache(async (): Promise<SovereignDashboardDataset> => {
+  return readJsonFile<SovereignDashboardDataset>(PATHS.sovereignDashboard, {
+    kpis: {
+      dealCount: 0,
+      totalVolumeUsd: 0,
+      countries: 0,
+      avgExpectedLoss: null,
+      avgSpreadBps: null,
+      latestYear: null
+    },
+    issuanceByYear: [],
+    perilMix: [],
+    triggerMix: [],
+    topSponsors: [],
+    topCountries: []
+  });
+});
+
+export const getPricingIntelligenceData = cache(async (): Promise<PricingIntelligenceDataset> => {
+  return readJsonFile<PricingIntelligenceDataset>(PATHS.pricingIntelligence, {
+    pricing_by_peril: [],
+    pricing_by_trigger: [],
+    segment_pricing: []
+  });
+});
+
+export const getRiskGapSummaryData = cache(async (): Promise<RiskGapSummaryDataset> => {
+  return readJsonFile<RiskGapSummaryDataset>(PATHS.riskGapSummary, {
+    rows: []
   });
 });

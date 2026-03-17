@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "kpis": {
+    "dealCount": 16,
+    "totalVolumeUsd": 28534250000,
+    "countries": 0,
+    "avgExpectedLoss": 0.420846,
+    "avgSpreadBps": 612.651515,
+    "latestYear": 2024
+  },
+  "issuanceByYear": [
+    {
+      "year": 2006,
+      "deal_count": 1,
+      "total_volume_usd": 587200000
+    },
+    {
+      "year": 2009,
+      "deal_count": 1,
+      "total_volume_usd": 1064300000
+    },
+    {
+      "year": 2014,
+      "deal_count": 1,
+      "total_volume_usd": 110100000
+    },
+    {
+      "year": 2017,
+      "deal_count": 1,
+      "total_volume_usd": 3963600000
+    },
+    {
+      "year": 2018,
+      "deal_count": 4,
+      "total_volume_usd": 5945400000
+    },
+    {
+      "year": 2019,
+      "deal_count": 1,
+      "total_volume_usd": 1651500000
+    },
+    {
+      "year": 2020,
+      "deal_count": 1,
+      "total_volume_usd": 7119800000
+    },
+    {
+      "year": 2021,
+      "deal_count": 1,
+      "total_volume_usd": 678950000
+    },
+    {
+      "year": 2023,
+      "deal_count": 1,
+      "total_volume_usd": 1284500000
+    },
+    {
+      "year": 2024,
+      "deal_count": 4,
+      "total_volume_usd": 6128900000
+    }
+  ],
+  "perilMix": [
+    {
+      "name": "Multi-Peril",
+      "deal_count": 7,
+      "total_volume_usd": 18845450000
+    },
+    {
+      "name": "Earthquake",
+      "deal_count": 6,
+      "total_volume_usd": 7817100000
+    },
+    {
+      "name": "Hurricane / Wind",
+      "deal_count": 3,
+      "total_volume_usd": 1871700000
+    }
+  ],
+  "triggerMix": [
+    {
+      "name": "Parametric",
+      "deal_count": 15,
+      "total_volume_usd": 26882750000
+    },
+    {
+      "name": "Modelled Loss",
+      "deal_count": 1,
+      "total_volume_usd": 1651500000
+    }
+  ],
+  "topSponsors": [
+    {
+      "name": "FONDEN / AGROASEMEX S.A.",
+      "deal_count": 2,
+      "total_volume_usd": 9028200000
+    },
+    {
+      "name": "Government of Mexico / AGROASEMEX S.A.",
+      "deal_count": 2,
+      "total_volume_usd": 5266450000
+    },
+    {
+      "name": "FONDEN / AGROASEMEX S.A",
+      "deal_count": 1,
+      "total_volume_usd": 3963600000
+    },
+    {
+      "name": "Republic of Chile",
+      "deal_count": 2,
+      "total_volume_usd": 3119500000
+    },
+    {
+      "name": "Republic of the Philippines",
+      "deal_count": 1,
+      "total_volume_usd": 1651500000
+    },
+    {
+      "name": "Republic of Colombia",
+      "deal_count": 1,
+      "total_volume_usd": 1468000000
+    },
+    {
+      "name": "Government of Jamaica",
+      "deal_count": 2,
+      "total_volume_usd": 1229450000
+    },
+    {
+      "name": "FONDEN (Fund for Natural Disasters)",
+      "deal_count": 1,
+      "total_volume_usd": 1064300000
+    },
+    {
+      "name": "Republic of Peru",
+      "deal_count": 1,
+      "total_volume_usd": 734000000
+    },
+    {
+      "name": "FONDEN",
+      "deal_count": 1,
+      "total_volume_usd": 587200000
+    },
+    {
+      "name": "Government of Puerto Rico",
+      "deal_count": 1,
+      "total_volume_usd": 311950000
+    },
+    {
+      "name": "Caribbean Catastrophe Risk Insurance Facility (CCRIF)",
+      "deal_count": 1,
+      "total_volume_usd": 110100000
+    }
+  ],
+  "topCountries": [
+    {
+      "name": "Other",
+      "deal_count": 16,
+      "total_volume_usd": 28534250000
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "pricing_by_peril": [
+    {
+      "peril": "Multi-Peril",
+      "count": 183,
+      "avg_spread_bps": 1006.530055,
+      "avg_expected_loss_percent": 0.184179
+    },
+    {
+      "peril": "Hurricane / Wind",
+      "count": 149,
+      "avg_spread_bps": 1194.846197,
+      "avg_expected_loss_percent": 0.130819
+    },
+    {
+      "peril": "Earthquake",
+      "count": 69,
+      "avg_spread_bps": 434.009662,
+      "avg_expected_loss_percent": 0.31433
+    },
+    {
+      "peril": "Other",
+      "count": 27,
+      "avg_spread_bps": 799.41358,
+      "avg_expected_loss_percent": 0.15807
+    }
+  ],
+  "pricing_by_trigger": [
+    {
+      "trigger": "Indemnity",
+      "count": 281,
+      "avg_spread_bps": 1002.593416,
+      "avg_expected_loss_percent": 0.195652
+    },
+    {
+      "trigger": "Industry Loss",
+      "count": 115,
+      "avg_spread_bps": 1009.195652,
+      "avg_expected_loss_percent": 0.090708
+    },
+    {
+      "trigger": "Parametric",
+      "count": 26,
+      "avg_spread_bps": 514.391026,
+      "avg_expected_loss_percent": 0.450231
+    },
+    {
+      "trigger": "Other",
+      "count": 3,
+      "avg_spread_bps": 533.333333,
+      "avg_expected_loss_percent": 0.539267
+    },
+    {
+      "trigger": "Modelled Loss",
+      "count": 3,
+      "avg_spread_bps": 332.5,
+      "avg_expected_loss_percent": 0.14
+    }
+  ],
+  "segment_pricing": [
+    {
+      "segment": "Non-Sovereign",
+      "count": 417,
+      "avg_spread_bps": 976.064149,
+      "avg_expected_loss_percent": 0.1787
+    },
+    {
+      "segment": "Sovereign",
+      "count": 11,
+      "avg_spread_bps": 612.651515,
+      "avg_expected_loss_percent": 0.421436
+    }
+  ]
+}

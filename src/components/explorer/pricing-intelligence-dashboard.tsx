@@ -14,6 +14,7 @@ import {
 } from "recharts";
 
 import type { DistributionDataset, SpreadVsExpectedLossRecord } from "@/lib/market-data";
+import { ChartExplainer } from "@/components/ui/chart-explainer";
 
 interface PricingIntelligenceDashboardProps {
   spreadVsExpectedLoss: SpreadVsExpectedLossRecord[];
@@ -56,6 +57,9 @@ export function PricingIntelligenceDashboard({
 
       <section className="glass-panel p-5">
         <h2 className="text-xl font-semibold text-white">Spread vs Expected Loss</h2>
+        <p className="mt-2 text-sm text-slate-300">
+          This chart compares pricing (spread) with modeled risk (expected loss).
+        </p>
         <div className="mt-4 h-[430px]">
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart margin={{ left: 10, right: 14, top: 10, bottom: 16 }}>
@@ -81,6 +85,10 @@ export function PricingIntelligenceDashboard({
             </ScatterChart>
           </ResponsiveContainer>
         </div>
+        <ChartExplainer
+          what="Deal-level spread versus expected loss across sovereign and non-sovereign segments."
+          why="Supports pricing diagnostics, risk multiple interpretation, and segment comparison."
+        />
       </section>
 
       <section className="grid gap-5 xl:grid-cols-2">
@@ -116,6 +124,39 @@ export function PricingIntelligenceDashboard({
               ))}
             </tbody>
           </table>
+        </div>
+        <ChartExplainer
+          what="Average expected loss and spread comparison by sovereign market segment."
+          why="Shows structural pricing differences between sovereign and non-sovereign catastrophe bond activity."
+        />
+      </section>
+
+      <section className="glass-panel p-5">
+        <h2 className="text-xl font-semibold text-white">Market Insights</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Spread patterns generally rise with higher expected loss, consistent with risk-transfer pricing logic.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Trigger and peril composition can influence pricing clusters and dispersion across the market.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Segment-level pricing differences help frame sovereign structuring and fiscal affordability discussions.
+          </article>
+        </div>
+      </section>
+
+      <section className="glass-panel p-5">
+        <h2 className="text-xl font-semibold text-white">Policy Implications</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-2">
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Sovereign issuers can use spread-to-expected-loss diagnostics to assess budgetary tradeoffs of ex-ante risk
+            transfer.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Pricing analytics are historical indicators and should be combined with current market sounding before
+            policy decisions.
+          </article>
         </div>
       </section>
     </div>

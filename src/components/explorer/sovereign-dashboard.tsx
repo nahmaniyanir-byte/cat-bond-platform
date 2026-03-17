@@ -11,6 +11,8 @@ import {
 } from "recharts";
 
 import { formatCurrency } from "@/lib/utils";
+import { KpiCard } from "@/components/ui/kpi-card";
+import { ChartExplainer } from "@/components/ui/chart-explainer";
 
 interface BreakdownRow {
   name: string;
@@ -54,18 +56,48 @@ export function SovereignDashboard({
       </section>
 
       <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
-        <MetricCard label="Sovereign Deals" value={kpis.dealCount.toLocaleString("en-US")} />
-        <MetricCard label="Sovereign Issuance" value={formatCurrency(kpis.totalVolumeUsd)} />
-        <MetricCard label="Countries" value={kpis.countries.toLocaleString("en-US")} />
-        <MetricCard
+        <KpiCard
+          label="Sovereign Deals"
+          value={kpis.dealCount.toLocaleString("en-US")}
+          definition="Deals classified as sovereign in the master dataset."
+          interpretation="Primary sovereign catastrophe bond transaction count."
+          dataType="derived"
+        />
+        <KpiCard
+          label="Sovereign Issuance"
+          value={formatCurrency(kpis.totalVolumeUsd)}
+          definition="Sum of deal_size_usd for sovereign deals only."
+          interpretation="Historical sovereign cumulative issuance."
+          dataType="historical"
+        />
+        <KpiCard
+          label="Countries"
+          value={kpis.countries.toLocaleString("en-US")}
+          definition="Distinct sovereign sponsor countries represented."
+          interpretation="Geographic spread of sovereign market activity."
+          dataType="derived"
+        />
+        <KpiCard
           label="Avg Expected Loss"
           value={kpis.avgExpectedLoss == null ? "N/A" : `${kpis.avgExpectedLoss.toFixed(3)}%`}
+          definition="Average expected loss for sovereign deals where value is available."
+          interpretation="Indicative modeled risk level of sovereign transactions."
+          dataType="derived"
         />
-        <MetricCard
+        <KpiCard
           label="Avg Spread (bps)"
           value={kpis.avgSpreadBps == null ? "N/A" : String(Math.round(kpis.avgSpreadBps))}
+          definition="Average spread for sovereign deals with spread data."
+          interpretation="Indicative sovereign catastrophe bond pricing level."
+          dataType="derived"
         />
-        <MetricCard label="Latest Sovereign Year" value={String(kpis.latestYear ?? "N/A")} />
+        <KpiCard
+          label="Latest Sovereign Year"
+          value={String(kpis.latestYear ?? "N/A")}
+          definition="Maximum issue_year among sovereign deals."
+          interpretation="Recency of sovereign issuance in dataset coverage."
+          dataType="historical"
+        />
       </section>
 
       <section className="glass-panel p-5">
@@ -81,11 +113,15 @@ export function SovereignDashboard({
                 tick={{ fill: "#94a3b8", fontSize: 11 }}
                 tickFormatter={(value) => formatShort(value)}
               />
-              <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+              <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
               <Bar dataKey="total_volume_usd" fill="rgba(56,189,248,0.82)" radius={[6, 6, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <ChartExplainer
+          what="Yearly sovereign issuance trend based on deal-level sovereign transactions."
+          why="Supports policy timing analysis and sovereign market development tracking."
+        />
       </section>
 
       <section className="grid gap-5 xl:grid-cols-2">
@@ -97,16 +133,22 @@ export function SovereignDashboard({
         <RankingTable title="Top Sovereign Sponsors" rows={topSponsors} />
         <RankingTable title="Top Sovereign Countries" rows={topCountries} />
       </section>
-    </div>
-  );
-}
 
-function MetricCard({ label, value }: { label: string; value: string }) {
-  return (
-    <article className="glass-panel p-4">
-      <p className="text-[11px] uppercase tracking-[0.14em] text-slate-300">{label}</p>
-      <p className="mt-2 text-2xl font-semibold text-cyan-100">{value}</p>
-    </article>
+      <section className="glass-panel p-5">
+        <h2 className="text-xl font-semibold text-white">Policy Implications</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Sovereign issuance concentration can inform prioritization of technical assistance and structuring support.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Trigger and peril mix trends help frame basis-risk governance and payout predictability discussions.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Recency of issuance is a practical proxy for sovereign market readiness and implementation continuity.
+          </article>
+        </div>
+      </section>
+    </div>
   );
 }
 
@@ -133,7 +175,7 @@ function ChartCard({ title, data, color }: { title: string; data: BreakdownRow[]
               tick={{ fill: "#94a3b8", fontSize: 11 }}
               tickFormatter={(value) => formatShort(value)}
             />
-            <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+            <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
             <Bar dataKey="total_volume_usd" fill={color} radius={[6, 6, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
@@ -153,7 +195,7 @@ function RankingTable({ title, rows }: { title: string; rows: BreakdownRow[] }) 
               <th className="px-2 py-2">#</th>
               <th className="px-2 py-2">Name</th>
               <th className="px-2 py-2">Deals</th>
-              <th className="px-2 py-2">Volume</th>
+              <th className="px-2 py-2">Cumulative Issuance</th>
             </tr>
           </thead>
           <tbody>

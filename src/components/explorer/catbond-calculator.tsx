@@ -211,6 +211,10 @@ export function CatBondCalculator({ content }: CatBondCalculatorProps) {
         </p>
       </section>
 
+      <section className="glass-panel border-amber-300/35 bg-amber-500/10 p-4 text-sm text-amber-100">
+        This is an illustrative model, not market pricing.
+      </section>
+
       <section className="glass-panel p-5">
         <p className="text-xs uppercase tracking-[0.14em] text-slate-300">Scenario Manager</p>
         <div className="mt-3 flex flex-wrap gap-2">
@@ -236,7 +240,7 @@ export function CatBondCalculator({ content }: CatBondCalculatorProps) {
               format={(value) => formatCurrency(value)}
             />
             <NumericInput
-              label={content.formulaInputs.expected_loss_percent.label}
+              label={`${content.formulaInputs.expected_loss_percent.label} (Assumption)`}
               value={expectedLossPercent}
               min={content.formulaInputs.expected_loss_percent.min}
               max={content.formulaInputs.expected_loss_percent.max}
@@ -245,7 +249,7 @@ export function CatBondCalculator({ content }: CatBondCalculatorProps) {
               format={(value) => formatPercent(value)}
             />
             <NumericInput
-              label={content.formulaInputs.market_multiple.label}
+              label={`${content.formulaInputs.market_multiple.label} (Assumption)`}
               value={marketMultiple}
               min={content.formulaInputs.market_multiple.min}
               max={content.formulaInputs.market_multiple.max}

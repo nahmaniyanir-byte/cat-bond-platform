@@ -12,7 +12,7 @@ interface RiskGapRow {
   total_volume_usd: number;
   latest_issue_year: number | null;
   sovereign_flag: boolean;
-  gap_label: "Low Gap" | "Moderate Gap" | "High Gap";
+  gap_label: "Low Gap" | "Moderate Gap" | "High Gap" | string;
   gap_score: number;
   rationale: string;
 }

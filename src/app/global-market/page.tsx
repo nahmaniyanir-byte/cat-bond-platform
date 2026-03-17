@@ -68,11 +68,12 @@ export default async function GlobalMarketPage() {
     <GlobalMarketDashboard
       kpis={{
         totalDeals: globalKpis.total_deals,
-        totalVolumeUsd: globalKpis.total_market_volume_usd,
+        totalVolumeUsd: globalKpis.cumulative_issuance_usd,
         sovereignDeals: globalKpis.sovereign_deal_count,
         nonSovereignDeals: globalKpis.non_sovereign_deal_count,
         countriesCovered: globalKpis.countries_covered,
-        latestMarketYear: globalKpis.latest_market_year
+        latestMarketYear: globalKpis.latest_market_year,
+        outstandingMarketSizeNote: globalKpis.outstanding_market_size_note
       }}
       issuanceByYear={issuanceByYear}
       sovereignVsPrivate={sovereignVsPrivate}

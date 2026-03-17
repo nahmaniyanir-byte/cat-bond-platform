@@ -32,8 +32,8 @@ export default async function InvestorDataRoomPage() {
       <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
         <MetricCard label="Deals in Platform" value={kpis.total_deals.toLocaleString("en-US")} />
         <MetricCard
-          label="Issuance Tracked"
-          value={`$${(kpis.total_market_volume_usd / 1_000_000_000).toFixed(3)}B`}
+          label="Cumulative Issuance"
+          value={`$${(kpis.cumulative_issuance_usd / 1_000_000_000).toFixed(3)}B`}
         />
         <MetricCard label="Documents" value={totals.documents.toLocaleString("en-US")} />
         <MetricCard label="Presentations" value={totals.presentations.toLocaleString("en-US")} />

@@ -293,7 +293,7 @@ function TimelineRows({
 function EmptySectionState() {
   return (
     <div className="rounded-xl border border-dashed border-white/15 bg-slate-900/55 p-4 text-sm text-slate-400">
-      Content will be added soon.
+      Data not available in current dataset.
     </div>
   );
 }

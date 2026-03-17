@@ -283,7 +283,7 @@ export function TransactionDatabase({
 
       <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <SummaryCard label="Deals Shown" value={summary.dealsShown.toLocaleString("en-US")} />
-        <SummaryCard label="Total Volume Shown" value={formatCurrency(summary.totalVolume)} />
+        <SummaryCard label="Cumulative Issuance Shown" value={formatCurrency(summary.totalVolume)} />
         <SummaryCard label="Sovereign Deals" value={summary.sovereignDeals.toLocaleString("en-US")} />
         <SummaryCard label="Non-Sovereign Deals" value={summary.nonSovereignDeals.toLocaleString("en-US")} />
       </section>
@@ -729,7 +729,7 @@ function SortableHeader({
         )}
       >
         {label}
-        {active ? (direction === "asc" ? "↑" : "↓") : "↕"}
+        {active ? (direction === "asc" ? "ASC" : "DESC") : "SORT"}
       </button>
     </th>
   );

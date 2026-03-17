@@ -41,6 +41,9 @@ export interface KpiItem {
   label: string;
   value: string;
   note?: string;
+  definition?: string;
+  interpretation?: string;
+  data_type?: "historical" | "derived" | "illustrative" | string;
 }
 
 export interface KpiConfig {

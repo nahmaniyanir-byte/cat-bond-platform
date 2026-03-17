@@ -1,7 +1,6 @@
 {
   "label": "Top Placement Agents",
-  "generated_at": "2026-03-16T18:12:38.726Z",
+  "field_used": "placement_agent_name",
   "field_available": false,
-  "field_used": null,
   "rows": []
 }

@@ -1,28 +1,33 @@
 {
-  "generated_at": "2026-03-16T18:12:38.726Z",
-  "source_dataset": "deals_master_sql_ready.csv",
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "source_dataset": "data/master/cat_bond_master.csv",
   "definitions": {
     "total_deals": "COUNT(DISTINCT deal_id)",
-    "total_market_volume": "SUM(original_amount)",
-    "sovereign_deal_count": "COUNT(deal_id WHERE government_program_flag = TRUE)",
-    "non_sovereign_deal_count": "COUNT(deal_id WHERE government_program_flag = FALSE)",
+    "cumulative_issuance": "SUM(deal_size_usd)",
+    "sovereign_deal_count": "COUNT(deal_id WHERE sovereign_flag = TRUE)",
+    "non_sovereign_deal_count": "COUNT(deal_id WHERE sovereign_flag = FALSE)",
     "countries_covered": "COUNT(DISTINCT country_of_sponsor)",
-    "latest_market_year": "MAX(deal_year)"
+    "latest_market_year": "MAX(issue_year)"
   },
   "total_deals": 830,
-  "total_market_volume_musd": 185032.655,
-  "total_market_volume_usd": 185032655000,
-  "sovereign_deal_count": 67,
-  "non_sovereign_deal_count": 763,
-  "countries_covered": 11,
+  "deal_count": 830,
+  "cumulative_issuance_musd": 1079095.3591,
+  "cumulative_issuance_usd": 1079095359100,
+  "total_market_volume_musd": 1079095.3591,
+  "total_market_volume_usd": 1079095359100,
+  "sovereign_deal_count": 16,
+  "non_sovereign_deal_count": 814,
+  "countries_covered": 4,
   "latest_market_year": 2026,
-  "largest_sovereign_issuer": "Allstate",
+  "largest_sovereign_issuer": "FONDEN / AGROASEMEX S.A.",
+  "outstanding_market_size_note": "Outstanding market size not available in current dataset",
+  "triggered_deal_coverage_note": "Triggered deal coverage incomplete",
   "validation": {
     "expected_total_volume_busd_range": [
       180,
       220
     ],
-    "actual_total_volume_busd": 185.033,
-    "within_expected_range": true
+    "actual_total_volume_busd": 1079.095,
+    "within_expected_range": false
   }
 }

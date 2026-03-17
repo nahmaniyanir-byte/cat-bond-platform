@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "source": "cat_bond_master.csv",
+  "rows": [
+    {
+      "country_name": "Israel",
+      "slug": "israel",
+      "region": "Middle East",
+      "deal_count": 1,
+      "total_volume_usd": 367000000,
+      "latest_issue_year": 2025,
+      "sovereign_flag": false,
+      "gap_label": "Moderate Gap",
+      "gap_score": 50,
+      "rationale": "Partial issuance coverage or recency gaps suggest potential policy development needs."
+    },
+    {
+      "country_name": "Canada",
+      "slug": "canada",
+      "region": "North America",
+      "deal_count": 20,
+      "total_volume_usd": 21506200000,
+      "latest_issue_year": 2026,
+      "sovereign_flag": false,
+      "gap_label": "Moderate Gap",
+      "gap_score": 30,
+      "rationale": "Partial issuance coverage or recency gaps suggest potential policy development needs."
+    },
+    {
+      "country_name": "United States",
+      "slug": "united-states",
+      "region": "North America",
+      "deal_count": 434,
+      "total_volume_usd": 651421280600,
+      "latest_issue_year": 2026,
+      "sovereign_flag": false,
+      "gap_label": "Low Gap",
+      "gap_score": 20,
+      "rationale": "Higher issuance depth and recent activity indicate stronger risk-transfer presence."
+    },
+    {
+      "country_name": "Japan",
+      "slug": "japan",
+      "region": "Asia-Pacific",
+      "deal_count": 87,
+      "total_volume_usd": 78635731000,
+      "latest_issue_year": 2025,
+      "sovereign_flag": false,
+      "gap_label": "Low Gap",
+      "gap_score": 20,
+      "rationale": "Higher issuance depth and recent activity indicate stronger risk-transfer presence."
+    }
+  ]
+}

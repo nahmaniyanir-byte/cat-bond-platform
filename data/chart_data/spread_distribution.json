@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-16T18:12:38.726Z",
-  "metric": "spread",
-  "source": "deal_level_master",
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "metric": "spread_bps",
+  "source": "cat_bond_master.csv",
   "bucket_size": 50,
   "count": 432,
   "min": 162.5,
   "max": 9275,
-  "mean": 965.15,
+  "mean": 965.14564,
   "median": 650,
   "p25": 425,
   "p75": 925,
@@ -162,6 +162,11 @@
       "count": 2
     },
     {
+      "bin_start": 1650,
+      "bin_end": 1700,
+      "count": 0
+    },
+    {
       "bin_start": 1700,
       "bin_end": 1750,
       "count": 2
@@ -182,9 +187,109 @@
       "count": 1
     },
     {
+      "bin_start": 1900,
+      "bin_end": 1950,
+      "count": 0
+    },
+    {
+      "bin_start": 1950,
+      "bin_end": 2000,
+      "count": 0
+    },
+    {
       "bin_start": 2000,
       "bin_end": 2050,
       "count": 1
+    },
+    {
+      "bin_start": 2050,
+      "bin_end": 2100,
+      "count": 0
+    },
+    {
+      "bin_start": 2100,
+      "bin_end": 2150,
+      "count": 0
+    },
+    {
+      "bin_start": 2150,
+      "bin_end": 2200,
+      "count": 0
+    },
+    {
+      "bin_start": 2200,
+      "bin_end": 2250,
+      "count": 0
+    },
+    {
+      "bin_start": 2250,
+      "bin_end": 2300,
+      "count": 0
+    },
+    {
+      "bin_start": 2300,
+      "bin_end": 2350,
+      "count": 0
+    },
+    {
+      "bin_start": 2350,
+      "bin_end": 2400,
+      "count": 0
+    },
+    {
+      "bin_start": 2400,
+      "bin_end": 2450,
+      "count": 0
+    },
+    {
+      "bin_start": 2450,
+      "bin_end": 2500,
+      "count": 0
+    },
+    {
+      "bin_start": 2500,
+      "bin_end": 2550,
+      "count": 0
+    },
+    {
+      "bin_start": 2550,
+      "bin_end": 2600,
+      "count": 0
+    },
+    {
+      "bin_start": 2600,
+      "bin_end": 2650,
+      "count": 0
+    },
+    {
+      "bin_start": 2650,
+      "bin_end": 2700,
+      "count": 0
+    },
+    {
+      "bin_start": 2700,
+      "bin_end": 2750,
+      "count": 0
+    },
+    {
+      "bin_start": 2750,
+      "bin_end": 2800,
+      "count": 0
+    },
+    {
+      "bin_start": 2800,
+      "bin_end": 2850,
+      "count": 0
+    },
+    {
+      "bin_start": 2850,
+      "bin_end": 2900,
+      "count": 0
+    },
+    {
+      "bin_start": 2900,
+      "bin_end": 2950,
+      "count": 0
     },
     {
       "bin_start": 2950,
@@ -192,9 +297,84 @@
       "count": 1
     },
     {
+      "bin_start": 3000,
+      "bin_end": 3050,
+      "count": 0
+    },
+    {
+      "bin_start": 3050,
+      "bin_end": 3100,
+      "count": 0
+    },
+    {
+      "bin_start": 3100,
+      "bin_end": 3150,
+      "count": 0
+    },
+    {
+      "bin_start": 3150,
+      "bin_end": 3200,
+      "count": 0
+    },
+    {
       "bin_start": 3200,
       "bin_end": 3250,
       "count": 1
+    },
+    {
+      "bin_start": 3250,
+      "bin_end": 3300,
+      "count": 0
+    },
+    {
+      "bin_start": 3300,
+      "bin_end": 3350,
+      "count": 0
+    },
+    {
+      "bin_start": 3350,
+      "bin_end": 3400,
+      "count": 0
+    },
+    {
+      "bin_start": 3400,
+      "bin_end": 3450,
+      "count": 0
+    },
+    {
+      "bin_start": 3450,
+      "bin_end": 3500,
+      "count": 0
+    },
+    {
+      "bin_start": 3500,
+      "bin_end": 3550,
+      "count": 0
+    },
+    {
+      "bin_start": 3550,
+      "bin_end": 3600,
+      "count": 0
+    },
+    {
+      "bin_start": 3600,
+      "bin_end": 3650,
+      "count": 0
+    },
+    {
+      "bin_start": 3650,
+      "bin_end": 3700,
+      "count": 0
+    },
+    {
+      "bin_start": 3700,
+      "bin_end": 3750,
+      "count": 0
+    },
+    {
+      "bin_start": 3750,
+      "bin_end": 3800,
+      "count": 0
     },
     {
       "bin_start": 3800,
@@ -202,9 +382,59 @@
       "count": 1
     },
     {
+      "bin_start": 3850,
+      "bin_end": 3900,
+      "count": 0
+    },
+    {
+      "bin_start": 3900,
+      "bin_end": 3950,
+      "count": 0
+    },
+    {
+      "bin_start": 3950,
+      "bin_end": 4000,
+      "count": 0
+    },
+    {
+      "bin_start": 4000,
+      "bin_end": 4050,
+      "count": 0
+    },
+    {
+      "bin_start": 4050,
+      "bin_end": 4100,
+      "count": 0
+    },
+    {
+      "bin_start": 4100,
+      "bin_end": 4150,
+      "count": 0
+    },
+    {
+      "bin_start": 4150,
+      "bin_end": 4200,
+      "count": 0
+    },
+    {
+      "bin_start": 4200,
+      "bin_end": 4250,
+      "count": 0
+    },
+    {
       "bin_start": 4250,
       "bin_end": 4300,
       "count": 1
+    },
+    {
+      "bin_start": 4300,
+      "bin_end": 4350,
+      "count": 0
+    },
+    {
+      "bin_start": 4350,
+      "bin_end": 4400,
+      "count": 0
     },
     {
       "bin_start": 4400,
@@ -212,9 +442,44 @@
       "count": 2
     },
     {
+      "bin_start": 4450,
+      "bin_end": 4500,
+      "count": 0
+    },
+    {
+      "bin_start": 4500,
+      "bin_end": 4550,
+      "count": 0
+    },
+    {
       "bin_start": 4550,
       "bin_end": 4600,
       "count": 1
+    },
+    {
+      "bin_start": 4600,
+      "bin_end": 4650,
+      "count": 0
+    },
+    {
+      "bin_start": 4650,
+      "bin_end": 4700,
+      "count": 0
+    },
+    {
+      "bin_start": 4700,
+      "bin_end": 4750,
+      "count": 0
+    },
+    {
+      "bin_start": 4750,
+      "bin_end": 4800,
+      "count": 0
+    },
+    {
+      "bin_start": 4800,
+      "bin_end": 4850,
+      "count": 0
     },
     {
       "bin_start": 4850,
@@ -222,9 +487,264 @@
       "count": 1
     },
     {
+      "bin_start": 4900,
+      "bin_end": 4950,
+      "count": 0
+    },
+    {
+      "bin_start": 4950,
+      "bin_end": 5000,
+      "count": 0
+    },
+    {
+      "bin_start": 5000,
+      "bin_end": 5050,
+      "count": 0
+    },
+    {
+      "bin_start": 5050,
+      "bin_end": 5100,
+      "count": 0
+    },
+    {
+      "bin_start": 5100,
+      "bin_end": 5150,
+      "count": 0
+    },
+    {
+      "bin_start": 5150,
+      "bin_end": 5200,
+      "count": 0
+    },
+    {
+      "bin_start": 5200,
+      "bin_end": 5250,
+      "count": 0
+    },
+    {
+      "bin_start": 5250,
+      "bin_end": 5300,
+      "count": 0
+    },
+    {
+      "bin_start": 5300,
+      "bin_end": 5350,
+      "count": 0
+    },
+    {
+      "bin_start": 5350,
+      "bin_end": 5400,
+      "count": 0
+    },
+    {
+      "bin_start": 5400,
+      "bin_end": 5450,
+      "count": 0
+    },
+    {
+      "bin_start": 5450,
+      "bin_end": 5500,
+      "count": 0
+    },
+    {
+      "bin_start": 5500,
+      "bin_end": 5550,
+      "count": 0
+    },
+    {
+      "bin_start": 5550,
+      "bin_end": 5600,
+      "count": 0
+    },
+    {
+      "bin_start": 5600,
+      "bin_end": 5650,
+      "count": 0
+    },
+    {
+      "bin_start": 5650,
+      "bin_end": 5700,
+      "count": 0
+    },
+    {
+      "bin_start": 5700,
+      "bin_end": 5750,
+      "count": 0
+    },
+    {
+      "bin_start": 5750,
+      "bin_end": 5800,
+      "count": 0
+    },
+    {
+      "bin_start": 5800,
+      "bin_end": 5850,
+      "count": 0
+    },
+    {
+      "bin_start": 5850,
+      "bin_end": 5900,
+      "count": 0
+    },
+    {
+      "bin_start": 5900,
+      "bin_end": 5950,
+      "count": 0
+    },
+    {
+      "bin_start": 5950,
+      "bin_end": 6000,
+      "count": 0
+    },
+    {
+      "bin_start": 6000,
+      "bin_end": 6050,
+      "count": 0
+    },
+    {
+      "bin_start": 6050,
+      "bin_end": 6100,
+      "count": 0
+    },
+    {
+      "bin_start": 6100,
+      "bin_end": 6150,
+      "count": 0
+    },
+    {
+      "bin_start": 6150,
+      "bin_end": 6200,
+      "count": 0
+    },
+    {
+      "bin_start": 6200,
+      "bin_end": 6250,
+      "count": 0
+    },
+    {
+      "bin_start": 6250,
+      "bin_end": 6300,
+      "count": 0
+    },
+    {
+      "bin_start": 6300,
+      "bin_end": 6350,
+      "count": 0
+    },
+    {
+      "bin_start": 6350,
+      "bin_end": 6400,
+      "count": 0
+    },
+    {
+      "bin_start": 6400,
+      "bin_end": 6450,
+      "count": 0
+    },
+    {
+      "bin_start": 6450,
+      "bin_end": 6500,
+      "count": 0
+    },
+    {
+      "bin_start": 6500,
+      "bin_end": 6550,
+      "count": 0
+    },
+    {
+      "bin_start": 6550,
+      "bin_end": 6600,
+      "count": 0
+    },
+    {
+      "bin_start": 6600,
+      "bin_end": 6650,
+      "count": 0
+    },
+    {
+      "bin_start": 6650,
+      "bin_end": 6700,
+      "count": 0
+    },
+    {
       "bin_start": 6700,
       "bin_end": 6750,
       "count": 1
+    },
+    {
+      "bin_start": 6750,
+      "bin_end": 6800,
+      "count": 0
+    },
+    {
+      "bin_start": 6800,
+      "bin_end": 6850,
+      "count": 0
+    },
+    {
+      "bin_start": 6850,
+      "bin_end": 6900,
+      "count": 0
+    },
+    {
+      "bin_start": 6900,
+      "bin_end": 6950,
+      "count": 0
+    },
+    {
+      "bin_start": 6950,
+      "bin_end": 7000,
+      "count": 0
+    },
+    {
+      "bin_start": 7000,
+      "bin_end": 7050,
+      "count": 0
+    },
+    {
+      "bin_start": 7050,
+      "bin_end": 7100,
+      "count": 0
+    },
+    {
+      "bin_start": 7100,
+      "bin_end": 7150,
+      "count": 0
+    },
+    {
+      "bin_start": 7150,
+      "bin_end": 7200,
+      "count": 0
+    },
+    {
+      "bin_start": 7200,
+      "bin_end": 7250,
+      "count": 0
+    },
+    {
+      "bin_start": 7250,
+      "bin_end": 7300,
+      "count": 0
+    },
+    {
+      "bin_start": 7300,
+      "bin_end": 7350,
+      "count": 0
+    },
+    {
+      "bin_start": 7350,
+      "bin_end": 7400,
+      "count": 0
+    },
+    {
+      "bin_start": 7400,
+      "bin_end": 7450,
+      "count": 0
+    },
+    {
+      "bin_start": 7450,
+      "bin_end": 7500,
+      "count": 0
     },
     {
       "bin_start": 7500,
@@ -232,9 +752,89 @@
       "count": 1
     },
     {
+      "bin_start": 7550,
+      "bin_end": 7600,
+      "count": 0
+    },
+    {
+      "bin_start": 7600,
+      "bin_end": 7650,
+      "count": 0
+    },
+    {
+      "bin_start": 7650,
+      "bin_end": 7700,
+      "count": 0
+    },
+    {
+      "bin_start": 7700,
+      "bin_end": 7750,
+      "count": 0
+    },
+    {
+      "bin_start": 7750,
+      "bin_end": 7800,
+      "count": 0
+    },
+    {
+      "bin_start": 7800,
+      "bin_end": 7850,
+      "count": 0
+    },
+    {
+      "bin_start": 7850,
+      "bin_end": 7900,
+      "count": 0
+    },
+    {
+      "bin_start": 7900,
+      "bin_end": 7950,
+      "count": 0
+    },
+    {
+      "bin_start": 7950,
+      "bin_end": 8000,
+      "count": 0
+    },
+    {
       "bin_start": 8000,
       "bin_end": 8050,
       "count": 1
+    },
+    {
+      "bin_start": 8050,
+      "bin_end": 8100,
+      "count": 0
+    },
+    {
+      "bin_start": 8100,
+      "bin_end": 8150,
+      "count": 0
+    },
+    {
+      "bin_start": 8150,
+      "bin_end": 8200,
+      "count": 0
+    },
+    {
+      "bin_start": 8200,
+      "bin_end": 8250,
+      "count": 0
+    },
+    {
+      "bin_start": 8250,
+      "bin_end": 8300,
+      "count": 0
+    },
+    {
+      "bin_start": 8300,
+      "bin_end": 8350,
+      "count": 0
+    },
+    {
+      "bin_start": 8350,
+      "bin_end": 8400,
+      "count": 0
     },
     {
       "bin_start": 8400,
@@ -242,9 +842,29 @@
       "count": 2
     },
     {
+      "bin_start": 8450,
+      "bin_end": 8500,
+      "count": 0
+    },
+    {
+      "bin_start": 8500,
+      "bin_end": 8550,
+      "count": 0
+    },
+    {
       "bin_start": 8550,
       "bin_end": 8600,
       "count": 1
+    },
+    {
+      "bin_start": 8600,
+      "bin_end": 8650,
+      "count": 0
+    },
+    {
+      "bin_start": 8650,
+      "bin_end": 8700,
+      "count": 0
     },
     {
       "bin_start": 8700,
@@ -252,9 +872,24 @@
       "count": 1
     },
     {
+      "bin_start": 8750,
+      "bin_end": 8800,
+      "count": 0
+    },
+    {
       "bin_start": 8800,
       "bin_end": 8850,
       "count": 1
+    },
+    {
+      "bin_start": 8850,
+      "bin_end": 8900,
+      "count": 0
+    },
+    {
+      "bin_start": 8900,
+      "bin_end": 8950,
+      "count": 0
     },
     {
       "bin_start": 8950,
@@ -262,9 +897,29 @@
       "count": 1
     },
     {
+      "bin_start": 9000,
+      "bin_end": 9050,
+      "count": 0
+    },
+    {
+      "bin_start": 9050,
+      "bin_end": 9100,
+      "count": 0
+    },
+    {
+      "bin_start": 9100,
+      "bin_end": 9150,
+      "count": 0
+    },
+    {
       "bin_start": 9150,
       "bin_end": 9200,
       "count": 2
+    },
+    {
+      "bin_start": 9200,
+      "bin_end": 9250,
+      "count": 0
     },
     {
       "bin_start": 9250,

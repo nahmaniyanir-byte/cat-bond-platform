@@ -3,756 +3,749 @@
     "year": 2025,
     "trigger_type": "Indemnity",
     "deal_count": 65,
-    "total_volume_musd": 17951.525,
-    "total_volume_usd": 17951525000
+    "total_volume_usd": 111659887000,
+    "total_volume_musd": 111659.887
   },
   {
     "year": 2023,
     "trigger_type": "Indemnity",
     "deal_count": 51,
-    "total_volume_musd": 11705,
-    "total_volume_usd": 11705000000
+    "total_volume_usd": 69042400000,
+    "total_volume_musd": 69042.4
   },
   {
     "year": 2024,
     "trigger_type": "Indemnity",
     "deal_count": 47,
-    "total_volume_musd": 9358,
-    "total_volume_usd": 9358000000
+    "total_volume_usd": 60747110000,
+    "total_volume_musd": 60747.11
   },
   {
     "year": 2021,
     "trigger_type": "Indemnity",
     "deal_count": 36,
-    "total_volume_musd": 9033.5,
-    "total_volume_usd": 9033500000
+    "total_volume_usd": 53822665000,
+    "total_volume_musd": 53822.665
   },
   {
     "year": 2022,
     "trigger_type": "Indemnity",
     "deal_count": 35,
-    "total_volume_musd": 6951,
-    "total_volume_usd": 6951000000
+    "total_volume_usd": 46631020000,
+    "total_volume_musd": 46631.02
   },
   {
     "year": 2017,
     "trigger_type": "Indemnity",
     "deal_count": 26,
-    "total_volume_musd": 6716.5,
-    "total_volume_usd": 6716500000
+    "total_volume_usd": 45615430000,
+    "total_volume_musd": 45615.43
   },
   {
     "year": 2020,
     "trigger_type": "Indemnity",
     "deal_count": 28,
-    "total_volume_musd": 6342.5,
-    "total_volume_usd": 6342500000
+    "total_volume_usd": 39707175000,
+    "total_volume_musd": 39707.175
   },
   {
     "year": 2018,
     "trigger_type": "Indemnity",
     "deal_count": 20,
-    "total_volume_musd": 6024,
-    "total_volume_usd": 6024000000
+    "total_volume_usd": 37228480000,
+    "total_volume_musd": 37228.48
+  },
+  {
+    "year": 2017,
+    "trigger_type": "Industry Loss",
+    "deal_count": 7,
+    "total_volume_usd": 33341950000,
+    "total_volume_musd": 33341.95
+  },
+  {
+    "year": 2016,
+    "trigger_type": "Indemnity",
+    "deal_count": 15,
+    "total_volume_usd": 26826300000,
+    "total_volume_musd": 26826.3
   },
   {
     "year": 2026,
     "trigger_type": "Indemnity",
     "deal_count": 15,
-    "total_volume_musd": 4890,
-    "total_volume_usd": 4890000000
+    "total_volume_usd": 26772650000,
+    "total_volume_musd": 26772.65
+  },
+  {
+    "year": 2020,
+    "trigger_type": "Industry Loss",
+    "deal_count": 17,
+    "total_volume_usd": 26038650000,
+    "total_volume_musd": 26038.65
   },
   {
     "year": 2025,
     "trigger_type": "Industry Loss",
     "deal_count": 23,
-    "total_volume_musd": 4660,
-    "total_volume_usd": 4660000000
+    "total_volume_usd": 25416800000,
+    "total_volume_musd": 25416.8
   },
   {
     "year": 2014,
     "trigger_type": "Indemnity",
     "deal_count": 20,
-    "total_volume_musd": 4306.5,
-    "total_volume_usd": 4306500000
+    "total_volume_usd": 23135235000,
+    "total_volume_musd": 23135.235
+  },
+  {
+    "year": 2016,
+    "trigger_type": "Industry Loss",
+    "deal_count": 6,
+    "total_volume_usd": 21047450000,
+    "total_volume_musd": 21047.45
+  },
+  {
+    "year": 2015,
+    "trigger_type": "Indemnity",
+    "deal_count": 16,
+    "total_volume_usd": 20971825000,
+    "total_volume_musd": 20971.825
   },
   {
     "year": 2013,
     "trigger_type": "Indemnity",
     "deal_count": 18,
-    "total_volume_musd": 4136.2,
-    "total_volume_usd": 4136200000
-  },
-  {
-    "year": 2020,
-    "trigger_type": "Industry Loss",
-    "deal_count": 17,
-    "total_volume_musd": 4095,
-    "total_volume_usd": 4095000000
-  },
-  {
-    "year": 2015,
-    "trigger_type": "Indemnity",
-    "deal_count": 16,
-    "total_volume_musd": 3992.5,
-    "total_volume_usd": 3992500000
-  },
-  {
-    "year": 2016,
-    "trigger_type": "Indemnity",
-    "deal_count": 15,
-    "total_volume_musd": 3895,
-    "total_volume_usd": 3895000000
-  },
-  {
-    "year": 2023,
-    "trigger_type": "Industry Loss",
-    "deal_count": 17,
-    "total_volume_musd": 3285,
-    "total_volume_usd": 3285000000
-  },
-  {
-    "year": 2017,
-    "trigger_type": "Industry Loss",
-    "deal_count": 7,
-    "total_volume_musd": 3105,
-    "total_volume_usd": 3105000000
+    "total_volume_usd": 20675234000,
+    "total_volume_musd": 20675.234
   },
   {
     "year": 2012,
     "trigger_type": "Indemnity",
     "deal_count": 11,
-    "total_volume_musd": 3070,
-    "total_volume_usd": 3070000000
-  },
-  {
-    "year": 2019,
-    "trigger_type": "Indemnity",
-    "deal_count": 16,
-    "total_volume_musd": 2854,
-    "total_volume_usd": 2854000000
+    "total_volume_usd": 20166650000,
+    "total_volume_musd": 20166.65
   },
   {
     "year": 2024,
     "trigger_type": "Industry Loss",
     "deal_count": 16,
-    "total_volume_musd": 2790,
-    "total_volume_usd": 2790000000
+    "total_volume_usd": 19249150000,
+    "total_volume_musd": 19249.15
+  },
+  {
+    "year": 2019,
+    "trigger_type": "Industry Loss",
+    "deal_count": 7,
+    "total_volume_usd": 19230800000,
+    "total_volume_musd": 19230.8
   },
   {
     "year": 2022,
     "trigger_type": "Industry Loss",
     "deal_count": 15,
-    "total_volume_musd": 2640,
-    "total_volume_usd": 2640000000
+    "total_volume_usd": 18423400000,
+    "total_volume_musd": 18423.4
   },
   {
-    "year": 2013,
+    "year": 2014,
     "trigger_type": "Industry Loss",
-    "deal_count": 11,
-    "total_volume_musd": 2449,
-    "total_volume_usd": 2449000000
+    "deal_count": 6,
+    "total_volume_usd": 17249000000,
+    "total_volume_musd": 17249
+  },
+  {
+    "year": 2023,
+    "trigger_type": "Industry Loss",
+    "deal_count": 17,
+    "total_volume_usd": 14693900000,
+    "total_volume_musd": 14693.9
+  },
+  {
+    "year": 2019,
+    "trigger_type": "Indemnity",
+    "deal_count": 16,
+    "total_volume_usd": 14502880000,
+    "total_volume_musd": 14502.88
   },
   {
     "year": 2011,
     "trigger_type": "Industry Loss",
     "deal_count": 12,
-    "total_volume_musd": 2425,
-    "total_volume_usd": 2425000000
+    "total_volume_usd": 14357040000,
+    "total_volume_musd": 14357.04
   },
   {
-    "year": 2021,
+    "year": 2013,
     "trigger_type": "Industry Loss",
     "deal_count": 11,
-    "total_volume_musd": 2300,
-    "total_volume_usd": 2300000000
-  },
-  {
-    "year": 2019,
-    "trigger_type": "Industry Loss",
-    "deal_count": 7,
-    "total_volume_musd": 2240,
-    "total_volume_usd": 2240000000
-  },
-  {
-    "year": 2007,
-    "trigger_type": "Industry Loss",
-    "deal_count": 10,
-    "total_volume_musd": 2100.2,
-    "total_volume_usd": 2100200000
+    "total_volume_usd": 13369810000,
+    "total_volume_musd": 13369.81
   },
   {
     "year": 2012,
     "trigger_type": "Industry Loss",
     "deal_count": 11,
-    "total_volume_musd": 2037,
-    "total_volume_usd": 2037000000
-  },
-  {
-    "year": 2007,
-    "trigger_type": "Parametric",
-    "deal_count": 10,
-    "total_volume_musd": 2004.3,
-    "total_volume_usd": 2004300000
-  },
-  {
-    "year": 2014,
-    "trigger_type": "Industry Loss",
-    "deal_count": 6,
-    "total_volume_musd": 2000,
-    "total_volume_usd": 2000000000
-  },
-  {
-    "year": 2010,
-    "trigger_type": "Industry Loss",
-    "deal_count": 9,
-    "total_volume_musd": 1961,
-    "total_volume_usd": 1961000000
-  },
-  {
-    "year": 2016,
-    "trigger_type": "Industry Loss",
-    "deal_count": 6,
-    "total_volume_musd": 1950,
-    "total_volume_usd": 1950000000
-  },
-  {
-    "year": 2010,
-    "trigger_type": "Indemnity",
-    "deal_count": 7,
-    "total_volume_musd": 1891,
-    "total_volume_usd": 1891000000
-  },
-  {
-    "year": 2018,
-    "trigger_type": "Parametric",
-    "deal_count": 5,
-    "total_volume_musd": 1760,
-    "total_volume_usd": 1760000000
-  },
-  {
-    "year": 2006,
-    "trigger_type": "Industry Loss",
-    "deal_count": 11,
-    "total_volume_musd": 1602,
-    "total_volume_usd": 1602000000
-  },
-  {
-    "year": 2006,
-    "trigger_type": "Parametric",
-    "deal_count": 9,
-    "total_volume_musd": 1593.25,
-    "total_volume_usd": 1593250000
-  },
-  {
-    "year": 2018,
-    "trigger_type": "Industry Loss",
-    "deal_count": 6,
-    "total_volume_musd": 1500,
-    "total_volume_usd": 1500000000
-  },
-  {
-    "year": 2009,
-    "trigger_type": "Industry Loss",
-    "deal_count": 6,
-    "total_volume_musd": 1400,
-    "total_volume_usd": 1400000000
-  },
-  {
-    "year": 2011,
-    "trigger_type": "Indemnity",
-    "deal_count": 6,
-    "total_volume_musd": 1387,
-    "total_volume_usd": 1387000000
+    "total_volume_usd": 11138450000,
+    "total_volume_musd": 11138.45
   },
   {
     "year": 2024,
     "trigger_type": "Parametric",
     "deal_count": 6,
-    "total_volume_musd": 1380,
-    "total_volume_usd": 1380000000
-  },
-  {
-    "year": 2008,
-    "trigger_type": "Indemnity",
-    "deal_count": 7,
-    "total_volume_musd": 1294,
-    "total_volume_usd": 1294000000
-  },
-  {
-    "year": 2007,
-    "trigger_type": "Indemnity",
-    "deal_count": 5,
-    "total_volume_musd": 1286.48,
-    "total_volume_usd": 1286480000
-  },
-  {
-    "year": 2015,
-    "trigger_type": "Industry Loss",
-    "deal_count": 6,
-    "total_volume_musd": 1275,
-    "total_volume_usd": 1275000000
-  },
-  {
-    "year": 2015,
-    "trigger_type": "Parametric",
-    "deal_count": 4,
-    "total_volume_musd": 975,
-    "total_volume_usd": 975000000
-  },
-  {
-    "year": 2006,
-    "trigger_type": "Multiple trigger types (see details below)",
-    "deal_count": 1,
-    "total_volume_musd": 950,
-    "total_volume_usd": 950000000
+    "total_volume_usd": 9798900000,
+    "total_volume_musd": 9798.9
   },
   {
     "year": 2021,
-    "trigger_type": "Parametric",
-    "deal_count": 4,
-    "total_volume_musd": 910,
-    "total_volume_usd": 910000000
+    "trigger_type": "Industry Loss",
+    "deal_count": 11,
+    "total_volume_usd": 9542000000,
+    "total_volume_musd": 9542
   },
   {
-    "year": 2009,
-    "trigger_type": "Parametric",
-    "deal_count": 6,
-    "total_volume_musd": 895,
-    "total_volume_usd": 895000000
-  },
-  {
-    "year": 2003,
-    "trigger_type": "Parametric",
-    "deal_count": 8,
-    "total_volume_musd": 889,
-    "total_volume_usd": 889000000
-  },
-  {
-    "year": 1998,
+    "year": 2011,
     "trigger_type": "Indemnity",
-    "deal_count": 5,
-    "total_volume_musd": 870.1,
-    "total_volume_usd": 870100000
+    "deal_count": 6,
+    "total_volume_usd": 9409880000,
+    "total_volume_musd": 9409.88
   },
   {
     "year": 2020,
     "trigger_type": "Parametric",
     "deal_count": 4,
-    "total_volume_musd": 860,
-    "total_volume_usd": 860000000
+    "total_volume_usd": 9321800000,
+    "total_volume_musd": 9321.8
+  },
+  {
+    "year": 2010,
+    "trigger_type": "Industry Loss",
+    "deal_count": 9,
+    "total_volume_usd": 8848370000,
+    "total_volume_musd": 8848.37
+  },
+  {
+    "year": 2007,
+    "trigger_type": "Industry Loss",
+    "deal_count": 10,
+    "total_volume_usd": 7707734000,
+    "total_volume_musd": 7707.734
+  },
+  {
+    "year": 2006,
+    "trigger_type": "Industry Loss",
+    "deal_count": 11,
+    "total_volume_usd": 7604240000,
+    "total_volume_musd": 7604.24
   },
   {
     "year": 2009,
-    "trigger_type": "Indemnity",
-    "deal_count": 4,
-    "total_volume_musd": 825,
-    "total_volume_usd": 825000000
+    "trigger_type": "Industry Loss",
+    "deal_count": 6,
+    "total_volume_usd": 7523500000,
+    "total_volume_musd": 7523.5
   },
   {
-    "year": 2005,
-    "trigger_type": "Indemnity",
-    "deal_count": 3,
-    "total_volume_musd": 771,
-    "total_volume_usd": 771000000
+    "year": 2018,
+    "trigger_type": "Industry Loss",
+    "deal_count": 6,
+    "total_volume_usd": 7431750000,
+    "total_volume_musd": 7431.75
   },
   {
-    "year": 2008,
+    "year": 2018,
     "trigger_type": "Parametric",
-    "deal_count": 3,
-    "total_volume_musd": 708,
-    "total_volume_usd": 708000000
+    "deal_count": 5,
+    "total_volume_usd": 7413400000,
+    "total_volume_musd": 7413.4
+  },
+  {
+    "year": 2007,
+    "trigger_type": "Parametric",
+    "deal_count": 10,
+    "total_volume_usd": 7355781000,
+    "total_volume_musd": 7355.781
+  },
+  {
+    "year": 2015,
+    "trigger_type": "Industry Loss",
+    "deal_count": 6,
+    "total_volume_usd": 6973000000,
+    "total_volume_musd": 6973
+  },
+  {
+    "year": 2010,
+    "trigger_type": "Indemnity",
+    "deal_count": 7,
+    "total_volume_usd": 6939970000,
+    "total_volume_musd": 6939.97
   },
   {
     "year": 2026,
     "trigger_type": "Industry Loss",
     "deal_count": 4,
-    "total_volume_musd": 700,
-    "total_volume_usd": 700000000
+    "total_volume_usd": 6422500000,
+    "total_volume_musd": 6422.5
   },
   {
-    "year": 2005,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 3,
-    "total_volume_musd": 640,
-    "total_volume_usd": 640000000
+    "year": 2021,
+    "trigger_type": "Other",
+    "deal_count": 1,
+    "total_volume_usd": 5872000000,
+    "total_volume_musd": 5872
+  },
+  {
+    "year": 2006,
+    "trigger_type": "Parametric",
+    "deal_count": 9,
+    "total_volume_usd": 5847227500,
+    "total_volume_musd": 5847.2275
+  },
+  {
+    "year": 2008,
+    "trigger_type": "Indemnity",
+    "deal_count": 7,
+    "total_volume_usd": 4748980000,
+    "total_volume_musd": 4748.98
+  },
+  {
+    "year": 2007,
+    "trigger_type": "Indemnity",
+    "deal_count": 5,
+    "total_volume_usd": 4721381600,
+    "total_volume_musd": 4721.3816
   },
   {
     "year": 2012,
     "trigger_type": "Parametric",
     "deal_count": 2,
-    "total_volume_musd": 615,
-    "total_volume_usd": 615000000
-  },
-  {
-    "year": 2006,
-    "trigger_type": "Indemnity",
-    "deal_count": 4,
-    "total_volume_musd": 609.5,
-    "total_volume_usd": 609500000
-  },
-  {
-    "year": 2010,
-    "trigger_type": "Multiple trigger types",
-    "deal_count": 4,
-    "total_volume_musd": 606.5,
-    "total_volume_usd": 606500000
-  },
-  {
-    "year": 2023,
-    "trigger_type": "Parametric",
-    "deal_count": 3,
-    "total_volume_musd": 600,
-    "total_volume_usd": 600000000
-  },
-  {
-    "year": 2013,
-    "trigger_type": "Parametric",
-    "deal_count": 2,
-    "total_volume_musd": 600,
-    "total_volume_usd": 600000000
-  },
-  {
-    "year": 2008,
-    "trigger_type": "Industry Loss",
-    "deal_count": 3,
-    "total_volume_musd": 570,
-    "total_volume_usd": 570000000
-  },
-  {
-    "year": 2001,
-    "trigger_type": "Parametric",
-    "deal_count": 4,
-    "total_volume_musd": 566.4,
-    "total_volume_usd": 566400000
-  },
-  {
-    "year": 2004,
-    "trigger_type": "Industry Loss",
-    "deal_count": 3,
-    "total_volume_musd": 547.5,
-    "total_volume_usd": 547500000
-  },
-  {
-    "year": 2002,
-    "trigger_type": "Parametric",
-    "deal_count": 3,
-    "total_volume_musd": 500,
-    "total_volume_usd": 500000000
-  },
-  {
-    "year": 2000,
-    "trigger_type": "Indemnity",
-    "deal_count": 3,
-    "total_volume_musd": 490,
-    "total_volume_usd": 490000000
+    "total_volume_usd": 4569150000,
+    "total_volume_musd": 4569.15
   },
   {
     "year": 2017,
     "trigger_type": "Parametric",
     "deal_count": 2,
-    "total_volume_musd": 485,
-    "total_volume_usd": 485000000
+    "total_volume_usd": 4422350000,
+    "total_volume_musd": 4422.35
+  },
+  {
+    "year": 2021,
+    "trigger_type": "Parametric",
+    "deal_count": 4,
+    "total_volume_usd": 4073700000,
+    "total_volume_musd": 4073.7
+  },
+  {
+    "year": 2006,
+    "trigger_type": "Other",
+    "deal_count": 2,
+    "total_volume_usd": 3591095000,
+    "total_volume_musd": 3591.095
+  },
+  {
+    "year": 2015,
+    "trigger_type": "Parametric",
+    "deal_count": 4,
+    "total_volume_usd": 3578250000,
+    "total_volume_musd": 3578.25
+  },
+  {
+    "year": 2009,
+    "trigger_type": "Parametric",
+    "deal_count": 6,
+    "total_volume_usd": 3284650000,
+    "total_volume_musd": 3284.65
+  },
+  {
+    "year": 2003,
+    "trigger_type": "Parametric",
+    "deal_count": 8,
+    "total_volume_usd": 3262630000,
+    "total_volume_musd": 3262.63
+  },
+  {
+    "year": 1998,
+    "trigger_type": "Indemnity",
+    "deal_count": 5,
+    "total_volume_usd": 3193267000,
+    "total_volume_musd": 3193.267
+  },
+  {
+    "year": 2009,
+    "trigger_type": "Indemnity",
+    "deal_count": 4,
+    "total_volume_usd": 3027750000,
+    "total_volume_musd": 3027.75
+  },
+  {
+    "year": 2005,
+    "trigger_type": "Indemnity",
+    "deal_count": 3,
+    "total_volume_usd": 2829570000,
+    "total_volume_musd": 2829.57
+  },
+  {
+    "year": 2010,
+    "trigger_type": "Other",
+    "deal_count": 4,
+    "total_volume_usd": 2616710000,
+    "total_volume_musd": 2616.71
+  },
+  {
+    "year": 2008,
+    "trigger_type": "Parametric",
+    "deal_count": 3,
+    "total_volume_usd": 2598360000,
+    "total_volume_musd": 2598.36
+  },
+  {
+    "year": 2005,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 3,
+    "total_volume_usd": 2348800000,
+    "total_volume_musd": 2348.8
+  },
+  {
+    "year": 2006,
+    "trigger_type": "Indemnity",
+    "deal_count": 4,
+    "total_volume_usd": 2314985000,
+    "total_volume_musd": 2314.985
+  },
+  {
+    "year": 2023,
+    "trigger_type": "Parametric",
+    "deal_count": 3,
+    "total_volume_usd": 2202000000,
+    "total_volume_musd": 2202
+  },
+  {
+    "year": 2013,
+    "trigger_type": "Parametric",
+    "deal_count": 2,
+    "total_volume_usd": 2202000000,
+    "total_volume_musd": 2202
+  },
+  {
+    "year": 2008,
+    "trigger_type": "Industry Loss",
+    "deal_count": 3,
+    "total_volume_usd": 2091900000,
+    "total_volume_musd": 2091.9
+  },
+  {
+    "year": 2001,
+    "trigger_type": "Parametric",
+    "deal_count": 4,
+    "total_volume_usd": 2078688000,
+    "total_volume_musd": 2078.688
+  },
+  {
+    "year": 2004,
+    "trigger_type": "Industry Loss",
+    "deal_count": 3,
+    "total_volume_usd": 2009325000,
+    "total_volume_musd": 2009.325
+  },
+  {
+    "year": 2002,
+    "trigger_type": "Parametric",
+    "deal_count": 3,
+    "total_volume_usd": 1835000000,
+    "total_volume_musd": 1835
+  },
+  {
+    "year": 2000,
+    "trigger_type": "Indemnity",
+    "deal_count": 3,
+    "total_volume_usd": 1798300000,
+    "total_volume_musd": 1798.3
   },
   {
     "year": 2007,
     "trigger_type": "Modelled Loss",
     "deal_count": 2,
-    "total_volume_musd": 485,
-    "total_volume_usd": 485000000
+    "total_volume_usd": 1779950000,
+    "total_volume_musd": 1779.95
   },
   {
     "year": 1997,
     "trigger_type": "Indemnity",
     "deal_count": 1,
-    "total_volume_musd": 480,
-    "total_volume_usd": 480000000
-  },
-  {
-    "year": 2021,
-    "trigger_type": "Unknown",
-    "deal_count": 1,
-    "total_volume_musd": 400,
-    "total_volume_usd": 400000000
-  },
-  {
-    "year": 1999,
-    "trigger_type": "Indemnity",
-    "deal_count": 3,
-    "total_volume_musd": 380,
-    "total_volume_usd": 380000000
-  },
-  {
-    "year": 2005,
-    "trigger_type": "Parametric",
-    "deal_count": 4,
-    "total_volume_musd": 363,
-    "total_volume_usd": 363000000
-  },
-  {
-    "year": 2002,
-    "trigger_type": "Indemnity",
-    "deal_count": 2,
-    "total_volume_musd": 355,
-    "total_volume_usd": 355000000
-  },
-  {
-    "year": 2003,
-    "trigger_type": "Industry Loss",
-    "deal_count": 2,
-    "total_volume_musd": 350,
-    "total_volume_usd": 350000000
-  },
-  {
-    "year": 1999,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 2,
-    "total_volume_musd": 283,
-    "total_volume_usd": 283000000
-  },
-  {
-    "year": 2001,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 2,
-    "total_volume_musd": 281.9,
-    "total_volume_usd": 281900000
-  },
-  {
-    "year": 2009,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 2,
-    "total_volume_musd": 280,
-    "total_volume_usd": 280000000
-  },
-  {
-    "year": 2000,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 2,
-    "total_volume_musd": 279,
-    "total_volume_usd": 279000000
-  },
-  {
-    "year": 1998,
-    "trigger_type": "Unknown",
-    "deal_count": 2,
-    "total_volume_musd": 265,
-    "total_volume_usd": 265000000
-  },
-  {
-    "year": 2001,
-    "trigger_type": "Industry Loss",
-    "deal_count": 2,
-    "total_volume_musd": 265,
-    "total_volume_usd": 265000000
-  },
-  {
-    "year": 2003,
-    "trigger_type": "Indemnity",
-    "deal_count": 2,
-    "total_volume_musd": 260,
-    "total_volume_usd": 260000000
-  },
-  {
-    "year": 2014,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 1,
-    "total_volume_musd": 250,
-    "total_volume_usd": 250000000
-  },
-  {
-    "year": 2011,
-    "trigger_type": "Modelled Loss",
-    "deal_count": 2,
-    "total_volume_musd": 240,
-    "total_volume_usd": 240000000
-  },
-  {
-    "year": 2025,
-    "trigger_type": "Parametric",
-    "deal_count": 1,
-    "total_volume_musd": 240,
-    "total_volume_usd": 240000000
+    "total_volume_usd": 1761600000,
+    "total_volume_musd": 1761.6
   },
   {
     "year": 2004,
     "trigger_type": "Indemnity",
     "deal_count": 1,
-    "total_volume_musd": 227.5,
-    "total_volume_usd": 227500000
-  },
-  {
-    "year": 2010,
-    "trigger_type": "Parametric",
-    "deal_count": 2,
-    "total_volume_musd": 226,
-    "total_volume_usd": 226000000
+    "total_volume_usd": 1669850000,
+    "total_volume_musd": 1669.85
   },
   {
     "year": 2019,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 225,
-    "total_volume_usd": 225000000
+    "total_volume_usd": 1651500000,
+    "total_volume_musd": 1651.5
+  },
+  {
+    "year": 1999,
+    "trigger_type": "Indemnity",
+    "deal_count": 3,
+    "total_volume_usd": 1394600000,
+    "total_volume_musd": 1394.6
+  },
+  {
+    "year": 2005,
+    "trigger_type": "Parametric",
+    "deal_count": 4,
+    "total_volume_usd": 1332210000,
+    "total_volume_musd": 1332.21
+  },
+  {
+    "year": 2013,
+    "trigger_type": "Other",
+    "deal_count": 1,
+    "total_volume_usd": 1321200000,
+    "total_volume_musd": 1321.2
+  },
+  {
+    "year": 2002,
+    "trigger_type": "Indemnity",
+    "deal_count": 2,
+    "total_volume_usd": 1302850000,
+    "total_volume_musd": 1302.85
+  },
+  {
+    "year": 2003,
+    "trigger_type": "Industry Loss",
+    "deal_count": 2,
+    "total_volume_usd": 1284500000,
+    "total_volume_musd": 1284.5
+  },
+  {
+    "year": 1999,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 2,
+    "total_volume_usd": 1038610000,
+    "total_volume_musd": 1038.61
+  },
+  {
+    "year": 2001,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 2,
+    "total_volume_usd": 1034573000,
+    "total_volume_musd": 1034.573
+  },
+  {
+    "year": 2009,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 2,
+    "total_volume_usd": 1027600000,
+    "total_volume_musd": 1027.6
+  },
+  {
+    "year": 2000,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 2,
+    "total_volume_usd": 1023930000,
+    "total_volume_musd": 1023.93
+  },
+  {
+    "year": 2001,
+    "trigger_type": "Industry Loss",
+    "deal_count": 2,
+    "total_volume_usd": 972550000,
+    "total_volume_musd": 972.55
+  },
+  {
+    "year": 1998,
+    "trigger_type": "Other",
+    "deal_count": 2,
+    "total_volume_usd": 972550000,
+    "total_volume_musd": 972.55
+  },
+  {
+    "year": 2003,
+    "trigger_type": "Indemnity",
+    "deal_count": 2,
+    "total_volume_usd": 954200000,
+    "total_volume_musd": 954.2
+  },
+  {
+    "year": 2014,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 1,
+    "total_volume_usd": 917500000,
+    "total_volume_musd": 917.5
+  },
+  {
+    "year": 2025,
+    "trigger_type": "Parametric",
+    "deal_count": 1,
+    "total_volume_usd": 880800000,
+    "total_volume_musd": 880.8
+  },
+  {
+    "year": 2011,
+    "trigger_type": "Modelled Loss",
+    "deal_count": 2,
+    "total_volume_usd": 880800000,
+    "total_volume_musd": 880.8
+  },
+  {
+    "year": 2010,
+    "trigger_type": "Parametric",
+    "deal_count": 2,
+    "total_volume_usd": 829420000,
+    "total_volume_musd": 829.42
+  },
+  {
+    "year": 2005,
+    "trigger_type": "Other",
+    "deal_count": 1,
+    "total_volume_usd": 796000000,
+    "total_volume_musd": 796
   },
   {
     "year": 2011,
     "trigger_type": "Parametric",
     "deal_count": 1,
-    "total_volume_musd": 216,
-    "total_volume_usd": 216000000
+    "total_volume_usd": 792720000,
+    "total_volume_musd": 792.72
   },
   {
     "year": 2004,
     "trigger_type": "Parametric",
     "deal_count": 5,
-    "total_volume_musd": 210.8,
-    "total_volume_usd": 210800000
+    "total_volume_usd": 773636000,
+    "total_volume_musd": 773.636
   },
   {
     "year": 2018,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 210,
-    "total_volume_usd": 210000000
-  },
-  {
-    "year": 2005,
-    "trigger_type": "Loss ratio trigger",
-    "deal_count": 1,
-    "total_volume_musd": 200,
-    "total_volume_usd": 200000000
+    "total_volume_usd": 770700000,
+    "total_volume_musd": 770.7
   },
   {
     "year": 2002,
     "trigger_type": "Industry Loss",
     "deal_count": 1,
-    "total_volume_musd": 200,
-    "total_volume_usd": 200000000
-  },
-  {
-    "year": 2013,
-    "trigger_type": "Mortality Index",
-    "deal_count": 1,
-    "total_volume_musd": 180,
-    "total_volume_usd": 180000000
-  },
-  {
-    "year": 2007,
-    "trigger_type": "Multiple trigger types",
-    "deal_count": 2,
-    "total_volume_musd": 175,
-    "total_volume_usd": 175000000
+    "total_volume_usd": 734000000,
+    "total_volume_musd": 734
   },
   {
     "year": 2024,
-    "trigger_type": "RMS",
+    "trigger_type": "Other",
     "deal_count": 1,
-    "total_volume_musd": 175,
-    "total_volume_usd": 175000000
+    "total_volume_usd": 642250000,
+    "total_volume_musd": 642.25
+  },
+  {
+    "year": 2007,
+    "trigger_type": "Other",
+    "deal_count": 2,
+    "total_volume_usd": 642250000,
+    "total_volume_musd": 642.25
   },
   {
     "year": 2011,
-    "trigger_type": "Unknown",
+    "trigger_type": "Other",
     "deal_count": 2,
-    "total_volume_musd": 165,
-    "total_volume_usd": 165000000
+    "total_volume_usd": 605550000,
+    "total_volume_musd": 605.55
   },
   {
     "year": 2006,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 159,
-    "total_volume_usd": 159000000
+    "total_volume_usd": 583530000,
+    "total_volume_musd": 583.53
   },
   {
     "year": 2025,
-    "trigger_type": "Multiple triggers",
+    "trigger_type": "Other",
     "deal_count": 2,
-    "total_volume_musd": 150,
-    "total_volume_usd": 150000000
+    "total_volume_usd": 550500000,
+    "total_volume_musd": 550.5
   },
   {
     "year": 2010,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 150,
-    "total_volume_usd": 150000000
+    "total_volume_usd": 550500000,
+    "total_volume_musd": 550.5
   },
   {
     "year": 2001,
     "trigger_type": "Indemnity",
     "deal_count": 1,
-    "total_volume_musd": 150,
-    "total_volume_usd": 150000000
+    "total_volume_usd": 550500000,
+    "total_volume_musd": 550.5
   },
   {
     "year": 1997,
     "trigger_type": "Industry Loss",
     "deal_count": 1,
-    "total_volume_musd": 137,
-    "total_volume_usd": 137000000
+    "total_volume_usd": 502790000,
+    "total_volume_musd": 502.79
   },
   {
     "year": 2012,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 130,
-    "total_volume_usd": 130000000
-  },
-  {
-    "year": 1997,
-    "trigger_type": "Parametric",
-    "deal_count": 1,
-    "total_volume_musd": 100,
-    "total_volume_usd": 100000000
-  },
-  {
-    "year": 1999,
-    "trigger_type": "Parametric",
-    "deal_count": 1,
-    "total_volume_musd": 100,
-    "total_volume_usd": 100000000
+    "total_volume_usd": 477100000,
+    "total_volume_musd": 477.1
   },
   {
     "year": 2004,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 100,
-    "total_volume_usd": 100000000
+    "total_volume_usd": 367000000,
+    "total_volume_musd": 367
+  },
+  {
+    "year": 1999,
+    "trigger_type": "Parametric",
+    "deal_count": 1,
+    "total_volume_usd": 367000000,
+    "total_volume_musd": 367
+  },
+  {
+    "year": 1997,
+    "trigger_type": "Parametric",
+    "deal_count": 1,
+    "total_volume_usd": 367000000,
+    "total_volume_musd": 367
   },
   {
     "year": 1996,
     "trigger_type": "Indemnity",
     "deal_count": 1,
-    "total_volume_musd": 68.5,
-    "total_volume_usd": 68500000
+    "total_volume_usd": 251395000,
+    "total_volume_musd": 251.395
   },
   {
     "year": 2002,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 33,
-    "total_volume_usd": 33000000
+    "total_volume_usd": 121110000,
+    "total_volume_musd": 121.11
   },
   {
     "year": 2014,
     "trigger_type": "Parametric",
     "deal_count": 1,
-    "total_volume_musd": 30,
-    "total_volume_usd": 30000000
-  },
-  {
-    "year": 2006,
-    "trigger_type": "Multiple trigger type",
-    "deal_count": 1,
-    "total_volume_musd": 28.5,
-    "total_volume_usd": 28500000
+    "total_volume_usd": 110100000,
+    "total_volume_musd": 110.1
   },
   {
     "year": 1998,
     "trigger_type": "Modelled Loss",
     "deal_count": 1,
-    "total_volume_musd": 10,
-    "total_volume_usd": 10000000
+    "total_volume_usd": 36700000,
+    "total_volume_musd": 36.7
   }
 ]

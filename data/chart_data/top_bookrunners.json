@@ -1,7 +1,6 @@
 {
   "label": "Top Bookrunners",
-  "generated_at": "2026-03-16T18:12:38.726Z",
+  "field_used": "bookrunner_name",
   "field_available": false,
-  "field_used": null,
   "rows": []
 }

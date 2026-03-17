@@ -8,8 +8,8 @@ export function SiteFooter() {
           Institutional policy intelligence for sovereign disaster risk financing.
         </p>
         <p className="lg:text-right">
-          Data source: local metadata and content libraries under `content/metadata` and `content/countries`, dynamically
-          loaded by the platform.
+          Data source: `data/master/cat_bond_master.csv` with deterministic JSON datasets generated via
+          `npm run data:refresh`.
         </p>
       </div>
     </footer>

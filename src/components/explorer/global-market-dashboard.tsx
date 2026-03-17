@@ -32,6 +32,8 @@ import type {
   TriggeredLossSummaryDataset
 } from "@/lib/market-data";
 import { cn, formatCurrency } from "@/lib/utils";
+import { KpiCard } from "@/components/ui/kpi-card";
+import { ChartExplainer } from "@/components/ui/chart-explainer";
 
 type IssuanceFilter = "all" | "sovereign" | "non_sovereign";
 
@@ -42,6 +44,7 @@ interface MarketKpiSummary {
   nonSovereignDeals: number;
   countriesCovered: number;
   latestMarketYear: number | null;
+  outstandingMarketSizeNote?: string;
 }
 
 interface GlobalMarketDashboardProps {
@@ -150,13 +153,57 @@ export function GlobalMarketDashboard({
         </p>
       </section>
 
-      <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
-        <KpiCard label="Total Deal Count" value={kpis.totalDeals.toLocaleString("en-US")} />
-        <KpiCard label="Total Market Volume" value={formatCurrency(kpis.totalVolumeUsd)} />
-        <KpiCard label="Sovereign Deal Count" value={kpis.sovereignDeals.toLocaleString("en-US")} />
-        <KpiCard label="Non-Sovereign Deal Count" value={kpis.nonSovereignDeals.toLocaleString("en-US")} />
-        <KpiCard label="Countries Covered" value={kpis.countriesCovered.toLocaleString("en-US")} />
-        <KpiCard label="Latest Market Year" value={String(kpis.latestMarketYear ?? "N/A")} />
+      <section className="grid gap-3 md:grid-cols-2 xl:grid-cols-7">
+        <KpiCard
+          label="Deal Count"
+          value={kpis.totalDeals.toLocaleString("en-US")}
+          definition="Count of distinct deals in the cleaned master dataset."
+          interpretation="Represents transaction-level historical coverage."
+          dataType="historical"
+        />
+        <KpiCard
+          label="Cumulative Issuance"
+          value={formatCurrency(kpis.totalVolumeUsd)}
+          definition="Sum of deal_size_usd at deal level."
+          interpretation="Historical issuance total; not outstanding market stock."
+          dataType="historical"
+        />
+        <KpiCard
+          label="Sovereign Deal Count"
+          value={kpis.sovereignDeals.toLocaleString("en-US")}
+          definition="Deals classified as sovereign."
+          interpretation="Proxy for sovereign participation depth."
+          dataType="derived"
+        />
+        <KpiCard
+          label="Non-Sovereign Deal Count"
+          value={kpis.nonSovereignDeals.toLocaleString("en-US")}
+          definition="Deals classified as non-sovereign."
+          interpretation="Shows private market catastrophe bond activity."
+          dataType="derived"
+        />
+        <KpiCard
+          label="Countries Covered"
+          value={kpis.countriesCovered.toLocaleString("en-US")}
+          definition="Distinct sponsor countries in the cleaned dataset."
+          interpretation="Captures geographic breadth."
+          dataType="derived"
+        />
+        <KpiCard
+          label="Latest Market Year"
+          value={String(kpis.latestMarketYear ?? "N/A")}
+          definition="Maximum issue_year in the dataset."
+          interpretation="Recency of issuance activity represented."
+          dataType="historical"
+        />
+        <KpiCard
+          label="Outstanding Market Size"
+          value="Not available"
+          note={kpis.outstandingMarketSizeNote ?? "Outstanding market size not available in current dataset"}
+          definition="Requires complete maturity/outstanding tracking."
+          interpretation="Suppressed until full outstanding methodology is available."
+          dataType="derived"
+        />
       </section>
 
       <section className="glass-panel p-5">
@@ -197,6 +244,10 @@ export function GlobalMarketDashboard({
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <ChartExplainer
+          what="Annual catastrophe bond issuance trend by year, with filters for all, sovereign, and non-sovereign views."
+          why="Supports cycle analysis and highlights structural changes in issuance momentum."
+        />
       </section>
       <section className="grid gap-5 xl:grid-cols-2">
         <article className="glass-panel p-5">
@@ -207,14 +258,14 @@ export function GlobalMarketDashboard({
                 <p className="text-xs uppercase tracking-[0.14em] text-slate-300">{item.segment}</p>
                 <p className="mt-2 text-2xl font-semibold text-cyan-100">{formatCurrency(item.total_volume_usd)}</p>
                 <p className="mt-1 text-sm text-slate-300">{item.deal_count.toLocaleString("en-US")} deals</p>
-                <p className="mt-1 text-xs text-slate-400">{item.share.toFixed(1)}% of market volume</p>
+                <p className="mt-1 text-xs text-slate-400">{item.share.toFixed(1)}% of cumulative issuance</p>
               </div>
             ))}
           </div>
           <div className="mt-4 h-[220px]">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+                <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
                 <Legend wrapperStyle={{ color: "#cbd5e1", fontSize: "12px" }} />
                 <Pie data={sovereignBreakdown} dataKey="total_volume_usd" nameKey="segment" innerRadius={55} outerRadius={82}>
                   {sovereignBreakdown.map((entry) => (
@@ -227,6 +278,10 @@ export function GlobalMarketDashboard({
               </PieChart>
             </ResponsiveContainer>
           </div>
+          <ChartExplainer
+            what="Comparison of sovereign and non-sovereign issuance by volume and deal count."
+            why="Shows how public-sector catastrophe bond use compares with broader private market depth."
+          />
         </article>
 
         <article className="glass-panel p-5">
@@ -250,11 +305,15 @@ export function GlobalMarketDashboard({
                   tick={{ fill: "#94a3b8", fontSize: 11 }}
                   tickFormatter={(value) => formatCompactBillion(value)}
                 />
-                <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+                <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
                 <Bar dataKey="total_volume_usd" fill="rgba(56,189,248,0.82)" radius={[6, 6, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
+          <ChartExplainer
+            what="Distribution of catastrophe bond issuance across normalized peril categories."
+            why="Highlights concentration risks and where capital markets are most active by hazard type."
+          />
         </article>
       </section>
 
@@ -271,15 +330,22 @@ export function GlobalMarketDashboard({
                 tick={{ fill: "#94a3b8", fontSize: 11 }}
                 tickFormatter={(value) => formatCompactBillion(value)}
               />
-              <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+              <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
               <Bar dataKey="total_volume_usd" fill="rgba(99,102,241,0.8)" radius={[6, 6, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <ChartExplainer
+          what="Issuance mix by normalized trigger type."
+          why="Supports structural analysis of payout design and market preference by trigger architecture."
+        />
       </section>
 
       <section className="glass-panel p-5">
         <h2 className="text-xl font-semibold text-white">Spread vs Expected Loss</h2>
+        <p className="mt-2 text-sm text-slate-300">
+          This chart compares pricing (spread) with modeled risk (expected loss).
+        </p>
         <div className="mt-4 h-[420px]">
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart margin={{ left: 8, right: 14, top: 10, bottom: 16 }}>
@@ -305,6 +371,10 @@ export function GlobalMarketDashboard({
             </ScatterChart>
           </ResponsiveContainer>
         </div>
+        <ChartExplainer
+          what="Each point is a deal with both expected loss and spread values, color-coded by sovereign segment."
+          why="Useful for pricing diagnostics, risk-transfer efficiency checks, and segment-level pricing behavior."
+        />
       </section>
 
       <section className="grid gap-5 xl:grid-cols-2">
@@ -346,7 +416,7 @@ export function GlobalMarketDashboard({
                   <YAxis tickLine={false} axisLine={false} tick={{ fill: "#94a3b8", fontSize: 11 }} tickFormatter={(value) => formatCompactBillion(value)} />
                   <Tooltip
                     contentStyle={tooltipStyle}
-                    formatter={(value: number, name, item) => [formatCurrency(value), `${(item.payload as { market_segment: string }).market_segment} Volume`]}
+                    formatter={(value: number, name, item) => [formatCurrency(value), `${(item.payload as { market_segment: string }).market_segment} Issuance`]}
                   />
                   <Bar dataKey="total_volume_usd" fill="rgba(14,165,233,0.8)" radius={[5, 5, 0, 0]} />
                 </BarChart>
@@ -364,7 +434,7 @@ export function GlobalMarketDashboard({
                   <YAxis tickLine={false} axisLine={false} tick={{ fill: "#94a3b8", fontSize: 11 }} tickFormatter={(value) => formatCompactBillion(value)} />
                   <Tooltip
                     contentStyle={tooltipStyle}
-                    formatter={(value: number, name, item) => [formatCurrency(value), `${(item.payload as { market_segment: string }).market_segment} Volume`]}
+                    formatter={(value: number, name, item) => [formatCurrency(value), `${(item.payload as { market_segment: string }).market_segment} Issuance`]}
                   />
                   <Bar dataKey="total_volume_usd" fill="rgba(34,197,94,0.8)" radius={[5, 5, 0, 0]} />
                 </BarChart>
@@ -386,7 +456,7 @@ export function GlobalMarketDashboard({
             <div className="mt-4 h-[300px]">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
-                  <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+                  <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
                   <Legend wrapperStyle={{ color: "#cbd5e1", fontSize: "12px" }} />
                   <Pie data={topBookrunners.rows.slice(0, 8)} dataKey="total_volume_usd" nameKey="name" innerRadius={55} outerRadius={95}>
                     {topBookrunners.rows.slice(0, 8).map((entry, index) => (
@@ -493,16 +563,22 @@ export function GlobalMarketDashboard({
           <HeatmapGrid rows={heatmapYearTrigger.map((row) => ({ year: row.year, column: row.trigger_type, value: row.total_volume_usd }))} columnLabel="Trigger" />
         </article>
       </section>
-    </div>
-  );
-}
 
-function KpiCard({ label, value }: { label: string; value: string }) {
-  return (
-    <article className="glass-panel p-4">
-      <p className="text-[11px] uppercase tracking-[0.14em] text-slate-300">{label}</p>
-      <p className="mt-2 text-2xl font-semibold text-cyan-100">{value}</p>
-    </article>
+      <section className="glass-panel p-5">
+        <h2 className="text-xl font-semibold text-white">Policy Implications</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Cumulative issuance trends help fiscal authorities benchmark sovereign market access timing.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Trigger and peril concentration analytics support basis-risk governance and structuring priorities.
+          </article>
+          <article className="rounded-xl border border-white/10 bg-slate-900/55 p-4 text-sm text-slate-300">
+            Segment splits clarify the relative depth of sovereign versus non-sovereign transfer capacity.
+          </article>
+        </div>
+      </section>
+    </div>
   );
 }
 
@@ -529,7 +605,7 @@ function FilterButton({ current, value, label, onSelect }: { current: IssuanceFi
 }
 
 function RankingBarChart({ data, fill }: { data: Array<{ name: string; volume: number }>; fill: string }) {
-  if (!data.length) return <EmptyInfoCard text="No ranking records available for this view." />;
+  if (!data.length) return <EmptyInfoCard text="Data not available in current dataset" />;
 
   return (
     <div className="mt-4 h-[300px]">
@@ -538,7 +614,7 @@ function RankingBarChart({ data, fill }: { data: Array<{ name: string; volume: n
           <CartesianGrid stroke="rgba(148,163,184,0.16)" vertical={false} />
           <XAxis dataKey="name" angle={-20} textAnchor="end" height={62} tickLine={false} axisLine={false} tick={{ fill: "#94a3b8", fontSize: 11 }} />
           <YAxis tickLine={false} axisLine={false} tick={{ fill: "#94a3b8", fontSize: 11 }} tickFormatter={(value) => formatCompactBillion(value)} />
-          <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Volume"]} />
+          <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatCurrency(value), "Issuance"]} />
           <Bar dataKey="volume" fill={fill} radius={[5, 5, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
@@ -557,7 +633,7 @@ function RankingTable({ title, rows }: { title: string; rows: Array<{ rank: numb
               <th className="px-2 py-2">#</th>
               <th className="px-2 py-2">Name</th>
               <th className="px-2 py-2">Deals</th>
-              <th className="px-2 py-2">Volume</th>
+              <th className="px-2 py-2">Cumulative Issuance</th>
             </tr>
           </thead>
           <tbody>
@@ -594,7 +670,7 @@ function IntermediaryTable({ title, dataset, accent }: { title: string; dataset:
                 <th className="px-2 py-2">#</th>
                 <th className="px-2 py-2">Name</th>
                 <th className="px-2 py-2">Deals</th>
-                <th className="px-2 py-2">Volume</th>
+                <th className="px-2 py-2">Cumulative Issuance</th>
                 <th className="px-2 py-2">Share</th>
               </tr>
             </thead>
@@ -613,7 +689,7 @@ function IntermediaryTable({ title, dataset, accent }: { title: string; dataset:
         </div>
       ) : (
         <div className="mt-4">
-          <EmptyInfoCard text="No intermediary records available." />
+          <EmptyInfoCard text="Data not available in current dataset" />
         </div>
       )}
     </article>
@@ -629,7 +705,7 @@ function HeatmapGrid({ rows, columnLabel }: { rows: Array<{ year: number; column
   if (!rows.length || !years.length || !columns.length) {
     return (
       <div className="mt-4">
-        <EmptyInfoCard text="No heatmap records available." />
+        <EmptyInfoCard text="Data not available in current dataset" />
       </div>
     );
   }

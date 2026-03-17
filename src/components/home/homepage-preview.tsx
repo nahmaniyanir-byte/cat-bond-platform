@@ -17,6 +17,7 @@ import {
 import type { HomeContentBundle, HomeSectionId } from "@/lib/home-content";
 import { cn } from "@/lib/utils";
 import { HomeGlobeExplorer } from "@/components/home/home-globe-explorer";
+import { KpiCard } from "@/components/ui/kpi-card";
 
 interface HomepagePreviewProps {
   content: HomeContentBundle;
@@ -339,11 +340,17 @@ function ImmersiveGlobeStage({
                       key={item.id}
                       whileHover={{ y: -2 }}
                       transition={{ duration: 0.2 }}
-                      className="overlay-kpi-card p-3"
+                      className="overlay-kpi-card"
                     >
-                      <p className="text-[11px] uppercase tracking-[0.13em] text-slate-400">{item.label}</p>
-                      <p className="mt-2 text-2xl font-semibold text-cyan-100">{item.value}</p>
-                      {item.note ? <p className="mt-1 text-[11px] leading-relaxed text-slate-400">{item.note}</p> : null}
+                      <KpiCard
+                        label={item.label}
+                        value={item.value}
+                        note={item.note}
+                        definition={item.definition}
+                        interpretation={item.interpretation}
+                        dataType={item.data_type}
+                        className="border-none bg-transparent p-3 shadow-none"
+                      />
                     </motion.article>
                   ))}
                 </div>

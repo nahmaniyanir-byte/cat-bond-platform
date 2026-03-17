@@ -1,40 +1,65 @@
 {
-  "generated_at": "2026-03-16T18:12:38.726Z",
-  "metric": "expected_loss",
-  "source": "deal_level_master",
-  "bucket_size": 0.25,
+  "generated_at": "2026-03-17T11:14:24.228Z",
+  "metric": "expected_loss_percent",
+  "source": "cat_bond_master.csv",
+  "bucket_size": 0.1,
   "count": 607,
-  "min": 0.008,
+  "min": 0.0081,
   "max": 1,
-  "mean": 0.191,
-  "median": 0.028,
+  "mean": 0.191152,
+  "median": 0.0278,
   "p25": 0.016,
-  "p75": 0.14,
+  "p75": 0.1403,
   "buckets": [
     {
       "bin_start": 0,
-      "bin_end": 0.25,
-      "count": 467
+      "bin_end": 0.1,
+      "count": 448
     },
     {
-      "bin_start": 0.25,
+      "bin_start": 0.1,
+      "bin_end": 0.2,
+      "count": 15
+    },
+    {
+      "bin_start": 0.2,
+      "bin_end": 0.3,
+      "count": 8
+    },
+    {
+      "bin_start": 0.3,
+      "bin_end": 0.4,
+      "count": 9
+    },
+    {
+      "bin_start": 0.4,
       "bin_end": 0.5,
-      "count": 27
+      "count": 14
     },
     {
       "bin_start": 0.5,
-      "bin_end": 0.75,
-      "count": 36
+      "bin_end": 0.6,
+      "count": 13
     },
     {
-      "bin_start": 0.75,
+      "bin_start": 0.6,
+      "bin_end": 0.7,
+      "count": 17
+    },
+    {
+      "bin_start": 0.7,
+      "bin_end": 0.8,
+      "count": 18
+    },
+    {
+      "bin_start": 0.8,
+      "bin_end": 0.9,
+      "count": 26
+    },
+    {
+      "bin_start": 0.9,
       "bin_end": 1,
-      "count": 72
-    },
-    {
-      "bin_start": 1,
-      "bin_end": 1.25,
-      "count": 5
+      "count": 39
     }
   ]
 }

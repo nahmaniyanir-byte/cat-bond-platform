@@ -122,7 +122,7 @@ export function InteractiveGlobe({ points, selectedSlug, onSelect, onHover, clas
 
       {!points.length ? (
         <div className="absolute inset-0 flex items-center justify-center bg-slate-950/80 text-sm text-slate-400">
-          No countries available for this view.
+          Data not available in current dataset.
         </div>
       ) : null}
       <div className="pointer-events-none absolute inset-0 rounded-xl border border-white/10" />
