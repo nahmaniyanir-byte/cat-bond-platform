@@ -7,6 +7,7 @@ const DATA_ROOT = path.join(process.cwd(), "data");
 const PATHS = {
   master: path.join(DATA_ROOT, "master", "cat_bond_master_database.json"),
   globalKpis: path.join(DATA_ROOT, "chart_data", "global_kpis.json"),
+  dealSlugIndex: path.join(DATA_ROOT, "deals", "deal_slug_index.json"),
   countryGlobePoints: path.join(DATA_ROOT, "countries", "country_globe_points.json"),
   countryPageIndex: path.join(DATA_ROOT, "countries", "country_page_index.json"),
   countryKpis: path.join(DATA_ROOT, "countries", "country_kpis.json"),
@@ -31,7 +32,13 @@ const PATHS = {
   pricingIntelligence: path.join(DATA_ROOT, "chart_data", "pricing_intelligence.json"),
   riskGapSummary: path.join(DATA_ROOT, "chart_data", "risk_gap_summary.json"),
   sovereignDeals: path.join(DATA_ROOT, "sovereign_deals", "sovereign_deals_master.json"),
-  privateDeals: path.join(DATA_ROOT, "private_deals", "private_deals_master.json")
+  privateDeals: path.join(DATA_ROOT, "private_deals", "private_deals_master.json"),
+  seismicCards: path.join(DATA_ROOT, "seismic", "seismic_country_cards.json"),
+  seismicCoverage: path.join(DATA_ROOT, "seismic", "seismic_coverage_summary.json"),
+  seismicGlobePoints: path.join(DATA_ROOT, "seismic", "seismic_country_globe_points.json"),
+  seismicIssuanceByYear: path.join(DATA_ROOT, "seismic", "seismic_issuance_by_year.json"),
+  seismicTriggerDistribution: path.join(DATA_ROOT, "seismic", "seismic_trigger_distribution.json"),
+  seismicPerilDistribution: path.join(DATA_ROOT, "seismic", "seismic_peril_distribution.json")
 };
 
 export interface MasterDealRecord {
@@ -78,6 +85,9 @@ export interface MasterDealRecord {
   average_expected_loss_percent: number | null;
   average_final_spread_bps: number | null;
   average_risk_multiple: number | null;
+  active_or_matured?: string | null;
+  active_tranche_count?: number;
+  matured_tranche_count?: number;
   triggered_deal_flag: boolean;
   total_principal_loss_ils_m: number;
   total_principal_loss_musd?: number;
@@ -407,6 +417,79 @@ export interface RiskGapSummaryDataset {
   }>;
 }
 
+export interface DealSlugIndexDataset {
+  generated_at: string;
+  total_deals: number;
+  index: Record<string, string>;
+}
+
+export interface SeismicCountryCard {
+  id: string;
+  country_name: string;
+  slug: string;
+  high_seismic_risk_flag: boolean;
+  has_any_cat_bond: boolean;
+  has_sovereign_or_public_cat_bond: boolean;
+  has_private_or_corporate_cat_bond: boolean;
+  has_world_bank_supported_cat_bond: boolean;
+  issuance_status: "Issued" | "No Issuance" | string;
+  issuance_count: number;
+  total_volume_usd: number;
+  total_volume_musd: number;
+  main_perils: string[];
+  main_trigger_types: string[];
+  first_issue_date: string | null;
+  latest_issue_date: string | null;
+  lat: number;
+  lng: number;
+  coordinates_source?: string;
+  destination_url: string;
+  insight: string;
+  data_status?: "official_source" | "derived_from_source" | "illustrative_assumption" | string;
+  source_note?: string;
+}
+
+export interface SeismicCountryCardsDataset {
+  generated_at: string;
+  source_root?: string;
+  cards: SeismicCountryCard[];
+}
+
+export interface SeismicCoverageSummary {
+  generated_at: string;
+  source_root?: string;
+  total_high_risk_countries: number;
+  issued_countries: number;
+  non_issued_countries: number;
+  sovereign_issuing_countries: number;
+}
+
+export interface SeismicGlobePoint {
+  id: string;
+  country_name: string;
+  slug: string;
+  lat: number;
+  lng: number;
+  high_seismic_risk_flag: boolean;
+  has_any_cat_bond: boolean;
+  has_sovereign_or_public_cat_bond: boolean;
+  sovereign_flag: boolean;
+  market_segment: string;
+  deal_count: number;
+  total_volume_usd: number;
+  main_peril: string;
+  latest_issue_year: number | null;
+  tooltip_title: string;
+  tooltip_text: string;
+  destination_url: string;
+}
+
+export interface SeismicYearIssuance {
+  year: number;
+  issuance_volume_usd: number;
+  issuance_volume_musd: number;
+}
+
 async function pathExists(filePath: string): Promise<boolean> {
   try {
     await fs.access(filePath);
@@ -694,4 +777,72 @@ export const getRiskGapSummaryData = cache(async (): Promise<RiskGapSummaryDatas
   return readJsonFile<RiskGapSummaryDataset>(PATHS.riskGapSummary, {
     rows: []
   });
+});
+
+export const getDealSlugIndex = cache(async (): Promise<DealSlugIndexDataset> => {
+  return readJsonFile<DealSlugIndexDataset>(PATHS.dealSlugIndex, {
+    generated_at: "",
+    total_deals: 0,
+    index: {}
+  });
+});
+
+export const getDealBySlug = cache(async (slug: string): Promise<MasterDealRecord | null> => {
+  const [deals, slugIndex] = await Promise.all([getMasterDeals(), getDealSlugIndex()]);
+  const wanted = slug.trim().toLowerCase();
+
+  const byIndex = Object.entries(slugIndex.index).find(([, value]) => value.toLowerCase() === wanted)?.[0];
+  if (byIndex) {
+    const direct = deals.find((deal) => deal.id === byIndex || deal.deal_id === byIndex);
+    if (direct) return direct;
+  }
+
+  const byFallback = deals.find((deal) => {
+    const base = String(deal.deal_name ?? "deal")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+    return wanted === base || wanted.startsWith(`${base}-`);
+  });
+
+  return byFallback ?? null;
+});
+
+export const getSeismicCountryCardsData = cache(async (): Promise<SeismicCountryCardsDataset> => {
+  return readJsonFile<SeismicCountryCardsDataset>(PATHS.seismicCards, {
+    generated_at: "",
+    cards: []
+  });
+});
+
+export const getSeismicCoverageData = cache(async (): Promise<SeismicCoverageSummary> => {
+  return readJsonFile<SeismicCoverageSummary>(PATHS.seismicCoverage, {
+    generated_at: "",
+    total_high_risk_countries: 0,
+    issued_countries: 0,
+    non_issued_countries: 0,
+    sovereign_issuing_countries: 0
+  });
+});
+
+export const getSeismicGlobePointsData = cache(async (): Promise<SeismicGlobePoint[]> => {
+  return readJsonFile<SeismicGlobePoint[]>(PATHS.seismicGlobePoints, []);
+});
+
+export const getSeismicIssuanceByYearData = cache(async (): Promise<SeismicYearIssuance[]> => {
+  return readJsonFile<SeismicYearIssuance[]>(PATHS.seismicIssuanceByYear, []);
+});
+
+export const getSeismicTriggerDistributionData = cache(async (): Promise<Array<{ key: string; deal_count: number; total_volume_usd: number; total_volume_musd: number }>> => {
+  return readJsonFile<Array<{ key: string; deal_count: number; total_volume_usd: number; total_volume_musd: number }>>(
+    PATHS.seismicTriggerDistribution,
+    []
+  );
+});
+
+export const getSeismicPerilDistributionData = cache(async (): Promise<Array<{ key: string; deal_count: number; total_volume_usd: number; total_volume_musd: number }>> => {
+  return readJsonFile<Array<{ key: string; deal_count: number; total_volume_usd: number; total_volume_musd: number }>>(
+    PATHS.seismicPerilDistribution,
+    []
+  );
 });

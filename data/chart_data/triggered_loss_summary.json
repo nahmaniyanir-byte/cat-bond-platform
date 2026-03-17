@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source": "cat_bond_master.csv",
+  "generated_at": "2026-03-17T14:35:34.093Z",
+  "source": "deals_master_sql_ready.csv",
   "total_triggered_deals": 0,
   "total_principal_loss_usd": 0,
   "total_principal_loss_musd": 0,

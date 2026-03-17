@@ -1,70 +1,54 @@
 {
   "enabled": true,
-  "section_title": "Market Snapshot",
-  "section_subtitle": "Calculated from data/master/cat_bond_master.csv",
+  "section_title": "Executive KPI Strip",
+  "section_subtitle": "Deal-level metrics generated from SQL-ready package",
+  "generated_at": "2026-03-17T14:35:34.093Z",
+  "source": "final_outputs_country_fixed/sql_ready_package",
   "items": [
     {
-      "id": "deal_count",
-      "label": "Deal Count",
+      "id": "total_deals",
+      "label": "Total Deals",
       "value": "830",
-      "note": "COUNT(DISTINCT deal_id)",
-      "definition": "Distinct catastrophe bond deals in the cleaned master dataset.",
-      "interpretation": "Historical transaction footprint represented in the platform.",
+      "note": "COUNT DISTINCT(deal_id)",
+      "definition": "Unique deal records in cleaned master dataset.",
+      "interpretation": "Transaction-level coverage.",
       "data_type": "historical"
     },
     {
       "id": "cumulative_issuance",
       "label": "Cumulative Issuance",
-      "value": "$1079.1B",
-      "note": "SUM(deal_size_usd)",
-      "definition": "Sum of deal_size_usd at deal level.",
-      "interpretation": "Historical issuance total, not outstanding stock.",
+      "value": "$294,031,432,997",
+      "note": "294.03B USD",
+      "definition": "SUM(deal-level issuance).",
+      "interpretation": "Historical issuance total.",
       "data_type": "historical"
     },
     {
       "id": "sovereign_deals",
       "label": "Sovereign Deals",
-      "value": "16",
-      "note": "COUNT(sovereign_flag = TRUE)",
-      "definition": "Deals classified as sovereign by platform classification rules.",
-      "interpretation": "Depth of sovereign catastrophe bond participation.",
-      "data_type": "derived"
-    },
-    {
-      "id": "non_sovereign_deals",
-      "label": "Non-Sovereign Deals",
-      "value": "814",
-      "note": "COUNT(sovereign_flag = FALSE)",
-      "definition": "Deals classified as non-sovereign.",
-      "interpretation": "Private market transaction depth in current coverage.",
+      "value": "15",
+      "note": "Sovereign classification",
+      "definition": "Deals with sovereign_flag=true.",
+      "interpretation": "Sovereign participation depth.",
       "data_type": "derived"
     },
     {
       "id": "countries_covered",
       "label": "Countries Covered",
-      "value": "4",
-      "note": "COUNT(DISTINCT country_of_sponsor)",
-      "definition": "Distinct sponsor countries represented in the dataset.",
-      "interpretation": "Geographic breadth of market coverage.",
+      "value": "12",
+      "note": "Distinct sponsor countries",
+      "definition": "Distinct countries in dataset.",
+      "interpretation": "Geographic breadth.",
       "data_type": "derived"
     },
     {
       "id": "latest_market_year",
       "label": "Latest Market Year",
       "value": "2026",
-      "note": "MAX(issue_year)",
-      "definition": "Latest issue year available in the cleaned dataset.",
-      "interpretation": "Recency of captured market activity.",
+      "note": "MAX(deal_year)",
+      "definition": "Latest issuance year represented.",
+      "interpretation": "Recency signal.",
       "data_type": "historical"
-    },
-    {
-      "id": "outstanding_market_size",
-      "label": "Outstanding Market Size",
-      "value": "Not available",
-      "note": "Outstanding market size not available in current dataset",
-      "definition": "Requires full maturity/outstanding history to compute current stock.",
-      "interpretation": "Suppressed until complete outstanding coverage is available.",
-      "data_type": "derived"
     }
   ]
 }

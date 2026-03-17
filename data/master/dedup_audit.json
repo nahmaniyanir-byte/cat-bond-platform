@@ -1,12 +1,9 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source_csv": "data/master/cat_bond_master.csv",
+  "generated_at": "2026-03-17T14:35:34.093Z",
   "raw_rows": 830,
-  "deduplicated_rows": 830,
+  "cleaned_rows": 830,
   "duplicates_removed": 0,
   "duplicates_by_deal_id": 0,
   "duplicates_by_fallback_key": 0,
-  "missing_deal_id_rows": 0,
-  "deduplication_key": "deal_id (fallback: hash(deal_name|issue_year|sponsor))",
-  "tranche_handling": "Dataset is treated as deal-level records. No tranche-size fields are used in totals."
+  "missing_deal_id_rows": 0
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "metric": "spread_bps",
-  "source": "cat_bond_master.csv",
+  "generated_at": "2026-03-17T14:35:34.093Z",
+  "metric": "average_final_spread_bps",
+  "source": "deals_master_sql_ready.csv",
   "bucket_size": 50,
   "count": 432,
   "min": 162.5,

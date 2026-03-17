@@ -83,7 +83,7 @@ export const getCountryPageIndexPayload = cache(async (): Promise<CountryPageInd
   const countries = await getCountryIndexFromDataset();
   return {
     generated_at: "",
-    source_root: "data/master/cat_bond_master.csv",
+    source_root: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     countries: countries.map((country) => ({
       country_name: country.country_name,
       slug: country.slug,
@@ -178,7 +178,7 @@ function buildOverview(summary: CountryPageSummary, kpis: CountryKpisDataset | n
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "country_overview",
     row_count: 1,
     rows: [
@@ -207,7 +207,7 @@ function buildDisasterContext(summary: CountryPageSummary, deals: Awaited<Return
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "disaster_context",
     row_count: perilMap.size,
     rows: [...perilMap.entries()]
@@ -227,7 +227,7 @@ function buildTransactionTable(summary: CountryPageSummary, deals: Awaited<Retur
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "transaction_details",
     row_count: deals.length,
     rows: deals.map((deal) => ({
@@ -254,7 +254,7 @@ function buildPricing(summary: CountryPageSummary, deals: Awaited<ReturnType<typ
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "pricing_details",
     row_count: deals.length,
     rows: deals.map((deal) => ({
@@ -272,7 +272,7 @@ function buildRisk(summary: CountryPageSummary, deals: Awaited<ReturnType<typeof
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "risk_parameters",
     row_count: deals.length,
     rows: deals.map((deal) => ({
@@ -290,7 +290,7 @@ function buildStructure(summary: CountryPageSummary, deals: Awaited<ReturnType<t
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "structure_coverage",
     row_count: deals.length,
     rows: deals.map((deal) => ({
@@ -308,7 +308,7 @@ function buildPolicyLessons(summary: CountryPageSummary, kpis: CountryKpisDatase
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "policy_lessons",
     row_count: 3,
     rows: [
@@ -350,7 +350,7 @@ function buildDocuments(summary: CountryPageSummary, deals: Awaited<ReturnType<t
   return {
     country: summary.country_name,
     slug: summary.slug,
-    source_file: "data/master/cat_bond_master.csv",
+    source_file: "../final_outputs_country_fixed/sql_ready_package/deals_master_sql_ready.csv",
     sheet_name: "document_metadata",
     row_count: dedup.size,
     rows: [...dedup.values()]

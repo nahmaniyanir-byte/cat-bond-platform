@@ -2,31 +2,49 @@
   {
     "trigger_type": "Indemnity",
     "deal_count": 474,
-    "total_volume_usd": 664374019600,
-    "total_volume_musd": 664374.0196
+    "total_volume_usd": 181028343215.25888,
+    "total_volume_musd": 181028.34321525888
   },
   {
     "trigger_type": "Industry Loss",
-    "deal_count": 223,
-    "total_volume_usd": 303204559000,
-    "total_volume_musd": 303204.559
+    "deal_count": 224,
+    "total_volume_usd": 82977046049.04633,
+    "total_volume_musd": 82977.04604904633
   },
   {
     "trigger_type": "Parametric",
     "deal_count": 91,
-    "total_volume_usd": 79296772500,
-    "total_volume_musd": 79296.7725
-  },
-  {
-    "trigger_type": "Other",
-    "deal_count": 18,
-    "total_volume_usd": 17610105000,
-    "total_volume_musd": 17610.105
+    "total_volume_usd": 21606750000,
+    "total_volume_musd": 21606.75
   },
   {
     "trigger_type": "Modelled Loss",
     "deal_count": 24,
-    "total_volume_usd": 14609903000,
-    "total_volume_musd": 14609.903
+    "total_volume_usd": 3980900000,
+    "total_volume_musd": 3980.9
+  },
+  {
+    "trigger_type": "Unknown",
+    "deal_count": 5,
+    "total_volume_usd": 2030000000,
+    "total_volume_musd": 2030
+  },
+  {
+    "trigger_type": "Hybrid",
+    "deal_count": 10,
+    "total_volume_usd": 2016500000,
+    "total_volume_musd": 2016.5
+  },
+  {
+    "trigger_type": "Loss Ratio Trigger",
+    "deal_count": 1,
+    "total_volume_usd": 216893732.97002727,
+    "total_volume_musd": 216.89373297002726
+  },
+  {
+    "trigger_type": "Rms",
+    "deal_count": 1,
+    "total_volume_usd": 175000000,
+    "total_volume_musd": 175
   }
 ]

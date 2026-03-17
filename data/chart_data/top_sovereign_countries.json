@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "country_name": "Mexico",
+    "country_slug": "mexico",
+    "deal_count": 7,
+    "sovereign_flag": true,
+    "total_volume_usd": 5425000000,
+    "total_volume_musd": 5425,
+    "latest_issue_year": 2024,
+    "rank": 1
+  },
+  {
+    "country_name": "Chile",
+    "country_slug": "chile",
+    "deal_count": 2,
+    "sovereign_flag": true,
+    "total_volume_usd": 850000000,
+    "total_volume_musd": 850,
+    "latest_issue_year": 2023,
+    "rank": 2
+  },
+  {
+    "country_name": "Philippines",
+    "country_slug": "philippines",
+    "deal_count": 1,
+    "sovereign_flag": true,
+    "total_volume_usd": 450000000,
+    "total_volume_musd": 450,
+    "latest_issue_year": 2019,
+    "rank": 3
+  },
+  {
+    "country_name": "Colombia",
+    "country_slug": "colombia",
+    "deal_count": 1,
+    "sovereign_flag": true,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400,
+    "latest_issue_year": 2018,
+    "rank": 4
+  },
+  {
+    "country_name": "Jamaica",
+    "country_slug": "jamaica",
+    "deal_count": 2,
+    "sovereign_flag": true,
+    "total_volume_usd": 335000000,
+    "total_volume_musd": 335,
+    "latest_issue_year": 2024,
+    "rank": 5
+  },
+  {
+    "country_name": "Peru",
+    "country_slug": "peru",
+    "deal_count": 1,
+    "sovereign_flag": true,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200,
+    "latest_issue_year": 2018,
+    "rank": 6
+  },
+  {
+    "country_name": "Puerto Rico",
+    "country_slug": "puerto-rico",
+    "deal_count": 1,
+    "sovereign_flag": true,
+    "total_volume_usd": 85000000,
+    "total_volume_musd": 85,
+    "latest_issue_year": 2024,
+    "rank": 7
+  }
+]

@@ -1,744 +1,849 @@
 [
   {
-    "year": 2017,
-    "peril": "Multi-Peril",
-    "deal_count": 19,
-    "total_volume_usd": 58899440000,
-    "total_volume_musd": 58899.44
+    "year": 1996,
+    "peril": "Worldwide All Perils Incl. Marine & Aviation",
+    "deal_count": 1,
+    "total_volume_usd": 68500000,
+    "total_volume_musd": 68.5
   },
   {
-    "year": 2025,
-    "peril": "Multi-Peril",
-    "deal_count": 38,
-    "total_volume_usd": 54146400000,
-    "total_volume_musd": 54146.4
+    "year": 1997,
+    "peril": "Earthquake",
+    "deal_count": 1,
+    "total_volume_usd": 137000000,
+    "total_volume_musd": 137
   },
   {
-    "year": 2024,
-    "peril": "Multi-Peril",
-    "deal_count": 27,
-    "total_volume_usd": 52169050000,
-    "total_volume_musd": 52169.05
-  },
-  {
-    "year": 2025,
+    "year": 1997,
     "peril": "Hurricane / Wind",
-    "deal_count": 30,
-    "total_volume_usd": 50990587000,
-    "total_volume_musd": 50990.587
+    "deal_count": 1,
+    "total_volume_usd": 480000000,
+    "total_volume_musd": 480
   },
   {
-    "year": 2020,
+    "year": 1997,
     "peril": "Multi-Peril",
-    "deal_count": 25,
-    "total_volume_usd": 44241850000,
-    "total_volume_musd": 44241.85
+    "deal_count": 1,
+    "total_volume_usd": 100000000,
+    "total_volume_musd": 100
   },
   {
-    "year": 2022,
-    "peril": "Multi-Peril",
-    "deal_count": 23,
-    "total_volume_usd": 44122575000,
-    "total_volume_musd": 44122.575
-  },
-  {
-    "year": 2023,
-    "peril": "Multi-Peril",
-    "deal_count": 29,
-    "total_volume_usd": 38038750000,
-    "total_volume_musd": 38038.75
-  },
-  {
-    "year": 2021,
-    "peril": "Multi-Peril",
-    "deal_count": 23,
-    "total_volume_usd": 37477650000,
-    "total_volume_musd": 37477.65
-  },
-  {
-    "year": 2023,
+    "year": 1998,
     "peril": "Hurricane / Wind",
-    "deal_count": 29,
-    "total_volume_usd": 32870900000,
-    "total_volume_musd": 32870.9
+    "deal_count": 6,
+    "total_volume_usd": 830100000,
+    "total_volume_musd": 830.1
   },
   {
-    "year": 2016,
+    "year": 1998,
     "peril": "Multi-Peril",
+    "deal_count": 2,
+    "total_volume_usd": 315000000,
+    "total_volume_musd": 315
+  },
+  {
+    "year": 1999,
+    "peril": "Earthquake",
+    "deal_count": 2,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200
+  },
+  {
+    "year": 1999,
+    "peril": "Hurricane / Wind",
+    "deal_count": 2,
+    "total_volume_usd": 280000000,
+    "total_volume_musd": 280
+  },
+  {
+    "year": 1999,
+    "peril": "Multi-Peril",
+    "deal_count": 2,
+    "total_volume_usd": 283000000,
+    "total_volume_musd": 283
+  },
+  {
+    "year": 2000,
+    "peril": "Earthquake",
+    "deal_count": 3,
+    "total_volume_usd": 479000000,
+    "total_volume_musd": 479
+  },
+  {
+    "year": 2000,
+    "peril": "Hurricane / Wind",
+    "deal_count": 2,
+    "total_volume_usd": 290000000,
+    "total_volume_musd": 290
+  },
+  {
+    "year": 2001,
+    "peril": "Earthquake",
+    "deal_count": 2,
+    "total_volume_usd": 265000000,
+    "total_volume_musd": 265
+  },
+  {
+    "year": 2001,
+    "peril": "Hurricane / Wind",
+    "deal_count": 3,
+    "total_volume_usd": 431400000,
+    "total_volume_musd": 431.4
+  },
+  {
+    "year": 2001,
+    "peril": "Multi-Peril",
+    "deal_count": 4,
+    "total_volume_usd": 566900000,
+    "total_volume_musd": 566.9
+  },
+  {
+    "year": 2002,
+    "peril": "Earthquake",
+    "deal_count": 4,
+    "total_volume_usd": 478000000,
+    "total_volume_musd": 478
+  },
+  {
+    "year": 2002,
+    "peril": "Hurricane / Wind",
+    "deal_count": 1,
+    "total_volume_usd": 125000000,
+    "total_volume_musd": 125
+  },
+  {
+    "year": 2002,
+    "peril": "Multi-Peril",
+    "deal_count": 2,
+    "total_volume_usd": 485000000,
+    "total_volume_musd": 485
+  },
+  {
+    "year": 2003,
+    "peril": "Earthquake",
+    "deal_count": 6,
+    "total_volume_usd": 920000000,
+    "total_volume_musd": 920
+  },
+  {
+    "year": 2003,
+    "peril": "Hurricane / Wind",
+    "deal_count": 1,
+    "total_volume_usd": 228000000,
+    "total_volume_musd": 228
+  },
+  {
+    "year": 2003,
+    "peril": "Multi-Peril",
+    "deal_count": 5,
+    "total_volume_usd": 351000000,
+    "total_volume_musd": 351
+  },
+  {
+    "year": 2004,
+    "peril": "Earthquake",
+    "deal_count": 3,
+    "total_volume_usd": 425000000,
+    "total_volume_musd": 425
+  },
+  {
+    "year": 2004,
+    "peril": "Multi-Peril",
+    "deal_count": 7,
+    "total_volume_usd": 888300000,
+    "total_volume_musd": 888.3
+  },
+  {
+    "year": 2005,
+    "peril": "Casualty Losses",
+    "deal_count": 1,
+    "total_volume_usd": 405000000,
+    "total_volume_musd": 405
+  },
+  {
+    "year": 2005,
+    "peril": "Earthquake",
+    "deal_count": 1,
+    "total_volume_usd": 300000000,
+    "total_volume_musd": 300
+  },
+  {
+    "year": 2005,
+    "peril": "Motor Policies",
+    "deal_count": 1,
+    "total_volume_usd": 216893732.97002727,
+    "total_volume_musd": 216.89373297002726
+  },
+  {
+    "year": 2005,
+    "peril": "Multi-Peril",
+    "deal_count": 8,
+    "total_volume_usd": 1069000000,
+    "total_volume_musd": 1069
+  },
+  {
+    "year": 2006,
+    "peril": "Credit Reinsurance",
+    "deal_count": 1,
+    "total_volume_usd": 273286103.54223436,
+    "total_volume_musd": 273.28610354223434
+  },
+  {
+    "year": 2006,
+    "peril": "Earthquake",
+    "deal_count": 6,
+    "total_volume_usd": 1175000000,
+    "total_volume_musd": 1175
+  },
+  {
+    "year": 2006,
+    "peril": "Hurricane / Wind",
+    "deal_count": 11,
+    "total_volume_usd": 1372500000,
+    "total_volume_musd": 1372.5
+  },
+  {
+    "year": 2006,
+    "peril": "Multi-Peril",
+    "deal_count": 9,
+    "total_volume_usd": 2612750000,
+    "total_volume_musd": 2612.75
+  },
+  {
+    "year": 2007,
+    "peril": "Earthquake",
+    "deal_count": 4,
+    "total_volume_usd": 958600000,
+    "total_volume_musd": 958.6
+  },
+  {
+    "year": 2007,
+    "peril": "Hurricane / Wind",
     "deal_count": 10,
-    "total_volume_usd": 29892150000,
-    "total_volume_musd": 29892.15
+    "total_volume_usd": 2445900000,
+    "total_volume_musd": 2445.9
   },
   {
-    "year": 2018,
+    "year": 2007,
     "peril": "Multi-Peril",
     "deal_count": 14,
-    "total_volume_usd": 27763550000,
-    "total_volume_musd": 27763.55
+    "total_volume_usd": 2521180000,
+    "total_volume_musd": 2521.18
   },
   {
-    "year": 2019,
-    "peril": "Multi-Peril",
-    "deal_count": 12,
-    "total_volume_usd": 27268100000,
-    "total_volume_musd": 27268.1
+    "year": 2007,
+    "peril": "Worldwide All Risks",
+    "deal_count": 1,
+    "total_volume_usd": 125300000,
+    "total_volume_musd": 125.3
   },
   {
-    "year": 2024,
-    "peril": "Hurricane / Wind",
-    "deal_count": 29,
-    "total_volume_usd": 24166775000,
-    "total_volume_musd": 24166.775
-  },
-  {
-    "year": 2014,
-    "peril": "Multi-Peril",
-    "deal_count": 9,
-    "total_volume_usd": 22331950000,
-    "total_volume_musd": 22331.95
-  },
-  {
-    "year": 2012,
-    "peril": "Multi-Peril",
-    "deal_count": 9,
-    "total_volume_usd": 21142870000,
-    "total_volume_musd": 21142.87
-  },
-  {
-    "year": 2025,
+    "year": 2008,
     "peril": "Earthquake",
-    "deal_count": 13,
-    "total_volume_usd": 19028950000,
-    "total_volume_musd": 19028.95
+    "deal_count": 1,
+    "total_volume_usd": 300000000,
+    "total_volume_musd": 300
   },
   {
-    "year": 2011,
-    "peril": "Multi-Peril",
-    "deal_count": 12,
-    "total_volume_usd": 18750030000,
-    "total_volume_musd": 18750.03
-  },
-  {
-    "year": 2013,
-    "peril": "Multi-Peril",
-    "deal_count": 12,
-    "total_volume_usd": 17271020000,
-    "total_volume_musd": 17271.02
-  },
-  {
-    "year": 2018,
-    "peril": "Earthquake",
-    "deal_count": 10,
-    "total_volume_usd": 16808600000,
-    "total_volume_musd": 16808.6
-  },
-  {
-    "year": 2021,
+    "year": 2008,
     "peril": "Hurricane / Wind",
-    "deal_count": 13,
-    "total_volume_usd": 16012880000,
-    "total_volume_musd": 16012.88
+    "deal_count": 4,
+    "total_volume_usd": 838000000,
+    "total_volume_musd": 838
   },
   {
-    "year": 2021,
-    "peril": "Earthquake",
-    "deal_count": 10,
-    "total_volume_usd": 16003035000,
-    "total_volume_musd": 16003.035
-  },
-  {
-    "year": 2020,
-    "peril": "Hurricane / Wind",
-    "deal_count": 12,
-    "total_volume_usd": 15573450000,
-    "total_volume_musd": 15573.45
-  },
-  {
-    "year": 2014,
-    "peril": "Earthquake",
-    "deal_count": 9,
-    "total_volume_usd": 14276300000,
-    "total_volume_musd": 14276.3
-  },
-  {
-    "year": 2013,
-    "peril": "Hurricane / Wind",
-    "deal_count": 13,
-    "total_volume_usd": 13705170000,
-    "total_volume_musd": 13705.17
-  },
-  {
-    "year": 2025,
-    "peril": "Other",
-    "deal_count": 9,
-    "total_volume_usd": 13693850000,
-    "total_volume_musd": 13693.85
-  },
-  {
-    "year": 2026,
+    "year": 2008,
     "peril": "Multi-Peril",
     "deal_count": 8,
-    "total_volume_usd": 13156950000,
-    "total_volume_musd": 13156.95
+    "total_volume_usd": 1434000000,
+    "total_volume_musd": 1434
   },
   {
-    "year": 2026,
-    "peril": "Hurricane / Wind",
-    "deal_count": 7,
-    "total_volume_usd": 12973450000,
-    "total_volume_musd": 12973.45
-  },
-  {
-    "year": 2015,
-    "peril": "Hurricane / Wind",
-    "deal_count": 9,
-    "total_volume_usd": 12964275000,
-    "total_volume_musd": 12964.275
-  },
-  {
-    "year": 2020,
+    "year": 2009,
     "peril": "Earthquake",
+    "deal_count": 2,
+    "total_volume_usd": 375000000,
+    "total_volume_musd": 375
+  },
+  {
+    "year": 2009,
+    "peril": "Hurricane / Wind",
+    "deal_count": 4,
+    "total_volume_usd": 1561000000,
+    "total_volume_musd": 1561
+  },
+  {
+    "year": 2009,
+    "peril": "Multi-Peril",
+    "deal_count": 12,
+    "total_volume_usd": 2114000000,
+    "total_volume_musd": 2114
+  },
+  {
+    "year": 2010,
+    "peril": "Earthquake",
+    "deal_count": 1,
+    "total_volume_usd": 350000000,
+    "total_volume_musd": 350
+  },
+  {
+    "year": 2010,
+    "peril": "Hurricane / Wind",
     "deal_count": 8,
-    "total_volume_usd": 12903525000,
-    "total_volume_musd": 12903.525
+    "total_volume_usd": 1415000000,
+    "total_volume_musd": 1415
   },
   {
     "year": 2010,
     "peril": "Multi-Peril",
     "deal_count": 12,
-    "total_volume_usd": 12573420000,
-    "total_volume_musd": 12573.42
+    "total_volume_usd": 3426000000,
+    "total_volume_musd": 3426
   },
   {
-    "year": 2015,
+    "year": 2010,
+    "peril": "U.s. Severe Thunderstorm",
+    "deal_count": 2,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200
+  },
+  {
+    "year": 2011,
     "peril": "Earthquake",
-    "deal_count": 9,
-    "total_volume_usd": 12319800000,
-    "total_volume_musd": 12319.8
+    "deal_count": 2,
+    "total_volume_usd": 350000000,
+    "total_volume_musd": 350
   },
   {
-    "year": 2017,
+    "year": 2011,
     "peril": "Hurricane / Wind",
-    "deal_count": 11,
-    "total_volume_usd": 12173390000,
-    "total_volume_musd": 12173.39
+    "deal_count": 9,
+    "total_volume_usd": 1638000000,
+    "total_volume_musd": 1638
   },
   {
-    "year": 2017,
-    "peril": "Earthquake",
-    "deal_count": 4,
-    "total_volume_usd": 12147700000,
-    "total_volume_musd": 12147.7
+    "year": 2011,
+    "peril": "Multi-Peril",
+    "deal_count": 12,
+    "total_volume_usd": 5109000000,
+    "total_volume_musd": 5109
   },
   {
-    "year": 2023,
+    "year": 2012,
     "peril": "Earthquake",
-    "deal_count": 8,
-    "total_volume_usd": 12037600000,
-    "total_volume_musd": 12037.6
+    "deal_count": 3,
+    "total_volume_usd": 750000000,
+    "total_volume_musd": 750
   },
   {
     "year": 2012,
     "peril": "Hurricane / Wind",
+    "deal_count": 10,
+    "total_volume_usd": 1954000000,
+    "total_volume_musd": 1954
+  },
+  {
+    "year": 2012,
+    "peril": "Multi-Peril",
     "deal_count": 12,
-    "total_volume_usd": 11465080000,
-    "total_volume_musd": 11465.08
+    "total_volume_usd": 7201000000,
+    "total_volume_musd": 7201
   },
   {
-    "year": 2022,
+    "year": 2013,
+    "peril": "Earthquake",
+    "deal_count": 4,
+    "total_volume_usd": 1075000000,
+    "total_volume_musd": 1075
+  },
+  {
+    "year": 2013,
+    "peril": "Extreme Mortality",
+    "deal_count": 1,
+    "total_volume_usd": 360000000,
+    "total_volume_musd": 360
+  },
+  {
+    "year": 2013,
     "peril": "Hurricane / Wind",
-    "deal_count": 17,
-    "total_volume_usd": 11432050000,
-    "total_volume_musd": 11432.05
+    "deal_count": 13,
+    "total_volume_usd": 3734378746.5940056,
+    "total_volume_musd": 3734.3787465940054
   },
   {
-    "year": 2024,
+    "year": 2013,
+    "peril": "Multi-Peril",
+    "deal_count": 14,
+    "total_volume_usd": 5067200000,
+    "total_volume_musd": 5067.2
+  },
+  {
+    "year": 2014,
+    "peril": "Earthquake",
+    "deal_count": 6,
+    "total_volume_usd": 3190000000,
+    "total_volume_musd": 3190
+  },
+  {
+    "year": 2014,
+    "peril": "Hurricane / Wind",
+    "deal_count": 9,
+    "total_volume_usd": 1108878746.5940056,
+    "total_volume_musd": 1108.8787465940056
+  },
+  {
+    "year": 2014,
+    "peril": "Multi-Peril",
+    "deal_count": 13,
+    "total_volume_usd": 6985000000,
+    "total_volume_musd": 6985
+  },
+  {
+    "year": 2015,
     "peril": "Earthquake",
     "deal_count": 8,
-    "total_volume_usd": 10600600000,
-    "total_volume_musd": 10600.6
+    "total_volume_usd": 2106893732.9700272,
+    "total_volume_musd": 2106.893732970027
   },
   {
-    "year": 2007,
+    "year": 2015,
     "peril": "Hurricane / Wind",
-    "deal_count": 10,
-    "total_volume_usd": 8976453000,
-    "total_volume_musd": 8976.453
-  },
-  {
-    "year": 2006,
-    "peril": "Multi-Peril",
     "deal_count": 8,
-    "total_volume_usd": 8853875000,
-    "total_volume_musd": 8853.875
+    "total_volume_usd": 3232500000,
+    "total_volume_musd": 3232.5
   },
   {
-    "year": 2007,
+    "year": 2015,
     "peril": "Multi-Peril",
-    "deal_count": 12,
-    "total_volume_usd": 8110700000,
-    "total_volume_musd": 8110.7
+    "deal_count": 10,
+    "total_volume_usd": 3250000000,
+    "total_volume_musd": 3250
   },
   {
     "year": 2016,
     "peril": "Earthquake",
     "deal_count": 3,
-    "total_volume_usd": 8074000000,
-    "total_volume_musd": 8074
-  },
-  {
-    "year": 2009,
-    "peril": "Multi-Peril",
-    "deal_count": 12,
-    "total_volume_usd": 7758380000,
-    "total_volume_musd": 7758.38
-  },
-  {
-    "year": 2022,
-    "peril": "Earthquake",
-    "deal_count": 8,
-    "total_volume_usd": 7551025000,
-    "total_volume_musd": 7551.025
-  },
-  {
-    "year": 2018,
-    "peril": "Hurricane / Wind",
-    "deal_count": 6,
-    "total_volume_usd": 7079430000,
-    "total_volume_musd": 7079.43
+    "total_volume_usd": 2200000000,
+    "total_volume_musd": 2200
   },
   {
     "year": 2016,
     "peril": "Hurricane / Wind",
-    "deal_count": 7,
-    "total_volume_usd": 6862900000,
-    "total_volume_musd": 6862.9
-  },
-  {
-    "year": 2015,
-    "peril": "Multi-Peril",
-    "deal_count": 8,
-    "total_volume_usd": 6239000000,
-    "total_volume_musd": 6239
-  },
-  {
-    "year": 2011,
-    "peril": "Hurricane / Wind",
-    "deal_count": 9,
-    "total_volume_usd": 6011460000,
-    "total_volume_musd": 6011.46
-  },
-  {
-    "year": 2009,
-    "peril": "Hurricane / Wind",
-    "deal_count": 4,
-    "total_volume_usd": 5728870000,
-    "total_volume_musd": 5728.87
-  },
-  {
-    "year": 2013,
-    "peril": "Earthquake",
-    "deal_count": 6,
-    "total_volume_usd": 5270854000,
-    "total_volume_musd": 5270.854
-  },
-  {
-    "year": 2010,
-    "peril": "Hurricane / Wind",
-    "deal_count": 8,
-    "total_volume_usd": 5193050000,
-    "total_volume_musd": 5193.05
-  },
-  {
-    "year": 2006,
-    "peril": "Hurricane / Wind",
-    "deal_count": 11,
-    "total_volume_usd": 5037075000,
-    "total_volume_musd": 5037.075
-  },
-  {
-    "year": 2019,
-    "peril": "Hurricane / Wind",
-    "deal_count": 8,
-    "total_volume_usd": 4991700000,
-    "total_volume_musd": 4991.7
-  },
-  {
-    "year": 2014,
-    "peril": "Hurricane / Wind",
-    "deal_count": 10,
-    "total_volume_usd": 4803585000,
-    "total_volume_musd": 4803.585
-  },
-  {
-    "year": 2006,
-    "peril": "Earthquake",
-    "deal_count": 6,
-    "total_volume_usd": 4312250000,
-    "total_volume_musd": 4312.25
-  },
-  {
-    "year": 2026,
-    "peril": "Other",
-    "deal_count": 2,
-    "total_volume_usd": 4220500000,
-    "total_volume_musd": 4220.5
-  },
-  {
-    "year": 2008,
-    "peril": "Multi-Peril",
-    "deal_count": 6,
-    "total_volume_usd": 4161780000,
-    "total_volume_musd": 4161.78
-  },
-  {
-    "year": 2005,
-    "peril": "Multi-Peril",
-    "deal_count": 8,
-    "total_volume_usd": 3923230000,
-    "total_volume_musd": 3923.23
-  },
-  {
-    "year": 2021,
-    "peril": "Other",
-    "deal_count": 6,
-    "total_volume_usd": 3816800000,
-    "total_volume_musd": 3816.8
-  },
-  {
-    "year": 2012,
-    "peril": "Earthquake",
-    "deal_count": 4,
-    "total_volume_usd": 3743400000,
-    "total_volume_musd": 3743.4
-  },
-  {
-    "year": 2007,
-    "peril": "Earthquake",
-    "deal_count": 4,
-    "total_volume_usd": 3518062000,
-    "total_volume_musd": 3518.062
-  },
-  {
-    "year": 2024,
-    "peril": "Other",
-    "deal_count": 6,
-    "total_volume_usd": 3500985000,
-    "total_volume_musd": 3500.985
-  },
-  {
-    "year": 2004,
-    "peril": "Multi-Peril",
-    "deal_count": 7,
-    "total_volume_usd": 3260061000,
-    "total_volume_musd": 3260.061
-  },
-  {
-    "year": 2008,
-    "peril": "Hurricane / Wind",
-    "deal_count": 4,
-    "total_volume_usd": 3075460000,
-    "total_volume_musd": 3075.46
-  },
-  {
-    "year": 1998,
-    "peril": "Hurricane / Wind",
-    "deal_count": 6,
-    "total_volume_usd": 3046467000,
-    "total_volume_musd": 3046.467
-  },
-  {
-    "year": 2016,
-    "peril": "Other",
-    "deal_count": 1,
-    "total_volume_usd": 3044700000,
-    "total_volume_musd": 3044.7
-  },
-  {
-    "year": 2023,
-    "peril": "Other",
     "deal_count": 5,
-    "total_volume_usd": 2991050000,
-    "total_volume_musd": 2991.05
+    "total_volume_usd": 1395000000,
+    "total_volume_musd": 1395
   },
   {
-    "year": 2026,
+    "year": 2016,
+    "peril": "Motor Third-party Liability Losses",
+    "deal_count": 1,
+    "total_volume_usd": 829618528.6103543,
+    "total_volume_musd": 829.6185286103544
+  },
+  {
+    "year": 2016,
+    "peril": "Multi-Peril",
+    "deal_count": 12,
+    "total_volume_usd": 8620000000,
+    "total_volume_musd": 8620
+  },
+  {
+    "year": 2017,
     "peril": "Earthquake",
+    "deal_count": 3,
+    "total_volume_usd": 2950000000,
+    "total_volume_musd": 2950
+  },
+  {
+    "year": 2017,
+    "peril": "European Perils",
+    "deal_count": 1,
+    "total_volume_usd": 43378746.59400545,
+    "total_volume_musd": 43.37874659400545
+  },
+  {
+    "year": 2017,
+    "peril": "Hurricane / Wind",
+    "deal_count": 8,
+    "total_volume_usd": 2392000000,
+    "total_volume_musd": 2392
+  },
+  {
+    "year": 2017,
+    "peril": "Multi-Peril",
+    "deal_count": 23,
+    "total_volume_usd": 17333893732.970028,
+    "total_volume_musd": 17333.893732970027
+  },
+  {
+    "year": 2018,
+    "peril": "California Wildfire",
     "deal_count": 2,
-    "total_volume_usd": 2844250000,
-    "total_volume_musd": 2844.25
+    "total_volume_usd": 325000000,
+    "total_volume_musd": 325
+  },
+  {
+    "year": 2018,
+    "peril": "Earthquake",
+    "deal_count": 10,
+    "total_volume_usd": 4580000000,
+    "total_volume_musd": 4580
+  },
+  {
+    "year": 2018,
+    "peril": "Hurricane / Wind",
+    "deal_count": 5,
+    "total_volume_usd": 2129000000,
+    "total_volume_musd": 2129
+  },
+  {
+    "year": 2018,
+    "peril": "Multi-Peril",
+    "deal_count": 15,
+    "total_volume_usd": 7365000000,
+    "total_volume_musd": 7365
   },
   {
     "year": 2019,
     "peril": "Earthquake",
-    "deal_count": 2,
-    "total_volume_usd": 2569000000,
-    "total_volume_musd": 2569
+    "deal_count": 3,
+    "total_volume_usd": 1150000000,
+    "total_volume_musd": 1150
   },
   {
-    "year": 2003,
-    "peril": "Earthquake",
-    "deal_count": 4,
-    "total_volume_usd": 2357975000,
-    "total_volume_musd": 2357.975
+    "year": 2019,
+    "peril": "Hurricane / Wind",
+    "deal_count": 6,
+    "total_volume_usd": 1580136239.7820163,
+    "total_volume_musd": 1580.1362397820162
+  },
+  {
+    "year": 2019,
+    "peril": "Multi-Peril",
+    "deal_count": 15,
+    "total_volume_usd": 6911602179.836513,
+    "total_volume_musd": 6911.602179836513
   },
   {
     "year": 2020,
-    "peril": "Other",
-    "deal_count": 4,
-    "total_volume_usd": 2348800000,
-    "total_volume_musd": 2348.8
-  },
-  {
-    "year": 2003,
-    "peril": "Multi-Peril",
-    "deal_count": 7,
-    "total_volume_usd": 2306595000,
-    "total_volume_musd": 2306.595
-  },
-  {
-    "year": 2005,
-    "peril": "Other",
+    "peril": "California Wildfire",
     "deal_count": 2,
-    "total_volume_usd": 2282350000,
-    "total_volume_musd": 2282.35
+    "total_volume_usd": 140000000,
+    "total_volume_musd": 140
   },
   {
-    "year": 2001,
+    "year": 2020,
+    "peril": "Earthquake",
+    "deal_count": 8,
+    "total_volume_usd": 3515946866.4850135,
+    "total_volume_musd": 3515.9468664850133
+  },
+  {
+    "year": 2020,
+    "peril": "Extreme Mortality",
+    "deal_count": 1,
+    "total_volume_usd": 100000000,
+    "total_volume_musd": 100
+  },
+  {
+    "year": 2020,
+    "peril": "Hurricane / Wind",
+    "deal_count": 11,
+    "total_volume_usd": 4133446866.4850135,
+    "total_volume_musd": 4133.446866485014
+  },
+  {
+    "year": 2020,
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2020,
     "peril": "Multi-Peril",
-    "deal_count": 4,
-    "total_volume_usd": 2080523000,
-    "total_volume_musd": 2080.523
+    "deal_count": 26,
+    "total_volume_usd": 12165000000,
+    "total_volume_musd": 12165
+  },
+  {
+    "year": 2021,
+    "peril": "California Wildfire",
+    "deal_count": 2,
+    "total_volume_usd": 390000000,
+    "total_volume_musd": 390
+  },
+  {
+    "year": 2021,
+    "peril": "Earthquake",
+    "deal_count": 10,
+    "total_volume_usd": 4360500000,
+    "total_volume_musd": 4360.5
+  },
+  {
+    "year": 2021,
+    "peril": "Extreme Mortality",
+    "deal_count": 1,
+    "total_volume_usd": 0,
+    "total_volume_musd": 0
+  },
+  {
+    "year": 2021,
+    "peril": "Global Peak Perils",
+    "deal_count": 1,
+    "total_volume_usd": 150000000,
+    "total_volume_musd": 150
+  },
+  {
+    "year": 2021,
+    "peril": "Hurricane / Wind",
+    "deal_count": 8,
+    "total_volume_usd": 3955000000,
+    "total_volume_musd": 3955
+  },
+  {
+    "year": 2021,
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2021,
+    "peril": "Multi-Peril",
+    "deal_count": 28,
+    "total_volume_usd": 10620076294.27793,
+    "total_volume_musd": 10620.07629427793
+  },
+  {
+    "year": 2021,
+    "peril": "Worldwide Peak Perils",
+    "deal_count": 1,
+    "total_volume_usd": 100000000,
+    "total_volume_musd": 100
   },
   {
     "year": 2022,
-    "peril": "Other",
-    "deal_count": 2,
-    "total_volume_usd": 1948770000,
-    "total_volume_musd": 1948.77
-  },
-  {
-    "year": 2002,
-    "peril": "Multi-Peril",
-    "deal_count": 2,
-    "total_volume_usd": 1779950000,
-    "total_volume_musd": 1779.95
-  },
-  {
-    "year": 1997,
-    "peril": "Hurricane / Wind",
-    "deal_count": 1,
-    "total_volume_usd": 1761600000,
-    "total_volume_musd": 1761.6
-  },
-  {
-    "year": 2002,
     "peril": "Earthquake",
+    "deal_count": 8,
+    "total_volume_usd": 2057500000,
+    "total_volume_musd": 2057.5
+  },
+  {
+    "year": 2022,
+    "peril": "Hurricane / Wind",
+    "deal_count": 12,
+    "total_volume_usd": 4015000000,
+    "total_volume_musd": 4015
+  },
+  {
+    "year": 2022,
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2022,
+    "peril": "Multi-Peril",
+    "deal_count": 28,
+    "total_volume_usd": 11122500000,
+    "total_volume_musd": 11122.5
+  },
+  {
+    "year": 2022,
+    "peril": "Terrorism Risk",
+    "deal_count": 1,
+    "total_volume_usd": 131000000,
+    "total_volume_musd": 131
+  },
+  {
+    "year": 2023,
+    "peril": "Cyber Risks",
     "deal_count": 4,
-    "total_volume_usd": 1754260000,
-    "total_volume_musd": 1754.26
+    "total_volume_usd": 415000000,
+    "total_volume_musd": 415
   },
   {
-    "year": 2006,
-    "peril": "Other",
-    "deal_count": 2,
-    "total_volume_usd": 1737877500,
-    "total_volume_musd": 1737.8775
+    "year": 2023,
+    "peril": "Earthquake",
+    "deal_count": 8,
+    "total_volume_usd": 3280000000,
+    "total_volume_musd": 3280
   },
   {
-    "year": 2007,
-    "peril": "Other",
-    "deal_count": 3,
-    "total_volume_usd": 1601881600,
-    "total_volume_musd": 1601.8816
-  },
-  {
-    "year": 2001,
+    "year": 2023,
     "peril": "Hurricane / Wind",
-    "deal_count": 3,
-    "total_volume_usd": 1583238000,
-    "total_volume_musd": 1583.238
+    "deal_count": 15,
+    "total_volume_usd": 5153787465.940054,
+    "total_volume_musd": 5153.787465940054
   },
   {
-    "year": 2004,
-    "peril": "Earthquake",
-    "deal_count": 3,
-    "total_volume_usd": 1559750000,
-    "total_volume_musd": 1559.75
-  },
-  {
-    "year": 2009,
-    "peril": "Earthquake",
-    "deal_count": 2,
-    "total_volume_usd": 1376250000,
-    "total_volume_musd": 1376.25
-  },
-  {
-    "year": 2013,
-    "peril": "Other",
+    "year": 2023,
+    "peril": "Medical Benefit Claims Levels",
     "deal_count": 1,
-    "total_volume_usd": 1321200000,
-    "total_volume_musd": 1321.2
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
   },
   {
-    "year": 2011,
-    "peril": "Earthquake",
-    "deal_count": 2,
-    "total_volume_usd": 1284500000,
-    "total_volume_musd": 1284.5
-  },
-  {
-    "year": 2010,
-    "peril": "Earthquake",
-    "deal_count": 1,
-    "total_volume_usd": 1284500000,
-    "total_volume_musd": 1284.5
-  },
-  {
-    "year": 2000,
+    "year": 2023,
     "peril": "Multi-Peril",
-    "deal_count": 2,
-    "total_volume_usd": 1207430000,
-    "total_volume_musd": 1207.43
+    "deal_count": 43,
+    "total_volume_usd": 14167643051.771116,
+    "total_volume_musd": 14167.643051771116
   },
   {
-    "year": 2018,
-    "peril": "Other",
+    "year": 2024,
+    "peril": "Cyber Risks",
     "deal_count": 2,
-    "total_volume_usd": 1192750000,
-    "total_volume_musd": 1192.75
+    "total_volume_usd": 370000000,
+    "total_volume_musd": 370
   },
   {
-    "year": 1998,
+    "year": 2024,
+    "peril": "Earthquake",
+    "deal_count": 7,
+    "total_volume_usd": 2788446866.4850135,
+    "total_volume_musd": 2788.4468664850133
+  },
+  {
+    "year": 2024,
+    "peril": "Hurricane / Wind",
+    "deal_count": 18,
+    "total_volume_usd": 6424417166.212534,
+    "total_volume_musd": 6424.417166212534
+  },
+  {
+    "year": 2024,
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2024,
     "peril": "Multi-Peril",
-    "deal_count": 2,
-    "total_volume_usd": 1156050000,
-    "total_volume_musd": 1156.05
+    "deal_count": 41,
+    "total_volume_usd": 14551035149.86376,
+    "total_volume_musd": 14551.03514986376
   },
   {
-    "year": 2008,
-    "peril": "Earthquake",
+    "year": 2024,
+    "peril": "Terrorism Risk",
     "deal_count": 1,
-    "total_volume_usd": 1101000000,
-    "total_volume_musd": 1101
+    "total_volume_usd": 108446866.48501363,
+    "total_volume_musd": 108.44686648501363
   },
   {
-    "year": 2008,
-    "peril": "Other",
+    "year": 2025,
+    "peril": "California Wildfire",
     "deal_count": 2,
-    "total_volume_usd": 1101000000,
-    "total_volume_musd": 1101
+    "total_volume_usd": 850000000,
+    "total_volume_musd": 850
   },
   {
-    "year": 2005,
-    "peril": "Earthquake",
+    "year": 2025,
+    "peril": "Convective Storm (france Only)",
     "deal_count": 1,
-    "total_volume_usd": 1101000000,
-    "total_volume_musd": 1101
+    "total_volume_usd": 130136239.78201637,
+    "total_volume_musd": 130.13623978201636
   },
   {
-    "year": 1999,
+    "year": 2025,
+    "peril": "Cyber Risks",
+    "deal_count": 2,
+    "total_volume_usd": 1200000000,
+    "total_volume_musd": 1200
+  },
+  {
+    "year": 2025,
     "peril": "Earthquake",
-    "deal_count": 3,
-    "total_volume_usd": 1101000000,
-    "total_volume_musd": 1101
+    "deal_count": 9,
+    "total_volume_usd": 4585000000,
+    "total_volume_musd": 4585
   },
   {
-    "year": 2000,
-    "peril": "Hurricane / Wind",
-    "deal_count": 2,
-    "total_volume_usd": 1064300000,
-    "total_volume_musd": 1064.3
-  },
-  {
-    "year": 1999,
-    "peril": "Hurricane / Wind",
-    "deal_count": 2,
-    "total_volume_usd": 1027600000,
-    "total_volume_musd": 1027.6
-  },
-  {
-    "year": 2001,
-    "peril": "Earthquake",
-    "deal_count": 2,
-    "total_volume_usd": 972550000,
-    "total_volume_musd": 972.55
-  },
-  {
-    "year": 1997,
-    "peril": "Earthquake",
-    "deal_count": 2,
-    "total_volume_usd": 869790000,
-    "total_volume_musd": 869.79
-  },
-  {
-    "year": 2003,
-    "peril": "Hurricane / Wind",
+    "year": 2025,
+    "peril": "Financial Guarantee Risks",
     "deal_count": 1,
-    "total_volume_usd": 836760000,
-    "total_volume_musd": 836.76
-  },
-  {
-    "year": 2010,
-    "peril": "Other",
-    "deal_count": 2,
-    "total_volume_usd": 734000000,
-    "total_volume_musd": 734
-  },
-  {
-    "year": 1999,
-    "peril": "Multi-Peril",
-    "deal_count": 1,
-    "total_volume_usd": 671610000,
-    "total_volume_musd": 671.61
+    "total_volume_usd": 275000000,
+    "total_volume_musd": 275
   },
   {
     "year": 2025,
     "peril": "Flood",
     "deal_count": 1,
-    "total_volume_usd": 648200000,
-    "total_volume_musd": 648.2
+    "total_volume_usd": 176621253.40599453,
+    "total_volume_musd": 176.62125340599454
   },
   {
-    "year": 2000,
-    "peril": "Earthquake",
-    "deal_count": 1,
-    "total_volume_usd": 550500000,
-    "total_volume_musd": 550.5
-  },
-  {
-    "year": 2002,
+    "year": 2025,
     "peril": "Hurricane / Wind",
-    "deal_count": 1,
-    "total_volume_usd": 458750000,
-    "total_volume_musd": 458.75
+    "deal_count": 14,
+    "total_volume_usd": 7126658583.106267,
+    "total_volume_musd": 7126.658583106267
   },
   {
-    "year": 2019,
-    "peril": "Flood",
+    "year": 2025,
+    "peril": "Medical Benefit Claims Levels",
     "deal_count": 1,
-    "total_volume_usd": 358200000,
-    "total_volume_musd": 358.2
+    "total_volume_usd": 750000000,
+    "total_volume_musd": 750
   },
   {
-    "year": 1996,
-    "peril": "Other",
-    "deal_count": 1,
-    "total_volume_usd": 251395000,
-    "total_volume_musd": 251.395
+    "year": 2025,
+    "peril": "Multi-Peril",
+    "deal_count": 58,
+    "total_volume_usd": 22121021798.36512,
+    "total_volume_musd": 22121.02179836512
   },
   {
-    "year": 2019,
-    "peril": "Other",
+    "year": 2025,
+    "peril": "Terrorism Risk",
     "deal_count": 1,
-    "total_volume_usd": 198180000,
-    "total_volume_musd": 198.18
+    "total_volume_usd": 126158038.14713897,
+    "total_volume_musd": 126.15803814713897
   },
   {
-    "year": 2017,
-    "peril": "Other",
+    "year": 2025,
+    "peril": "Worldwide Peak Perils",
     "deal_count": 1,
-    "total_volume_usd": 159200000,
-    "total_volume_musd": 159.2
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2026,
+    "peril": "California Wildfire",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2026,
+    "peril": "Earthquake",
+    "deal_count": 2,
+    "total_volume_usd": 775000000,
+    "total_volume_musd": 775
+  },
+  {
+    "year": 2026,
+    "peril": "Hurricane / Wind",
+    "deal_count": 4,
+    "total_volume_usd": 2865000000,
+    "total_volume_musd": 2865
+  },
+  {
+    "year": 2026,
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 1,
+    "total_volume_usd": 750000000,
+    "total_volume_musd": 750
+  },
+  {
+    "year": 2026,
+    "peril": "Multi-Peril",
+    "deal_count": 11,
+    "total_volume_usd": 4255000000,
+    "total_volume_musd": 4255
   }
 ]

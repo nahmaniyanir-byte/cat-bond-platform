@@ -1,333 +1,274 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source": "cat_bond_master.csv",
   "summary_by_sovereign_flag": [
     {
       "segment": "Sovereign",
       "sovereign_flag": true,
-      "deal_count": 16,
-      "cumulative_issuance_usd": 28534250000,
-      "total_volume_usd": 28534250000,
-      "total_volume_musd": 28534.25,
-      "market_share_percent": 2.6443
+      "deal_count": 15,
+      "total_volume_usd": 7745000000,
+      "total_volume_musd": 7745
     },
     {
       "segment": "Non-Sovereign",
       "sovereign_flag": false,
-      "deal_count": 814,
-      "cumulative_issuance_usd": 1050561109100,
-      "total_volume_usd": 1050561109100,
-      "total_volume_musd": 1050561.1091,
-      "market_share_percent": 97.3557
+      "deal_count": 815,
+      "total_volume_usd": 286286432997.2752,
+      "total_volume_musd": 286286.4329972752
     }
   ],
   "summary_by_market_segment": [
     {
-      "market_segment": "Reinsurer",
-      "deal_count": 751,
-      "total_volume_usd": 997612689600,
-      "total_volume_musd": 997612.6896
-    },
-    {
-      "market_segment": "Corporate",
-      "deal_count": 28,
-      "total_volume_usd": 30709160000,
-      "total_volume_musd": 30709.16
+      "market_segment": "Non-Sovereign",
+      "deal_count": 815,
+      "total_volume_usd": 286286432997.2752,
+      "total_volume_musd": 286286.4329972752
     },
     {
       "market_segment": "Sovereign",
-      "deal_count": 16,
-      "total_volume_usd": 28534250000,
-      "total_volume_musd": 28534.25
-    },
-    {
-      "market_segment": "Non-Sovereign",
-      "deal_count": 29,
-      "total_volume_usd": 19611906500,
-      "total_volume_musd": 19611.9065
-    },
-    {
-      "market_segment": "Insurer",
-      "deal_count": 6,
-      "total_volume_usd": 2627353000,
-      "total_volume_musd": 2627.353
+      "deal_count": 15,
+      "total_volume_usd": 7745000000,
+      "total_volume_musd": 7745
     }
   ],
   "trigger_by_market_segment": [
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "trigger_type": "Indemnity",
-      "deal_count": 467,
-      "total_volume_usd": 658965839600,
-      "total_volume_musd": 658965.8396
+      "deal_count": 474,
+      "total_volume_usd": 181028343215.25888,
+      "total_volume_musd": 181028.34321525888
     },
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "trigger_type": "Industry Loss",
-      "deal_count": 199,
-      "total_volume_usd": 278336639000,
-      "total_volume_musd": 278336.639
+      "deal_count": 224,
+      "total_volume_usd": 82977046049.04633,
+      "total_volume_musd": 82977.04604904633
     },
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "trigger_type": "Parametric",
-      "deal_count": 52,
-      "total_volume_usd": 34655076000,
-      "total_volume_musd": 34655.076
+      "deal_count": 77,
+      "total_volume_usd": 14311750000,
+      "total_volume_musd": 14311.75
     },
     {
       "market_segment": "Sovereign",
       "trigger_type": "Parametric",
-      "deal_count": 15,
-      "total_volume_usd": 26882750000,
-      "total_volume_musd": 26882.75
-    },
-    {
-      "market_segment": "Corporate",
-      "trigger_type": "Industry Loss",
-      "deal_count": 19,
-      "total_volume_usd": 20922670000,
-      "total_volume_musd": 20922.67
-    },
-    {
-      "market_segment": "Reinsurer",
-      "trigger_type": "Other",
-      "deal_count": 16,
-      "total_volume_usd": 15492905000,
-      "total_volume_musd": 15492.905
+      "deal_count": 14,
+      "total_volume_usd": 7295000000,
+      "total_volume_musd": 7295
     },
     {
       "market_segment": "Non-Sovereign",
-      "trigger_type": "Parametric",
-      "deal_count": 15,
-      "total_volume_usd": 11714456500,
-      "total_volume_musd": 11714.4565
-    },
-    {
-      "market_segment": "Reinsurer",
       "trigger_type": "Modelled Loss",
-      "deal_count": 17,
-      "total_volume_usd": 10162230000,
-      "total_volume_musd": 10162.23
-    },
-    {
-      "market_segment": "Corporate",
-      "trigger_type": "Parametric",
-      "deal_count": 7,
-      "total_volume_usd": 5420590000,
-      "total_volume_musd": 5420.59
+      "deal_count": 23,
+      "total_volume_usd": 3530900000,
+      "total_volume_musd": 3530.9
     },
     {
       "market_segment": "Non-Sovereign",
-      "trigger_type": "Industry Loss",
-      "deal_count": 4,
-      "total_volume_usd": 3211250000,
-      "total_volume_musd": 3211.25
-    },
-    {
-      "market_segment": "Corporate",
-      "trigger_type": "Indemnity",
-      "deal_count": 1,
-      "total_volume_usd": 3044700000,
-      "total_volume_musd": 3044.7
-    },
-    {
-      "market_segment": "Non-Sovereign",
-      "trigger_type": "Indemnity",
+      "trigger_type": "Unknown",
       "deal_count": 5,
-      "total_volume_usd": 2165300000,
-      "total_volume_musd": 2165.3
+      "total_volume_usd": 2030000000,
+      "total_volume_musd": 2030
     },
     {
       "market_segment": "Non-Sovereign",
-      "trigger_type": "Modelled Loss",
-      "deal_count": 4,
-      "total_volume_usd": 1724900000,
-      "total_volume_musd": 1724.9
+      "trigger_type": "Hybrid",
+      "deal_count": 10,
+      "total_volume_usd": 2016500000,
+      "total_volume_musd": 2016.5
     },
     {
       "market_segment": "Sovereign",
       "trigger_type": "Modelled Loss",
       "deal_count": 1,
-      "total_volume_usd": 1651500000,
-      "total_volume_musd": 1651.5
-    },
-    {
-      "market_segment": "Corporate",
-      "trigger_type": "Other",
-      "deal_count": 1,
-      "total_volume_usd": 1321200000,
-      "total_volume_musd": 1321.2
-    },
-    {
-      "market_segment": "Insurer",
-      "trigger_type": "Modelled Loss",
-      "deal_count": 2,
-      "total_volume_usd": 1071273000,
-      "total_volume_musd": 1071.273
+      "total_volume_usd": 450000000,
+      "total_volume_musd": 450
     },
     {
       "market_segment": "Non-Sovereign",
-      "trigger_type": "Other",
+      "trigger_type": "Loss Ratio Trigger",
       "deal_count": 1,
-      "total_volume_usd": 796000000,
-      "total_volume_musd": 796
+      "total_volume_usd": 216893732.97002727,
+      "total_volume_musd": 216.89373297002726
     },
     {
-      "market_segment": "Insurer",
-      "trigger_type": "Industry Loss",
+      "market_segment": "Non-Sovereign",
+      "trigger_type": "Rms",
       "deal_count": 1,
-      "total_volume_usd": 734000000,
-      "total_volume_musd": 734
-    },
-    {
-      "market_segment": "Insurer",
-      "trigger_type": "Parametric",
-      "deal_count": 2,
-      "total_volume_usd": 623900000,
-      "total_volume_musd": 623.9
-    },
-    {
-      "market_segment": "Insurer",
-      "trigger_type": "Indemnity",
-      "deal_count": 1,
-      "total_volume_usd": 198180000,
-      "total_volume_musd": 198.18
+      "total_volume_usd": 175000000,
+      "total_volume_musd": 175
     }
   ],
   "peril_by_market_segment": [
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "peril": "Multi-Peril",
-      "deal_count": 325,
-      "total_volume_usd": 531286291000,
-      "total_volume_musd": 531286.291
+      "deal_count": 442,
+      "total_volume_usd": 168356102207.08447,
+      "total_volume_musd": 168356.10220708448
     },
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "peril": "Hurricane / Wind",
-      "deal_count": 255,
-      "total_volume_usd": 263572856000,
-      "total_volume_musd": 263572.856
+      "deal_count": 205,
+      "total_volume_usd": 62624103814.71388,
+      "total_volume_musd": 62624.10381471388
     },
     {
-      "market_segment": "Reinsurer",
+      "market_segment": "Non-Sovereign",
       "peril": "Earthquake",
-      "deal_count": 122,
-      "total_volume_usd": 161696851000,
-      "total_volume_musd": 161696.851
-    },
-    {
-      "market_segment": "Reinsurer",
-      "peril": "Other",
-      "deal_count": 47,
-      "total_volume_usd": 40050291600,
-      "total_volume_musd": 40050.2916
+      "deal_count": 123,
+      "total_volume_usd": 43496887465.940056,
+      "total_volume_musd": 43496.88746594005
     },
     {
       "market_segment": "Sovereign",
       "peril": "Multi-Peril",
+      "deal_count": 5,
+      "total_volume_usd": 4655000000,
+      "total_volume_musd": 4655
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Medical Benefit Claims Levels",
       "deal_count": 7,
-      "total_volume_usd": 18845450000,
-      "total_volume_musd": 18845.45
+      "total_volume_usd": 3500000000,
+      "total_volume_musd": 3500
     },
     {
-      "market_segment": "Corporate",
-      "peril": "Multi-Peril",
-      "deal_count": 14,
-      "total_volume_usd": 11835750000,
-      "total_volume_musd": 11835.75
+      "market_segment": "Sovereign",
+      "peril": "Earthquake",
+      "deal_count": 7,
+      "total_volume_usd": 2580000000,
+      "total_volume_musd": 2580
     },
     {
-      "market_segment": "Corporate",
-      "peril": "Hurricane / Wind",
+      "market_segment": "Non-Sovereign",
+      "peril": "California Wildfire",
       "deal_count": 9,
-      "total_volume_usd": 11021010000,
-      "total_volume_musd": 11021.01
-    },
-    {
-      "market_segment": "Sovereign",
-      "peril": "Earthquake",
-      "deal_count": 6,
-      "total_volume_usd": 7817100000,
-      "total_volume_musd": 7817.1
+      "total_volume_usd": 2105000000,
+      "total_volume_musd": 2105
     },
     {
       "market_segment": "Non-Sovereign",
-      "peril": "Multi-Peril",
-      "deal_count": 12,
-      "total_volume_usd": 6982175000,
-      "total_volume_musd": 6982.175
-    },
-    {
-      "market_segment": "Non-Sovereign",
-      "peril": "Earthquake",
-      "deal_count": 7,
-      "total_volume_usd": 5697675000,
-      "total_volume_musd": 5697.675
-    },
-    {
-      "market_segment": "Non-Sovereign",
-      "peril": "Hurricane / Wind",
+      "peril": "Cyber Risks",
       "deal_count": 8,
-      "total_volume_usd": 5401139000,
-      "total_volume_musd": 5401.139
+      "total_volume_usd": 1985000000,
+      "total_volume_musd": 1985
     },
     {
-      "market_segment": "Corporate",
-      "peril": "Other",
-      "deal_count": 2,
-      "total_volume_usd": 4365900000,
-      "total_volume_musd": 4365.9
-    },
-    {
-      "market_segment": "Corporate",
-      "peril": "Earthquake",
-      "deal_count": 3,
-      "total_volume_usd": 3486500000,
-      "total_volume_musd": 3486.5
+      "market_segment": "Non-Sovereign",
+      "peril": "Motor Third-party Liability Losses",
+      "deal_count": 1,
+      "total_volume_usd": 829618528.6103543,
+      "total_volume_musd": 829.6185286103544
     },
     {
       "market_segment": "Sovereign",
       "peril": "Hurricane / Wind",
       "deal_count": 3,
-      "total_volume_usd": 1871700000,
-      "total_volume_musd": 1871.7
-    },
-    {
-      "market_segment": "Insurer",
-      "peril": "Multi-Peril",
-      "deal_count": 3,
-      "total_volume_usd": 1805273000,
-      "total_volume_musd": 1805.273
+      "total_volume_usd": 510000000,
+      "total_volume_musd": 510
     },
     {
       "market_segment": "Non-Sovereign",
-      "peril": "Other",
+      "peril": "Worldwide Peak Perils",
       "deal_count": 2,
-      "total_volume_usd": 1530917500,
-      "total_volume_musd": 1530.9175
+      "total_volume_usd": 500000000,
+      "total_volume_musd": 500
     },
     {
-      "market_segment": "Reinsurer",
-      "peril": "Flood",
-      "deal_count": 2,
-      "total_volume_usd": 1006400000,
-      "total_volume_musd": 1006.4
+      "market_segment": "Non-Sovereign",
+      "peril": "Extreme Mortality",
+      "deal_count": 3,
+      "total_volume_usd": 460000000,
+      "total_volume_musd": 460
     },
     {
-      "market_segment": "Insurer",
-      "peril": "Earthquake",
-      "deal_count": 2,
-      "total_volume_usd": 623900000,
-      "total_volume_musd": 623.9
-    },
-    {
-      "market_segment": "Insurer",
-      "peril": "Other",
+      "market_segment": "Non-Sovereign",
+      "peril": "Casualty Losses",
       "deal_count": 1,
-      "total_volume_usd": 198180000,
-      "total_volume_musd": 198.18
+      "total_volume_usd": 405000000,
+      "total_volume_musd": 405
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Terrorism Risk",
+      "deal_count": 3,
+      "total_volume_usd": 365604904.6321526,
+      "total_volume_musd": 365.6049046321526
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Financial Guarantee Risks",
+      "deal_count": 1,
+      "total_volume_usd": 275000000,
+      "total_volume_musd": 275
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Credit Reinsurance",
+      "deal_count": 1,
+      "total_volume_usd": 273286103.54223436,
+      "total_volume_musd": 273.28610354223434
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Motor Policies",
+      "deal_count": 1,
+      "total_volume_usd": 216893732.97002727,
+      "total_volume_musd": 216.89373297002726
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "U.s. Severe Thunderstorm",
+      "deal_count": 2,
+      "total_volume_usd": 200000000,
+      "total_volume_musd": 200
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Flood",
+      "deal_count": 1,
+      "total_volume_usd": 176621253.40599453,
+      "total_volume_musd": 176.62125340599454
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Global Peak Perils",
+      "deal_count": 1,
+      "total_volume_usd": 150000000,
+      "total_volume_musd": 150
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Convective Storm (france Only)",
+      "deal_count": 1,
+      "total_volume_usd": 130136239.78201637,
+      "total_volume_musd": 130.13623978201636
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Worldwide All Risks",
+      "deal_count": 1,
+      "total_volume_usd": 125300000,
+      "total_volume_musd": 125.3
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "Worldwide All Perils Incl. Marine & Aviation",
+      "deal_count": 1,
+      "total_volume_usd": 68500000,
+      "total_volume_musd": 68.5
+    },
+    {
+      "market_segment": "Non-Sovereign",
+      "peril": "European Perils",
+      "deal_count": 1,
+      "total_volume_usd": 43378746.59400545,
+      "total_volume_musd": 43.37874659400545
     }
   ]
 }

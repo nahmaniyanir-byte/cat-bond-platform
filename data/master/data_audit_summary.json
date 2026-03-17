@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source_root": "data/master",
-  "source_files": {
-    "master_csv": "cat_bond_master.csv"
-  },
+  "generated_at": "2026-03-17T14:35:34.093Z",
+  "source_root": "C:\\Users\\nahma\\PyCharmMiscProject\\mmn.14\\catbond_project\\final_outputs_country_fixed\\sql_ready_package",
   "row_counts": {
     "raw_rows": 830,
     "duplicate_rows_removed": 0,
     "cleaned_rows": 830
   },
   "deduplication": {
-    "primary_key": "deal_id",
-    "fallback_key": "hash(deal_name|issue_year|sponsor)",
+    "primary_key": "deal_id (fallback deterministic hash)",
     "duplicates_by_deal_id": 0,
     "duplicates_by_fallback_key": 0,
-    "missing_deal_id_rows": 0
+    "missing_deal_id_rows": 0,
+    "preserved_separate_tranches": true
   },
   "amount_methodology": {
-    "required_column": "deal_size_usd",
-    "rule": "SUM(deal_size_usd) at deal level; tranche/program fields excluded from totals",
-    "cumulative_issuance_musd": 1079095.3591,
-    "cumulative_issuance_usd": 1079095359100
+    "rule": "Prefer tranche-derived original_amount/tranche_size conversion; fallback to deal-level ILS million amount converted to USD.",
+    "cumulative_issuance_musd": 294031.433,
+    "cumulative_issuance_usd": 294031432997.28
   },
   "validation": {
     "expected_total_volume_busd_range": [
       180,
       220
     ],
-    "actual_total_volume_busd": 1079.095,
-    "within_expected_range": false,
-    "note": "Total issuance differs from expected validation range; review source dataset coverage."
+    "actual_total_volume_busd": 294.031,
+    "within_expected_range": false
   }
 }

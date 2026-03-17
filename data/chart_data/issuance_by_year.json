@@ -4,647 +4,567 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 1,
-    "cumulative_issuance_usd": 251395000,
-    "total_volume_usd": 251395000,
-    "total_volume_musd": 251.395
-  },
-  {
-    "year": 1997,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 3,
-    "cumulative_issuance_usd": 2631390000,
-    "total_volume_usd": 2631390000,
-    "total_volume_musd": 2631.39
-  },
-  {
-    "year": 1998,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 8,
-    "cumulative_issuance_usd": 4202517000,
-    "total_volume_usd": 4202517000,
-    "total_volume_musd": 4202.517
-  },
-  {
-    "year": 1999,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 6,
-    "cumulative_issuance_usd": 2800210000,
-    "total_volume_usd": 2800210000,
-    "total_volume_musd": 2800.21
-  },
-  {
-    "year": 2000,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 5,
-    "cumulative_issuance_usd": 2822230000,
-    "total_volume_usd": 2822230000,
-    "total_volume_musd": 2822.23
-  },
-  {
-    "year": 2001,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 9,
-    "cumulative_issuance_usd": 4636311000,
-    "total_volume_usd": 4636311000,
-    "total_volume_musd": 4636.311
-  },
-  {
-    "year": 2002,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 7,
-    "cumulative_issuance_usd": 3992960000,
-    "total_volume_usd": 3992960000,
-    "total_volume_musd": 3992.96
-  },
-  {
-    "year": 2003,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 12,
-    "cumulative_issuance_usd": 5501330000,
-    "total_volume_usd": 5501330000,
-    "total_volume_musd": 5501.33
-  },
-  {
-    "year": 2004,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 10,
-    "cumulative_issuance_usd": 4819811000,
-    "total_volume_usd": 4819811000,
-    "total_volume_musd": 4819.811
-  },
-  {
-    "year": 2005,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 11,
-    "cumulative_issuance_usd": 7306580000,
-    "total_volume_usd": 7306580000,
-    "total_volume_musd": 7306.58
-  },
-  {
-    "year": 2006,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 27,
-    "cumulative_issuance_usd": 19941077500,
-    "total_volume_usd": 19941077500,
-    "total_volume_musd": 19941.0775
-  },
-  {
-    "year": 2007,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 29,
-    "cumulative_issuance_usd": 22207096600,
-    "total_volume_usd": 22207096600,
-    "total_volume_musd": 22207.0966
-  },
-  {
-    "year": 2008,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 13,
-    "cumulative_issuance_usd": 9439240000,
-    "total_volume_usd": 9439240000,
-    "total_volume_musd": 9439.24
-  },
-  {
-    "year": 2009,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 18,
-    "cumulative_issuance_usd": 14863500000,
-    "total_volume_usd": 14863500000,
-    "total_volume_musd": 14863.5
-  },
-  {
-    "year": 2010,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 23,
-    "cumulative_issuance_usd": 19784970000,
-    "total_volume_usd": 19784970000,
-    "total_volume_musd": 19784.97
-  },
-  {
-    "year": 2011,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 23,
-    "cumulative_issuance_usd": 26045990000,
-    "total_volume_usd": 26045990000,
-    "total_volume_musd": 26045.99
-  },
-  {
-    "year": 2012,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 25,
-    "cumulative_issuance_usd": 36351350000,
-    "total_volume_usd": 36351350000,
-    "total_volume_musd": 36351.35
-  },
-  {
-    "year": 2013,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 32,
-    "cumulative_issuance_usd": 37568244000,
-    "total_volume_usd": 37568244000,
-    "total_volume_musd": 37568.244
-  },
-  {
-    "year": 2014,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 28,
-    "cumulative_issuance_usd": 41411835000,
-    "total_volume_usd": 41411835000,
-    "total_volume_musd": 41411.835
-  },
-  {
-    "year": 2015,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 26,
-    "cumulative_issuance_usd": 31523075000,
-    "total_volume_usd": 31523075000,
-    "total_volume_musd": 31523.075
-  },
-  {
-    "year": 2016,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 21,
-    "cumulative_issuance_usd": 47873750000,
-    "total_volume_usd": 47873750000,
-    "total_volume_musd": 47873.75
-  },
-  {
-    "year": 2017,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 35,
-    "cumulative_issuance_usd": 83379730000,
-    "total_volume_usd": 83379730000,
-    "total_volume_musd": 83379.73
-  },
-  {
-    "year": 2018,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 32,
-    "cumulative_issuance_usd": 52844330000,
-    "total_volume_usd": 52844330000,
-    "total_volume_musd": 52844.33
-  },
-  {
-    "year": 2019,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 24,
-    "cumulative_issuance_usd": 35385180000,
-    "total_volume_usd": 35385180000,
-    "total_volume_musd": 35385.18
-  },
-  {
-    "year": 2020,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 49,
-    "cumulative_issuance_usd": 75067625000,
-    "total_volume_usd": 75067625000,
-    "total_volume_musd": 75067.625
-  },
-  {
-    "year": 2021,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 52,
-    "cumulative_issuance_usd": 73310365000,
-    "total_volume_usd": 73310365000,
-    "total_volume_musd": 73310.365
-  },
-  {
-    "year": 2022,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 50,
-    "cumulative_issuance_usd": 65054420000,
-    "total_volume_usd": 65054420000,
-    "total_volume_musd": 65054.42
-  },
-  {
-    "year": 2023,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 71,
-    "cumulative_issuance_usd": 85938300000,
-    "total_volume_usd": 85938300000,
-    "total_volume_musd": 85938.3
-  },
-  {
-    "year": 2024,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 70,
-    "cumulative_issuance_usd": 90437410000,
-    "total_volume_usd": 90437410000,
-    "total_volume_musd": 90437.41
-  },
-  {
-    "year": 2025,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 91,
-    "cumulative_issuance_usd": 138507987000,
-    "total_volume_usd": 138507987000,
-    "total_volume_musd": 138507.987
-  },
-  {
-    "year": 2026,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 19,
-    "cumulative_issuance_usd": 33195150000,
-    "total_volume_usd": 33195150000,
-    "total_volume_musd": 33195.15
-  },
-  {
-    "year": 2006,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 587200000,
-    "total_volume_usd": 587200000,
-    "total_volume_musd": 587.2
-  },
-  {
-    "year": 2009,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 1064300000,
-    "total_volume_usd": 1064300000,
-    "total_volume_musd": 1064.3
-  },
-  {
-    "year": 2014,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 110100000,
-    "total_volume_usd": 110100000,
-    "total_volume_musd": 110.1
-  },
-  {
-    "year": 2017,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 3963600000,
-    "total_volume_usd": 3963600000,
-    "total_volume_musd": 3963.6
-  },
-  {
-    "year": 2018,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 4,
-    "cumulative_issuance_usd": 5945400000,
-    "total_volume_usd": 5945400000,
-    "total_volume_musd": 5945.4
-  },
-  {
-    "year": 2019,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 1651500000,
-    "total_volume_usd": 1651500000,
-    "total_volume_musd": 1651.5
-  },
-  {
-    "year": 2020,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 7119800000,
-    "total_volume_usd": 7119800000,
-    "total_volume_musd": 7119.8
-  },
-  {
-    "year": 2021,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 678950000,
-    "total_volume_usd": 678950000,
-    "total_volume_musd": 678.95
-  },
-  {
-    "year": 2023,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 1,
-    "cumulative_issuance_usd": 1284500000,
-    "total_volume_usd": 1284500000,
-    "total_volume_musd": 1284.5
-  },
-  {
-    "year": 2024,
-    "segment": "Sovereign",
-    "segment_key": "sovereign",
-    "deal_count": 4,
-    "cumulative_issuance_usd": 6128900000,
-    "total_volume_usd": 6128900000,
-    "total_volume_musd": 6128.9
+    "total_volume_usd": 68500000,
+    "total_volume_musd": 68.5
   },
   {
     "year": 1996,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 1,
-    "cumulative_issuance_usd": 251395000,
-    "total_volume_usd": 251395000,
-    "total_volume_musd": 251.395
+    "total_volume_usd": 68500000,
+    "total_volume_musd": 68.5
+  },
+  {
+    "year": 1997,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 3,
+    "total_volume_usd": 717000000,
+    "total_volume_musd": 717
   },
   {
     "year": 1997,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 3,
-    "cumulative_issuance_usd": 2631390000,
-    "total_volume_usd": 2631390000,
-    "total_volume_musd": 2631.39
+    "total_volume_usd": 717000000,
+    "total_volume_musd": 717
+  },
+  {
+    "year": 1998,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 8,
+    "total_volume_usd": 1145100000,
+    "total_volume_musd": 1145.1
   },
   {
     "year": 1998,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 8,
-    "cumulative_issuance_usd": 4202517000,
-    "total_volume_usd": 4202517000,
-    "total_volume_musd": 4202.517
+    "total_volume_usd": 1145100000,
+    "total_volume_musd": 1145.1
+  },
+  {
+    "year": 1999,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 6,
+    "total_volume_usd": 763000000,
+    "total_volume_musd": 763
   },
   {
     "year": 1999,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 6,
-    "cumulative_issuance_usd": 2800210000,
-    "total_volume_usd": 2800210000,
-    "total_volume_musd": 2800.21
+    "total_volume_usd": 763000000,
+    "total_volume_musd": 763
+  },
+  {
+    "year": 2000,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 5,
+    "total_volume_usd": 769000000,
+    "total_volume_musd": 769
   },
   {
     "year": 2000,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 5,
-    "cumulative_issuance_usd": 2822230000,
-    "total_volume_usd": 2822230000,
-    "total_volume_musd": 2822.23
+    "total_volume_usd": 769000000,
+    "total_volume_musd": 769
+  },
+  {
+    "year": 2001,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 9,
+    "total_volume_usd": 1263300000,
+    "total_volume_musd": 1263.3
   },
   {
     "year": 2001,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 9,
-    "cumulative_issuance_usd": 4636311000,
-    "total_volume_usd": 4636311000,
-    "total_volume_musd": 4636.311
+    "total_volume_usd": 1263300000,
+    "total_volume_musd": 1263.3
+  },
+  {
+    "year": 2002,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 7,
+    "total_volume_usd": 1088000000,
+    "total_volume_musd": 1088
   },
   {
     "year": 2002,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 7,
-    "cumulative_issuance_usd": 3992960000,
-    "total_volume_usd": 3992960000,
-    "total_volume_musd": 3992.96
+    "total_volume_usd": 1088000000,
+    "total_volume_musd": 1088
+  },
+  {
+    "year": 2003,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 12,
+    "total_volume_usd": 1499000000,
+    "total_volume_musd": 1499
   },
   {
     "year": 2003,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 12,
-    "cumulative_issuance_usd": 5501330000,
-    "total_volume_usd": 5501330000,
-    "total_volume_musd": 5501.33
+    "total_volume_usd": 1499000000,
+    "total_volume_musd": 1499
+  },
+  {
+    "year": 2004,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 10,
+    "total_volume_usd": 1313300000,
+    "total_volume_musd": 1313.3
   },
   {
     "year": 2004,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 10,
-    "cumulative_issuance_usd": 4819811000,
-    "total_volume_usd": 4819811000,
-    "total_volume_musd": 4819.811
+    "total_volume_usd": 1313300000,
+    "total_volume_musd": 1313.3
+  },
+  {
+    "year": 2005,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 11,
+    "total_volume_usd": 1990893732.9700272,
+    "total_volume_musd": 1990.8937329700273
   },
   {
     "year": 2005,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 11,
-    "cumulative_issuance_usd": 7306580000,
-    "total_volume_usd": 7306580000,
-    "total_volume_musd": 7306.58
+    "total_volume_usd": 1990893732.9700272,
+    "total_volume_musd": 1990.8937329700273
+  },
+  {
+    "year": 2006,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 27,
+    "total_volume_usd": 5433536103.542234,
+    "total_volume_musd": 5433.536103542235
   },
   {
     "year": 2006,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 26,
-    "cumulative_issuance_usd": 19353877500,
-    "total_volume_usd": 19353877500,
-    "total_volume_musd": 19353.8775
+    "total_volume_usd": 5273536103.542234,
+    "total_volume_musd": 5273.536103542235
+  },
+  {
+    "year": 2006,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 160000000,
+    "total_volume_musd": 160
+  },
+  {
+    "year": 2007,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 29,
+    "total_volume_usd": 6050980000,
+    "total_volume_musd": 6050.98
   },
   {
     "year": 2007,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 29,
-    "cumulative_issuance_usd": 22207096600,
-    "total_volume_usd": 22207096600,
-    "total_volume_musd": 22207.0966
+    "total_volume_usd": 6050980000,
+    "total_volume_musd": 6050.98
+  },
+  {
+    "year": 2008,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 13,
+    "total_volume_usd": 2572000000,
+    "total_volume_musd": 2572
   },
   {
     "year": 2008,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 13,
-    "cumulative_issuance_usd": 9439240000,
-    "total_volume_usd": 9439240000,
-    "total_volume_musd": 9439.24
+    "total_volume_usd": 2572000000,
+    "total_volume_musd": 2572
+  },
+  {
+    "year": 2009,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 18,
+    "total_volume_usd": 4050000000,
+    "total_volume_musd": 4050
   },
   {
     "year": 2009,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 17,
-    "cumulative_issuance_usd": 13799200000,
-    "total_volume_usd": 13799200000,
-    "total_volume_musd": 13799.2
+    "total_volume_usd": 3760000000,
+    "total_volume_musd": 3760
+  },
+  {
+    "year": 2009,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 290000000,
+    "total_volume_musd": 290
+  },
+  {
+    "year": 2010,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 23,
+    "total_volume_usd": 5391000000,
+    "total_volume_musd": 5391
   },
   {
     "year": 2010,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 23,
-    "cumulative_issuance_usd": 19784970000,
-    "total_volume_usd": 19784970000,
-    "total_volume_musd": 19784.97
+    "total_volume_usd": 5391000000,
+    "total_volume_musd": 5391
+  },
+  {
+    "year": 2011,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 23,
+    "total_volume_usd": 7097000000,
+    "total_volume_musd": 7097
   },
   {
     "year": 2011,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 23,
-    "cumulative_issuance_usd": 26045990000,
-    "total_volume_usd": 26045990000,
-    "total_volume_musd": 26045.99
+    "total_volume_usd": 7097000000,
+    "total_volume_musd": 7097
+  },
+  {
+    "year": 2012,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 25,
+    "total_volume_usd": 9905000000,
+    "total_volume_musd": 9905
   },
   {
     "year": 2012,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 25,
-    "cumulative_issuance_usd": 36351350000,
-    "total_volume_usd": 36351350000,
-    "total_volume_musd": 36351.35
+    "total_volume_usd": 9905000000,
+    "total_volume_musd": 9905
+  },
+  {
+    "year": 2013,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 32,
+    "total_volume_usd": 10236578746.594006,
+    "total_volume_musd": 10236.578746594005
   },
   {
     "year": 2013,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 32,
-    "cumulative_issuance_usd": 37568244000,
-    "total_volume_usd": 37568244000,
-    "total_volume_musd": 37568.244
+    "total_volume_usd": 10236578746.594006,
+    "total_volume_musd": 10236.578746594005
+  },
+  {
+    "year": 2014,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 28,
+    "total_volume_usd": 11283878746.594006,
+    "total_volume_musd": 11283.878746594006
   },
   {
     "year": 2014,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
-    "deal_count": 27,
-    "cumulative_issuance_usd": 41301735000,
-    "total_volume_usd": 41301735000,
-    "total_volume_musd": 41301.735
+    "deal_count": 28,
+    "total_volume_usd": 11283878746.594006,
+    "total_volume_musd": 11283.878746594006
+  },
+  {
+    "year": 2015,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 26,
+    "total_volume_usd": 8589393732.970027,
+    "total_volume_musd": 8589.393732970027
   },
   {
     "year": 2015,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 26,
-    "cumulative_issuance_usd": 31523075000,
-    "total_volume_usd": 31523075000,
-    "total_volume_musd": 31523.075
+    "total_volume_usd": 8589393732.970027,
+    "total_volume_musd": 8589.393732970027
+  },
+  {
+    "year": 2016,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 21,
+    "total_volume_usd": 13044618528.610355,
+    "total_volume_musd": 13044.618528610355
   },
   {
     "year": 2016,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 21,
-    "cumulative_issuance_usd": 47873750000,
-    "total_volume_usd": 47873750000,
-    "total_volume_musd": 47873.75
+    "total_volume_usd": 13044618528.610355,
+    "total_volume_musd": 13044.618528610355
+  },
+  {
+    "year": 2017,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 35,
+    "total_volume_usd": 22719272479.564034,
+    "total_volume_musd": 22719.272479564035
   },
   {
     "year": 2017,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 34,
-    "cumulative_issuance_usd": 79416130000,
-    "total_volume_usd": 79416130000,
-    "total_volume_musd": 79416.13
+    "total_volume_usd": 21639272479.564034,
+    "total_volume_musd": 21639.272479564035
+  },
+  {
+    "year": 2017,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 1080000000,
+    "total_volume_musd": 1080
+  },
+  {
+    "year": 2018,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 32,
+    "total_volume_usd": 14399000000,
+    "total_volume_musd": 14399
   },
   {
     "year": 2018,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 28,
-    "cumulative_issuance_usd": 46898930000,
-    "total_volume_usd": 46898930000,
-    "total_volume_musd": 46898.93
+    "total_volume_usd": 12779000000,
+    "total_volume_musd": 12779
+  },
+  {
+    "year": 2018,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 4,
+    "total_volume_usd": 1620000000,
+    "total_volume_musd": 1620
+  },
+  {
+    "year": 2019,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 24,
+    "total_volume_usd": 9641738419.618528,
+    "total_volume_musd": 9641.738419618528
   },
   {
     "year": 2019,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 23,
-    "cumulative_issuance_usd": 33733680000,
-    "total_volume_usd": 33733680000,
-    "total_volume_musd": 33733.68
+    "total_volume_usd": 9191738419.618528,
+    "total_volume_musd": 9191.738419618528
+  },
+  {
+    "year": 2019,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 450000000,
+    "total_volume_musd": 450
+  },
+  {
+    "year": 2020,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 49,
+    "total_volume_usd": 20454393732.970024,
+    "total_volume_musd": 20454.393732970024
   },
   {
     "year": 2020,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 48,
-    "cumulative_issuance_usd": 67947825000,
-    "total_volume_usd": 67947825000,
-    "total_volume_musd": 67947.825
+    "total_volume_usd": 18514393732.970024,
+    "total_volume_musd": 18514.393732970024
+  },
+  {
+    "year": 2020,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 1940000000,
+    "total_volume_musd": 1940
+  },
+  {
+    "year": 2021,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 52,
+    "total_volume_usd": 19975576294.27793,
+    "total_volume_musd": 19975.576294277933
   },
   {
     "year": 2021,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 51,
-    "cumulative_issuance_usd": 72631415000,
-    "total_volume_usd": 72631415000,
-    "total_volume_musd": 72631.415
+    "total_volume_usd": 19790576294.27793,
+    "total_volume_musd": 19790.576294277933
+  },
+  {
+    "year": 2021,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 185000000,
+    "total_volume_musd": 185
+  },
+  {
+    "year": 2022,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 50,
+    "total_volume_usd": 17726000000,
+    "total_volume_musd": 17726
   },
   {
     "year": 2022,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 50,
-    "cumulative_issuance_usd": 65054420000,
-    "total_volume_usd": 65054420000,
-    "total_volume_musd": 65054.42
+    "total_volume_usd": 17726000000,
+    "total_volume_musd": 17726
+  },
+  {
+    "year": 2023,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 71,
+    "total_volume_usd": 23416430517.711174,
+    "total_volume_musd": 23416.430517711175
   },
   {
     "year": 2023,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 70,
-    "cumulative_issuance_usd": 84653800000,
-    "total_volume_usd": 84653800000,
-    "total_volume_musd": 84653.8
+    "total_volume_usd": 23066430517.711174,
+    "total_volume_musd": 23066.430517711175
+  },
+  {
+    "year": 2023,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 350000000,
+    "total_volume_musd": 350
+  },
+  {
+    "year": 2024,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 70,
+    "total_volume_usd": 24642346049.046318,
+    "total_volume_musd": 24642.34604904632
   },
   {
     "year": 2024,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 66,
-    "cumulative_issuance_usd": 84308510000,
-    "total_volume_usd": 84308510000,
-    "total_volume_musd": 84308.51
+    "total_volume_usd": 22972346049.046318,
+    "total_volume_musd": 22972.34604904632
+  },
+  {
+    "year": 2024,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 4,
+    "total_volume_usd": 1670000000,
+    "total_volume_musd": 1670
+  },
+  {
+    "year": 2025,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 91,
+    "total_volume_usd": 37740595912.80654,
+    "total_volume_musd": 37740.595912806544
   },
   {
     "year": 2025,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 91,
-    "cumulative_issuance_usd": 138507987000,
-    "total_volume_usd": 138507987000,
-    "total_volume_musd": 138507.987
+    "total_volume_usd": 37740595912.80654,
+    "total_volume_musd": 37740.595912806544
+  },
+  {
+    "year": 2026,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 19,
+    "total_volume_usd": 9045000000,
+    "total_volume_musd": 9045
   },
   {
     "year": 2026,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 19,
-    "cumulative_issuance_usd": 33195150000,
-    "total_volume_usd": 33195150000,
-    "total_volume_musd": 33195.15
+    "total_volume_usd": 9045000000,
+    "total_volume_musd": 9045
   }
 ]

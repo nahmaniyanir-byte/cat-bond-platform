@@ -1,400 +1,17 @@
 {
-  "generated_at": "2026-03-17T11:14:24.228Z",
-  "source_csv": "data/master/cat_bond_master.csv",
+  "generated_at": "2026-03-17T14:35:34.093Z",
   "countries": [
-    {
-      "slug": "united-states",
-      "country_name": "United States",
-      "region": "North America",
-      "deal_count": 434,
-      "total_volume_usd": 651421280600,
-      "total_volume_musd": 651421.2806,
-      "latest_issue_year": 2026,
-      "main_peril": "Multi-Peril",
-      "sovereign_flag": false,
-      "sovereign_activity_summary": "No sovereign deals identified in current classification.",
-      "market_segment_breakdown": [
-        {
-          "segment": "Sovereign",
-          "count": 0
-        },
-        {
-          "segment": "Non-Sovereign",
-          "count": 434
-        }
-      ],
-      "trigger_breakdown": [
-        {
-          "trigger": "Indemnity",
-          "count": 218
-        },
-        {
-          "trigger": "Industry Loss",
-          "count": 175
-        },
-        {
-          "trigger": "Parametric",
-          "count": 24
-        },
-        {
-          "trigger": "Modelled Loss",
-          "count": 12
-        },
-        {
-          "trigger": "Other",
-          "count": 5
-        }
-      ],
-      "yearly_issuance": [
-        {
-          "year": 1997,
-          "count": 1,
-          "total_volume_usd": 1761600000
-        },
-        {
-          "year": 1998,
-          "count": 4,
-          "total_volume_usd": 2844250000
-        },
-        {
-          "year": 1999,
-          "count": 4,
-          "total_volume_usd": 2066210000
-        },
-        {
-          "year": 2000,
-          "count": 1,
-          "total_volume_usd": 734000000
-        },
-        {
-          "year": 2001,
-          "count": 6,
-          "total_volume_usd": 3113261000
-        },
-        {
-          "year": 2002,
-          "count": 2,
-          "total_volume_usd": 579860000
-        },
-        {
-          "year": 2003,
-          "count": 1,
-          "total_volume_usd": 587200000
-        },
-        {
-          "year": 2004,
-          "count": 2,
-          "total_volume_usd": 2578175000
-        },
-        {
-          "year": 2005,
-          "count": 5,
-          "total_volume_usd": 4462720000
-        },
-        {
-          "year": 2006,
-          "count": 14,
-          "total_volume_usd": 9228215000
-        },
-        {
-          "year": 2007,
-          "count": 14,
-          "total_volume_usd": 11473814600
-        },
-        {
-          "year": 2008,
-          "count": 7,
-          "total_volume_usd": 5174700000
-        },
-        {
-          "year": 2009,
-          "count": 13,
-          "total_volume_usd": 11274240000
-        },
-        {
-          "year": 2010,
-          "count": 14,
-          "total_volume_usd": 13744150000
-        },
-        {
-          "year": 2011,
-          "count": 12,
-          "total_volume_usd": 19117030000
-        },
-        {
-          "year": 2012,
-          "count": 17,
-          "total_volume_usd": 26075350000
-        },
-        {
-          "year": 2013,
-          "count": 20,
-          "total_volume_usd": 24996370000
-        },
-        {
-          "year": 2014,
-          "count": 16,
-          "total_volume_usd": 25891850000
-        },
-        {
-          "year": 2015,
-          "count": 17,
-          "total_volume_usd": 18652775000
-        },
-        {
-          "year": 2016,
-          "count": 15,
-          "total_volume_usd": 36039400000
-        },
-        {
-          "year": 2017,
-          "count": 19,
-          "total_volume_usd": 55956490000
-        },
-        {
-          "year": 2018,
-          "count": 17,
-          "total_volume_usd": 32020750000
-        },
-        {
-          "year": 2019,
-          "count": 14,
-          "total_volume_usd": 27928700000
-        },
-        {
-          "year": 2020,
-          "count": 28,
-          "total_volume_usd": 48627500000
-        },
-        {
-          "year": 2021,
-          "count": 24,
-          "total_volume_usd": 37544100000
-        },
-        {
-          "year": 2022,
-          "count": 26,
-          "total_volume_usd": 44572150000
-        },
-        {
-          "year": 2023,
-          "count": 34,
-          "total_volume_usd": 44131750000
-        },
-        {
-          "year": 2024,
-          "count": 33,
-          "total_volume_usd": 52072420000
-        },
-        {
-          "year": 2025,
-          "count": 42,
-          "total_volume_usd": 66849550000
-        },
-        {
-          "year": 2026,
-          "count": 12,
-          "total_volume_usd": 21322700000
-        }
-      ]
-    },
-    {
-      "slug": "japan",
-      "country_name": "Japan",
-      "region": "Asia-pacific",
-      "deal_count": 87,
-      "total_volume_usd": 78635731000,
-      "total_volume_musd": 78635.731,
-      "latest_issue_year": 2025,
-      "main_peril": "Multi-Peril",
-      "sovereign_flag": false,
-      "sovereign_activity_summary": "No sovereign deals identified in current classification.",
-      "market_segment_breakdown": [
-        {
-          "segment": "Sovereign",
-          "count": 0
-        },
-        {
-          "segment": "Non-Sovereign",
-          "count": 87
-        }
-      ],
-      "trigger_breakdown": [
-        {
-          "trigger": "Indemnity",
-          "count": 33
-        },
-        {
-          "trigger": "Parametric",
-          "count": 30
-        },
-        {
-          "trigger": "Other",
-          "count": 10
-        },
-        {
-          "trigger": "Industry Loss",
-          "count": 8
-        },
-        {
-          "trigger": "Modelled Loss",
-          "count": 6
-        }
-      ],
-      "yearly_issuance": [
-        {
-          "year": 1997,
-          "count": 1,
-          "total_volume_usd": 367000000
-        },
-        {
-          "year": 1998,
-          "count": 1,
-          "total_volume_usd": 293600000
-        },
-        {
-          "year": 1999,
-          "count": 2,
-          "total_volume_usd": 734000000
-        },
-        {
-          "year": 2000,
-          "count": 1,
-          "total_volume_usd": 734000000
-        },
-        {
-          "year": 2001,
-          "count": 1,
-          "total_volume_usd": 550500000
-        },
-        {
-          "year": 2002,
-          "count": 3,
-          "total_volume_usd": 2036850000
-        },
-        {
-          "year": 2003,
-          "count": 7,
-          "total_volume_usd": 2425870000
-        },
-        {
-          "year": 2004,
-          "count": 6,
-          "total_volume_usd": 1140636000
-        },
-        {
-          "year": 2005,
-          "count": 4,
-          "total_volume_usd": 561510000
-        },
-        {
-          "year": 2006,
-          "count": 4,
-          "total_volume_usd": 4908625000
-        },
-        {
-          "year": 2007,
-          "count": 7,
-          "total_volume_usd": 4238850000
-        },
-        {
-          "year": 2008,
-          "count": 5,
-          "total_volume_usd": 3317680000
-        },
-        {
-          "year": 2009,
-          "count": 1,
-          "total_volume_usd": 414710000
-        },
-        {
-          "year": 2010,
-          "count": 4,
-          "total_volume_usd": 2352470000
-        },
-        {
-          "year": 2011,
-          "count": 4,
-          "total_volume_usd": 1559750000
-        },
-        {
-          "year": 2012,
-          "count": 2,
-          "total_volume_usd": 1578100000
-        },
-        {
-          "year": 2013,
-          "count": 1,
-          "total_volume_usd": 1101000000
-        },
-        {
-          "year": 2014,
-          "count": 4,
-          "total_volume_usd": 6757680000
-        },
-        {
-          "year": 2015,
-          "count": 2,
-          "total_volume_usd": 3266300000
-        },
-        {
-          "year": 2016,
-          "count": 3,
-          "total_volume_usd": 6679400000
-        },
-        {
-          "year": 2017,
-          "count": 1,
-          "total_volume_usd": 1761600000
-        },
-        {
-          "year": 2018,
-          "count": 3,
-          "total_volume_usd": 8954800000
-        },
-        {
-          "year": 2020,
-          "count": 2,
-          "total_volume_usd": 1468000000
-        },
-        {
-          "year": 2021,
-          "count": 5,
-          "total_volume_usd": 11193500000
-        },
-        {
-          "year": 2022,
-          "count": 4,
-          "total_volume_usd": 4404000000
-        },
-        {
-          "year": 2023,
-          "count": 1,
-          "total_volume_usd": 1651500000
-        },
-        {
-          "year": 2024,
-          "count": 3,
-          "total_volume_usd": 2385500000
-        },
-        {
-          "year": 2025,
-          "count": 5,
-          "total_volume_usd": 1798300000
-        }
-      ]
-    },
     {
       "slug": "canada",
       "country_name": "Canada",
       "region": "North America",
       "deal_count": 20,
-      "total_volume_usd": 21506200000,
-      "total_volume_musd": 21506.2,
+      "total_volume_usd": 5860000000,
+      "total_volume_musd": 5860,
       "latest_issue_year": 2026,
       "main_peril": "Multi-Peril",
       "sovereign_flag": false,
-      "sovereign_activity_summary": "No sovereign deals identified in current classification.",
+      "sovereign_activity_summary": "No sovereign issuance recorded.",
       "market_segment_breakdown": [
         {
           "segment": "Sovereign",
@@ -419,42 +36,117 @@
         {
           "year": 2013,
           "count": 1,
-          "total_volume_usd": 275250000
+          "total_volume_usd": 75000000
         },
         {
           "year": 2014,
           "count": 1,
-          "total_volume_usd": 1835000000
+          "total_volume_usd": 500000000
         },
         {
           "year": 2021,
           "count": 1,
-          "total_volume_usd": 2202000000
+          "total_volume_usd": 600000000
         },
         {
           "year": 2022,
           "count": 1,
-          "total_volume_usd": 550500000
+          "total_volume_usd": 150000000
         },
         {
           "year": 2023,
           "count": 3,
-          "total_volume_usd": 1926750000
+          "total_volume_usd": 525000000
         },
         {
           "year": 2024,
           "count": 4,
-          "total_volume_usd": 5064600000
+          "total_volume_usd": 1380000000
         },
         {
           "year": 2025,
           "count": 6,
-          "total_volume_usd": 6110550000
+          "total_volume_usd": 1665000000
         },
         {
           "year": 2026,
           "count": 3,
-          "total_volume_usd": 3541550000
+          "total_volume_usd": 965000000
+        }
+      ]
+    },
+    {
+      "slug": "chile",
+      "country_name": "Chile",
+      "region": "Global",
+      "deal_count": 2,
+      "total_volume_usd": 850000000,
+      "total_volume_musd": 850,
+      "latest_issue_year": 2023,
+      "main_peril": "Earthquake",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 2 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 2
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 2
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2018,
+          "count": 1,
+          "total_volume_usd": 500000000
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "total_volume_usd": 350000000
+        }
+      ]
+    },
+    {
+      "slug": "colombia",
+      "country_name": "Colombia",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 400000000,
+      "total_volume_musd": 400,
+      "latest_issue_year": 2018,
+      "main_peril": "Earthquake",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 1 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 1
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 1
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2018,
+          "count": 1,
+          "total_volume_usd": 400000000
         }
       ]
     },
@@ -463,12 +155,12 @@
       "country_name": "Israel",
       "region": "Middle East",
       "deal_count": 1,
-      "total_volume_usd": 367000000,
-      "total_volume_musd": 367,
+      "total_volume_usd": 100000000,
+      "total_volume_musd": 100,
       "latest_issue_year": 2025,
       "main_peril": "Earthquake",
       "sovereign_flag": false,
-      "sovereign_activity_summary": "No sovereign deals identified in current classification.",
+      "sovereign_activity_summary": "No sovereign issuance recorded.",
       "market_segment_breakdown": [
         {
           "segment": "Sovereign",
@@ -489,7 +181,806 @@
         {
           "year": 2025,
           "count": 1,
-          "total_volume_usd": 367000000
+          "total_volume_usd": 100000000
+        }
+      ]
+    },
+    {
+      "slug": "jamaica",
+      "country_name": "Jamaica",
+      "region": "Global",
+      "deal_count": 2,
+      "total_volume_usd": 335000000,
+      "total_volume_musd": 335,
+      "latest_issue_year": 2024,
+      "main_peril": "Hurricane / Wind",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 2 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 2
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 2
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2021,
+          "count": 1,
+          "total_volume_usd": 185000000
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "total_volume_usd": 150000000
+        }
+      ]
+    },
+    {
+      "slug": "japan",
+      "country_name": "Japan",
+      "region": "Apac",
+      "deal_count": 87,
+      "total_volume_usd": 21426629700.27248,
+      "total_volume_musd": 21426.62970027248,
+      "latest_issue_year": 2025,
+      "main_peril": "Multi-Peril",
+      "sovereign_flag": false,
+      "sovereign_activity_summary": "No sovereign issuance recorded.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 0
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 87
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Hybrid",
+          "count": 8
+        },
+        {
+          "trigger": "Indemnity",
+          "count": 33
+        },
+        {
+          "trigger": "Industry Loss",
+          "count": 8
+        },
+        {
+          "trigger": "Modelled Loss",
+          "count": 6
+        },
+        {
+          "trigger": "Parametric",
+          "count": 30
+        },
+        {
+          "trigger": "Unknown",
+          "count": 2
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 1997,
+          "count": 1,
+          "total_volume_usd": 100000000
+        },
+        {
+          "year": 1998,
+          "count": 1,
+          "total_volume_usd": 80000000
+        },
+        {
+          "year": 1999,
+          "count": 2,
+          "total_volume_usd": 200000000
+        },
+        {
+          "year": 2000,
+          "count": 1,
+          "total_volume_usd": 200000000
+        },
+        {
+          "year": 2001,
+          "count": 1,
+          "total_volume_usd": 150000000
+        },
+        {
+          "year": 2002,
+          "count": 3,
+          "total_volume_usd": 555000000
+        },
+        {
+          "year": 2003,
+          "count": 7,
+          "total_volume_usd": 661000000
+        },
+        {
+          "year": 2004,
+          "count": 6,
+          "total_volume_usd": 310800000
+        },
+        {
+          "year": 2005,
+          "count": 4,
+          "total_volume_usd": 153000000
+        },
+        {
+          "year": 2006,
+          "count": 4,
+          "total_volume_usd": 1337500000
+        },
+        {
+          "year": 2007,
+          "count": 7,
+          "total_volume_usd": 1155000000
+        },
+        {
+          "year": 2008,
+          "count": 5,
+          "total_volume_usd": 904000000
+        },
+        {
+          "year": 2009,
+          "count": 1,
+          "total_volume_usd": 113000000
+        },
+        {
+          "year": 2010,
+          "count": 4,
+          "total_volume_usd": 641000000
+        },
+        {
+          "year": 2011,
+          "count": 4,
+          "total_volume_usd": 425000000
+        },
+        {
+          "year": 2012,
+          "count": 2,
+          "total_volume_usd": 430000000
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "total_volume_usd": 300000000
+        },
+        {
+          "year": 2014,
+          "count": 4,
+          "total_volume_usd": 1841329700.2724795
+        },
+        {
+          "year": 2015,
+          "count": 2,
+          "total_volume_usd": 890000000
+        },
+        {
+          "year": 2016,
+          "count": 3,
+          "total_volume_usd": 1820000000
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "total_volume_usd": 480000000
+        },
+        {
+          "year": 2018,
+          "count": 3,
+          "total_volume_usd": 2440000000
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "total_volume_usd": 400000000
+        },
+        {
+          "year": 2021,
+          "count": 5,
+          "total_volume_usd": 3050000000
+        },
+        {
+          "year": 2022,
+          "count": 4,
+          "total_volume_usd": 1200000000
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "total_volume_usd": 450000000
+        },
+        {
+          "year": 2024,
+          "count": 3,
+          "total_volume_usd": 650000000
+        },
+        {
+          "year": 2025,
+          "count": 5,
+          "total_volume_usd": 490000000
+        }
+      ]
+    },
+    {
+      "slug": "mexico",
+      "country_name": "Mexico",
+      "region": "Latam",
+      "deal_count": 7,
+      "total_volume_usd": 5425000000,
+      "total_volume_musd": 5425,
+      "latest_issue_year": 2024,
+      "main_peril": "Multi-Peril",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 7 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 7
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 7
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2006,
+          "count": 1,
+          "total_volume_usd": 160000000
+        },
+        {
+          "year": 2009,
+          "count": 1,
+          "total_volume_usd": 290000000
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "total_volume_usd": 1080000000
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "total_volume_usd": 520000000
+        },
+        {
+          "year": 2020,
+          "count": 1,
+          "total_volume_usd": 1940000000
+        },
+        {
+          "year": 2024,
+          "count": 2,
+          "total_volume_usd": 1435000000
+        }
+      ]
+    },
+    {
+      "slug": "not-stated",
+      "country_name": "Not Stated",
+      "region": "Global",
+      "deal_count": 267,
+      "total_volume_usd": 80560816757.49318,
+      "total_volume_musd": 80560.81675749317,
+      "latest_issue_year": 2026,
+      "main_peril": "Hurricane / Wind",
+      "sovereign_flag": false,
+      "sovereign_activity_summary": "No sovereign issuance recorded.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 0
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 267
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Indemnity",
+          "count": 210
+        },
+        {
+          "trigger": "Industry Loss",
+          "count": 31
+        },
+        {
+          "trigger": "Loss Ratio Trigger",
+          "count": 1
+        },
+        {
+          "trigger": "Modelled Loss",
+          "count": 2
+        },
+        {
+          "trigger": "Parametric",
+          "count": 22
+        },
+        {
+          "trigger": "Unknown",
+          "count": 1
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 1996,
+          "count": 1,
+          "total_volume_usd": 68500000
+        },
+        {
+          "year": 1997,
+          "count": 1,
+          "total_volume_usd": 137000000
+        },
+        {
+          "year": 1998,
+          "count": 3,
+          "total_volume_usd": 290100000
+        },
+        {
+          "year": 2000,
+          "count": 3,
+          "total_volume_usd": 369000000
+        },
+        {
+          "year": 2001,
+          "count": 2,
+          "total_volume_usd": 265000000
+        },
+        {
+          "year": 2002,
+          "count": 2,
+          "total_volume_usd": 375000000
+        },
+        {
+          "year": 2003,
+          "count": 4,
+          "total_volume_usd": 678000000
+        },
+        {
+          "year": 2004,
+          "count": 2,
+          "total_volume_usd": 300000000
+        },
+        {
+          "year": 2005,
+          "count": 2,
+          "total_volume_usd": 621893732.9700272
+        },
+        {
+          "year": 2006,
+          "count": 8,
+          "total_volume_usd": 1421536103.5422344
+        },
+        {
+          "year": 2007,
+          "count": 8,
+          "total_volume_usd": 1769600000
+        },
+        {
+          "year": 2008,
+          "count": 1,
+          "total_volume_usd": 258000000
+        },
+        {
+          "year": 2009,
+          "count": 3,
+          "total_volume_usd": 575000000
+        },
+        {
+          "year": 2010,
+          "count": 5,
+          "total_volume_usd": 1005000000
+        },
+        {
+          "year": 2011,
+          "count": 6,
+          "total_volume_usd": 1263000000
+        },
+        {
+          "year": 2012,
+          "count": 6,
+          "total_volume_usd": 2370000000
+        },
+        {
+          "year": 2013,
+          "count": 10,
+          "total_volume_usd": 3050578746.5940056
+        },
+        {
+          "year": 2014,
+          "count": 6,
+          "total_volume_usd": 1637549046.3215258
+        },
+        {
+          "year": 2015,
+          "count": 7,
+          "total_volume_usd": 2616893732.9700274
+        },
+        {
+          "year": 2016,
+          "count": 3,
+          "total_volume_usd": 1404618528.6103544
+        },
+        {
+          "year": 2017,
+          "count": 14,
+          "total_volume_usd": 5912272479.564033
+        },
+        {
+          "year": 2018,
+          "count": 7,
+          "total_volume_usd": 1404000000
+        },
+        {
+          "year": 2019,
+          "count": 9,
+          "total_volume_usd": 1581738419.6185286
+        },
+        {
+          "year": 2020,
+          "count": 17,
+          "total_volume_usd": 4814393732.970027
+        },
+        {
+          "year": 2021,
+          "count": 20,
+          "total_volume_usd": 5880576294.277928
+        },
+        {
+          "year": 2022,
+          "count": 19,
+          "total_volume_usd": 4231000000
+        },
+        {
+          "year": 2023,
+          "count": 32,
+          "total_volume_usd": 10066430517.71117
+        },
+        {
+          "year": 2024,
+          "count": 26,
+          "total_volume_usd": 6753675749.318802
+        },
+        {
+          "year": 2025,
+          "count": 36,
+          "total_volume_usd": 17170459673.024523
+        },
+        {
+          "year": 2026,
+          "count": 4,
+          "total_volume_usd": 2270000000
+        }
+      ]
+    },
+    {
+      "slug": "peru",
+      "country_name": "Peru",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 200000000,
+      "total_volume_musd": 200,
+      "latest_issue_year": 2018,
+      "main_peril": "Earthquake",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 1 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 1
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 1
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2018,
+          "count": 1,
+          "total_volume_usd": 200000000
+        }
+      ]
+    },
+    {
+      "slug": "philippines",
+      "country_name": "Philippines",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 450000000,
+      "total_volume_musd": 450,
+      "latest_issue_year": 2019,
+      "main_peril": "Earthquake",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 1 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 1
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Modelled Loss",
+          "count": 1
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2019,
+          "count": 1,
+          "total_volume_usd": 450000000
+        }
+      ]
+    },
+    {
+      "slug": "puerto-rico",
+      "country_name": "Puerto Rico",
+      "region": "Global",
+      "deal_count": 1,
+      "total_volume_usd": 85000000,
+      "total_volume_musd": 85,
+      "latest_issue_year": 2024,
+      "main_peril": "Multi-Peril",
+      "sovereign_flag": true,
+      "sovereign_activity_summary": "Sovereign issuance observed across 1 deals.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 1
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 0
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Parametric",
+          "count": 1
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 2024,
+          "count": 1,
+          "total_volume_usd": 85000000
+        }
+      ]
+    },
+    {
+      "slug": "united-states",
+      "country_name": "United States",
+      "region": "North America",
+      "deal_count": 440,
+      "total_volume_usd": 178338986539.50952,
+      "total_volume_musd": 178338.98653950953,
+      "latest_issue_year": 2026,
+      "main_peril": "Multi-Peril",
+      "sovereign_flag": false,
+      "sovereign_activity_summary": "No sovereign issuance recorded.",
+      "market_segment_breakdown": [
+        {
+          "segment": "Sovereign",
+          "count": 0
+        },
+        {
+          "segment": "Non-Sovereign",
+          "count": 440
+        }
+      ],
+      "trigger_breakdown": [
+        {
+          "trigger": "Hybrid",
+          "count": 2
+        },
+        {
+          "trigger": "Indemnity",
+          "count": 219
+        },
+        {
+          "trigger": "Industry Loss",
+          "count": 176
+        },
+        {
+          "trigger": "Modelled Loss",
+          "count": 15
+        },
+        {
+          "trigger": "Parametric",
+          "count": 25
+        },
+        {
+          "trigger": "Rms",
+          "count": 1
+        },
+        {
+          "trigger": "Unknown",
+          "count": 2
+        }
+      ],
+      "yearly_issuance": [
+        {
+          "year": 1997,
+          "count": 1,
+          "total_volume_usd": 480000000
+        },
+        {
+          "year": 1998,
+          "count": 4,
+          "total_volume_usd": 775000000
+        },
+        {
+          "year": 1999,
+          "count": 4,
+          "total_volume_usd": 563000000
+        },
+        {
+          "year": 2000,
+          "count": 1,
+          "total_volume_usd": 200000000
+        },
+        {
+          "year": 2001,
+          "count": 6,
+          "total_volume_usd": 848300000
+        },
+        {
+          "year": 2002,
+          "count": 2,
+          "total_volume_usd": 158000000
+        },
+        {
+          "year": 2003,
+          "count": 1,
+          "total_volume_usd": 160000000
+        },
+        {
+          "year": 2004,
+          "count": 2,
+          "total_volume_usd": 702500000
+        },
+        {
+          "year": 2005,
+          "count": 5,
+          "total_volume_usd": 1216000000
+        },
+        {
+          "year": 2006,
+          "count": 14,
+          "total_volume_usd": 2514500000
+        },
+        {
+          "year": 2007,
+          "count": 14,
+          "total_volume_usd": 3126380000
+        },
+        {
+          "year": 2008,
+          "count": 7,
+          "total_volume_usd": 1410000000
+        },
+        {
+          "year": 2009,
+          "count": 13,
+          "total_volume_usd": 3072000000
+        },
+        {
+          "year": 2010,
+          "count": 14,
+          "total_volume_usd": 3745000000
+        },
+        {
+          "year": 2011,
+          "count": 13,
+          "total_volume_usd": 5409000000
+        },
+        {
+          "year": 2012,
+          "count": 17,
+          "total_volume_usd": 7105000000
+        },
+        {
+          "year": 2013,
+          "count": 20,
+          "total_volume_usd": 6811000000
+        },
+        {
+          "year": 2014,
+          "count": 17,
+          "total_volume_usd": 7305000000
+        },
+        {
+          "year": 2015,
+          "count": 17,
+          "total_volume_usd": 5082500000
+        },
+        {
+          "year": 2016,
+          "count": 15,
+          "total_volume_usd": 9820000000
+        },
+        {
+          "year": 2017,
+          "count": 19,
+          "total_volume_usd": 15247000000
+        },
+        {
+          "year": 2018,
+          "count": 18,
+          "total_volume_usd": 8935000000
+        },
+        {
+          "year": 2019,
+          "count": 14,
+          "total_volume_usd": 7610000000
+        },
+        {
+          "year": 2020,
+          "count": 29,
+          "total_volume_usd": 13300000000
+        },
+        {
+          "year": 2021,
+          "count": 25,
+          "total_volume_usd": 10260000000
+        },
+        {
+          "year": 2022,
+          "count": 26,
+          "total_volume_usd": 12145000000
+        },
+        {
+          "year": 2023,
+          "count": 34,
+          "total_volume_usd": 12025000000
+        },
+        {
+          "year": 2024,
+          "count": 33,
+          "total_volume_usd": 14188670299.72752
+        },
+        {
+          "year": 2025,
+          "count": 43,
+          "total_volume_usd": 18315136239.782017
+        },
+        {
+          "year": 2026,
+          "count": 12,
+          "total_volume_usd": 5810000000
         }
       ]
     }

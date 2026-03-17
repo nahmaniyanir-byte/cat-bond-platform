@@ -1,32 +1,128 @@
 [
   {
     "peril": "Multi-Peril",
-    "deal_count": 361,
-    "total_volume_usd": 570754939000,
-    "total_volume_musd": 570754.939
+    "deal_count": 447,
+    "total_volume_usd": 173011102207.08447,
+    "total_volume_musd": 173011.10220708448
   },
   {
     "peril": "Hurricane / Wind",
-    "deal_count": 275,
-    "total_volume_usd": 281866705000,
-    "total_volume_musd": 281866.705
+    "deal_count": 208,
+    "total_volume_usd": 63134103814.71388,
+    "total_volume_musd": 63134.10381471388
   },
   {
     "peril": "Earthquake",
-    "deal_count": 140,
-    "total_volume_usd": 179322026000,
-    "total_volume_musd": 179322.026
+    "deal_count": 130,
+    "total_volume_usd": 46076887465.940056,
+    "total_volume_musd": 46076.88746594005
   },
   {
-    "peril": "Other",
-    "deal_count": 52,
-    "total_volume_usd": 46145289100,
-    "total_volume_musd": 46145.2891
+    "peril": "Medical Benefit Claims Levels",
+    "deal_count": 7,
+    "total_volume_usd": 3500000000,
+    "total_volume_musd": 3500
+  },
+  {
+    "peril": "California Wildfire",
+    "deal_count": 9,
+    "total_volume_usd": 2105000000,
+    "total_volume_musd": 2105
+  },
+  {
+    "peril": "Cyber Risks",
+    "deal_count": 8,
+    "total_volume_usd": 1985000000,
+    "total_volume_musd": 1985
+  },
+  {
+    "peril": "Motor Third-party Liability Losses",
+    "deal_count": 1,
+    "total_volume_usd": 829618528.6103543,
+    "total_volume_musd": 829.6185286103544
+  },
+  {
+    "peril": "Worldwide Peak Perils",
+    "deal_count": 2,
+    "total_volume_usd": 500000000,
+    "total_volume_musd": 500
+  },
+  {
+    "peril": "Extreme Mortality",
+    "deal_count": 3,
+    "total_volume_usd": 460000000,
+    "total_volume_musd": 460
+  },
+  {
+    "peril": "Casualty Losses",
+    "deal_count": 1,
+    "total_volume_usd": 405000000,
+    "total_volume_musd": 405
+  },
+  {
+    "peril": "Terrorism Risk",
+    "deal_count": 3,
+    "total_volume_usd": 365604904.6321526,
+    "total_volume_musd": 365.6049046321526
+  },
+  {
+    "peril": "Financial Guarantee Risks",
+    "deal_count": 1,
+    "total_volume_usd": 275000000,
+    "total_volume_musd": 275
+  },
+  {
+    "peril": "Credit Reinsurance",
+    "deal_count": 1,
+    "total_volume_usd": 273286103.54223436,
+    "total_volume_musd": 273.28610354223434
+  },
+  {
+    "peril": "Motor Policies",
+    "deal_count": 1,
+    "total_volume_usd": 216893732.97002727,
+    "total_volume_musd": 216.89373297002726
+  },
+  {
+    "peril": "U.s. Severe Thunderstorm",
+    "deal_count": 2,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200
   },
   {
     "peril": "Flood",
-    "deal_count": 2,
-    "total_volume_usd": 1006400000,
-    "total_volume_musd": 1006.4
+    "deal_count": 1,
+    "total_volume_usd": 176621253.40599453,
+    "total_volume_musd": 176.62125340599454
+  },
+  {
+    "peril": "Global Peak Perils",
+    "deal_count": 1,
+    "total_volume_usd": 150000000,
+    "total_volume_musd": 150
+  },
+  {
+    "peril": "Convective Storm (france Only)",
+    "deal_count": 1,
+    "total_volume_usd": 130136239.78201637,
+    "total_volume_musd": 130.13623978201636
+  },
+  {
+    "peril": "Worldwide All Risks",
+    "deal_count": 1,
+    "total_volume_usd": 125300000,
+    "total_volume_musd": 125.3
+  },
+  {
+    "peril": "Worldwide All Perils Incl. Marine & Aviation",
+    "deal_count": 1,
+    "total_volume_usd": 68500000,
+    "total_volume_musd": 68.5
+  },
+  {
+    "peril": "European Perils",
+    "deal_count": 1,
+    "total_volume_usd": 43378746.59400545,
+    "total_volume_musd": 43.37874659400545
   }
 ]

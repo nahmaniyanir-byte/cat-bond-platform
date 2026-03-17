@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "data:refresh": "node scripts/generate-catbond-datasets.mjs",
+    "data:refresh": "node scripts/generate-catbond-datasets.mjs --scope=all",
+    "data:import:sql-ready": "node scripts/generate-catbond-datasets.mjs --scope=main",
+    "data:import:seismic": "node scripts/generate-catbond-datasets.mjs --scope=seismic",
     "countries:refresh": "python scripts/generate_country_json.py",
     "data:refresh:all": "npm run data:refresh"
   },
