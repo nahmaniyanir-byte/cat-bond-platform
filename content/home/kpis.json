@@ -2,7 +2,7 @@
   "enabled": true,
   "section_title": "Executive KPI Strip",
   "section_subtitle": "Deal-level metrics generated from SQL-ready package",
-  "generated_at": "2026-03-17T14:35:34.093Z",
+  "generated_at": "2026-03-17T22:47:34.372Z",
   "source": "final_outputs_country_fixed/sql_ready_package",
   "items": [
     {
