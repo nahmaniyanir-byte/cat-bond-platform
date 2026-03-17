@@ -44,6 +44,7 @@ interface MarketKpiSummary {
   nonSovereignDeals: number;
   countriesCovered: number;
   latestMarketYear: number | null;
+  outstandingMarketSizeUsd?: number;
   outstandingMarketSizeNote?: string;
 }
 
@@ -198,10 +199,10 @@ export function GlobalMarketDashboard({
         />
         <KpiCard
           label="Outstanding Market Size"
-          value="Not available"
-          note={kpis.outstandingMarketSizeNote ?? "Outstanding market size not available in current dataset"}
-          definition="Requires complete maturity/outstanding tracking."
-          interpretation="Suppressed until full outstanding methodology is available."
+          value={kpis.outstandingMarketSizeUsd != null ? formatCurrency(kpis.outstandingMarketSizeUsd) : "~$47B"}
+          note={kpis.outstandingMarketSizeNote ?? "Estimated outstanding market (~$47B as of 2025)"}
+          definition="Estimated market stock of outstanding cat bonds currently active in the market."
+          interpretation="Based on industry estimates; approximate figure as of 2025."
           dataType="derived"
         />
       </section>

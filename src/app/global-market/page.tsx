@@ -79,6 +79,7 @@ export default async function GlobalMarketPage() {
         nonSovereignDeals: globalKpis.non_sovereign_deal_count,
         countriesCovered: globalKpis.countries_covered,
         latestMarketYear: globalKpis.latest_market_year,
+        outstandingMarketSizeUsd: globalKpis.outstanding_market_size_usd,
         outstandingMarketSizeNote: globalKpis.outstanding_market_size_note
       }}
       issuanceByYear={issuanceByYear}

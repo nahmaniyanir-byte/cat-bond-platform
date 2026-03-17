@@ -10,7 +10,8 @@
   "countries_covered": 12,
   "latest_market_year": 2026,
   "largest_sovereign_issuer": "FONDEN / AGROASEMEX S.A.",
-  "outstanding_market_size_note": "Outstanding market size not available in current dataset",
+  "outstanding_market_size_usd": 47000000000,
+  "outstanding_market_size_note": "Estimated outstanding market size based on industry sources (~$47B as of 2025)",
   "triggered_deal_coverage_note": "Triggered deal coverage may be incomplete for older vintages.",
   "validation": {
     "expected_total_volume_busd_range": [

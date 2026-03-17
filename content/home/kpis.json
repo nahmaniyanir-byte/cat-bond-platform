@@ -33,6 +33,15 @@
       "data_type": "derived"
     },
     {
+      "id": "outstanding_market",
+      "label": "Outstanding Market",
+      "value": "~$47B",
+      "note": "Est. outstanding as of 2025",
+      "definition": "Estimated stock of active outstanding catastrophe bonds.",
+      "interpretation": "Industry estimate; approximate figure.",
+      "data_type": "derived"
+    },
+    {
       "id": "countries_covered",
       "label": "Countries Covered",
       "value": "12",

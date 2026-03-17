@@ -44,6 +44,29 @@ function IsraeliFlag() {
 
 /* ── Video intro overlay ─────────────────────────────────────────── */
 function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
+  const videoRef = React.useRef<HTMLVideoElement | null>(null);
+  const [muted, setMuted] = React.useState(false);
+
+  React.useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    // Attempt unmuted autoplay; fall back to muted if browser blocks it.
+    video.muted = false;
+    video.play().catch(() => {
+      video.muted = true;
+      setMuted(true);
+      video.play().catch(() => undefined);
+    });
+  }, []);
+
+  function handleEnableSound() {
+    const video = videoRef.current;
+    if (!video) return;
+    video.muted = false;
+    setMuted(false);
+    video.play().catch(() => undefined);
+  }
+
   return (
     <div
       style={{
@@ -57,32 +80,57 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
       }}
     >
       <video
+        ref={videoRef}
         src="/video/israel-lab-intro.mp4"
-        autoPlay
         playsInline
         muted
         onEnded={onDone}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
-      <button
-        onClick={onDone}
+      <div
         style={{
           position: "absolute",
           bottom: 32,
           right: 32,
-          background: "rgba(255,255,255,0.15)",
-          color: "white",
-          border: "1px solid rgba(255,255,255,0.3)",
-          borderRadius: 6,
-          padding: "8px 20px",
-          cursor: "pointer",
-          fontSize: 14,
-          backdropFilter: "blur(8px)",
-          WebkitBackdropFilter: "blur(8px)",
+          display: "flex",
+          gap: 10,
         }}
       >
-        Skip →
-      </button>
+        {muted && (
+          <button
+            onClick={handleEnableSound}
+            style={{
+              background: "rgba(34,211,238,0.18)",
+              color: "white",
+              border: "1px solid rgba(34,211,238,0.5)",
+              borderRadius: 6,
+              padding: "8px 20px",
+              cursor: "pointer",
+              fontSize: 14,
+              backdropFilter: "blur(8px)",
+              WebkitBackdropFilter: "blur(8px)",
+            }}
+          >
+            🔊 Enable Sound
+          </button>
+        )}
+        <button
+          onClick={onDone}
+          style={{
+            background: "rgba(255,255,255,0.15)",
+            color: "white",
+            border: "1px solid rgba(255,255,255,0.3)",
+            borderRadius: 6,
+            padding: "8px 20px",
+            cursor: "pointer",
+            fontSize: 14,
+            backdropFilter: "blur(8px)",
+            WebkitBackdropFilter: "blur(8px)",
+          }}
+        >
+          Skip →
+        </button>
+      </div>
     </div>
   );
 }

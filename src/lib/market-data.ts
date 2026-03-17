@@ -118,6 +118,7 @@ export interface GlobalKpisDataset {
   countries_covered: number;
   latest_market_year: number | null;
   largest_sovereign_issuer?: string;
+  outstanding_market_size_usd?: number;
   outstanding_market_size_note?: string;
   triggered_deal_coverage_note?: string | null;
   validation?: {
@@ -555,6 +556,7 @@ export const getGlobalKpisData = cache(async (): Promise<GlobalKpisDataset> => {
     countries_covered: Number(raw.countries_covered ?? 0),
     latest_market_year: raw.latest_market_year == null ? null : Number(raw.latest_market_year),
     largest_sovereign_issuer: raw.largest_sovereign_issuer,
+    outstanding_market_size_usd: raw.outstanding_market_size_usd != null ? Number(raw.outstanding_market_size_usd) : undefined,
     outstanding_market_size_note: raw.outstanding_market_size_note,
     triggered_deal_coverage_note: raw.triggered_deal_coverage_note ?? null,
     validation: raw.validation
