@@ -1,12 +1,13 @@
 interface PageHeaderProps {
   title: string;
   subtitle: string;
+  eyebrow?: string;
   showSource?: boolean;
   date?: string;
   rightSlot?: React.ReactNode;
 }
 
-export function PageHeader({ title, subtitle, showSource = true, date, rightSlot }: PageHeaderProps) {
+export function PageHeader({ title, subtitle, eyebrow, showSource = true, date, rightSlot }: PageHeaderProps) {
   const displayDate = date ?? new Date().toLocaleDateString("en-US", {
     year: "numeric", month: "long", day: "numeric"
   });
@@ -15,6 +16,32 @@ export function PageHeader({ title, subtitle, showSource = true, date, rightSlot
     <div className="cb-page-header">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
+          {eyebrow && (
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              marginBottom: 10,
+            }}>
+              <span style={{
+                display: "block",
+                width: 20,
+                height: 1,
+                background: "var(--primary)",
+                flexShrink: 0,
+              }} />
+              <span style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 10,
+                fontWeight: 600,
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--primary)",
+              }}>
+                {eyebrow}
+              </span>
+            </div>
+          )}
           <h1 className="cb-section-title">{title}</h1>
           <p className="cb-section-subtitle">{subtitle}</p>
           <div className="mt-3 flex flex-wrap items-center gap-2">

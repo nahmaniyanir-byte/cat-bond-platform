@@ -1,8 +1,55 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import { useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+
+function TypewriterText({
+  text,
+  speed = 45,
+  className = "",
+}: {
+  text: string;
+  speed?: number;
+  className?: string;
+}) {
+  const [displayed, setDisplayed] = React.useState("");
+  const [done, setDone] = React.useState(false);
+
+  React.useEffect(() => {
+    let i = 0;
+    const timer = setInterval(() => {
+      if (i < text.length) {
+        setDisplayed(text.slice(0, i + 1));
+        i++;
+      } else {
+        setDone(true);
+        clearInterval(timer);
+      }
+    }, speed);
+    return () => clearInterval(timer);
+  }, [text, speed]);
+
+  return (
+    <span className={className}>
+      {displayed}
+      {!done && (
+        <span
+          style={{
+            display: "inline-block",
+            width: 2,
+            height: "0.9em",
+            background: "#0ea5e9",
+            marginLeft: 3,
+            verticalAlign: "middle",
+            animation: "blink 1s step-end infinite",
+          }}
+        />
+      )}
+    </span>
+  );
+}
 import {
   ArrowRight,
   Calculator,
@@ -249,8 +296,49 @@ function HeroFullscreen({ content }: { content: HomeContentBundle["hero"] }) {
       <div className="relative mx-auto flex min-h-screen w-full max-w-[1700px] items-center px-5 py-20 lg:px-10">
         <div className="grid w-full gap-8 xl:grid-cols-[minmax(0,1.5fr)_minmax(320px,0.85fr)]">
           <div className="space-y-5">
-            <p className="text-xs uppercase tracking-[0.22em] text-cyan-200/90">{content.tagline}</p>
-            <h1 className="max-w-5xl text-5xl font-semibold leading-[1.06] text-white lg:text-7xl">{content.title}</h1>
+            {/* Live market status bar */}
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "6px 12px",
+              background: "rgba(14,165,233,0.06)",
+              border: "1px solid rgba(14,165,233,0.15)",
+              borderRadius: 6,
+              fontSize: 11,
+              fontFamily: "var(--font-mono)",
+              color: "#64748b",
+              width: "fit-content",
+              marginBottom: 4,
+            }}>
+              <span className="pulse-dot" />
+              <span style={{ color: "#38bdf8" }}>LIVE</span>
+              <span>— 830 deals tracked</span>
+              <span style={{ color: "rgba(148,163,184,0.3)" }}>|</span>
+              <span>$185.4B cumulative issuance</span>
+              <span style={{ color: "rgba(148,163,184,0.3)" }}>|</span>
+              <span>Source: Artemis.bm</span>
+            </div>
+
+            {/* Eyebrow */}
+            <div style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 10,
+              fontWeight: 600,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "#0ea5e9",
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+            }}>
+              <span style={{ display: "block", width: 20, height: 1, background: "#0ea5e9" }} />
+              Financial Intelligence Platform
+            </div>
+
+            <h1 className="max-w-5xl text-5xl font-semibold leading-[1.06] text-white lg:text-7xl">
+              <TypewriterText text={content.title} speed={38} />
+            </h1>
             <p className="max-w-3xl text-xl text-slate-200">{content.subtitle}</p>
             <p className="max-w-3xl text-sm leading-relaxed text-slate-300">{content.description}</p>
 

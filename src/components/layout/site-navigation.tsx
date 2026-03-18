@@ -87,16 +87,35 @@ export function SiteNavigation() {
   }
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/82 backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-[1700px] items-center justify-between gap-4 px-4 py-3 lg:px-8">
-        <Link href="/" className="min-w-0" onClick={() => setMobileOpen(false)}>
-          <p className="truncate text-sm font-semibold uppercase tracking-[0.14em] text-cyan-100">
+    <header
+      style={{
+        position: "sticky",
+        top: 0,
+        zIndex: 50,
+        background: "rgba(2,4,16,0.95)",
+        backdropFilter: "blur(20px)",
+        WebkitBackdropFilter: "blur(20px)",
+        borderBottom: "1px solid rgba(148,163,184,0.07)",
+      }}
+    >
+      <div className="mx-auto flex w-full max-w-[1700px] items-center justify-between gap-4 px-4 lg:px-8" style={{ height: 52 }}>
+        {/* Logo */}
+        <Link href="/" onClick={() => setMobileOpen(false)} className="min-w-0 shrink-0">
+          <span style={{
+            fontFamily: "var(--font-mono)",
+            fontSize: 11,
+            fontWeight: 600,
+            letterSpacing: "0.14em",
+            color: "#38bdf8",
+            textTransform: "uppercase",
+            whiteSpace: "nowrap",
+          }}>
             Global Catastrophe Bond Intelligence Platform
-          </p>
+          </span>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-2 lg:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           {MENU.map((section) => {
             const open = section.id === openSectionId;
             const hasActive = sectionHasActive(section);
@@ -109,18 +128,54 @@ export function SiteNavigation() {
               >
                 <button
                   type="button"
-                  className={cn(
-                    "inline-flex items-center gap-1 rounded-lg border px-3 py-2 text-xs font-semibold tracking-[0.12em] transition",
-                    open || hasActive
-                      ? "border-cyan-300/45 bg-cyan-500/10 text-cyan-100"
-                      : "border-white/10 bg-slate-900/60 text-slate-200 hover:border-cyan-300/30 hover:text-cyan-100"
-                  )}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 4,
+                    padding: "6px 12px",
+                    borderRadius: 6,
+                    border: open || hasActive
+                      ? "1px solid rgba(14,165,233,0.3)"
+                      : "1px solid transparent",
+                    background: open || hasActive
+                      ? "rgba(14,165,233,0.08)"
+                      : "transparent",
+                    color: open || hasActive ? "#38bdf8" : "#94a3b8",
+                    fontFamily: "var(--font-mono)",
+                    fontSize: 11,
+                    fontWeight: 600,
+                    letterSpacing: "0.12em",
+                    cursor: "pointer",
+                    transition: "all 150ms ease",
+                    whiteSpace: "nowrap",
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!open && !hasActive) {
+                      const t = e.currentTarget;
+                      t.style.color = "#38bdf8";
+                      t.style.borderColor = "rgba(14,165,233,0.2)";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!open && !hasActive) {
+                      const t = e.currentTarget;
+                      t.style.color = "#94a3b8";
+                      t.style.borderColor = "transparent";
+                    }
+                  }}
                 >
                   {section.title}
-                  <ChevronDown className={cn("h-3.5 w-3.5 transition", open ? "rotate-180" : undefined)} />
+                  <ChevronDown
+                    style={{
+                      width: 12,
+                      height: 12,
+                      transition: "transform 200ms",
+                      transform: open ? "rotate(180deg)" : "rotate(0deg)",
+                    }}
+                  />
                 </button>
 
-                {/* Invisible bridge between button and dropdown to prevent gap-triggered close */}
+                {/* Bridge */}
                 {open ? (
                   <div
                     style={{ position: "absolute", top: "100%", left: 0, right: 0, height: 12 }}
@@ -128,31 +183,62 @@ export function SiteNavigation() {
                   />
                 ) : null}
 
+                {/* Dropdown */}
                 {open ? (
                   <div
-                    className="absolute right-0 top-[calc(100%+12px)] w-[420px] rounded-xl border border-white/12 bg-slate-950/94 p-3 shadow-[0_20px_45px_rgba(2,6,23,0.55)]"
+                    style={{
+                      position: "absolute",
+                      right: 0,
+                      top: "calc(100% + 12px)",
+                      width: 420,
+                      background: "rgba(2,4,16,0.98)",
+                      border: "1px solid rgba(148,163,184,0.1)",
+                      borderRadius: 12,
+                      boxShadow: "0 20px 60px rgba(0,0,0,0.6)",
+                      padding: 12,
+                    }}
                     onMouseEnter={() => handleMenuEnter(section.id)}
                     onMouseLeave={handleMenuLeave}
                   >
-                    <div className="space-y-1">
-                      {section.links.map((link) => (
-                        <Link
-                          key={link.href}
-                          href={link.href}
-                          className={cn(
-                            "block rounded-lg border px-3 py-2 transition hover:border-cyan-300/25 hover:bg-slate-900/70",
-                            isActive(link.href)
-                              ? "border-cyan-400/30 bg-cyan-500/10"
-                              : "border-transparent"
-                          )}
-                          onClick={() => setOpenSectionId(null)}
-                        >
-                          <p className={cn("text-sm font-medium", isActive(link.href) ? "text-cyan-100" : "text-white")}>
-                            {link.label}
-                          </p>
-                          <p className="mt-0.5 text-xs text-slate-300">{link.description}</p>
-                        </Link>
-                      ))}
+                    <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                      {section.links.map((link) => {
+                        const active = isActive(link.href);
+                        return (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            onClick={() => setOpenSectionId(null)}
+                            style={{
+                              display: "block",
+                              padding: "10px 12px",
+                              borderRadius: 8,
+                              borderLeft: active ? "2px solid #0ea5e9" : "2px solid transparent",
+                              background: active ? "rgba(14,165,233,0.08)" : "transparent",
+                              transition: "all 150ms ease",
+                            }}
+                            onMouseEnter={(e) => {
+                              if (!active) {
+                                e.currentTarget.style.background = "rgba(255,255,255,0.04)";
+                              }
+                            }}
+                            onMouseLeave={(e) => {
+                              if (!active) {
+                                e.currentTarget.style.background = "transparent";
+                              }
+                            }}
+                          >
+                            <p style={{
+                              fontSize: 13,
+                              fontWeight: 500,
+                              color: active ? "#38bdf8" : "#f1f5f9",
+                              marginBottom: 2,
+                            }}>
+                              {link.label}
+                            </p>
+                            <p style={{ fontSize: 11, color: "#64748b" }}>{link.description}</p>
+                          </Link>
+                        );
+                      })}
                     </div>
                   </div>
                 ) : null}
@@ -161,18 +247,12 @@ export function SiteNavigation() {
           })}
         </nav>
 
-        {/* Desktop CTA buttons */}
+        {/* Desktop CTAs */}
         <div className="hidden items-center gap-2 lg:flex">
-          <Link
-            href="/global-market"
-            className={cn("btn-secondary", isActive("/global-market") ? "border-cyan-400/50 text-cyan-100" : "")}
-          >
+          <Link href="/global-market" className={cn("btn-secondary", isActive("/global-market") ? "border-cyan-400/50 text-cyan-100" : "")}>
             Dashboard
           </Link>
-          <Link
-            href="/deals"
-            className={cn("btn-hero-primary", isActive("/deals") ? "opacity-90" : "")}
-          >
+          <Link href="/deals" className={cn("btn-hero-primary", isActive("/deals") ? "opacity-90" : "")}>
             Open Explorer
           </Link>
         </div>
@@ -180,45 +260,73 @@ export function SiteNavigation() {
         {/* Mobile hamburger */}
         <button
           type="button"
-          className="rounded-lg border border-white/10 bg-slate-900/60 p-2 text-slate-200 transition hover:border-cyan-300/30 hover:text-cyan-100 lg:hidden"
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="Toggle menu"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 36,
+            height: 36,
+            borderRadius: 6,
+            border: "1px solid rgba(148,163,184,0.12)",
+            background: "rgba(10,22,40,0.6)",
+            color: "#94a3b8",
+            cursor: "pointer",
+          }}
+          className="lg:hidden"
         >
-          {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          {mobileOpen ? <X style={{ width: 18, height: 18 }} /> : <Menu style={{ width: 18, height: 18 }} />}
         </button>
       </div>
 
-      {/* Mobile dropdown menu */}
+      {/* Mobile menu */}
       {mobileOpen ? (
-        <div className="border-t border-white/10 bg-slate-950/96 px-4 pb-5 pt-3 lg:hidden">
+        <div style={{
+          borderTop: "1px solid rgba(148,163,184,0.07)",
+          background: "rgba(2,4,16,0.98)",
+          padding: "12px 16px 20px",
+        }} className="lg:hidden">
           {MENU.map((section) => (
-            <div key={section.id} className="mb-4">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">{section.title}</p>
-              <div className="space-y-1">
+            <div key={section.id} style={{ marginBottom: 20 }}>
+              <p style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 10,
+                fontWeight: 600,
+                letterSpacing: "0.14em",
+                color: "#64748b",
+                textTransform: "uppercase",
+                marginBottom: 8,
+              }}>
+                {section.title}
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
                 {section.links.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={cn(
-                      "block rounded-lg border px-3 py-2.5 transition",
-                      isActive(link.href)
-                        ? "border-cyan-400/30 bg-cyan-500/10 text-cyan-100"
-                        : "border-transparent text-slate-200 hover:border-white/10 hover:bg-slate-900/60"
-                    )}
                     onClick={() => setMobileOpen(false)}
+                    style={{
+                      display: "block",
+                      padding: "10px 12px",
+                      borderRadius: 8,
+                      borderLeft: isActive(link.href) ? "2px solid #0ea5e9" : "2px solid transparent",
+                      background: isActive(link.href) ? "rgba(14,165,233,0.08)" : "rgba(255,255,255,0.02)",
+                      color: isActive(link.href) ? "#38bdf8" : "#cbd5e1",
+                    }}
                   >
-                    <p className="text-sm font-medium">{link.label}</p>
-                    <p className="mt-0.5 text-xs text-slate-400">{link.description}</p>
+                    <p style={{ fontSize: 13, fontWeight: 500 }}>{link.label}</p>
+                    <p style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>{link.description}</p>
                   </Link>
                 ))}
               </div>
             </div>
           ))}
-          <div className="mt-4 flex gap-2 border-t border-white/10 pt-4">
-            <Link href="/global-market" className="btn-secondary flex-1 text-center" onClick={() => setMobileOpen(false)}>
+          <div style={{ display: "flex", gap: 8, borderTop: "1px solid rgba(148,163,184,0.07)", paddingTop: 16, marginTop: 4 }}>
+            <Link href="/global-market" className="btn-secondary" style={{ flex: 1, textAlign: "center" }} onClick={() => setMobileOpen(false)}>
               Dashboard
             </Link>
-            <Link href="/deals" className="btn-hero-primary flex-1 text-center" onClick={() => setMobileOpen(false)}>
+            <Link href="/deals" className="btn-hero-primary" style={{ flex: 1, textAlign: "center" }} onClick={() => setMobileOpen(false)}>
               Open Explorer
             </Link>
           </div>
@@ -226,7 +334,15 @@ export function SiteNavigation() {
       ) : null}
 
       {activeSection ? (
-        <div className="border-t border-white/5 bg-slate-950/65 px-4 py-2 text-xs text-slate-300 lg:hidden">
+        <div style={{
+          borderTop: "1px solid rgba(148,163,184,0.05)",
+          background: "rgba(2,4,16,0.65)",
+          padding: "6px 16px",
+          fontFamily: "var(--font-mono)",
+          fontSize: 10,
+          color: "#64748b",
+          letterSpacing: "0.1em",
+        }} className="lg:hidden">
           {activeSection.title}
         </div>
       ) : null}

@@ -13,7 +13,7 @@ function IsraeliFlag() {
         zIndex: 0,
         pointerEvents: "none",
         overflow: "hidden",
-        opacity: 0.09,
+        opacity: 0.12,
       }}
     >
       <svg
@@ -275,7 +275,20 @@ export function IsraelLabContent() {
         <section className="glass-panel p-6 md:p-8">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 16 }}>
             <div>
-              <p className="text-xs uppercase tracking-[0.18em] text-cyan-200/90">Sovereign & Policy</p>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
+                <span style={{ display: "block", width: 20, height: 1, background: "#0ea5e9", flexShrink: 0 }} />
+                <span style={{
+                  fontFamily: "var(--font-mono)",
+                  fontSize: 10,
+                  fontWeight: 600,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#0ea5e9",
+                }}>
+                  SOVEREIGN POLICY ANALYSIS // ISRAEL
+                  <span style={{ animation: "blink 1s step-end infinite", marginLeft: 4 }}>▌</span>
+                </span>
+              </div>
               <h1 className="mt-2 text-3xl font-semibold text-white md:text-4xl">ISRAEL LAB</h1>
               <p className="mt-3 max-w-4xl text-sm text-slate-300">
                 Policy-oriented workspace for sovereign earthquake risk financing concepts, parametric structure
@@ -296,7 +309,7 @@ export function IsraelLabContent() {
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 9v3h10V9M7 1v7M4 5l3 3 3-3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              Export Executive Brief
+              🇮🇱 Export Executive Brief
             </button>
           </div>
         </section>
@@ -339,7 +352,7 @@ export function IsraelLabContent() {
                   <div style={{ marginTop: 8 }}>
                     <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
                       {TRIGGER_INFO[selectedTrigger]?.recommended && (
-                        <span className="cb-badge cb-badge-green" style={{ fontSize: 10 }}>Recommended</span>
+                        <span className="cb-badge cb-badge-green" style={{ fontSize: 10, animation: "glow-pulse 2s ease-in-out infinite" }}>Recommended</span>
                       )}
                     </div>
                     <p style={{ fontSize: 11, color: "#64748b", lineHeight: 1.5 }}>
@@ -452,15 +465,15 @@ export function IsraelLabContent() {
 
             {/* Key output numbers — reactive to selectedSize */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12 }}>
-              <div className="cb-stat cb-stat-blue">
+              <div className="cb-stat cb-stat-blue" style={{ animation: "glow-pulse 3s ease-in-out infinite" }}>
                 <div className="cb-stat-value" style={{ color: "#60a5fa" }}>${tier3Payout}M</div>
                 <div className="cb-stat-label">Max Payout (Tier 3)</div>
               </div>
-              <div className="cb-stat cb-stat-gold">
+              <div className="cb-stat cb-stat-gold" style={{ animation: "glow-pulse 3s ease-in-out infinite 1s" }}>
                 <div className="cb-stat-value" style={{ color: "#fbbf24" }}>${premiumLow}–{premiumHigh}M</div>
                 <div className="cb-stat-label">Annual Premium Est.</div>
               </div>
-              <div className="cb-stat cb-stat-green">
+              <div className="cb-stat cb-stat-green" style={{ animation: "glow-pulse 3s ease-in-out infinite 2s" }}>
                 <div className="cb-stat-value" style={{ color: "#34d399" }}>~72h</div>
                 <div className="cb-stat-label">Liquidity Injection</div>
               </div>
