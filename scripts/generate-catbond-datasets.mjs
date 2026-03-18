@@ -141,15 +141,17 @@ async function buildMain() {
     const region = normalizeRegion(clean(row.region_of_sponsor));
     const sponsorName = clean(row.sponsor_name) || "";
     const issuerMeta = issuerBySponsor.get(sponsorName.toLowerCase());
-    const govFlag = parseBool(row.government_program_flag);
-    const sovereignHint = /sovereign/i.test(clean(row.sovereign_or_corporate) || "");
-    const sponsorHint = /(republic|government|ministry|treasury|fonden|ibrd\s*car|world\s*bank\s*car|pacific alliance)/i.test(
+    // Use explicit sponsor-name patterns only — the source sovereign_or_corporate
+    // column is blank for all rows so we rely on known sovereign sponsor keywords.
+    // govFlag alone is not sufficient (Allstate/State Farm have it set True in the
+    // source data due to a labelling error in the upstream CSV).
+    const sponsorHint = /(republic\s+of|government\s+of|ministry\s+of|fonden|agroasemex|ibrd|world\s+bank|ccrif|tcip|turkish\s+catastrophe|caribbean\s+catastrophe|african\s+risk\s+capacity|pandemic\s+emergency|pacific\s+alliance|california\s+state\s+compensation)/i.test(
       sponsorName
     );
-    const sovereignCountryHint = /^(mexico|chile|colombia|peru|philippines|jamaica|dominican republic|israel|turkey|greece|italy|cyprus)$/i.test(
-      country
+    const dealHint = /(multicat\s+mexico|cat-mex|bosphorus\s+(re|1\s+re)|golden\s+state\s+re|puerto\s+rico\s+parametric)/i.test(
+      clean(row.deal_name) || ""
     );
-    const sovereign = sovereignHint || sponsorHint || (govFlag && sovereignCountryHint);
+    const sovereign = sponsorHint || dealHint;
 
     const musd = t?.volumeMusd ?? ((num(row.total_deal_size_ils_m) || 0) / USD_ILS);
     const usd = musd * 1_000_000;
@@ -643,7 +645,11 @@ function aggregateTranches(rows) {
     if (!map.has(id)) {
       map.set(id, {
         trancheCount: 0,
-        volumeMusd: 0,
+        // volumeMusd is set ONCE from the first tranche row because original_amount
+        // in tranches_core_sql_ready.csv stores the DEAL TOTAL (not per-class amount)
+        // and is duplicated across every class row for the same deal.
+        // Summing it across tranche rows would multiply-count multi-class deals.
+        volumeMusd: trancheVolumeMusd(r),
         spreads: [],
         expecteds: [],
         risks: [],
@@ -663,7 +669,7 @@ function aggregateTranches(rows) {
 
     const x = map.get(id);
     x.trancheCount += 1;
-    x.volumeMusd += trancheVolumeMusd(r);
+    // Do NOT re-add volumeMusd here — it was already set correctly on first encounter.
     pushNum(x.spreads, num(r.final_spread_bps));
     pushNum(x.expecteds, num(r.expected_loss_percent));
     pushNum(x.risks, firstNum(num(r.risk_multiple), num(r.spread_to_el_ratio)));
@@ -744,7 +750,8 @@ function globalKpis(deals, generatedAt) {
         (d) => clean(d.sponsor_name) || "Not stated",
         (d) => d.total_deal_size_usd
       )?.key || null,
-    outstanding_market_size_note: "Outstanding market size not available in current dataset",
+    outstanding_market_size_usd: 47_000_000_000,
+    outstanding_market_size_note: "Estimated outstanding market size based on industry sources (~$47B as of 2025)",
     triggered_deal_coverage_note: "Triggered deal coverage may be incomplete for older vintages.",
     validation: {
       expected_total_volume_busd_range: [180, 220],

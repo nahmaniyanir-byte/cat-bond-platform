@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "total_deals": 830,
-  "cumulative_issuance_musd": 294031.4329972752,
-  "cumulative_issuance_usd": 294031432997.2752,
-  "total_market_volume_musd": 294031.4329972752,
-  "total_market_volume_usd": 294031432997.2752,
-  "sovereign_deal_count": 15,
-  "non_sovereign_deal_count": 815,
+  "cumulative_issuance_musd": 185363.11549046327,
+  "cumulative_issuance_usd": 185363115490.46326,
+  "total_market_volume_musd": 185363.11549046327,
+  "total_market_volume_usd": 185363115490.46326,
+  "sovereign_deal_count": 22,
+  "non_sovereign_deal_count": 808,
   "countries_covered": 12,
   "latest_market_year": 2026,
-  "largest_sovereign_issuer": "FONDEN / AGROASEMEX S.A.",
+  "largest_sovereign_issuer": "Republic of Chile",
   "outstanding_market_size_usd": 47000000000,
   "outstanding_market_size_note": "Estimated outstanding market size based on industry sources (~$47B as of 2025)",
   "triggered_deal_coverage_note": "Triggered deal coverage may be incomplete for older vintages.",
@@ -18,7 +18,7 @@
       180,
       220
     ],
-    "actual_total_volume_busd": 294.031,
-    "within_expected_range": false
+    "actual_total_volume_busd": 185.363,
+    "within_expected_range": true
   }
 }

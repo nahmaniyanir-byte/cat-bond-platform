@@ -2,7 +2,7 @@
   "enabled": true,
   "section_title": "Executive KPI Strip",
   "section_subtitle": "Deal-level metrics generated from SQL-ready package",
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "source": "final_outputs_country_fixed/sql_ready_package",
   "items": [
     {
@@ -17,8 +17,8 @@
     {
       "id": "cumulative_issuance",
       "label": "Cumulative Issuance",
-      "value": "$294,031,432,997",
-      "note": "294.03B USD",
+      "value": "$185,363,115,490",
+      "note": "185.36B USD",
       "definition": "SUM(deal-level issuance).",
       "interpretation": "Historical issuance total.",
       "data_type": "historical"
@@ -26,19 +26,10 @@
     {
       "id": "sovereign_deals",
       "label": "Sovereign Deals",
-      "value": "15",
+      "value": "22",
       "note": "Sovereign classification",
       "definition": "Deals with sovereign_flag=true.",
       "interpretation": "Sovereign participation depth.",
-      "data_type": "derived"
-    },
-    {
-      "id": "outstanding_market",
-      "label": "Outstanding Market",
-      "value": "~$47B",
-      "note": "Est. outstanding as of 2025",
-      "definition": "Estimated stock of active outstanding catastrophe bonds.",
-      "interpretation": "Industry estimate; approximate figure.",
       "data_type": "derived"
     },
     {

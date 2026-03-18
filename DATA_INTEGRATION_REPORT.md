@@ -1,6 +1,6 @@
 # DATA_INTEGRATION_REPORT
 
-Generated at: 2026-03-17T22:47:34.567Z
+Generated at: 2026-03-18T07:02:10.269Z
 
 ## Old Sources Replaced
 - Legacy local master/mock/static deal datasets are bypassed by generated JSON from SQL-ready packages.

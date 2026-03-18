@@ -132,16 +132,16 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 10,
-    "total_volume_usd": 1313300000,
-    "total_volume_musd": 1313.3
+    "total_volume_usd": 1085800000,
+    "total_volume_musd": 1085.8
   },
   {
     "year": 2004,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 10,
-    "total_volume_usd": 1313300000,
-    "total_volume_musd": 1313.3
+    "total_volume_usd": 1085800000,
+    "total_volume_musd": 1085.8
   },
   {
     "year": 2005,
@@ -164,16 +164,16 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 27,
-    "total_volume_usd": 5433536103.542234,
-    "total_volume_musd": 5433.536103542235
+    "total_volume_usd": 4963536103.542234,
+    "total_volume_musd": 4963.536103542235
   },
   {
     "year": 2006,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 26,
-    "total_volume_usd": 5273536103.542234,
-    "total_volume_musd": 5273.536103542235
+    "total_volume_usd": 4803536103.542234,
+    "total_volume_musd": 4803.536103542235
   },
   {
     "year": 2006,
@@ -220,16 +220,16 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 18,
-    "total_volume_usd": 4050000000,
-    "total_volume_musd": 4050
+    "total_volume_usd": 3400000000,
+    "total_volume_musd": 3400
   },
   {
     "year": 2009,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 17,
-    "total_volume_usd": 3760000000,
-    "total_volume_musd": 3760
+    "total_volume_usd": 3110000000,
+    "total_volume_musd": 3110
   },
   {
     "year": 2009,
@@ -244,224 +244,264 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 23,
-    "total_volume_usd": 5391000000,
-    "total_volume_musd": 5391
+    "total_volume_usd": 4834500000,
+    "total_volume_musd": 4834.5
   },
   {
     "year": 2010,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 23,
-    "total_volume_usd": 5391000000,
-    "total_volume_musd": 5391
+    "total_volume_usd": 4834500000,
+    "total_volume_musd": 4834.5
   },
   {
     "year": 2011,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 23,
-    "total_volume_usd": 7097000000,
-    "total_volume_musd": 7097
+    "total_volume_usd": 4433000000,
+    "total_volume_musd": 4433
   },
   {
     "year": 2011,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
-    "deal_count": 23,
-    "total_volume_usd": 7097000000,
-    "total_volume_musd": 7097
+    "deal_count": 22,
+    "total_volume_usd": 4233000000,
+    "total_volume_musd": 4233
+  },
+  {
+    "year": 2011,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200
   },
   {
     "year": 2012,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 25,
-    "total_volume_usd": 9905000000,
-    "total_volume_musd": 9905
+    "total_volume_usd": 5852000000,
+    "total_volume_musd": 5852
   },
   {
     "year": 2012,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
+    "deal_count": 24,
+    "total_volume_usd": 5537000000,
+    "total_volume_musd": 5537
+  },
+  {
+    "year": 2012,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 315000000,
+    "total_volume_musd": 315
+  },
+  {
+    "year": 2013,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 32,
+    "total_volume_usd": 7368578746.594006,
+    "total_volume_musd": 7368.578746594006
+  },
+  {
+    "year": 2013,
+    "segment": "Non-Sovereign",
+    "segment_key": "non_sovereign",
+    "deal_count": 31,
+    "total_volume_usd": 6968578746.594006,
+    "total_volume_musd": 6968.578746594006
+  },
+  {
+    "year": 2013,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 400000000,
+    "total_volume_musd": 400
+  },
+  {
+    "year": 2014,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 28,
+    "total_volume_usd": 6503213896.457766,
+    "total_volume_musd": 6503.213896457765
+  },
+  {
+    "year": 2014,
+    "segment": "Non-Sovereign",
+    "segment_key": "non_sovereign",
+    "deal_count": 26,
+    "total_volume_usd": 6223213896.457766,
+    "total_volume_musd": 6223.213896457765
+  },
+  {
+    "year": 2014,
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 2,
+    "total_volume_usd": 280000000,
+    "total_volume_musd": 280
+  },
+  {
+    "year": 2015,
+    "segment": "All",
+    "segment_key": "all",
+    "deal_count": 26,
+    "total_volume_usd": 6259393732.970027,
+    "total_volume_musd": 6259.393732970027
+  },
+  {
+    "year": 2015,
+    "segment": "Non-Sovereign",
+    "segment_key": "non_sovereign",
     "deal_count": 25,
-    "total_volume_usd": 9905000000,
-    "total_volume_musd": 9905
-  },
-  {
-    "year": 2013,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 32,
-    "total_volume_usd": 10236578746.594006,
-    "total_volume_musd": 10236.578746594005
-  },
-  {
-    "year": 2013,
-    "segment": "Non-Sovereign",
-    "segment_key": "non_sovereign",
-    "deal_count": 32,
-    "total_volume_usd": 10236578746.594006,
-    "total_volume_musd": 10236.578746594005
-  },
-  {
-    "year": 2014,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 28,
-    "total_volume_usd": 11283878746.594006,
-    "total_volume_musd": 11283.878746594006
-  },
-  {
-    "year": 2014,
-    "segment": "Non-Sovereign",
-    "segment_key": "non_sovereign",
-    "deal_count": 28,
-    "total_volume_usd": 11283878746.594006,
-    "total_volume_musd": 11283.878746594006
+    "total_volume_usd": 6159393732.970027,
+    "total_volume_musd": 6159.393732970027
   },
   {
     "year": 2015,
-    "segment": "All",
-    "segment_key": "all",
-    "deal_count": 26,
-    "total_volume_usd": 8589393732.970027,
-    "total_volume_musd": 8589.393732970027
-  },
-  {
-    "year": 2015,
-    "segment": "Non-Sovereign",
-    "segment_key": "non_sovereign",
-    "deal_count": 26,
-    "total_volume_usd": 8589393732.970027,
-    "total_volume_musd": 8589.393732970027
+    "segment": "Sovereign",
+    "segment_key": "sovereign",
+    "deal_count": 1,
+    "total_volume_usd": 100000000,
+    "total_volume_musd": 100
   },
   {
     "year": 2016,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 21,
-    "total_volume_usd": 13044618528.610355,
-    "total_volume_musd": 13044.618528610355
+    "total_volume_usd": 5866539509.536785,
+    "total_volume_musd": 5866.539509536785
   },
   {
     "year": 2016,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 21,
-    "total_volume_usd": 13044618528.610355,
-    "total_volume_musd": 13044.618528610355
+    "total_volume_usd": 5866539509.536785,
+    "total_volume_musd": 5866.539509536785
   },
   {
     "year": 2017,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 35,
-    "total_volume_usd": 22719272479.564034,
-    "total_volume_musd": 22719.272479564035
+    "total_volume_usd": 10326772479.564034,
+    "total_volume_musd": 10326.772479564033
   },
   {
     "year": 2017,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 34,
-    "total_volume_usd": 21639272479.564034,
-    "total_volume_musd": 21639.272479564035
+    "total_volume_usd": 9966772479.564034,
+    "total_volume_musd": 9966.772479564033
   },
   {
     "year": 2017,
     "segment": "Sovereign",
     "segment_key": "sovereign",
     "deal_count": 1,
-    "total_volume_usd": 1080000000,
-    "total_volume_musd": 1080
+    "total_volume_usd": 360000000,
+    "total_volume_musd": 360
   },
   {
     "year": 2018,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 32,
-    "total_volume_usd": 14399000000,
-    "total_volume_musd": 14399
+    "total_volume_usd": 9494000000,
+    "total_volume_musd": 9494
   },
   {
     "year": 2018,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
-    "deal_count": 28,
-    "total_volume_usd": 12779000000,
-    "total_volume_musd": 12779
+    "deal_count": 27,
+    "total_volume_usd": 7924000000,
+    "total_volume_musd": 7924
   },
   {
     "year": 2018,
     "segment": "Sovereign",
     "segment_key": "sovereign",
-    "deal_count": 4,
-    "total_volume_usd": 1620000000,
-    "total_volume_musd": 1620
+    "deal_count": 5,
+    "total_volume_usd": 1570000000,
+    "total_volume_musd": 1570
   },
   {
     "year": 2019,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 24,
-    "total_volume_usd": 9641738419.618528,
-    "total_volume_musd": 9641.738419618528
+    "total_volume_usd": 5332937329.700273,
+    "total_volume_musd": 5332.937329700272
   },
   {
     "year": 2019,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 23,
-    "total_volume_usd": 9191738419.618528,
-    "total_volume_musd": 9191.738419618528
+    "total_volume_usd": 5107937329.700273,
+    "total_volume_musd": 5107.937329700272
   },
   {
     "year": 2019,
     "segment": "Sovereign",
     "segment_key": "sovereign",
     "deal_count": 1,
-    "total_volume_usd": 450000000,
-    "total_volume_musd": 450
+    "total_volume_usd": 225000000,
+    "total_volume_musd": 225
   },
   {
     "year": 2020,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 49,
-    "total_volume_usd": 20454393732.970024,
-    "total_volume_musd": 20454.393732970024
+    "total_volume_usd": 11314393732.970028,
+    "total_volume_musd": 11314.393732970027
   },
   {
     "year": 2020,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 48,
-    "total_volume_usd": 18514393732.970024,
-    "total_volume_musd": 18514.393732970024
+    "total_volume_usd": 10829393732.970028,
+    "total_volume_musd": 10829.393732970027
   },
   {
     "year": 2020,
     "segment": "Sovereign",
     "segment_key": "sovereign",
     "deal_count": 1,
-    "total_volume_usd": 1940000000,
-    "total_volume_musd": 1940
+    "total_volume_usd": 485000000,
+    "total_volume_musd": 485
   },
   {
     "year": 2021,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 52,
-    "total_volume_usd": 19975576294.27793,
-    "total_volume_musd": 19975.576294277933
+    "total_volume_usd": 12679652588.555859,
+    "total_volume_musd": 12679.652588555859
   },
   {
     "year": 2021,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 51,
-    "total_volume_usd": 19790576294.27793,
-    "total_volume_musd": 19790.576294277933
+    "total_volume_usd": 12494652588.555859,
+    "total_volume_musd": 12494.652588555859
   },
   {
     "year": 2021,
@@ -476,32 +516,32 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 50,
-    "total_volume_usd": 17726000000,
-    "total_volume_musd": 17726
+    "total_volume_usd": 9591000000,
+    "total_volume_musd": 9591
   },
   {
     "year": 2022,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 50,
-    "total_volume_usd": 17726000000,
-    "total_volume_musd": 17726
+    "total_volume_usd": 9591000000,
+    "total_volume_musd": 9591
   },
   {
     "year": 2023,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 71,
-    "total_volume_usd": 23416430517.711174,
-    "total_volume_musd": 23416.430517711175
+    "total_volume_usd": 15670667574.931879,
+    "total_volume_musd": 15670.667574931878
   },
   {
     "year": 2023,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 70,
-    "total_volume_usd": 23066430517.711174,
-    "total_volume_musd": 23066.430517711175
+    "total_volume_usd": 15320667574.931879,
+    "total_volume_musd": 15320.667574931878
   },
   {
     "year": 2023,
@@ -516,55 +556,55 @@
     "segment": "All",
     "segment_key": "all",
     "deal_count": 70,
-    "total_volume_usd": 24642346049.046318,
-    "total_volume_musd": 24642.34604904632
+    "total_volume_usd": 13747346049.046322,
+    "total_volume_musd": 13747.346049046322
   },
   {
     "year": 2024,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 66,
-    "total_volume_usd": 22972346049.046318,
-    "total_volume_musd": 22972.34604904632
+    "total_volume_usd": 12917346049.046322,
+    "total_volume_musd": 12917.346049046322
   },
   {
     "year": 2024,
     "segment": "Sovereign",
     "segment_key": "sovereign",
     "deal_count": 4,
-    "total_volume_usd": 1670000000,
-    "total_volume_musd": 1670
+    "total_volume_usd": 830000000,
+    "total_volume_musd": 830
   },
   {
     "year": 2025,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 91,
-    "total_volume_usd": 37740595912.80654,
-    "total_volume_musd": 37740.595912806544
+    "total_volume_usd": 23123010013.62398,
+    "total_volume_musd": 23123.01001362398
   },
   {
     "year": 2025,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 91,
-    "total_volume_usd": 37740595912.80654,
-    "total_volume_musd": 37740.595912806544
+    "total_volume_usd": 23123010013.62398,
+    "total_volume_musd": 23123.01001362398
   },
   {
     "year": 2026,
     "segment": "All",
     "segment_key": "all",
     "deal_count": 19,
-    "total_volume_usd": 9045000000,
-    "total_volume_musd": 9045
+    "total_volume_usd": 5590000000,
+    "total_volume_musd": 5590
   },
   {
     "year": 2026,
     "segment": "Non-Sovereign",
     "segment_key": "non_sovereign",
     "deal_count": 19,
-    "total_volume_usd": 9045000000,
-    "total_volume_musd": 9045
+    "total_volume_usd": 5590000000,
+    "total_volume_musd": 5590
   }
 ]

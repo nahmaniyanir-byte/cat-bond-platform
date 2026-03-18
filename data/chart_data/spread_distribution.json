@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "metric": "average_final_spread_bps",
   "source": "deals_master_sql_ready.csv",
   "bucket_size": 50,

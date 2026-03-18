@@ -9,8 +9,8 @@
     "Sovereign policy intelligence for disaster risk financing strategy",
     "Integrated dashboards for pricing, structure, and country-level execution planning"
   ],
-  "background_type": "video",
-  "background_video": "/videos/hero/hero-background.mp4",
+  "background_type": "none",
+  "background_video": "",
   "primary_call_to_action": {
     "label": "Open Deal Explorer",
     "url": "/deals"

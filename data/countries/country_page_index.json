@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "source_root": "C:\\Users\\nahma\\PyCharmMiscProject\\mmn.14\\catbond_project\\final_outputs_country_fixed\\sql_ready_package",
   "countries": [
     {
@@ -12,8 +12,8 @@
       "deal_count": 20,
       "sovereign_deal_count": 0,
       "non_sovereign_deal_count": 20,
-      "total_volume_usd": 5860000000,
-      "total_volume_musd": 5860,
+      "total_volume_usd": 3660000000,
+      "total_volume_musd": 3660,
       "latest_issue_year": 2026,
       "main_peril": "Multi-Peril",
       "trigger_types": [
@@ -24,7 +24,7 @@
         "Non-Sovereign"
       ],
       "sovereign_activity_summary": "No sovereign deals detected in current dataset.",
-      "summary": "Canada has 20 recorded catastrophe bond deals with cumulative issuance of $5,860,000,000.",
+      "summary": "Canada has 20 recorded catastrophe bond deals with cumulative issuance of $3,660,000,000.",
       "latitude": 56.1304,
       "longitude": -106.3468,
       "destination_url": "/countries/canada"
@@ -143,8 +143,8 @@
       "deal_count": 87,
       "sovereign_deal_count": 0,
       "non_sovereign_deal_count": 87,
-      "total_volume_usd": 21426629700.27248,
-      "total_volume_musd": 21426.62970027248,
+      "total_volume_usd": 15729464850.13624,
+      "total_volume_musd": 15729.46485013624,
       "latest_issue_year": 2025,
       "main_peril": "Multi-Peril",
       "trigger_types": [
@@ -159,7 +159,7 @@
         "Non-Sovereign"
       ],
       "sovereign_activity_summary": "No sovereign deals detected in current dataset.",
-      "summary": "Japan has 87 recorded catastrophe bond deals with cumulative issuance of $21,426,629,700.",
+      "summary": "Japan has 87 recorded catastrophe bond deals with cumulative issuance of $15,729,464,850.",
       "latitude": 36.2048,
       "longitude": 138.2529,
       "destination_url": "/countries/japan"
@@ -174,8 +174,8 @@
       "deal_count": 7,
       "sovereign_deal_count": 7,
       "non_sovereign_deal_count": 0,
-      "total_volume_usd": 5425000000,
-      "total_volume_musd": 5425,
+      "total_volume_usd": 2150000000,
+      "total_volume_musd": 2150,
       "latest_issue_year": 2024,
       "main_peril": "Multi-Peril",
       "trigger_types": [
@@ -185,7 +185,7 @@
         "Sovereign"
       ],
       "sovereign_activity_summary": "Sovereign activity present (7 deals).",
-      "summary": "Mexico has 7 recorded catastrophe bond deals with cumulative issuance of $5,425,000,000.",
+      "summary": "Mexico has 7 recorded catastrophe bond deals with cumulative issuance of $2,150,000,000.",
       "latitude": 23.6345,
       "longitude": -102.5528,
       "destination_url": "/countries/mexico"
@@ -195,13 +195,13 @@
       "country_name": "Not Stated",
       "slug": "not-stated",
       "region": "Global",
-      "sovereign_flag": false,
-      "market_segment_summary": "Non-Sovereign",
+      "sovereign_flag": true,
+      "market_segment_summary": "Mixed",
       "deal_count": 267,
-      "sovereign_deal_count": 0,
-      "non_sovereign_deal_count": 267,
-      "total_volume_usd": 80560816757.49318,
-      "total_volume_musd": 80560.81675749317,
+      "sovereign_deal_count": 2,
+      "non_sovereign_deal_count": 265,
+      "total_volume_usd": 59172664100.81744,
+      "total_volume_musd": 59172.664100817434,
       "latest_issue_year": 2026,
       "main_peril": "Hurricane / Wind",
       "trigger_types": [
@@ -213,10 +213,10 @@
         "Unknown"
       ],
       "model_types": [
-        "Non-Sovereign"
+        "Mixed"
       ],
-      "sovereign_activity_summary": "No sovereign deals detected in current dataset.",
-      "summary": "Not Stated has 267 recorded catastrophe bond deals with cumulative issuance of $80,560,816,757.",
+      "sovereign_activity_summary": "Sovereign activity present (2 deals).",
+      "summary": "Not Stated has 267 recorded catastrophe bond deals with cumulative issuance of $59,172,664,101.",
       "latitude": 53,
       "longitude": 41.80000000000001,
       "destination_url": "/countries/not-stated"
@@ -257,8 +257,8 @@
       "deal_count": 1,
       "sovereign_deal_count": 1,
       "non_sovereign_deal_count": 0,
-      "total_volume_usd": 450000000,
-      "total_volume_musd": 450,
+      "total_volume_usd": 225000000,
+      "total_volume_musd": 225,
       "latest_issue_year": 2019,
       "main_peril": "Earthquake",
       "trigger_types": [
@@ -268,7 +268,7 @@
         "Sovereign"
       ],
       "sovereign_activity_summary": "Sovereign activity present (1 deals).",
-      "summary": "Philippines has 1 recorded catastrophe bond deals with cumulative issuance of $450,000,000.",
+      "summary": "Philippines has 1 recorded catastrophe bond deals with cumulative issuance of $225,000,000.",
       "latitude": 12.8797,
       "longitude": 121.774,
       "destination_url": "/countries/philippines"
@@ -304,13 +304,13 @@
       "country_name": "United States",
       "slug": "united-states",
       "region": "North America",
-      "sovereign_flag": false,
-      "market_segment_summary": "Non-Sovereign",
+      "sovereign_flag": true,
+      "market_segment_summary": "Mixed",
       "deal_count": 440,
-      "sovereign_deal_count": 0,
-      "non_sovereign_deal_count": 440,
-      "total_volume_usd": 178338986539.50952,
-      "total_volume_musd": 178338.98653950953,
+      "sovereign_deal_count": 5,
+      "non_sovereign_deal_count": 435,
+      "total_volume_usd": 102455986539.50954,
+      "total_volume_musd": 102455.98653950954,
       "latest_issue_year": 2026,
       "main_peril": "Multi-Peril",
       "trigger_types": [
@@ -323,10 +323,10 @@
         "Unknown"
       ],
       "model_types": [
-        "Non-Sovereign"
+        "Mixed"
       ],
-      "sovereign_activity_summary": "No sovereign deals detected in current dataset.",
-      "summary": "United States has 440 recorded catastrophe bond deals with cumulative issuance of $178,338,986,540.",
+      "sovereign_activity_summary": "Sovereign activity present (5 deals).",
+      "summary": "United States has 440 recorded catastrophe bond deals with cumulative issuance of $102,455,986,540.",
       "latitude": 38.8951,
       "longitude": -77.0364,
       "destination_url": "/countries/united-states"

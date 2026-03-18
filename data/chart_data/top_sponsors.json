@@ -3,73 +3,33 @@
     "sponsor_name": "USAA",
     "deal_count": 46,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 27423500000,
-    "total_volume_musd": 27423.5,
+    "total_volume_usd": 12386000000,
+    "total_volume_musd": 12386,
     "rank": 1
-  },
-  {
-    "sponsor_name": "Allstate",
-    "deal_count": 26,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 16552000000,
-    "total_volume_musd": 16552,
-    "rank": 2
   },
   {
     "sponsor_name": "Swiss Re",
     "deal_count": 67,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 14297786103.542234,
-    "total_volume_musd": 14297.786103542234,
-    "rank": 3
+    "sovereign_deal_count": 1,
+    "total_volume_usd": 10461286103.542234,
+    "total_volume_musd": 10461.286103542234,
+    "rank": 2
   },
   {
     "sponsor_name": "California Earthquake Authority",
     "deal_count": 23,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 12235000000,
-    "total_volume_musd": 12235,
+    "total_volume_usd": 9140000000,
+    "total_volume_musd": 9140,
+    "rank": 3
+  },
+  {
+    "sponsor_name": "Allstate",
+    "deal_count": 26,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 9057000000,
+    "total_volume_musd": 9057,
     "rank": 4
-  },
-  {
-    "sponsor_name": "Everest Re",
-    "deal_count": 15,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 11500000000,
-    "total_volume_musd": 11500,
-    "rank": 5
-  },
-  {
-    "sponsor_name": "XL Bermuda Ltd.",
-    "deal_count": 7,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 11050000000,
-    "total_volume_musd": 11050,
-    "rank": 6
-  },
-  {
-    "sponsor_name": "Zenkyoren",
-    "deal_count": 15,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 8270000000,
-    "total_volume_musd": 8270,
-    "rank": 7
-  },
-  {
-    "sponsor_name": "Nationwide Mutual Insurance Co.",
-    "deal_count": 9,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 7195000000,
-    "total_volume_musd": 7195,
-    "rank": 8
-  },
-  {
-    "sponsor_name": "FEMA / NFIP via Hannover Re",
-    "deal_count": 7,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 6600000000,
-    "total_volume_musd": 6600,
-    "rank": 9
   },
   {
     "sponsor_name": "State Farm",
@@ -77,151 +37,95 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 6492180000,
     "total_volume_musd": 6492.18,
-    "rank": 10
+    "rank": 5
   },
   {
-    "sponsor_name": "Texas Windstorm Insurance Association (TWIA)",
-    "deal_count": 11,
+    "sponsor_name": "Everest Re",
+    "deal_count": 15,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 6054200000,
-    "total_volume_musd": 6054.2,
-    "rank": 11
+    "total_volume_usd": 6350000000,
+    "total_volume_musd": 6350,
+    "rank": 6
+  },
+  {
+    "sponsor_name": "Zenkyoren",
+    "deal_count": 15,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 4895000000,
+    "total_volume_musd": 4895,
+    "rank": 7
   },
   {
     "sponsor_name": "Citizens Property Insurance",
     "deal_count": 13,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 5320900000,
-    "total_volume_musd": 5320.9,
-    "rank": 12
+    "total_volume_usd": 4364125000,
+    "total_volume_musd": 4364.125,
+    "rank": 8
   },
   {
-    "sponsor_name": "American Integrity Insurance Group",
-    "deal_count": 9,
+    "sponsor_name": "Texas Windstorm Insurance Association (TWIA)",
+    "deal_count": 11,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 5299000000,
-    "total_volume_musd": 5299,
-    "rank": 13
-  },
-  {
-    "sponsor_name": "Palomar Specialty Insurance Company",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 5083000000,
-    "total_volume_musd": 5083,
-    "rank": 14
+    "total_volume_usd": 4251400000,
+    "total_volume_musd": 4251.4,
+    "rank": 9
   },
   {
     "sponsor_name": "SCOR",
     "deal_count": 19,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 4575000000,
-    "total_volume_musd": 4575,
+    "total_volume_usd": 3830000000,
+    "total_volume_musd": 3830,
+    "rank": 10
+  },
+  {
+    "sponsor_name": "FEMA / NFIP via Hannover Re",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 3075000000,
+    "total_volume_musd": 3075,
+    "rank": 11
+  },
+  {
+    "sponsor_name": "North Carolina Insurance Underwriting Association",
+    "deal_count": 8,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2930000000,
+    "total_volume_musd": 2930,
+    "rank": 12
+  },
+  {
+    "sponsor_name": "Travelers",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2925000000,
+    "total_volume_musd": 2925,
+    "rank": 13
+  },
+  {
+    "sponsor_name": "Nationwide Mutual Insurance Co.",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2915000000,
+    "total_volume_musd": 2915,
+    "rank": 14
+  },
+  {
+    "sponsor_name": "XL Bermuda Ltd.",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2750000000,
+    "total_volume_musd": 2750,
     "rank": 15
   },
   {
     "sponsor_name": "Liberty Mutual",
     "deal_count": 11,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 4225000000,
-    "total_volume_musd": 4225,
+    "total_volume_usd": 2700000000,
+    "total_volume_musd": 2700,
     "rank": 16
-  },
-  {
-    "sponsor_name": "Aetna",
-    "deal_count": 7,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 3500000000,
-    "total_volume_musd": 3500,
-    "rank": 17
-  },
-  {
-    "sponsor_name": "Travelers",
-    "deal_count": 7,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 3425000000,
-    "total_volume_musd": 3425,
-    "rank": 18
-  },
-  {
-    "sponsor_name": "North Carolina Insurance Underwriting Association",
-    "deal_count": 8,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 3330000000,
-    "total_volume_musd": 3330,
-    "rank": 19
-  },
-  {
-    "sponsor_name": "Renaissance Re and DaVinci Re",
-    "deal_count": 7,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 3220000000,
-    "total_volume_musd": 3220,
-    "rank": 20
-  },
-  {
-    "sponsor_name": "Heritage Property and Casualty Insurance Co.",
-    "deal_count": 10,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2862500000,
-    "total_volume_musd": 2862.5,
-    "rank": 21
-  },
-  {
-    "sponsor_name": "Chubb",
-    "deal_count": 9,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2820000000,
-    "total_volume_musd": 2820,
-    "rank": 22
-  },
-  {
-    "sponsor_name": "North Carolina Farm Bureau",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2800000000,
-    "total_volume_musd": 2800,
-    "rank": 23
-  },
-  {
-    "sponsor_name": "Validus Holdings",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2800000000,
-    "total_volume_musd": 2800,
-    "rank": 24
-  },
-  {
-    "sponsor_name": "Fidelis Insurance",
-    "deal_count": 8,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2770000000,
-    "total_volume_musd": 2770,
-    "rank": 25
-  },
-  {
-    "sponsor_name": "Hannover Rück SE / Oak Tree Assurance, Ltd.",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2465000000,
-    "total_volume_musd": 2465,
-    "rank": 26
-  },
-  {
-    "sponsor_name": "FONDEN / AGROASEMEX S.A.",
-    "deal_count": 2,
-    "sovereign_deal_count": 2,
-    "total_volume_usd": 2460000000,
-    "total_volume_musd": 2460,
-    "rank": 27
-  },
-  {
-    "sponsor_name": "Louisiana Citizens Property Insurance Corporation",
-    "deal_count": 11,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2445000000,
-    "total_volume_musd": 2445,
-    "rank": 28
   },
   {
     "sponsor_name": "Munich Re",
@@ -229,167 +133,79 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 2408500000,
     "total_volume_musd": 2408.5,
-    "rank": 29
+    "rank": 17
+  },
+  {
+    "sponsor_name": "Chubb",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2045000000,
+    "total_volume_musd": 2045,
+    "rank": 18
+  },
+  {
+    "sponsor_name": "Hannover Rück SE / Oak Tree Assurance, Ltd.",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 2015000000,
+    "total_volume_musd": 2015,
+    "rank": 19
+  },
+  {
+    "sponsor_name": "Palomar Specialty Insurance Company",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1986000000,
+    "total_volume_musd": 1986,
+    "rank": 20
+  },
+  {
+    "sponsor_name": "Renaissance Re and DaVinci Re",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1885000000,
+    "total_volume_musd": 1885,
+    "rank": 21
+  },
+  {
+    "sponsor_name": "American Integrity Insurance Group",
+    "deal_count": 9,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1844000000,
+    "total_volume_musd": 1844,
+    "rank": 22
   },
   {
     "sponsor_name": "Hannover Re",
     "deal_count": 11,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 2397000000,
-    "total_volume_musd": 2397,
-    "rank": 30
+    "total_volume_usd": 1807000000,
+    "total_volume_musd": 1807,
+    "rank": 23
   },
   {
-    "sponsor_name": "AIG",
-    "deal_count": 4,
+    "sponsor_name": "Louisiana Citizens Property Insurance Corporation",
+    "deal_count": 11,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 2225000000,
-    "total_volume_musd": 2225,
-    "rank": 31
+    "total_volume_usd": 1675000000,
+    "total_volume_musd": 1675,
+    "rank": 24
   },
   {
-    "sponsor_name": "National Union Fire Insurance Co. of Pittsburgh",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2125000000,
-    "total_volume_musd": 2125,
-    "rank": 32
-  },
-  {
-    "sponsor_name": "GeoVera Insurance",
-    "deal_count": 4,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2075000000,
-    "total_volume_musd": 2075,
-    "rank": 33
-  },
-  {
-    "sponsor_name": "American Family Mutual Insurance Co.",
-    "deal_count": 8,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2075000000,
-    "total_volume_musd": 2075,
-    "rank": 34
-  },
-  {
-    "sponsor_name": "American Strategic Insurance Group",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 2060000000,
-    "total_volume_musd": 2060,
-    "rank": 35
-  },
-  {
-    "sponsor_name": "SafePoint Insurance Company",
+    "sponsor_name": "Heritage Property and Casualty Insurance Co.",
     "deal_count": 10,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1905000000,
-    "total_volume_musd": 1905,
-    "rank": 36
+    "total_volume_usd": 1522500000,
+    "total_volume_musd": 1522.5,
+    "rank": 25
   },
   {
-    "sponsor_name": "Assicurazioni Generali S.p.A.",
-    "deal_count": 5,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1903242506.811989,
-    "total_volume_musd": 1903.242506811989,
-    "rank": 37
-  },
-  {
-    "sponsor_name": "Tokio Marine & Nichido Fire Insurance Co. Ltd.",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1830000000,
-    "total_volume_musd": 1830,
-    "rank": 38
-  },
-  {
-    "sponsor_name": "Beazley",
+    "sponsor_name": "Aetna",
     "deal_count": 7,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1810000000,
-    "total_volume_musd": 1810,
-    "rank": 39
-  },
-  {
-    "sponsor_name": "Great American Insurance Group",
-    "deal_count": 4,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1705000000,
-    "total_volume_musd": 1705,
-    "rank": 40
-  },
-  {
-    "sponsor_name": "Massachusetts Property Insurance Underwriting Association",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1571000000,
-    "total_volume_musd": 1571,
-    "rank": 41
-  },
-  {
-    "sponsor_name": "AXA Global P&C",
-    "deal_count": 3,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1569000000,
-    "total_volume_musd": 1569,
-    "rank": 42
-  },
-  {
-    "sponsor_name": "SureChoice Underwriters Reciprocal Exchange, Elevate Reciprocal Exchange",
-    "deal_count": 5,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1545000000,
-    "total_volume_musd": 1545,
-    "rank": 43
-  },
-  {
-    "sponsor_name": "Covéa Group",
-    "deal_count": 5,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1530713896.4577656,
-    "total_volume_musd": 1530.7138964577655,
-    "rank": 44
-  },
-  {
-    "sponsor_name": "Syndicate 1910 (Ariel Re)",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1525000000,
-    "total_volume_musd": 1525,
-    "rank": 45
-  },
-  {
-    "sponsor_name": "Aspen Insurance",
-    "deal_count": 4,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1525000000,
-    "total_volume_musd": 1525,
-    "rank": 46
-  },
-  {
-    "sponsor_name": "Mitsui Sumitomo Insurance Co. Ltd., Aioi Nissay Dowa Insurance Co., Ltd.",
-    "deal_count": 3,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1480000000,
-    "total_volume_musd": 1480,
-    "rank": 47
-  },
-  {
-    "sponsor_name": "Government of Mexico / AGROASEMEX S.A.",
-    "deal_count": 2,
-    "sovereign_deal_count": 2,
-    "total_volume_usd": 1435000000,
-    "total_volume_musd": 1435,
-    "rank": 48
-  },
-  {
-    "sponsor_name": "North Carolina JUA / IUA",
-    "deal_count": 4,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1409000000,
-    "total_volume_musd": 1409,
-    "rank": 49
+    "total_volume_usd": 1500000000,
+    "total_volume_musd": 1500,
+    "rank": 26
   },
   {
     "sponsor_name": "AXIS Capital Holdings Ltd. subsidiaries",
@@ -397,7 +213,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 1405000000,
     "total_volume_musd": 1405,
-    "rank": 50
+    "rank": 27
   },
   {
     "sponsor_name": "Hartford Fire Insurance Co.",
@@ -405,47 +221,71 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 1385000000,
     "total_volume_musd": 1385,
-    "rank": 51
+    "rank": 28
   },
   {
-    "sponsor_name": "Chartis",
-    "deal_count": 2,
+    "sponsor_name": "AIG",
+    "deal_count": 4,
     "sovereign_deal_count": 0,
     "total_volume_usd": 1325000000,
     "total_volume_musd": 1325,
-    "rank": 52
+    "rank": 29
   },
   {
-    "sponsor_name": "Assurant",
+    "sponsor_name": "Massachusetts Property Insurance Underwriting Association",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1321000000,
+    "total_volume_musd": 1321,
+    "rank": 30
+  },
+  {
+    "sponsor_name": "Fidelis Insurance",
+    "deal_count": 8,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1320000000,
+    "total_volume_musd": 1320,
+    "rank": 31
+  },
+  {
+    "sponsor_name": "SafePoint Insurance Company",
+    "deal_count": 10,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1280000000,
+    "total_volume_musd": 1280,
+    "rank": 32
+  },
+  {
+    "sponsor_name": "American Family Mutual Insurance Co.",
+    "deal_count": 8,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1250000000,
+    "total_volume_musd": 1250,
+    "rank": 33
+  },
+  {
+    "sponsor_name": "Beazley",
+    "deal_count": 7,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 1210000000,
+    "total_volume_musd": 1210,
+    "rank": 34
+  },
+  {
+    "sponsor_name": "North Carolina JUA / IUA",
     "deal_count": 4,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1265000000,
-    "total_volume_musd": 1265,
-    "rank": 53
+    "total_volume_usd": 1207000000,
+    "total_volume_musd": 1207,
+    "rank": 35
   },
   {
-    "sponsor_name": "Transatlantic Reinsurance Co.",
-    "deal_count": 3,
+    "sponsor_name": "Tokio Marine & Nichido Fire Insurance Co. Ltd.",
+    "deal_count": 6,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1245000000,
-    "total_volume_musd": 1245,
-    "rank": 54
-  },
-  {
-    "sponsor_name": "Slide Insurance Company",
-    "deal_count": 5,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1230000000,
-    "total_volume_musd": 1230,
-    "rank": 55
-  },
-  {
-    "sponsor_name": "Allianz Risk Transfer",
-    "deal_count": 4,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1195000000,
-    "total_volume_musd": 1195,
-    "rank": 56
+    "total_volume_usd": 1185000000,
+    "total_volume_musd": 1185,
+    "rank": 36
   },
   {
     "sponsor_name": "Groupama",
@@ -453,7 +293,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 1178806539.5095367,
     "total_volume_musd": 1178.8065395095368,
-    "rank": 57
+    "rank": 37
   },
   {
     "sponsor_name": "Catlin",
@@ -461,23 +301,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 1175250000,
     "total_volume_musd": 1175.25,
-    "rank": 58
-  },
-  {
-    "sponsor_name": "Security First Insurance Company",
-    "deal_count": 6,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1175000000,
-    "total_volume_musd": 1175,
-    "rank": 59
-  },
-  {
-    "sponsor_name": "Progressive",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 1160000000,
-    "total_volume_musd": 1160,
-    "rank": 60
+    "rank": 38
   },
   {
     "sponsor_name": "California FAIR Plan Association",
@@ -485,63 +309,87 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 1150000000,
     "total_volume_musd": 1150,
-    "rank": 61
+    "rank": 39
   },
   {
-    "sponsor_name": "Farmers Insurance Group",
-    "deal_count": 2,
+    "sponsor_name": "Assicurazioni Generali S.p.A.",
+    "deal_count": 5,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1120000000,
-    "total_volume_musd": 1120,
-    "rank": 62
+    "total_volume_usd": 1133269754.7683926,
+    "total_volume_musd": 1133.2697547683927,
+    "rank": 40
   },
   {
-    "sponsor_name": "Inigo Insurance (Syndicate 1301)",
+    "sponsor_name": "GeoVera Insurance",
     "deal_count": 4,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1090000000,
-    "total_volume_musd": 1090,
-    "rank": 63
+    "total_volume_usd": 1125000000,
+    "total_volume_musd": 1125,
+    "rank": 41
   },
   {
-    "sponsor_name": "FONDEN / AGROASEMEX S.A",
-    "deal_count": 1,
-    "sovereign_deal_count": 1,
-    "total_volume_usd": 1080000000,
-    "total_volume_musd": 1080,
-    "rank": 64
-  },
-  {
-    "sponsor_name": "SureChoice Underwriters Reciprocal Exchange, SafeChoice Insurance Company",
-    "deal_count": 1,
+    "sponsor_name": "American Strategic Insurance Group",
+    "deal_count": 6,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 1040000000,
-    "total_volume_musd": 1040,
-    "rank": 65
+    "total_volume_usd": 1110000000,
+    "total_volume_musd": 1110,
+    "rank": 42
   },
   {
-    "sponsor_name": "US Coastal Insurance Company, US Coastal Property & Casualty Insurance Company",
-    "deal_count": 1,
+    "sponsor_name": "AXA Global P&C",
+    "deal_count": 3,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 990000000,
-    "total_volume_musd": 990,
-    "rank": 66
+    "total_volume_usd": 1095000000,
+    "total_volume_musd": 1095,
+    "rank": 43
   },
   {
-    "sponsor_name": "Tower Hill Insurance Exchange",
+    "sponsor_name": "Slide Insurance Company",
+    "deal_count": 5,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 980000000,
+    "total_volume_musd": 980,
+    "rank": 44
+  },
+  {
+    "sponsor_name": "National Union Fire Insurance Co. of Pittsburgh",
     "deal_count": 2,
     "sovereign_deal_count": 0,
     "total_volume_usd": 975000000,
     "total_volume_musd": 975,
-    "rank": 67
+    "rank": 45
   },
   {
-    "sponsor_name": "Sompo Japan Insurance & affiliates",
+    "sponsor_name": "Security First Insurance Company",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 925000000,
+    "total_volume_musd": 925,
+    "rank": 46
+  },
+  {
+    "sponsor_name": "Syndicate 1910 (Ariel Re)",
+    "deal_count": 6,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 925000000,
+    "total_volume_musd": 925,
+    "rank": 47
+  },
+  {
+    "sponsor_name": "Aspen Insurance",
+    "deal_count": 4,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 925000000,
+    "total_volume_musd": 925,
+    "rank": 48
+  },
+  {
+    "sponsor_name": "North Carolina Farm Bureau",
     "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 950000000,
-    "total_volume_musd": 950,
-    "rank": 68
+    "total_volume_usd": 900000000,
+    "total_volume_musd": 900,
+    "rank": 49
   },
   {
     "sponsor_name": "QBE Insurance Group Ltd. subsidiaries",
@@ -549,31 +397,23 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 900000000,
     "total_volume_musd": 900,
-    "rank": 69
+    "rank": 50
   },
   {
-    "sponsor_name": "Convex Re",
-    "deal_count": 3,
+    "sponsor_name": "Great American Insurance Group",
+    "deal_count": 4,
     "sovereign_deal_count": 0,
     "total_volume_usd": 900000000,
     "total_volume_musd": 900,
-    "rank": 70
+    "rank": 51
   },
   {
-    "sponsor_name": "Kin Interinsurance Network",
-    "deal_count": 3,
+    "sponsor_name": "Chartis",
+    "deal_count": 2,
     "sovereign_deal_count": 0,
     "total_volume_usd": 875000000,
     "total_volume_musd": 875,
-    "rank": 71
-  },
-  {
-    "sponsor_name": "Tokio Millennium Re (Bermuda)",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 860000000,
-    "total_volume_musd": 860,
-    "rank": 72
+    "rank": 52
   },
   {
     "sponsor_name": "Republic of Chile",
@@ -581,23 +421,31 @@
     "sovereign_deal_count": 2,
     "total_volume_usd": 850000000,
     "total_volume_musd": 850,
-    "rank": 73
+    "rank": 53
   },
   {
-    "sponsor_name": "Funds managed by Bayview Asset Management, LLC",
+    "sponsor_name": "SureChoice Underwriters Reciprocal Exchange, Elevate Reciprocal Exchange",
+    "deal_count": 5,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 835000000,
+    "total_volume_musd": 835,
+    "rank": 54
+  },
+  {
+    "sponsor_name": "Covéa Group",
+    "deal_count": 5,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 830425068.119891,
+    "total_volume_musd": 830.4250681198911,
+    "rank": 55
+  },
+  {
+    "sponsor_name": "Validus Holdings",
     "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 850000000,
-    "total_volume_musd": 850,
-    "rank": 74
-  },
-  {
-    "sponsor_name": "Integral Reinsurance Ltd.",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 825000000,
-    "total_volume_musd": 825,
-    "rank": 75
+    "total_volume_usd": 800000000,
+    "total_volume_musd": 800,
+    "rank": 56
   },
   {
     "sponsor_name": "Allianz",
@@ -605,7 +453,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 791117166.2125341,
     "total_volume_musd": 791.117166212534,
-    "rank": 76
+    "rank": 57
   },
   {
     "sponsor_name": "American Coastal Insurance Company",
@@ -613,31 +461,31 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 783000000,
     "total_volume_musd": 783,
-    "rank": 77
+    "rank": 58
   },
   {
-    "sponsor_name": "Endurance Speciality",
-    "deal_count": 1,
+    "sponsor_name": "FONDEN / AGROASEMEX S.A.",
+    "deal_count": 2,
+    "sovereign_deal_count": 2,
+    "total_volume_usd": 745000000,
+    "total_volume_musd": 745,
+    "rank": 59
+  },
+  {
+    "sponsor_name": "Mitsui Sumitomo Insurance Co. Ltd., Aioi Nissay Dowa Insurance Co., Ltd.",
+    "deal_count": 3,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 705000000,
-    "total_volume_musd": 705,
-    "rank": 78
+    "total_volume_usd": 740000000,
+    "total_volume_musd": 740,
+    "rank": 60
   },
   {
-    "sponsor_name": "Frontline Insurance",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 700000000,
-    "total_volume_musd": 700,
-    "rank": 79
-  },
-  {
-    "sponsor_name": "The Cincinnati Insurance Company",
+    "sponsor_name": "Allianz Risk Transfer",
     "deal_count": 4,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 671200000,
-    "total_volume_musd": 671.2,
-    "rank": 80
+    "total_volume_usd": 710000000,
+    "total_volume_musd": 710,
+    "rank": 61
   },
   {
     "sponsor_name": "SureChoice Underwriters Reciprocal Exchange, Elevate Reciprocal Exchange, SafeChoice Insurance Company",
@@ -645,23 +493,31 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 670000000,
     "total_volume_musd": 670,
-    "rank": 81
+    "rank": 62
+  },
+  {
+    "sponsor_name": "Transatlantic Reinsurance Co.",
+    "deal_count": 3,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 665000000,
+    "total_volume_musd": 665,
+    "rank": 63
   },
   {
     "sponsor_name": "California State Compensation Insurance Fund",
     "deal_count": 3,
-    "sovereign_deal_count": 0,
+    "sovereign_deal_count": 3,
     "total_volume_usd": 660000000,
     "total_volume_musd": 660,
-    "rank": 82
+    "rank": 64
   },
   {
-    "sponsor_name": "Allianz Argos 14 GmbH",
-    "deal_count": 2,
+    "sponsor_name": "Assurant",
+    "deal_count": 4,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 655000000,
-    "total_volume_musd": 655,
-    "rank": 83
+    "total_volume_usd": 615000000,
+    "total_volume_musd": 615,
+    "rank": 65
   },
   {
     "sponsor_name": "Alphabet Inc.",
@@ -669,15 +525,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 608000000,
     "total_volume_musd": 608,
-    "rank": 84
+    "rank": 66
   },
   {
-    "sponsor_name": "Swiss Re America",
-    "deal_count": 1,
+    "sponsor_name": "Convex Re",
+    "deal_count": 3,
     "sovereign_deal_count": 0,
     "total_volume_usd": 600000000,
     "total_volume_musd": 600,
-    "rank": 85
+    "rank": 67
   },
   {
     "sponsor_name": "FM Global",
@@ -685,39 +541,55 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 600000000,
     "total_volume_musd": 600,
-    "rank": 86
+    "rank": 68
   },
   {
-    "sponsor_name": "The Andover Companies",
+    "sponsor_name": "Government of Mexico / AGROASEMEX S.A.",
+    "deal_count": 2,
+    "sovereign_deal_count": 2,
+    "total_volume_usd": 595000000,
+    "total_volume_musd": 595,
+    "rank": 69
+  },
+  {
+    "sponsor_name": "Inigo Insurance (Syndicate 1301)",
+    "deal_count": 4,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 580000000,
+    "total_volume_musd": 580,
+    "rank": 70
+  },
+  {
+    "sponsor_name": "Kin Interinsurance Network",
+    "deal_count": 3,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 575000000,
+    "total_volume_musd": 575,
+    "rank": 71
+  },
+  {
+    "sponsor_name": "Tower Hill Insurance Exchange",
     "deal_count": 2,
     "sovereign_deal_count": 0,
     "total_volume_usd": 575000000,
     "total_volume_musd": 575,
-    "rank": 87
+    "rank": 72
   },
   {
-    "sponsor_name": "Sempra Energy",
-    "deal_count": 3,
+    "sponsor_name": "Farmers Insurance Group",
+    "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 575000000,
-    "total_volume_musd": 575,
-    "rank": 88
+    "total_volume_usd": 560000000,
+    "total_volume_musd": 560,
+    "rank": 73
   },
   {
-    "sponsor_name": "Hiscox",
-    "deal_count": 3,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 558000000,
-    "total_volume_musd": 558,
-    "rank": 89
-  },
-  {
-    "sponsor_name": "Gryphon Mutual (Blackstone's real estate captive)",
+    "sponsor_name": "Sompo Japan Insurance & affiliates",
     "deal_count": 2,
     "sovereign_deal_count": 0,
     "total_volume_usd": 550000000,
     "total_volume_musd": 550,
-    "rank": 90
+    "rank": 74
   },
   {
     "sponsor_name": "PXRE",
@@ -725,23 +597,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 550000000,
     "total_volume_musd": 550,
-    "rank": 91
-  },
-  {
-    "sponsor_name": "UnipolSai Assicurazioni S.p.A.",
-    "deal_count": 5,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 531389645.7765668,
-    "total_volume_musd": 531.3896457765668,
-    "rank": 92
-  },
-  {
-    "sponsor_name": "Mitsui Sumitomo Insurance Co. Ltd.",
-    "deal_count": 3,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 530000000,
-    "total_volume_musd": 530,
-    "rank": 93
+    "rank": 75
   },
   {
     "sponsor_name": "First Mutual Transportation Assurance Co. (NYC MTA)",
@@ -749,15 +605,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 525000000,
     "total_volume_musd": 525,
-    "rank": 94
+    "rank": 76
   },
   {
-    "sponsor_name": "Argo Group",
+    "sponsor_name": "SureChoice Underwriters Reciprocal Exchange, SafeChoice Insurance Company",
     "deal_count": 1,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 516000000,
-    "total_volume_musd": 516,
-    "rank": 95
+    "total_volume_usd": 520000000,
+    "total_volume_musd": 520,
+    "rank": 77
   },
   {
     "sponsor_name": "Lehman Re",
@@ -765,7 +621,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 515000000,
     "total_volume_musd": 515,
-    "rank": 96
+    "rank": 78
   },
   {
     "sponsor_name": "Vermont Mutual Insurance Company",
@@ -773,7 +629,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 500000000,
     "total_volume_musd": 500,
-    "rank": 97
+    "rank": 79
   },
   {
     "sponsor_name": "The Hanover Insurance Group",
@@ -781,15 +637,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 500000000,
     "total_volume_musd": 500,
-    "rank": 98
+    "rank": 80
   },
   {
     "sponsor_name": "Turkish Catastrophe Insurance Pool",
     "deal_count": 2,
-    "sovereign_deal_count": 0,
+    "sovereign_deal_count": 2,
     "total_volume_usd": 500000000,
     "total_volume_musd": 500,
-    "rank": 99
+    "rank": 81
   },
   {
     "sponsor_name": "Zurich American Insurance & Zurich Insurance Co. Ltd.",
@@ -797,7 +653,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 495000000,
     "total_volume_musd": 495,
-    "rank": 100
+    "rank": 82
+  },
+  {
+    "sponsor_name": "The Cincinnati Insurance Company",
+    "deal_count": 4,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 491200000,
+    "total_volume_musd": 491.2,
+    "rank": 83
   },
   {
     "sponsor_name": "Flagstone Re",
@@ -805,7 +669,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 489000000,
     "total_volume_musd": 489,
-    "rank": 101
+    "rank": 84
   },
   {
     "sponsor_name": "Allied World Assurance Company",
@@ -813,7 +677,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 485000000,
     "total_volume_musd": 485,
-    "rank": 102
+    "rank": 85
+  },
+  {
+    "sponsor_name": "UnipolSai Assicurazioni S.p.A.",
+    "deal_count": 5,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 482588555.8583107,
+    "total_volume_musd": 482.5885558583107,
+    "rank": 86
   },
   {
     "sponsor_name": "Sompo Japan Nipponkoa Insurance Company",
@@ -821,15 +693,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 480000000,
     "total_volume_musd": 480,
-    "rank": 103
+    "rank": 87
   },
   {
-    "sponsor_name": "Republic of the Philippines",
-    "deal_count": 1,
-    "sovereign_deal_count": 1,
-    "total_volume_usd": 450000000,
-    "total_volume_musd": 450,
-    "rank": 104
+    "sponsor_name": "Progressive",
+    "deal_count": 2,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 470000000,
+    "total_volume_musd": 470,
+    "rank": 88
   },
   {
     "sponsor_name": "ACE American Insurance Co.",
@@ -837,15 +709,31 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 450000000,
     "total_volume_musd": 450,
-    "rank": 105
+    "rank": 89
   },
   {
-    "sponsor_name": "Avatar Property and Casualty Insurance Company",
-    "deal_count": 2,
+    "sponsor_name": "Mitsui Sumitomo Insurance Co. Ltd.",
+    "deal_count": 3,
     "sovereign_deal_count": 0,
     "total_volume_usd": 430000000,
     "total_volume_musd": 430,
-    "rank": 106
+    "rank": 90
+  },
+  {
+    "sponsor_name": "Tokio Millennium Re (Bermuda)",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 430000000,
+    "total_volume_musd": 430,
+    "rank": 91
+  },
+  {
+    "sponsor_name": "Funds managed by Bayview Asset Management, LLC",
+    "deal_count": 2,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 425000000,
+    "total_volume_musd": 425,
+    "rank": 92
   },
   {
     "sponsor_name": "Amlin AG",
@@ -853,15 +741,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 425000000,
     "total_volume_musd": 425,
-    "rank": 107
+    "rank": 93
   },
   {
-    "sponsor_name": "OIS Series 2 LLC, a wholly owned subsidiary of One William Street Capital Management",
-    "deal_count": 1,
+    "sponsor_name": "Allianz Argos 14 GmbH",
+    "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 405000000,
-    "total_volume_musd": 405,
-    "rank": 108
+    "total_volume_usd": 415000000,
+    "total_volume_musd": 415,
+    "rank": 94
   },
   {
     "sponsor_name": "Oil Casualty Insurance Ltd.",
@@ -869,15 +757,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 405000000,
     "total_volume_musd": 405,
-    "rank": 109
-  },
-  {
-    "sponsor_name": "Lumen Re Ltd.",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 400000000,
-    "total_volume_musd": 400,
-    "rank": 110
+    "rank": 95
   },
   {
     "sponsor_name": "Florida Peninsula Insurance",
@@ -885,7 +765,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 400000000,
     "total_volume_musd": 400,
-    "rank": 111
+    "rank": 96
   },
   {
     "sponsor_name": "Republic of Colombia",
@@ -893,15 +773,15 @@
     "sovereign_deal_count": 1,
     "total_volume_usd": 400000000,
     "total_volume_musd": 400,
-    "rank": 112
+    "rank": 97
   },
   {
-    "sponsor_name": "NJM Insurance",
-    "deal_count": 1,
+    "sponsor_name": "Sempra Energy",
+    "deal_count": 3,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 380000000,
-    "total_volume_musd": 380,
-    "rank": 113
+    "total_volume_usd": 395000000,
+    "total_volume_musd": 395,
+    "rank": 98
   },
   {
     "sponsor_name": "Zurich American Insurance Corporation",
@@ -909,15 +789,31 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 380000000,
     "total_volume_musd": 380,
-    "rank": 114
+    "rank": 99
   },
   {
-    "sponsor_name": "Auros Reciprocal Insurance Exchange, Interboro Insurance Company",
-    "deal_count": 1,
+    "sponsor_name": "The Andover Companies",
+    "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 350000000,
-    "total_volume_musd": 350,
-    "rank": 115
+    "total_volume_usd": 375000000,
+    "total_volume_musd": 375,
+    "rank": 100
+  },
+  {
+    "sponsor_name": "FONDEN / AGROASEMEX S.A",
+    "deal_count": 1,
+    "sovereign_deal_count": 1,
+    "total_volume_usd": 360000000,
+    "total_volume_musd": 360,
+    "rank": 101
+  },
+  {
+    "sponsor_name": "Hiscox",
+    "deal_count": 3,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 358000000,
+    "total_volume_musd": 358,
+    "rank": 102
   },
   {
     "sponsor_name": "Hamilton Re",
@@ -925,23 +821,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 350000000,
     "total_volume_musd": 350,
-    "rank": 116
+    "rank": 103
   },
   {
-    "sponsor_name": "Pacifica (Crédit Agricole)",
+    "sponsor_name": "Frontline Insurance",
     "deal_count": 1,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 347029972.7520436,
-    "total_volume_musd": 347.0299727520436,
-    "rank": 117
-  },
-  {
-    "sponsor_name": "ARX Holding Corp. (Progressive Home)",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 340000000,
-    "total_volume_musd": 340,
-    "rank": 118
+    "total_volume_usd": 350000000,
+    "total_volume_musd": 350,
+    "rank": 104
   },
   {
     "sponsor_name": "Government of Jamaica",
@@ -949,15 +837,15 @@
     "sovereign_deal_count": 2,
     "total_volume_usd": 335000000,
     "total_volume_musd": 335,
-    "rank": 119
+    "rank": 105
   },
   {
-    "sponsor_name": "ICAT Syndicate 4242",
+    "sponsor_name": "US Coastal Insurance Company, US Coastal Property & Casualty Insurance Company",
     "deal_count": 1,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 329000000,
-    "total_volume_musd": 329,
-    "rank": 120
+    "total_volume_usd": 330000000,
+    "total_volume_musd": 330,
+    "rank": 106
   },
   {
     "sponsor_name": "Selective Insurance Company",
@@ -965,7 +853,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 325000000,
     "total_volume_musd": 325,
-    "rank": 121
+    "rank": 107
   },
   {
     "sponsor_name": "Nephila Capital",
@@ -973,7 +861,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 310000000,
     "total_volume_musd": 310,
-    "rank": 122
+    "rank": 108
   },
   {
     "sponsor_name": "Achmea Reinsurance Company N.V.",
@@ -981,7 +869,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 303651226.1580382,
     "total_volume_musd": 303.6512261580382,
-    "rank": 123
+    "rank": 109
   },
   {
     "sponsor_name": "American Re",
@@ -989,15 +877,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 303000000,
     "total_volume_musd": 303,
-    "rank": 124
+    "rank": 110
   },
   {
-    "sponsor_name": "Gallatin Point Capital LLC",
-    "deal_count": 1,
+    "sponsor_name": "Gryphon Mutual (Blackstone's real estate captive)",
+    "deal_count": 2,
     "sovereign_deal_count": 0,
     "total_volume_usd": 300000000,
     "total_volume_musd": 300,
-    "rank": 125
+    "rank": 111
   },
   {
     "sponsor_name": "Brit Syndicates Ltd.",
@@ -1005,23 +893,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 300000000,
     "total_volume_musd": 300,
-    "rank": 126
-  },
-  {
-    "sponsor_name": "United Property & Casualty Insurance Co., Family Security Insurance Co., Interboro Insurance Co., American Coastal Insurance",
-    "deal_count": 2,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 300000000,
-    "total_volume_musd": 300,
-    "rank": 127
-  },
-  {
-    "sponsor_name": "United Property & Casualty Insurance Co., Family Security Insurance Co., Interboro Insurance Co.",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 300000000,
-    "total_volume_musd": 300,
-    "rank": 128
+    "rank": 112
   },
   {
     "sponsor_name": "Hannover Re for Zenkyoren",
@@ -1029,7 +901,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 300000000,
     "total_volume_musd": 300,
-    "rank": 129
+    "rank": 113
   },
   {
     "sponsor_name": "Allianz SE",
@@ -1037,7 +909,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 290700000,
     "total_volume_musd": 290.7,
-    "rank": 130
+    "rank": 114
   },
   {
     "sponsor_name": "Vantage Risk",
@@ -1045,7 +917,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 290000000,
     "total_volume_musd": 290,
-    "rank": 131
+    "rank": 115
   },
   {
     "sponsor_name": "FONDEN (Fund for Natural Disasters)",
@@ -1053,7 +925,15 @@
     "sovereign_deal_count": 1,
     "total_volume_usd": 290000000,
     "total_volume_musd": 290,
-    "rank": 132
+    "rank": 116
+  },
+  {
+    "sponsor_name": "Integral Reinsurance Ltd.",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 275000000,
+    "total_volume_musd": 275,
+    "rank": 117
   },
   {
     "sponsor_name": "Build America Mutual Assurance Company",
@@ -1061,7 +941,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 275000000,
     "total_volume_musd": 275,
-    "rank": 133
+    "rank": 118
   },
   {
     "sponsor_name": "Amtrak",
@@ -1069,7 +949,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 275000000,
     "total_volume_musd": 275,
-    "rank": 134
+    "rank": 119
   },
   {
     "sponsor_name": "TD Insurance",
@@ -1077,7 +957,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 265000000,
     "total_volume_musd": 265,
-    "rank": 135
+    "rank": 120
   },
   {
     "sponsor_name": "Mapfre Re",
@@ -1085,7 +965,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 260558583.10626704,
     "total_volume_musd": 260.558583106267,
-    "rank": 136
+    "rank": 121
   },
   {
     "sponsor_name": "East Japan Railway Company",
@@ -1093,7 +973,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 260000000,
     "total_volume_musd": 260,
-    "rank": 137
+    "rank": 122
   },
   {
     "sponsor_name": "Pool Re",
@@ -1101,7 +981,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 257158038.14713895,
     "total_volume_musd": 257.15803814713894,
-    "rank": 138
+    "rank": 123
   },
   {
     "sponsor_name": "Texas Farm Bureau Insurance",
@@ -1109,7 +989,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 255000000,
     "total_volume_musd": 255,
-    "rank": 139
+    "rank": 124
   },
   {
     "sponsor_name": "Glacier Reinsurance",
@@ -1117,7 +997,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 255000000,
     "total_volume_musd": 255,
-    "rank": 140
+    "rank": 125
   },
   {
     "sponsor_name": "Auros Reciprocal Insurance Exchange, Elevate Reciprocal Exchange",
@@ -1125,7 +1005,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 250000000,
     "total_volume_musd": 250,
-    "rank": 141
+    "rank": 126
   },
   {
     "sponsor_name": "AmTrust Financial Services",
@@ -1133,7 +1013,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 250000000,
     "total_volume_musd": 250,
-    "rank": 142
+    "rank": 127
   },
   {
     "sponsor_name": "Arch Capital Group Ltd.",
@@ -1141,7 +1021,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 250000000,
     "total_volume_musd": 250,
-    "rank": 143
+    "rank": 128
   },
   {
     "sponsor_name": "NN Group",
@@ -1149,7 +1029,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 244005449.59128064,
     "total_volume_musd": 244.00544959128064,
-    "rank": 144
+    "rank": 129
+  },
+  {
+    "sponsor_name": "Endurance Speciality",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 235000000,
+    "total_volume_musd": 235,
+    "rank": 130
   },
   {
     "sponsor_name": "Electricité de France (EDF)",
@@ -1157,7 +1045,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 228000000,
     "total_volume_musd": 228,
-    "rank": 145
+    "rank": 131
   },
   {
     "sponsor_name": "New Zealand Earthquake Commission",
@@ -1165,15 +1053,23 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 225000000,
     "total_volume_musd": 225,
-    "rank": 146
+    "rank": 132
+  },
+  {
+    "sponsor_name": "Republic of the Philippines",
+    "deal_count": 1,
+    "sovereign_deal_count": 1,
+    "total_volume_usd": 225000000,
+    "total_volume_musd": 225,
+    "rank": 133
   },
   {
     "sponsor_name": "Sompo Japan and Nipponkoa Insurance Company",
     "deal_count": 2,
     "sovereign_deal_count": 0,
-    "total_volume_usd": 221329700.27247956,
-    "total_volume_musd": 221.32970027247956,
-    "rank": 147
+    "total_volume_usd": 220664850.1362398,
+    "total_volume_musd": 220.6648501362398,
+    "rank": 134
   },
   {
     "sponsor_name": "AXA",
@@ -1181,7 +1077,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 216893732.97002727,
     "total_volume_musd": 216.89373297002726,
-    "rank": 148
+    "rank": 135
   },
   {
     "sponsor_name": "EDF (via Natixis)",
@@ -1189,7 +1085,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 216000000,
     "total_volume_musd": 216,
-    "rank": 149
+    "rank": 136
   },
   {
     "sponsor_name": "HomeWise Insurance Co.",
@@ -1197,7 +1093,23 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 210000000,
     "total_volume_musd": 210,
-    "rank": 150
+    "rank": 137
+  },
+  {
+    "sponsor_name": "ARX Holding Corp. (Progressive Home)",
+    "deal_count": 2,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 205000000,
+    "total_volume_musd": 205,
+    "rank": 138
+  },
+  {
+    "sponsor_name": "Lumen Re Ltd.",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200,
+    "rank": 139
   },
   {
     "sponsor_name": "GeoVera Insurance Company, GeoVera Specialty Insurance Services, Safeport Insurance Company",
@@ -1205,7 +1117,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 151
+    "rank": 140
   },
   {
     "sponsor_name": "Texas FAIR Plan Association (TFPA)",
@@ -1213,7 +1125,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 152
+    "rank": 141
   },
   {
     "sponsor_name": "Canopius Group",
@@ -1221,7 +1133,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 153
+    "rank": 142
   },
   {
     "sponsor_name": "Peak Reinsurance Company",
@@ -1229,7 +1141,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 154
+    "rank": 143
+  },
+  {
+    "sponsor_name": "United Property & Casualty Insurance Co., Family Security Insurance Co., Interboro Insurance Co., American Coastal Insurance",
+    "deal_count": 2,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200,
+    "rank": 144
   },
   {
     "sponsor_name": "PG&E Corporation",
@@ -1237,7 +1157,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 155
+    "rank": 145
   },
   {
     "sponsor_name": "Republic of Peru",
@@ -1245,7 +1165,15 @@
     "sovereign_deal_count": 1,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 156
+    "rank": 146
+  },
+  {
+    "sponsor_name": "Swiss Re America",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 200000000,
+    "total_volume_musd": 200,
+    "rank": 147
   },
   {
     "sponsor_name": "Argo Re",
@@ -1253,7 +1181,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 157
+    "rank": 148
   },
   {
     "sponsor_name": "Platinum Underwriters Ltd.",
@@ -1261,7 +1189,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 158
+    "rank": 149
   },
   {
     "sponsor_name": "Brit Insurance",
@@ -1269,7 +1197,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 159
+    "rank": 150
   },
   {
     "sponsor_name": "Tokio Marine & Fire",
@@ -1277,7 +1205,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 160
+    "rank": 151
   },
   {
     "sponsor_name": "XL Mid-Ocean Re",
@@ -1285,7 +1213,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 200000000,
     "total_volume_musd": 200,
-    "rank": 161
+    "rank": 152
   },
   {
     "sponsor_name": "Prologis, Inc.",
@@ -1293,7 +1221,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 190000000,
     "total_volume_musd": 190,
-    "rank": 162
+    "rank": 153
+  },
+  {
+    "sponsor_name": "NJM Insurance",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 190000000,
+    "total_volume_musd": 190,
+    "rank": 154
   },
   {
     "sponsor_name": "VKB Re",
@@ -1301,7 +1237,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 189782016.34877384,
     "total_volume_musd": 189.78201634877385,
-    "rank": 163
+    "rank": 155
   },
   {
     "sponsor_name": "Los Angeles Department of Water & Power",
@@ -1309,15 +1245,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 180000000,
     "total_volume_musd": 180,
-    "rank": 164
-  },
-  {
-    "sponsor_name": "Nephila Syndicate Management Limited (for Syndicate 2357)",
-    "deal_count": 1,
-    "sovereign_deal_count": 0,
-    "total_volume_usd": 180000000,
-    "total_volume_musd": 180,
-    "rank": 165
+    "rank": 156
   },
   {
     "sponsor_name": "Flood Re",
@@ -1325,7 +1253,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 176621253.40599453,
     "total_volume_musd": 176.62125340599454,
-    "rank": 166
+    "rank": 157
+  },
+  {
+    "sponsor_name": "Auros Reciprocal Insurance Exchange, Interboro Insurance Company",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 175000000,
+    "total_volume_musd": 175,
+    "rank": 158
   },
   {
     "sponsor_name": "Vivendi Universal SA",
@@ -1333,7 +1269,39 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 175000000,
     "total_volume_musd": 175,
-    "rank": 167
+    "rank": 159
+  },
+  {
+    "sponsor_name": "Pacifica (Crédit Agricole)",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 173514986.3760218,
+    "total_volume_musd": 173.5149863760218,
+    "rank": 160
+  },
+  {
+    "sponsor_name": "Argo Group",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 172000000,
+    "total_volume_musd": 172,
+    "rank": 161
+  },
+  {
+    "sponsor_name": "Avatar Property and Casualty Insurance Company",
+    "deal_count": 2,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 165000000,
+    "total_volume_musd": 165,
+    "rank": 162
+  },
+  {
+    "sponsor_name": "ICAT Syndicate 4242",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 164500000,
+    "total_volume_musd": 164.5,
+    "rank": 163
   },
   {
     "sponsor_name": "AXA SA",
@@ -1341,7 +1309,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 162670299.72752044,
     "total_volume_musd": 162.67029972752044,
-    "rank": 168
+    "rank": 164
   },
   {
     "sponsor_name": "Zurich Insurance Company",
@@ -1349,7 +1317,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 161900000,
     "total_volume_musd": 161.9,
-    "rank": 169
+    "rank": 165
   },
   {
     "sponsor_name": "Core Specialty (StarStone)",
@@ -1357,7 +1325,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 160000000,
     "total_volume_musd": 160,
-    "rank": 170
+    "rank": 166
   },
   {
     "sponsor_name": "Tokio Marine",
@@ -1365,7 +1333,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 160000000,
     "total_volume_musd": 160,
-    "rank": 171
+    "rank": 167
   },
   {
     "sponsor_name": "FONDEN",
@@ -1373,7 +1341,7 @@
     "sovereign_deal_count": 1,
     "total_volume_usd": 160000000,
     "total_volume_musd": 160,
-    "rank": 172
+    "rank": 168
   },
   {
     "sponsor_name": "Mercury Insurance",
@@ -1381,7 +1349,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 173
+    "rank": 169
   },
   {
     "sponsor_name": "Utica National Insurance Group",
@@ -1389,7 +1357,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 174
+    "rank": 170
+  },
+  {
+    "sponsor_name": "Gallatin Point Capital LLC",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 150000000,
+    "total_volume_musd": 150,
+    "rank": 171
   },
   {
     "sponsor_name": "Sompo International",
@@ -1397,7 +1373,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 175
+    "rank": 172
   },
   {
     "sponsor_name": "SureChoice Underwriters Reciprocal Exchange",
@@ -1405,7 +1381,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 176
+    "rank": 173
   },
   {
     "sponsor_name": "Universal Property and Casualty Insurance Company (UPCIC)",
@@ -1413,7 +1389,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 177
+    "rank": 174
   },
   {
     "sponsor_name": "Allianz Global Corporate Speciality",
@@ -1421,7 +1397,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 150000000,
     "total_volume_musd": 150,
-    "rank": 178
+    "rank": 175
   },
   {
     "sponsor_name": "North Carolina Joint Underwriting Association",
@@ -1429,7 +1405,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 145000000,
     "total_volume_musd": 145,
-    "rank": 179
+    "rank": 176
   },
   {
     "sponsor_name": "Centre Solutions (Bermuda)",
@@ -1437,7 +1413,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 140100000,
     "total_volume_musd": 140.1,
-    "rank": 180
+    "rank": 177
+  },
+  {
+    "sponsor_name": "OIS Series 2 LLC, a wholly owned subsidiary of One William Street Capital Management",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 135000000,
+    "total_volume_musd": 135,
+    "rank": 178
   },
   {
     "sponsor_name": "AGF",
@@ -1445,7 +1429,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 129000000,
     "total_volume_musd": 129,
-    "rank": 181
+    "rank": 179
   },
   {
     "sponsor_name": "Arrow Capital Re",
@@ -1453,7 +1437,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 125300000,
     "total_volume_musd": 125.3,
-    "rank": 182
+    "rank": 180
   },
   {
     "sponsor_name": "Kingstone Insurance Company",
@@ -1461,7 +1445,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 125000000,
     "total_volume_musd": 125,
-    "rank": 183
+    "rank": 181
   },
   {
     "sponsor_name": "American European Insurance Company",
@@ -1469,7 +1453,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 125000000,
     "total_volume_musd": 125,
-    "rank": 184
+    "rank": 182
   },
   {
     "sponsor_name": "SafePort Insurance Company, SafeChoice Insurance Company",
@@ -1477,7 +1461,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 125000000,
     "total_volume_musd": 125,
-    "rank": 185
+    "rank": 183
   },
   {
     "sponsor_name": "St. Johns Insurance Company",
@@ -1485,7 +1469,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 120000000,
     "total_volume_musd": 120,
-    "rank": 186
+    "rank": 184
   },
   {
     "sponsor_name": "Allianz Risk Transfer (Bermuda) Ltd.",
@@ -1493,7 +1477,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 120000000,
     "total_volume_musd": 120,
-    "rank": 187
+    "rank": 185
   },
   {
     "sponsor_name": "Mitsui Sumitomo",
@@ -1501,7 +1485,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 120000000,
     "total_volume_musd": 120,
-    "rank": 188
+    "rank": 186
   },
   {
     "sponsor_name": "CNA",
@@ -1509,7 +1493,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 115000000,
     "total_volume_musd": 115,
-    "rank": 189
+    "rank": 187
   },
   {
     "sponsor_name": "Spinnaker Insurance Company",
@@ -1517,7 +1501,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 110000000,
     "total_volume_musd": 110,
-    "rank": 190
+    "rank": 188
   },
   {
     "sponsor_name": "GAREAT",
@@ -1525,7 +1509,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 108446866.48501363,
     "total_volume_musd": 108.44686648501363,
-    "rank": 191
+    "rank": 189
   },
   {
     "sponsor_name": "PURE",
@@ -1533,7 +1517,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 105000000,
     "total_volume_musd": 105,
-    "rank": 192
+    "rank": 190
   },
   {
     "sponsor_name": "Plymouth Rock Assurance",
@@ -1541,7 +1525,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 193
+    "rank": 191
   },
   {
     "sponsor_name": "Migdal Insurance Company Ltd.",
@@ -1549,7 +1533,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 194
+    "rank": 192
   },
   {
     "sponsor_name": "Zenkyoren / Sparkassen-Finanzgruppe",
@@ -1557,7 +1541,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 195
+    "rank": 193
   },
   {
     "sponsor_name": "Germania Insurance",
@@ -1565,7 +1549,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 196
+    "rank": 194
   },
   {
     "sponsor_name": "Sutton National Group",
@@ -1573,7 +1557,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 197
+    "rank": 195
   },
   {
     "sponsor_name": "Brit Limited",
@@ -1581,7 +1565,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 198
+    "rank": 196
   },
   {
     "sponsor_name": "Allied Trust Insurance Company",
@@ -1589,7 +1573,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 199
+    "rank": 197
   },
   {
     "sponsor_name": "Talanx AG (via Hannover Re)",
@@ -1597,7 +1581,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 200
+    "rank": 198
   },
   {
     "sponsor_name": "Brookfield Property Group",
@@ -1605,7 +1589,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 201
+    "rank": 199
   },
   {
     "sponsor_name": "Conduit Re",
@@ -1613,7 +1597,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 202
+    "rank": 200
   },
   {
     "sponsor_name": "Minnesota Life Insurance Company",
@@ -1621,7 +1605,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 203
+    "rank": 201
   },
   {
     "sponsor_name": "Markel Bermuda Limited (covering State National's tail risk from Nephila program)",
@@ -1629,7 +1613,15 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 204
+    "rank": 202
+  },
+  {
+    "sponsor_name": "United Property & Casualty Insurance Co., Family Security Insurance Co., Interboro Insurance Co.",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 100000000,
+    "total_volume_musd": 100,
+    "rank": 203
   },
   {
     "sponsor_name": "Converium",
@@ -1637,7 +1629,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 205
+    "rank": 204
   },
   {
     "sponsor_name": "Taiwan Residential Earthquake Insurance Pool",
@@ -1645,7 +1637,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 206
+    "rank": 205
   },
   {
     "sponsor_name": "Oriental Land Co. (Disneyland Tokyo)",
@@ -1653,7 +1645,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 207
+    "rank": 206
   },
   {
     "sponsor_name": "Gerling Global Re",
@@ -1661,7 +1653,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 208
+    "rank": 207
   },
   {
     "sponsor_name": "Kemper",
@@ -1669,7 +1661,7 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
-    "rank": 209
+    "rank": 208
   },
   {
     "sponsor_name": "Tokio Marine & Nichido Fire Insurance",
@@ -1677,6 +1669,14 @@
     "sovereign_deal_count": 0,
     "total_volume_usd": 100000000,
     "total_volume_musd": 100,
+    "rank": 209
+  },
+  {
+    "sponsor_name": "Nephila Syndicate Management Limited (for Syndicate 2357)",
+    "deal_count": 1,
+    "sovereign_deal_count": 0,
+    "total_volume_usd": 90000000,
+    "total_volume_musd": 90,
     "rank": 210
   },
   {
@@ -1826,7 +1826,7 @@
   {
     "sponsor_name": "Caribbean Catastrophe Risk Insurance Facility (CCRIF)",
     "deal_count": 1,
-    "sovereign_deal_count": 0,
+    "sovereign_deal_count": 1,
     "total_volume_usd": 30000000,
     "total_volume_musd": 30,
     "rank": 229

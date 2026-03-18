@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "kpis": {
-    "dealCount": 15,
-    "totalVolumeUsd": 7745000000,
-    "countries": 7,
-    "avgExpectedLoss": 0.42084615384615387,
-    "avgSpreadBps": 612.6515151515151,
+    "dealCount": 22,
+    "totalVolumeUsd": 5750000000,
+    "countries": 9,
+    "avgExpectedLoss": 0.33103684210526313,
+    "avgSpreadBps": 534.6354166666667,
     "latestYear": 2024
   },
   "issuanceByYear": [
@@ -20,24 +20,49 @@
       "total_volume_usd": 290000000
     },
     {
+      "year": 2011,
+      "deal_count": 1,
+      "total_volume_usd": 200000000
+    },
+    {
+      "year": 2012,
+      "deal_count": 1,
+      "total_volume_usd": 315000000
+    },
+    {
+      "year": 2013,
+      "deal_count": 1,
+      "total_volume_usd": 400000000
+    },
+    {
+      "year": 2014,
+      "deal_count": 2,
+      "total_volume_usd": 280000000
+    },
+    {
+      "year": 2015,
+      "deal_count": 1,
+      "total_volume_usd": 100000000
+    },
+    {
       "year": 2017,
       "deal_count": 1,
-      "total_volume_usd": 1080000000
+      "total_volume_usd": 360000000
     },
     {
       "year": 2018,
-      "deal_count": 4,
-      "total_volume_usd": 1620000000
+      "deal_count": 5,
+      "total_volume_usd": 1570000000
     },
     {
       "year": 2019,
       "deal_count": 1,
-      "total_volume_usd": 450000000
+      "total_volume_usd": 225000000
     },
     {
       "year": 2020,
       "deal_count": 1,
-      "total_volume_usd": 1940000000
+      "total_volume_usd": 485000000
     },
     {
       "year": 2021,
@@ -52,19 +77,19 @@
     {
       "year": 2024,
       "deal_count": 4,
-      "total_volume_usd": 1670000000
+      "total_volume_usd": 830000000
     }
   ],
   "perilMix": [
     {
-      "name": "Multi-Peril",
-      "deal_count": 5,
-      "total_volume_usd": 4655000000
+      "name": "Earthquake",
+      "deal_count": 12,
+      "total_volume_usd": 3255000000
     },
     {
-      "name": "Earthquake",
+      "name": "Multi-Peril",
       "deal_count": 7,
-      "total_volume_usd": 2580000000
+      "total_volume_usd": 1985000000
     },
     {
       "name": "Hurricane / Wind",
@@ -75,40 +100,40 @@
   "triggerMix": [
     {
       "name": "Parametric",
-      "deal_count": 14,
-      "total_volume_usd": 7295000000
+      "deal_count": 18,
+      "total_volume_usd": 4865000000
     },
     {
       "name": "Modelled Loss",
-      "deal_count": 1,
-      "total_volume_usd": 450000000
+      "deal_count": 4,
+      "total_volume_usd": 885000000
     }
   ],
   "topSponsors": [
-    {
-      "name": "FONDEN / AGROASEMEX S.A.",
-      "deal_count": 2,
-      "total_volume_usd": 2460000000
-    },
-    {
-      "name": "Government of Mexico / AGROASEMEX S.A.",
-      "deal_count": 2,
-      "total_volume_usd": 1435000000
-    },
-    {
-      "name": "FONDEN / AGROASEMEX S.A",
-      "deal_count": 1,
-      "total_volume_usd": 1080000000
-    },
     {
       "name": "Republic of Chile",
       "deal_count": 2,
       "total_volume_usd": 850000000
     },
     {
-      "name": "Republic of the Philippines",
-      "deal_count": 1,
-      "total_volume_usd": 450000000
+      "name": "FONDEN / AGROASEMEX S.A.",
+      "deal_count": 2,
+      "total_volume_usd": 745000000
+    },
+    {
+      "name": "California State Compensation Insurance Fund",
+      "deal_count": 3,
+      "total_volume_usd": 660000000
+    },
+    {
+      "name": "Government of Mexico / AGROASEMEX S.A.",
+      "deal_count": 2,
+      "total_volume_usd": 595000000
+    },
+    {
+      "name": "Turkish Catastrophe Insurance Pool",
+      "deal_count": 2,
+      "total_volume_usd": 500000000
     },
     {
       "name": "Republic of Colombia",
@@ -116,31 +141,36 @@
       "total_volume_usd": 400000000
     },
     {
+      "name": "FONDEN / AGROASEMEX S.A",
+      "deal_count": 1,
+      "total_volume_usd": 360000000
+    },
+    {
       "name": "Government of Jamaica",
       "deal_count": 2,
       "total_volume_usd": 335000000
     },
     {
+      "name": "Swiss Re",
+      "deal_count": 1,
+      "total_volume_usd": 315000000
+    },
+    {
       "name": "FONDEN (Fund for Natural Disasters)",
       "deal_count": 1,
       "total_volume_usd": 290000000
-    },
-    {
-      "name": "Republic of Peru",
-      "deal_count": 1,
-      "total_volume_usd": 200000000
-    },
-    {
-      "name": "FONDEN",
-      "deal_count": 1,
-      "total_volume_usd": 160000000
     }
   ],
   "topCountries": [
     {
       "name": "Mexico",
       "deal_count": 7,
-      "total_volume_usd": 5425000000
+      "total_volume_usd": 2150000000
+    },
+    {
+      "name": "United States",
+      "deal_count": 5,
+      "total_volume_usd": 1160000000
     },
     {
       "name": "Chile",
@@ -148,19 +178,24 @@
       "total_volume_usd": 850000000
     },
     {
-      "name": "Philippines",
-      "deal_count": 1,
-      "total_volume_usd": 450000000
-    },
-    {
       "name": "Colombia",
       "deal_count": 1,
       "total_volume_usd": 400000000
     },
     {
+      "name": "Not Stated",
+      "deal_count": 2,
+      "total_volume_usd": 345000000
+    },
+    {
       "name": "Jamaica",
       "deal_count": 2,
       "total_volume_usd": 335000000
+    },
+    {
+      "name": "Philippines",
+      "deal_count": 1,
+      "total_volume_usd": 225000000
     },
     {
       "name": "Peru",

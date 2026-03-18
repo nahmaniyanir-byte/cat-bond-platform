@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T22:47:34.372Z",
+  "generated_at": "2026-03-18T07:02:10.094Z",
   "pricing_by_peril": [
     {
       "peril": "Global Peak Perils",
@@ -53,7 +53,7 @@
       "peril": "Earthquake",
       "count": 62,
       "avg_spread_bps": 401.6397849462366,
-      "avg_expected_loss_percent": 0.3152562903225806
+      "avg_expected_loss_percent": 0.3152562903225807
     },
     {
       "peril": "Motor Third-party Liability Losses",
@@ -85,7 +85,7 @@
       "trigger": "Indemnity",
       "count": 281,
       "avg_spread_bps": 1002.5934163701068,
-      "avg_expected_loss_percent": 0.19565236654804266
+      "avg_expected_loss_percent": 0.1956523665480427
     },
     {
       "trigger": "Hybrid",
@@ -115,15 +115,15 @@
   "segment_pricing": [
     {
       "segment": "Non-Sovereign",
-      "count": 417,
-      "avg_spread_bps": 976.0641486810551,
-      "avg_expected_loss_percent": 0.17869955635491602
+      "count": 412,
+      "avg_spread_bps": 983.5042475728155,
+      "avg_expected_loss_percent": 0.179754890776699
     },
     {
       "segment": "Sovereign",
-      "count": 11,
-      "avg_spread_bps": 612.6515151515151,
-      "avg_expected_loss_percent": 0.4214363636363636
+      "count": 16,
+      "avg_spread_bps": 534.6354166666667,
+      "avg_expected_loss_percent": 0.31840624999999995
     }
   ]
 }

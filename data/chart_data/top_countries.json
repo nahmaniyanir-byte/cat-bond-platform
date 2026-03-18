@@ -3,9 +3,9 @@
     "country_name": "United States",
     "country_slug": "united-states",
     "deal_count": 440,
-    "sovereign_flag": false,
-    "total_volume_usd": 178338986539.50952,
-    "total_volume_musd": 178338.98653950953,
+    "sovereign_flag": true,
+    "total_volume_usd": 102455986539.50954,
+    "total_volume_musd": 102455.98653950954,
     "latest_issue_year": 2026,
     "rank": 1
   },
@@ -13,9 +13,9 @@
     "country_name": "Not Stated",
     "country_slug": "not-stated",
     "deal_count": 267,
-    "sovereign_flag": false,
-    "total_volume_usd": 80560816757.49318,
-    "total_volume_musd": 80560.81675749317,
+    "sovereign_flag": true,
+    "total_volume_usd": 59172664100.81744,
+    "total_volume_musd": 59172.664100817434,
     "latest_issue_year": 2026,
     "rank": 2
   },
@@ -24,8 +24,8 @@
     "country_slug": "japan",
     "deal_count": 87,
     "sovereign_flag": false,
-    "total_volume_usd": 21426629700.27248,
-    "total_volume_musd": 21426.62970027248,
+    "total_volume_usd": 15729464850.13624,
+    "total_volume_musd": 15729.46485013624,
     "latest_issue_year": 2025,
     "rank": 3
   },
@@ -34,8 +34,8 @@
     "country_slug": "canada",
     "deal_count": 20,
     "sovereign_flag": false,
-    "total_volume_usd": 5860000000,
-    "total_volume_musd": 5860,
+    "total_volume_usd": 3660000000,
+    "total_volume_musd": 3660,
     "latest_issue_year": 2026,
     "rank": 4
   },
@@ -44,8 +44,8 @@
     "country_slug": "mexico",
     "deal_count": 7,
     "sovereign_flag": true,
-    "total_volume_usd": 5425000000,
-    "total_volume_musd": 5425,
+    "total_volume_usd": 2150000000,
+    "total_volume_musd": 2150,
     "latest_issue_year": 2024,
     "rank": 5
   },
@@ -60,16 +60,6 @@
     "rank": 6
   },
   {
-    "country_name": "Philippines",
-    "country_slug": "philippines",
-    "deal_count": 1,
-    "sovereign_flag": true,
-    "total_volume_usd": 450000000,
-    "total_volume_musd": 450,
-    "latest_issue_year": 2019,
-    "rank": 7
-  },
-  {
     "country_name": "Colombia",
     "country_slug": "colombia",
     "deal_count": 1,
@@ -77,7 +67,7 @@
     "total_volume_usd": 400000000,
     "total_volume_musd": 400,
     "latest_issue_year": 2018,
-    "rank": 8
+    "rank": 7
   },
   {
     "country_name": "Jamaica",
@@ -87,6 +77,16 @@
     "total_volume_usd": 335000000,
     "total_volume_musd": 335,
     "latest_issue_year": 2024,
+    "rank": 8
+  },
+  {
+    "country_name": "Philippines",
+    "country_slug": "philippines",
+    "deal_count": 1,
+    "sovereign_flag": true,
+    "total_volume_usd": 225000000,
+    "total_volume_musd": 225,
+    "latest_issue_year": 2019,
     "rank": 9
   },
   {
