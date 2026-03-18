@@ -211,6 +211,36 @@ function IntroVideoOverlay({
   onEnableSound,
   onSkip
 }: IntroVideoOverlayProps) {
+  const [buffering, setBuffering] = React.useState(true);
+  const [progress, setProgress] = React.useState(0);
+  const stallTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  React.useEffect(() => {
+    const video = videoRef.current;
+    if (!video || state !== "playing") return;
+
+    const clearStall = () => {
+      if (stallTimerRef.current) { clearTimeout(stallTimerRef.current); stallTimerRef.current = null; }
+    };
+    const onWaiting = () => {
+      setBuffering(true);
+      stallTimerRef.current = setTimeout(() => onSkip(), 10000);
+    };
+    const onPlaying = () => { setBuffering(false); clearStall(); };
+    const onCanPlay = () => { setBuffering(false); clearStall(); };
+
+    video.addEventListener("waiting", onWaiting);
+    video.addEventListener("playing", onPlaying);
+    video.addEventListener("canplay", onCanPlay);
+
+    return () => {
+      video.removeEventListener("waiting", onWaiting);
+      video.removeEventListener("playing", onPlaying);
+      video.removeEventListener("canplay", onCanPlay);
+      clearStall();
+    };
+  }, [state, videoRef, onSkip]);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -226,17 +256,84 @@ function IntroVideoOverlay({
           muted
           loop={state === "gate"}
           playsInline
+          preload="auto"
           onEnded={onSkip}
-          className="h-full w-full object-cover opacity-90"
-        >
-          <source src={source} />
-        </video>
+          onError={onSkip}
+          onTimeUpdate={(e) => {
+            const v = e.currentTarget;
+            if (v.duration) setProgress((v.currentTime / v.duration) * 100);
+          }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: buffering && state === "playing" ? 0.3 : 0.9,
+            transition: "opacity 400ms ease",
+          }}
+        />
       ) : (
         <div className="h-full w-full bg-slate-950" />
       )}
 
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/35 via-slate-950/65 to-slate-950/95" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_16%,rgba(56,189,248,0.22),transparent_48%)]" />
+      {/* Buffering spinner */}
+      {buffering && state === "playing" && (
+        <div style={{
+          position: "absolute", top: "50%", left: "50%",
+          transform: "translate(-50%,-50%)",
+          display: "flex", flexDirection: "column", alignItems: "center", gap: 14,
+          zIndex: 10,
+        }}>
+          <div style={{
+            width: 44, height: 44,
+            border: "3px solid rgba(255,255,255,0.1)",
+            borderTopColor: "#0ea5e9",
+            borderRadius: "50%",
+            animation: "spin 0.8s linear infinite",
+          }} />
+          <span style={{ color: "rgba(255,255,255,0.4)", fontSize: 11, fontFamily: "monospace", letterSpacing: "0.1em" }}>
+            LOADING...
+          </span>
+        </div>
+      )}
+
+      {/* Progress bar */}
+      {state === "playing" && (
+        <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 3, background: "rgba(255,255,255,0.08)", zIndex: 10 }}>
+          <div style={{
+            height: "100%", width: `${progress}%`,
+            background: "linear-gradient(90deg, #0ea5e9, #38bdf8)",
+            transition: "width 200ms linear",
+            boxShadow: "0 0 8px rgba(14,165,233,0.6)",
+          }} />
+        </div>
+      )}
+
+      {/* Always-visible skip button when playing */}
+      {state === "playing" && (
+        <button
+          onClick={onSkip}
+          style={{
+            position: "absolute", bottom: 28, right: 28,
+            background: "rgba(0,0,0,0.6)", color: "white",
+            border: "1px solid rgba(255,255,255,0.25)", borderRadius: 8,
+            padding: "9px 20px", cursor: "pointer", fontSize: 13, fontWeight: 500,
+            backdropFilter: "blur(8px)", zIndex: 20, transition: "all 150ms ease",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(14,165,233,0.3)";
+            e.currentTarget.style.borderColor = "rgba(14,165,233,0.5)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "rgba(0,0,0,0.6)";
+            e.currentTarget.style.borderColor = "rgba(255,255,255,0.25)";
+          }}
+        >
+          Skip intro →
+        </button>
+      )}
+
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/35 via-slate-950/65 to-slate-950/95 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_16%,rgba(56,189,248,0.22),transparent_48%)] pointer-events-none" />
 
       <div className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-[1600px] px-5 pb-10 lg:px-10">
         <motion.div
@@ -264,11 +361,6 @@ function IntroVideoOverlay({
               <button type="button" onClick={onEnableSound} className="btn-hero-secondary">
                 <Volume2 className="mr-2 h-4 w-4" />
                 Enable Sound
-              </button>
-            ) : null}
-            {showSkipButton ? (
-              <button type="button" onClick={onSkip} className="btn-hero-secondary">
-                Skip Intro
               </button>
             ) : null}
           </div>
