@@ -45,16 +45,56 @@ function IsraeliFlag() {
 /* ── Video intro overlay ─────────────────────────────────────────── */
 function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
   const videoRef = React.useRef<HTMLVideoElement>(null);
+  const [buffering, setBuffering] = React.useState(true);
+  const [progress, setProgress] = React.useState(0);
+  const [muted, setMuted] = React.useState(true);
 
   React.useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
+
+    const onCanPlay  = () => setBuffering(false);
+    const onWaiting  = () => setBuffering(true);
+    const onPlaying  = () => setBuffering(false);
+    const onTimeUpdate = () => {
+      if (video.duration) setProgress((video.currentTime / video.duration) * 100);
+    };
+
+    video.addEventListener("canplay",    onCanPlay);
+    video.addEventListener("waiting",    onWaiting);
+    video.addEventListener("playing",    onPlaying);
+    video.addEventListener("timeupdate", onTimeUpdate);
+
+    // Try unmuted, fall back to muted
     video.muted = false;
-    video.play().catch(() => {
-      video.muted = true;
-      video.play().catch(() => onDone());
-    });
+    video.play()
+      .then(() => setMuted(false))
+      .catch(() => {
+        video.muted = true;
+        setMuted(true);
+        video.play().catch(() => onDone());
+      });
+
+    // Safety net: if video doesn't start playing within 8 seconds, auto-skip
+    const timeout = setTimeout(() => {
+      if (video.paused || video.readyState < 2) onDone();
+    }, 8000);
+
+    return () => {
+      clearTimeout(timeout);
+      video.removeEventListener("canplay",    onCanPlay);
+      video.removeEventListener("waiting",    onWaiting);
+      video.removeEventListener("playing",    onPlaying);
+      video.removeEventListener("timeupdate", onTimeUpdate);
+    };
   }, [onDone]);
+
+  function toggleMute() {
+    const video = videoRef.current;
+    if (!video) return;
+    video.muted = !video.muted;
+    setMuted(video.muted);
+  }
 
   return (
     <div style={{
@@ -66,59 +106,82 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
       alignItems: "center",
       justifyContent: "center",
     }}>
+      {/* Buffering spinner */}
+      {buffering && (
+        <div style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          zIndex: 2,
+          textAlign: "center",
+        }}>
+          <div style={{
+            width: 48,
+            height: 48,
+            border: "3px solid rgba(255,255,255,0.2)",
+            borderTopColor: "#06b6d4",
+            borderRadius: "50%",
+            animation: "spin 0.8s linear infinite",
+            margin: "0 auto 12px",
+          }} />
+          <p style={{ color: "rgba(255,255,255,0.6)", fontSize: 13 }}>Loading…</p>
+        </div>
+      )}
+
       <video
         ref={videoRef}
         src="/video/israel-lab-intro.mp4"
         playsInline
+        preload="auto"
         onEnded={onDone}
         onError={onDone}
-        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          opacity: buffering ? 0.3 : 1,
+          transition: "opacity 300ms ease",
+        }}
       />
+
+      {/* Progress bar */}
       <div style={{
-        position: "absolute",
-        bottom: 32,
-        right: 32,
-        display: "flex",
-        gap: 12,
+        position: "absolute", bottom: 0, left: 0, right: 0,
+        height: 3, background: "rgba(255,255,255,0.1)",
       }}>
-        <button
-          onClick={() => {
-            if (videoRef.current) {
-              videoRef.current.muted = !videoRef.current.muted;
-            }
-          }}
-          style={{
-            background: "rgba(255,255,255,0.15)",
-            color: "white",
-            border: "1px solid rgba(255,255,255,0.3)",
-            borderRadius: 6,
-            padding: "8px 16px",
-            cursor: "pointer",
-            fontSize: 13,
-            backdropFilter: "blur(8px)",
-          }}
-        >
-          🔊 Sound
+        <div style={{
+          height: "100%",
+          width: `${progress}%`,
+          background: "#06b6d4",
+          transition: "width 100ms linear",
+        }} />
+      </div>
+
+      {/* Controls */}
+      <div style={{
+        position: "absolute", bottom: 24, right: 24,
+        display: "flex", gap: 10, zIndex: 3,
+      }}>
+        <button onClick={toggleMute} style={btnStyle}>
+          {muted ? "🔇 Sound off" : "🔊 Sound on"}
         </button>
-        <button
-          onClick={onDone}
-          style={{
-            background: "rgba(255,255,255,0.15)",
-            color: "white",
-            border: "1px solid rgba(255,255,255,0.3)",
-            borderRadius: 6,
-            padding: "8px 16px",
-            cursor: "pointer",
-            fontSize: 13,
-            backdropFilter: "blur(8px)",
-          }}
-        >
-          Skip →
-        </button>
+        <button onClick={onDone} style={btnStyle}>Skip →</button>
       </div>
     </div>
   );
 }
+
+const btnStyle: React.CSSProperties = {
+  background: "rgba(0,0,0,0.55)",
+  color: "white",
+  border: "1px solid rgba(255,255,255,0.25)",
+  borderRadius: 6,
+  padding: "7px 14px",
+  cursor: "pointer",
+  fontSize: 12,
+  backdropFilter: "blur(8px)",
+};
 
 /* ── Severity badge ──────────────────────────────────────────────── */
 function SeverityBadge({ magnitude }: { magnitude: number }) {
