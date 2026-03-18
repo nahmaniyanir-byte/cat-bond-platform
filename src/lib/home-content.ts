@@ -4,7 +4,6 @@ import path from "node:path";
 
 const HOME_ROOT = path.join(process.cwd(), "content", "home");
 const DATA_COUNTRIES_ROOT = path.join(process.cwd(), "data", "countries");
-const PUBLIC_ROOT = path.join(process.cwd(), "public");
 
 export interface IntroVideoConfig {
   enabled: boolean;
@@ -166,19 +165,9 @@ function sanitizeDeep<T>(value: T): T {
   return value;
 }
 
-async function publicPathExists(publicPath: string): Promise<boolean> {
-  if (!publicPath.startsWith("/")) return false;
-  return fileExists(path.join(PUBLIC_ROOT, publicPath.replace(/^\/+/, "")));
-}
-
-async function resolvePublicMedia(candidates: Array<string | undefined>): Promise<string | undefined> {
-  for (const candidate of candidates) {
-    if (!candidate) continue;
-    if (candidate.startsWith("http")) return candidate;
-    if (await publicPathExists(candidate)) return candidate;
-  }
-  return candidates.find(Boolean);
-}
+// resolvePublicMedia removed: the JSON configs already contain correct paths.
+// Probing public/ via fs.access caused Vercel to bundle the entire public/
+// directory (339MB) into the serverless function, exceeding the 300MB limit.
 
 async function resolveGlobePoints(): Promise<GlobePoint[]> {
   const dataFile = path.join(DATA_COUNTRIES_ROOT, "country_globe_points.json");
@@ -207,22 +196,13 @@ export const getHomeContent = cache(async (): Promise<HomeContentBundle> => {
   const sectionOrder = sanitizeDeep(orderRaw);
   const globePoints = sanitizeDeep(pointsRaw);
 
-  introVideo.video_source =
-    (await resolvePublicMedia([
-      introVideo.video_source,
-      "/videos/intro/cat-bond-intro.mp4",
-      "/videos/intro/final-globe-scene.mp4",
-      "/video/intro/cat-bond-intro.mp4",
-      "/video/intro/final-globe-scene.mp4"
-    ])) ?? introVideo.video_source;
+  // Use the path from config directly — no fs probing needed.
+  // Fallback to /video/intro.mp4 if config is empty.
+  if (!introVideo.video_source) {
+    introVideo.video_source = "/video/intro.mp4";
+  }
 
-  hero.background_video = await resolvePublicMedia([
-    hero.background_video,
-    "/videos/hero/final-globe-scene.mp4",
-    "/videos/hero/hero-background.mp4",
-    "/video/hero/final-globe-scene.mp4",
-    "/video/hero/hero-background.mp4"
-  ]);
+  // hero.background_video stays as-is from config (currently empty / "none").
 
   quickAccess.items = [...quickAccess.items].sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
   sectionOrder.sections = [...sectionOrder.sections].sort((a, b) => a.order - b.order);
