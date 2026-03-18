@@ -48,7 +48,10 @@ const MENU: MenuSection[] = [
     links: [
       { href: "/investor-data-room", label: "Investor Data Room", description: "Documented datasets, modules, and structured packages." },
       { href: "/calculator", label: "Pricing Calculator", description: "Illustrative sovereign structuring cost simulation." },
-      { href: "/methodology", label: "Methodology", description: "Definitions, data lineage, and governance rules." }
+      { href: "/methodology", label: "Methodology", description: "Definitions, data lineage, and governance rules." },
+      { href: "/research-library", label: "Research Library", description: "Official PDFs, presentations, podcasts, and country materials." },
+      { href: "/cyber-risk", label: "Cyber Risk", description: "Cyber catastrophe bonds — emerging frontier and market overview." },
+      { href: "/presentation", label: "Main Presentation", description: "Catastrophe bonds overview presentation with audio." }
     ]
   }
 ];
