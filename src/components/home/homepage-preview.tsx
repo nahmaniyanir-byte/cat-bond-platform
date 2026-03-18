@@ -252,6 +252,7 @@ function IntroVideoOverlay({
       {source ? (
         <video
           ref={videoRef}
+          src={source}
           autoPlay={state === "gate"}
           muted
           loop={state === "gate"}
