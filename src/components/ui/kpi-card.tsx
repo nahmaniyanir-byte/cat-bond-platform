@@ -1,7 +1,6 @@
 "use client";
 
 import { Info } from "lucide-react";
-
 import { cn } from "@/lib/utils";
 
 interface KpiCardProps {
@@ -12,7 +11,19 @@ interface KpiCardProps {
   interpretation?: string;
   dataType?: "historical" | "derived" | "illustrative" | string;
   className?: string;
+  /** Visual accent color for the left border and value text */
+  accent?: "blue" | "gold" | "green" | "cyan";
 }
+
+const ACCENT: Record<
+  NonNullable<KpiCardProps["accent"]>,
+  { border: string; text: string; glow: string }
+> = {
+  blue:  { border: "#0ea5e9", text: "#38bdf8",  glow: "rgba(14,165,233,0.10)" },
+  gold:  { border: "#f59e0b", text: "#fbbf24",  glow: "rgba(245,158,11,0.10)" },
+  green: { border: "#10b981", text: "#34d399",  glow: "rgba(16,185,129,0.10)" },
+  cyan:  { border: "#06b6d4", text: "#67e8f9",  glow: "rgba(6,182,212,0.10)"  },
+};
 
 export function KpiCard({
   label,
@@ -21,29 +32,112 @@ export function KpiCard({
   definition,
   interpretation,
   dataType,
-  className
+  className,
+  accent = "blue",
 }: KpiCardProps) {
   const hasTooltip = Boolean(definition || interpretation || dataType);
+  const cfg = ACCENT[accent];
 
   return (
-    <article className={cn("glass-panel p-4", className)}>
-      <div className="flex items-start justify-between gap-2">
-        <p className="text-[11px] uppercase tracking-[0.14em] text-slate-300">{label}</p>
-        {hasTooltip ? (
-          <div className="group relative">
-            <Info className="h-3.5 w-3.5 text-slate-400" />
-            <div className="pointer-events-none absolute right-0 top-6 z-20 w-72 rounded-lg border border-white/15 bg-slate-950/96 p-3 text-[11px] opacity-0 shadow-[0_12px_30px_rgba(2,6,23,0.55)] transition group-hover:opacity-100">
-              {definition ? <p className="text-slate-100">{definition}</p> : null}
-              {interpretation ? <p className="mt-1 text-slate-300">{interpretation}</p> : null}
-              {dataType ? (
-                <p className="mt-2 text-[10px] uppercase tracking-[0.12em] text-cyan-200/90">Data Type: {dataType}</p>
-              ) : null}
+    <article
+      className={cn("overlay-kpi-card", className)}
+      style={{ borderLeft: `2px solid ${cfg.border}` }}
+    >
+      <div style={{ padding: "18px 20px" }}>
+
+        {/* Label row */}
+        <div style={{
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "space-between",
+          gap: 8,
+          marginBottom: 10,
+        }}>
+          <p style={{
+            fontFamily: "var(--font-mono)",
+            fontSize: 10,
+            fontWeight: 600,
+            letterSpacing: "0.14em",
+            textTransform: "uppercase",
+            color: "var(--text-3)",
+            lineHeight: 1.2,
+          }}>
+            {label}
+          </p>
+
+          {hasTooltip && (
+            <div className="group relative" style={{ flexShrink: 0 }}>
+              <Info
+                style={{ width: 13, height: 13, color: "var(--text-4)", cursor: "help" }}
+              />
+              {/* Tooltip */}
+              <div
+                className="pointer-events-none absolute right-0 top-6 z-20 opacity-0 shadow-xl transition-opacity group-hover:opacity-100"
+                style={{
+                  width: 284,
+                  background: "rgba(2,4,16,0.98)",
+                  border: "1px solid var(--border-2)",
+                  borderRadius: "var(--radius-md)",
+                  padding: 14,
+                  backdropFilter: "blur(24px)",
+                }}
+              >
+                {definition && (
+                  <p style={{ fontSize: 12, color: "var(--text-1)", lineHeight: 1.55 }}>
+                    {definition}
+                  </p>
+                )}
+                {interpretation && (
+                  <p style={{ fontSize: 12, color: "var(--text-2)", marginTop: 8, lineHeight: 1.55 }}>
+                    {interpretation}
+                  </p>
+                )}
+                {dataType && (
+                  <p style={{
+                    marginTop: 10,
+                    fontFamily: "var(--font-mono)",
+                    fontSize: 9.5,
+                    fontWeight: 600,
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                    color: cfg.text,
+                  }}>
+                    DATA TYPE: {dataType}
+                  </p>
+                )}
+              </div>
             </div>
-          </div>
-        ) : null}
+          )}
+        </div>
+
+        {/* Value */}
+        <p
+          className="animate-value-glow"
+          style={{
+            fontFamily: "var(--font-mono)",
+            fontSize: 28,
+            fontWeight: 700,
+            color: cfg.text,
+            letterSpacing: "-0.025em",
+            fontVariantNumeric: "tabular-nums",
+            lineHeight: 1,
+            marginBottom: note ? 9 : 0,
+          }}
+        >
+          {value}
+        </p>
+
+        {/* Note */}
+        {note && (
+          <p style={{
+            fontSize: 11,
+            color: "var(--text-3)",
+            lineHeight: 1.55,
+          }}>
+            {note}
+          </p>
+        )}
       </div>
-      <p className="mt-2 text-2xl font-semibold text-cyan-100">{value}</p>
-      {note ? <p className="mt-1 text-[11px] leading-relaxed text-slate-400">{note}</p> : null}
     </article>
   );
 }

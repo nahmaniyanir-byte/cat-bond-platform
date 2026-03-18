@@ -1,3 +1,5 @@
+import React from "react";
+
 interface PageHeaderProps {
   title: string;
   subtitle: string;
@@ -7,26 +9,38 @@ interface PageHeaderProps {
   rightSlot?: React.ReactNode;
 }
 
-export function PageHeader({ title, subtitle, eyebrow, showSource = true, date, rightSlot }: PageHeaderProps) {
-  const displayDate = date ?? new Date().toLocaleDateString("en-US", {
-    year: "numeric", month: "long", day: "numeric"
-  });
+export function PageHeader({
+  title,
+  subtitle,
+  eyebrow,
+  showSource = true,
+  date,
+  rightSlot,
+}: PageHeaderProps) {
+  const displayDate =
+    date ??
+    new Date().toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
 
   return (
-    <div className="cb-page-header">
+    <div className="cb-page-header page-enter">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
+          {/* Eyebrow */}
           {eyebrow && (
             <div style={{
               display: "flex",
               alignItems: "center",
-              gap: 8,
-              marginBottom: 10,
+              gap: 9,
+              marginBottom: 12,
             }}>
               <span style={{
                 display: "block",
-                width: 20,
-                height: 1,
+                width: 22,
+                height: 1.5,
                 background: "var(--primary)",
                 flexShrink: 0,
               }} />
@@ -34,30 +48,73 @@ export function PageHeader({ title, subtitle, eyebrow, showSource = true, date, 
                 fontFamily: "var(--font-mono)",
                 fontSize: 10,
                 fontWeight: 600,
-                letterSpacing: "0.2em",
+                letterSpacing: "0.22em",
                 textTransform: "uppercase",
                 color: "var(--primary)",
               }}>
                 {eyebrow}
               </span>
+              <span style={{
+                display: "inline-block",
+                animation: "blink 1s step-end infinite",
+                color: "var(--primary)",
+                fontFamily: "var(--font-mono)",
+                fontSize: 10,
+                lineHeight: 1,
+              }}>
+                ▌
+              </span>
             </div>
           )}
-          <h1 className="cb-section-title">{title}</h1>
-          <p className="cb-section-subtitle">{subtitle}</p>
-          <div className="mt-3 flex flex-wrap items-center gap-2">
+
+          {/* Title */}
+          <h1 style={{
+            fontSize: 26,
+            fontWeight: 700,
+            color: "var(--text-1)",
+            letterSpacing: "-0.022em",
+            lineHeight: 1.2,
+            marginBottom: 7,
+          }}>
+            {title}
+          </h1>
+
+          {/* Subtitle */}
+          <p style={{
+            fontSize: 13,
+            color: "var(--text-3)",
+            lineHeight: 1.65,
+            maxWidth: 700,
+          }}>
+            {subtitle}
+          </p>
+
+          {/* Metadata row */}
+          <div style={{
+            marginTop: 12,
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            gap: 8,
+          }}>
             {showSource && (
               <span className="cb-source-badge">
-                <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                  <circle cx="5" cy="5" r="4" stroke="currentColor" strokeWidth="1.2" />
-                  <path d="M5 3v2.5l1.5 1" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
-                </svg>
+                <span
+                  className="pulse-dot"
+                  style={{ width: 5, height: 5, marginRight: 1 }}
+                />
                 Source: Artemis.bm
               </span>
             )}
             <span className="cb-source-badge">{displayDate}</span>
           </div>
         </div>
-        {rightSlot && <div className="flex shrink-0 items-center gap-2">{rightSlot}</div>}
+
+        {rightSlot && (
+          <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+            {rightSlot}
+          </div>
+        )}
       </div>
     </div>
   );
