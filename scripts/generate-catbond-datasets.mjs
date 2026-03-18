@@ -327,7 +327,7 @@ async function buildMain() {
     writeJson(OUT.heatmapYearTrigger, heatmap(deals, "trigger_type_normalized", "trigger_type")),
     writeJson(
       OUT.expectedLossDistribution,
-      histogram(deals.map((d) => d.average_expected_loss_percent), 0.25, "average_expected_loss_percent", generatedAt)
+      histogram(deals.filter((d) => d.average_expected_loss_percent <= 0.10).map((d) => d.average_expected_loss_percent), 0.005, "average_expected_loss_percent", generatedAt)
     ),
     writeJson(
       OUT.spreadDistribution,

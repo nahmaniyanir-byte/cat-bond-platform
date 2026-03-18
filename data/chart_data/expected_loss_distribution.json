@@ -1,35 +1,110 @@
 {
-  "generated_at": "2026-03-18T07:02:10.094Z",
+  "generated_at": "2026-03-18T07:59:22.050Z",
   "metric": "average_expected_loss_percent",
   "source": "deals_master_sql_ready.csv",
-  "bucket_size": 0.25,
-  "count": 607,
+  "bucket_size": 0.005,
+  "count": 450,
   "min": 0.0081,
-  "max": 1,
-  "mean": 0.191152,
-  "median": 0.0278,
-  "p25": 0.016,
-  "p75": 0.1403,
+  "max": 0.1,
+  "mean": 0.026798,
+  "median": 0.0204,
+  "p25": 0.014225,
+  "p75": 0.0324,
   "buckets": [
     {
-      "bin_start": 0,
-      "bin_end": 0.25,
-      "count": 467
+      "bin_start": 0.005,
+      "bin_end": 0.01,
+      "count": 1
     },
     {
-      "bin_start": 0.25,
-      "bin_end": 0.5,
-      "count": 27
+      "bin_start": 0.01,
+      "bin_end": 0.015,
+      "count": 124
     },
     {
-      "bin_start": 0.5,
-      "bin_end": 0.75,
-      "count": 36
+      "bin_start": 0.015,
+      "bin_end": 0.02,
+      "count": 93
     },
     {
-      "bin_start": 0.75,
-      "bin_end": 1,
-      "count": 72
+      "bin_start": 0.02,
+      "bin_end": 0.025,
+      "count": 60
+    },
+    {
+      "bin_start": 0.025,
+      "bin_end": 0.03,
+      "count": 46
+    },
+    {
+      "bin_start": 0.03,
+      "bin_end": 0.035,
+      "count": 33
+    },
+    {
+      "bin_start": 0.035,
+      "bin_end": 0.04,
+      "count": 18
+    },
+    {
+      "bin_start": 0.04,
+      "bin_end": 0.045,
+      "count": 17
+    },
+    {
+      "bin_start": 0.045,
+      "bin_end": 0.05,
+      "count": 6
+    },
+    {
+      "bin_start": 0.05,
+      "bin_end": 0.055,
+      "count": 11
+    },
+    {
+      "bin_start": 0.055,
+      "bin_end": 0.06,
+      "count": 9
+    },
+    {
+      "bin_start": 0.06,
+      "bin_end": 0.065,
+      "count": 3
+    },
+    {
+      "bin_start": 0.065,
+      "bin_end": 0.07,
+      "count": 5
+    },
+    {
+      "bin_start": 0.07,
+      "bin_end": 0.075,
+      "count": 6
+    },
+    {
+      "bin_start": 0.075,
+      "bin_end": 0.08,
+      "count": 6
+    },
+    {
+      "bin_start": 0.08,
+      "bin_end": 0.085,
+      "count": 3
+    },
+    {
+      "bin_start": 0.085,
+      "bin_end": 0.09,
+      "count": 6
+    },
+    {
+      "bin_start": 0.09,
+      "bin_end": 0.095,
+      "count": 0
+    },
+    {
+      "bin_start": 0.095,
+      "bin_end": 0.1,
+      "count": 3
     }
   ]
 }

@@ -36,7 +36,7 @@ export function PricingIntelligenceDashboard({
   const sovereign = spreadVsExpectedLoss.filter((row) => row.sovereign_flag);
   const nonSovereign = spreadVsExpectedLoss.filter((row) => !row.sovereign_flag);
   const expectedHistogram = expectedLossDistribution.buckets.map((bucket) => ({
-    bin: `${bucket.bin_start.toFixed(2)}-${bucket.bin_end.toFixed(2)}`,
+    bin: `${(bucket.bin_start * 100).toFixed(1)}–${(bucket.bin_end * 100).toFixed(1)}%`,
     count: bucket.count
   }));
   const spreadHistogram = spreadDistribution.buckets.map((bucket) => ({
