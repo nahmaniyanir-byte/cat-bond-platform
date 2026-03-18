@@ -44,44 +44,28 @@ function IsraeliFlag() {
 
 /* ── Video intro overlay ─────────────────────────────────────────── */
 function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
-  const videoRef = React.useRef<HTMLVideoElement | null>(null);
-  const [muted, setMuted] = React.useState(false);
+  const videoRef = React.useRef<HTMLVideoElement>(null);
 
   React.useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
-    // Attempt unmuted autoplay; fall back to muted if browser blocks it.
     video.muted = false;
     video.play().catch(() => {
       video.muted = true;
-      setMuted(true);
-      video.play().catch(() => {
-        // If playback fails entirely, dismiss the overlay automatically.
-        onDone();
-      });
+      video.play().catch(() => onDone());
     });
   }, [onDone]);
 
-  function handleEnableSound() {
-    const video = videoRef.current;
-    if (!video) return;
-    video.muted = false;
-    setMuted(false);
-    video.play().catch(() => undefined);
-  }
-
   return (
-    <div
-      style={{
-        position: "fixed",
-        inset: 0,
-        zIndex: 9999,
-        background: "#000",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    <div style={{
+      position: "fixed",
+      inset: 0,
+      zIndex: 9999,
+      background: "#000",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
       <video
         ref={videoRef}
         src="/video/israel-lab-intro.mp4"
@@ -90,33 +74,32 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
         onError={onDone}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
-      <div
-        style={{
-          position: "absolute",
-          bottom: 32,
-          right: 32,
-          display: "flex",
-          gap: 10,
-        }}
-      >
-        {muted && (
-          <button
-            onClick={handleEnableSound}
-            style={{
-              background: "rgba(34,211,238,0.18)",
-              color: "white",
-              border: "1px solid rgba(34,211,238,0.5)",
-              borderRadius: 6,
-              padding: "8px 20px",
-              cursor: "pointer",
-              fontSize: 14,
-              backdropFilter: "blur(8px)",
-              WebkitBackdropFilter: "blur(8px)",
-            }}
-          >
-            🔊 Enable Sound
-          </button>
-        )}
+      <div style={{
+        position: "absolute",
+        bottom: 32,
+        right: 32,
+        display: "flex",
+        gap: 12,
+      }}>
+        <button
+          onClick={() => {
+            if (videoRef.current) {
+              videoRef.current.muted = !videoRef.current.muted;
+            }
+          }}
+          style={{
+            background: "rgba(255,255,255,0.15)",
+            color: "white",
+            border: "1px solid rgba(255,255,255,0.3)",
+            borderRadius: 6,
+            padding: "8px 16px",
+            cursor: "pointer",
+            fontSize: 13,
+            backdropFilter: "blur(8px)",
+          }}
+        >
+          🔊 Sound
+        </button>
         <button
           onClick={onDone}
           style={{
@@ -124,11 +107,10 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
             color: "white",
             border: "1px solid rgba(255,255,255,0.3)",
             borderRadius: 6,
-            padding: "8px 20px",
+            padding: "8px 16px",
             cursor: "pointer",
-            fontSize: 14,
+            fontSize: 13,
             backdropFilter: "blur(8px)",
-            WebkitBackdropFilter: "blur(8px)",
           }}
         >
           Skip →

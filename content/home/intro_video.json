@@ -2,7 +2,7 @@
   "enabled": true,
   "title": "Global Catastrophe Bond Intelligence Platform",
   "subtitle": "Integrated sovereign and market intelligence environment for catastrophe bond structuring, analytics, and policy use.",
-  "video_source": "/videos/intro/cat-bond-intro.mp4",
+  "video_source": "/video/intro.mp4",
   "autoplay": true,
   "show_skip_button": true,
   "skip_label": "Enter Platform"
