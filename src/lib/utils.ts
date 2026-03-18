@@ -15,11 +15,23 @@ export function slugify(value: string): string {
 
 export function formatCurrency(value: number | null | undefined, currency = "USD"): string {
   if (value == null || Number.isNaN(value)) return "Not available";
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency,
-    maximumFractionDigits: 0
-  }).format(value);
+  const abs = Math.abs(value);
+  const sign = value < 0 ? "-" : "";
+  const symbol = currency === "USD" ? "$" : currency;
+  if (abs >= 1_000_000_000_000) return `${sign}${symbol}${(abs / 1_000_000_000_000).toFixed(1)}T`;
+  if (abs >= 1_000_000_000) return `${sign}${symbol}${(abs / 1_000_000_000).toFixed(1)}B`;
+  if (abs >= 1_000_000) {
+    const m = abs / 1_000_000;
+    return `${sign}${symbol}${Number.isInteger(m) ? m.toFixed(0) : m.toFixed(1)}M`;
+  }
+  return `${sign}${symbol}${abs.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
+}
+
+/** Format a value stored in USD millions (e.g. deal_size_usd where 150 = $150M). */
+export function formatUsdMillions(value: number | null | undefined): string {
+  if (value == null || Number.isNaN(value)) return "Not available";
+  if (value >= 1_000) return `$${(value / 1_000).toFixed(1)}B`;
+  return `$${value.toLocaleString("en-US", { maximumFractionDigits: 0 })}M`;
 }
 
 export function formatCompactCurrency(value: number | null | undefined, currency = "USD"): string {

@@ -8,8 +8,7 @@ export function SiteFooter() {
           Institutional policy intelligence for sovereign disaster risk financing.
         </p>
         <p className="lg:text-right">
-          Data source: `../final_outputs_country_fixed/sql_ready_package` and
-          `../final_sql_ready_seismic_catbond_package`, ingested via `npm run data:refresh`.
+          Source: Artemis.bm Deal Directory
         </p>
       </div>
     </footer>

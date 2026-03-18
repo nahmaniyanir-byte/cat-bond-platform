@@ -269,8 +269,15 @@ a {
 
 /* ── Print ───────────────────────────────────────────────────────── */
 @media print {
-  nav, .no-print { display: none !important; }
-  body { background: white !important; color: black !important; }
+  nav, header, footer, .no-print, video, .background-globe { display: none !important; }
+  body { background: white !important; color: black !important; font-size: 11pt; }
+  .glass-panel { border: 1px solid #ccc !important; background: white !important; break-inside: avoid; margin-bottom: 12pt; }
+  * { color: black !important; }
+  h1, h2, h3 { color: #0a1628 !important; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { border: 1px solid #999; padding: 6px; font-size: 9pt; }
+  [style*="position: fixed"], [style*="position:fixed"] { display: none !important; }
+  .cb-badge { border: 1px solid #666 !important; background: #eee !important; }
   .cb-card { border: 1px solid #ccc !important; }
 }
 

@@ -53,17 +53,29 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
     const video = videoRef.current;
     if (!video) return;
 
+    let stalledTimer: ReturnType<typeof setTimeout> | null = null;
+
     const onCanPlay  = () => setBuffering(false);
     const onWaiting  = () => setBuffering(true);
     const onPlaying  = () => setBuffering(false);
     const onTimeUpdate = () => {
       if (video.duration) setProgress((video.currentTime / video.duration) * 100);
     };
+    const onStalled = () => {
+      stalledTimer = setTimeout(() => {
+        if (video.paused || video.readyState < 3) onDone();
+      }, 5000);
+    };
+    const clearStalled = () => {
+      if (stalledTimer) { clearTimeout(stalledTimer); stalledTimer = null; }
+    };
 
     video.addEventListener("canplay",    onCanPlay);
     video.addEventListener("waiting",    onWaiting);
     video.addEventListener("playing",    onPlaying);
     video.addEventListener("timeupdate", onTimeUpdate);
+    video.addEventListener("stalled",    onStalled);
+    video.addEventListener("canplay",    clearStalled);
 
     // Try unmuted, fall back to muted
     video.muted = false;
@@ -82,10 +94,13 @@ function VideoIntroOverlay({ onDone }: { onDone: () => void }) {
 
     return () => {
       clearTimeout(timeout);
+      if (stalledTimer) clearTimeout(stalledTimer);
       video.removeEventListener("canplay",    onCanPlay);
       video.removeEventListener("waiting",    onWaiting);
       video.removeEventListener("playing",    onPlaying);
       video.removeEventListener("timeupdate", onTimeUpdate);
+      video.removeEventListener("stalled",    onStalled);
+      video.removeEventListener("canplay",    clearStalled);
     };
   }, [onDone]);
 
@@ -217,6 +232,13 @@ const TRIGGER_DESCRIPTIONS: Record<string, string> = {
   "Hybrid": "Combines parametric threshold with modelled loss verification. Balances payout speed and loss accuracy. Emerging structure for sovereigns.",
 };
 
+const TRIGGER_INFO: Record<string, { payoutSpeed: string; basisRisk: string; recommended: boolean }> = {
+  "Parametric":    { payoutSpeed: "~72 hours",    basisRisk: "Low",    recommended: true  },
+  "Modelled Loss": { payoutSpeed: "30–90 days",   basisRisk: "Medium", recommended: false },
+  "Indemnity":     { payoutSpeed: "6–18 months",  basisRisk: "None",   recommended: false },
+  "Hybrid":        { payoutSpeed: "7–30 days",    basisRisk: "Low–Med",recommended: false },
+};
+
 const SIZE_OPTIONS = [250, 500, 750, 1000] as const;
 
 /* ── Main content ────────────────────────────────────────────────── */
@@ -314,9 +336,26 @@ export function IsraelLabContent() {
                       </button>
                     ))}
                   </div>
-                  <p style={{ fontSize: 11, color: "#64748b", marginTop: 8, lineHeight: 1.5 }}>
-                    {TRIGGER_DESCRIPTIONS[selectedTrigger]}
-                  </p>
+                  <div style={{ marginTop: 8 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
+                      {TRIGGER_INFO[selectedTrigger]?.recommended && (
+                        <span className="cb-badge cb-badge-green" style={{ fontSize: 10 }}>Recommended</span>
+                      )}
+                    </div>
+                    <p style={{ fontSize: 11, color: "#64748b", lineHeight: 1.5 }}>
+                      {TRIGGER_DESCRIPTIONS[selectedTrigger]}
+                    </p>
+                    <div style={{ display: "flex", gap: 16, marginTop: 8 }}>
+                      <div>
+                        <span style={{ fontSize: 10, color: "#475569", textTransform: "uppercase", letterSpacing: "0.06em" }}>Payout Speed</span>
+                        <p style={{ fontSize: 12, color: "#93c5fd", fontWeight: 600, marginTop: 2 }}>{TRIGGER_INFO[selectedTrigger]?.payoutSpeed}</p>
+                      </div>
+                      <div>
+                        <span style={{ fontSize: 10, color: "#475569", textTransform: "uppercase", letterSpacing: "0.06em" }}>Basis Risk</span>
+                        <p style={{ fontSize: 12, color: "#fbbf24", fontWeight: 600, marginTop: 2 }}>{TRIGGER_INFO[selectedTrigger]?.basisRisk}</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div>
                   <label className="block mb-1 text-xs uppercase tracking-wide text-slate-400">Trigger Magnitude Thresholds</label>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -57,6 +57,7 @@ export function SiteNavigation() {
   const pathname = usePathname();
   const [openSectionId, setOpenSectionId] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const activeSection = useMemo(
     () => MENU.find((section) => section.id === openSectionId) ?? null,
@@ -69,6 +70,20 @@ export function SiteNavigation() {
 
   function sectionHasActive(section: MenuSection) {
     return section.links.some((link) => isActive(link.href));
+  }
+
+  function handleMenuEnter(sectionId: string) {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+    setOpenSectionId(sectionId);
+  }
+
+  function handleMenuLeave() {
+    closeTimerRef.current = setTimeout(() => {
+      setOpenSectionId(null);
+    }, 150);
   }
 
   return (
@@ -89,8 +104,8 @@ export function SiteNavigation() {
               <div
                 key={section.id}
                 className="relative"
-                onMouseEnter={() => setOpenSectionId(section.id)}
-                onMouseLeave={() => setOpenSectionId((current) => (current === section.id ? null : current))}
+                onMouseEnter={() => handleMenuEnter(section.id)}
+                onMouseLeave={handleMenuLeave}
               >
                 <button
                   type="button"
@@ -105,8 +120,20 @@ export function SiteNavigation() {
                   <ChevronDown className={cn("h-3.5 w-3.5 transition", open ? "rotate-180" : undefined)} />
                 </button>
 
+                {/* Invisible bridge between button and dropdown to prevent gap-triggered close */}
                 {open ? (
-                  <div className="absolute right-0 top-[calc(100%+8px)] w-[420px] rounded-xl border border-white/12 bg-slate-950/94 p-3 shadow-[0_20px_45px_rgba(2,6,23,0.55)]">
+                  <div
+                    style={{ position: "absolute", top: "100%", left: 0, right: 0, height: 12 }}
+                    onMouseEnter={() => handleMenuEnter(section.id)}
+                  />
+                ) : null}
+
+                {open ? (
+                  <div
+                    className="absolute right-0 top-[calc(100%+12px)] w-[420px] rounded-xl border border-white/12 bg-slate-950/94 p-3 shadow-[0_20px_45px_rgba(2,6,23,0.55)]"
+                    onMouseEnter={() => handleMenuEnter(section.id)}
+                    onMouseLeave={handleMenuLeave}
+                  >
                     <div className="space-y-1">
                       {section.links.map((link) => (
                         <Link

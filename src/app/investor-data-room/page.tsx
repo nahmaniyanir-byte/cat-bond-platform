@@ -4,6 +4,15 @@ import Link from "next/link";
 import { getLibraryIndex } from "@/lib/content";
 import { getGlobalKpisData } from "@/lib/market-data";
 
+const DOCUMENTS = [
+  { id: 1, title: "Artemis Cat Bond Deal Directory",       type: "Database",      desc: "Complete transaction-level database of all cat bond deals since 1997.",                                     url: "https://www.artemis.bm/deal-directory/",                                  date: "Updated daily" },
+  { id: 2, title: "Aon ILS Annual Report 2024",            type: "Market Report", desc: "$17.9B issuance in 2024. 76 transactions. Comprehensive ILS market review.",                              url: "https://www.aon.com",                                                     date: "September 2024" },
+  { id: 3, title: "Swiss Re ILS Market Insights H1 2025",  type: "Market Report", desc: "Outstanding market reaches $56B, 13.4% CAGR since 2020.",                                                url: "https://www.swissre.com",                                                  date: "July 2025" },
+  { id: 4, title: "AM Best ILS Market Report 2025",        type: "Rating Report", desc: "Outstanding volume $52.7B. Small insurer participation 35%.",                                             url: "https://www.ambest.com",                                                   date: "September 2025" },
+  { id: 5, title: "World Bank DRFI Sovereign Cat Bond Guide", type: "Policy",     desc: "Implementation guide for sovereign governments issuing parametric instruments.",                          url: "https://www.worldbank.org/en/topic/disasterriskmanagement",                 date: "2024" },
+  { id: 6, title: "IBRD Cat Bond Prospectuses",            type: "Legal",         desc: "Official prospectus documents for IBRD-intermediated sovereign cat bonds.",                               url: "https://www.worldbank.org/en/programs/financial-solutions",                 date: "Various" },
+];
+
 export const metadata: Metadata = {
   title: "Investor Data Room | Global Catastrophe Bond Intelligence Platform"
 };
@@ -38,6 +47,33 @@ export default async function InvestorDataRoomPage() {
         <MetricCard label="Documents" value={totals.documents.toLocaleString("en-US")} />
         <MetricCard label="Presentations" value={totals.presentations.toLocaleString("en-US")} />
         <MetricCard label="Videos" value={totals.videos.toLocaleString("en-US")} />
+      </section>
+
+      <section className="glass-panel p-5">
+        <h2 className="text-xl font-semibold text-white mb-1">Reference Documents &amp; Reports</h2>
+        <p className="text-xs text-slate-400 mb-4">Key industry sources and policy documents referenced by this platform.</p>
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {DOCUMENTS.map((doc) => (
+            <article key={doc.id} className="rounded-xl border border-white/10 bg-slate-900/55 p-4 flex flex-col gap-2">
+              <div className="flex items-start justify-between gap-2">
+                <p className="text-sm font-semibold text-white leading-snug">{doc.title}</p>
+                <span className="cb-badge cb-badge-blue shrink-0">{doc.type}</span>
+              </div>
+              <p className="text-xs text-slate-300 leading-relaxed flex-1">{doc.desc}</p>
+              <div className="flex items-center justify-between mt-1">
+                <span className="text-[11px] text-slate-500">{doc.date}</span>
+                <a
+                  href={doc.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-secondary text-[11px] px-2 py-1"
+                >
+                  Open →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="grid gap-5 xl:grid-cols-3">

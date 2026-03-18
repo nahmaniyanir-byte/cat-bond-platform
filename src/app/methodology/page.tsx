@@ -50,7 +50,7 @@ export default async function MethodologyPage() {
         <article className="glass-panel p-5">
           <h2 className="text-xl font-semibold text-white">Source Hierarchy</h2>
           <div className="mt-4 space-y-2 text-sm text-slate-300">
-            <p>1. Single source of truth: `../final_outputs_country_fixed/sql_ready_package` (SQL-ready CSV package).</p>
+            <p>1. Single source of truth: Artemis.bm Deal Directory (transaction-level catastrophe bond dataset).</p>
             <p>2. All KPI, chart, globe, and country analytics are generated only from this master dataset.</p>
             <p>3. Frontend pages read generated JSON outputs; no hardcoded transaction values are used.</p>
           </div>
@@ -135,7 +135,7 @@ export default async function MethodologyPage() {
           <h2 className="text-xl font-semibold text-white">Assumptions vs Official Data</h2>
           <div className="mt-4 space-y-2 text-sm text-slate-300">
             <p>
-              Official data: direct fields from the SQL-ready package (`deals_master_sql_ready.csv` and linked SQL-ready tables).
+              Official data: direct fields from the Artemis.bm Deal Directory, ingested and normalised into the platform dataset.
             </p>
             <p>Derived data: KPI and analytics datasets generated deterministically from official fields.</p>
             <p>

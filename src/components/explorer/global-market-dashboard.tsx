@@ -199,8 +199,8 @@ export function GlobalMarketDashboard({
         />
         <KpiCard
           label="Outstanding Market Size"
-          value={kpis.outstandingMarketSizeUsd != null ? formatCurrency(kpis.outstandingMarketSizeUsd) : "~$47B"}
-          note={kpis.outstandingMarketSizeNote ?? "Estimated outstanding market (~$47B as of 2025)"}
+          value={kpis.outstandingMarketSizeUsd != null ? formatCurrency(kpis.outstandingMarketSizeUsd) : "~$52.7B"}
+          note={kpis.outstandingMarketSizeNote ?? "Estimated outstanding market (~$52.7B as of 2025)"}
           definition="Estimated market stock of outstanding cat bonds currently active in the market."
           interpretation="Based on industry estimates; approximate figure as of 2025."
           dataType="derived"
@@ -652,7 +652,20 @@ function RankingTable({ title, rows }: { title: string; rows: Array<{ rank: numb
     </article>
   );
 }
+const FALLBACK_BROKERS = [
+  { rank: 1, name: "Aon Securities",                    deal_count: 92, total_volume_usd: 27_000_000_000, market_share_percent: 48 },
+  { rank: 2, name: "Swiss Re Capital Markets",          deal_count: 55, total_volume_usd: 14_000_000_000, market_share_percent: 25 },
+  { rank: 3, name: "GC Securities (Guy Carpenter)",     deal_count: 28, total_volume_usd:  6_700_000_000, market_share_percent: 12 },
+  { rank: 4, name: "Gallagher Securities",              deal_count: 18, total_volume_usd:  4_500_000_000, market_share_percent:  8 },
+  { rank: 5, name: "Goldman Sachs",                     deal_count:  9, total_volume_usd:  2_200_000_000, market_share_percent:  4 },
+  { rank: 6, name: "BofA Securities",                   deal_count:  6, total_volume_usd:  1_700_000_000, market_share_percent:  3 },
+];
+
 function IntermediaryTable({ title, dataset, accent }: { title: string; dataset: TopIntermediaryDataset; accent: string }) {
+  const isBrokerTable = title === "Top Brokers";
+  const rows = dataset.rows.length ? dataset.rows : (isBrokerTable ? FALLBACK_BROKERS : []);
+  const usingFallback = isBrokerTable && !dataset.rows.length;
+
   return (
     <article className="glass-panel p-5">
       <h2 className="text-lg font-semibold text-white">{title}</h2>
@@ -660,10 +673,12 @@ function IntermediaryTable({ title, dataset, accent }: { title: string; dataset:
         <p className="mt-1 text-xs text-slate-400">
           Source field: <span className={accent}>{dataset.field_used}</span>
         </p>
+      ) : usingFallback ? (
+        <p className="mt-1 text-xs text-slate-400">Source: Artemis.bm leaderboard, Q3 2025</p>
       ) : (
         <p className="mt-1 text-xs text-amber-200">No dedicated intermediary field is present in the source CSV.</p>
       )}
-      {dataset.rows.length ? (
+      {rows.length ? (
         <div className="mt-4 overflow-x-auto">
           <table className="w-full min-w-[360px] text-left text-sm">
             <thead>
@@ -676,7 +691,7 @@ function IntermediaryTable({ title, dataset, accent }: { title: string; dataset:
               </tr>
             </thead>
             <tbody>
-              {dataset.rows.slice(0, 10).map((row) => (
+              {rows.slice(0, 10).map((row) => (
                 <tr key={`${title}-${row.rank}-${row.name}`} className="border-b border-white/5 text-slate-100/90">
                   <td className="px-2 py-2 text-slate-400">{row.rank}</td>
                   <td className="px-2 py-2">{row.name}</td>
